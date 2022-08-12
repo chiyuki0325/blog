@@ -85,7 +85,7 @@ footer:
      - icon: '<img src="https://www.helloimg.com/images/2021/05/30/Bj8trz.png"/>'
        url: 'https://jq.qq.com/?_wv=1027&k=c0oqCyOm'
      - icon: '<img src="https://www.helloimg.com/images/2021/05/30/Bj8A3A.png"/>'
-       url: 'https://pan.yidaozhan.top/'
+       url: 'https://file.yidaozhan.top/'
      - icon: '<img src="/cdn/images/github.svg"/>'
        url: 'https://github.com/YidaozhanYa/'
   sitemap:
@@ -157,10 +157,7 @@ plugins:
   # 赫蹏 (Heti) - 专为中文网页内容设计的排版样式增强
   # https://github.com/sivan/heti
   heti:
-    enable: true
-    css: /cdn/css/heti.min.css
-    js: /cdn/js/heti-addon.min.js
-
+    enable: false
   ## optional plugins ##
   # preload
   preload:
@@ -195,7 +192,7 @@ style:
     background: https://imgsrc.baidu.com/super/pic/item/960a304e251f95caaf1452608c177f3e66095207.jpg
   codeblock:
     scrollbar: 4px
-    highlightjs_theme: https://cdn.bootcdn.net/ajax/libs/highlight.js/11.5.0/styles/atom-one-light.min.css
+    highlightjs_theme: https://cdn.bootcdn.net/ajax/libs/highlight.js/11.6.0/styles/atom-one-light.min.css
 
 default:
   avatar: /cdn/images/avatar.svg

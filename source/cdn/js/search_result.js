@@ -40,24 +40,36 @@
   }
 
   function makeSearchResult (entries) {
-    let innerHTML = ''
+    let innerHTML = '<div class="list">'
     const keyword = getSearchQueryFromUrlParams()
     innerHTML += '<h3>🔍 <font color=red>'+keyword+'</font> 的搜索结果</h1>';
+    innerHTML += '<div class="post-list post">';
     for (let entry of entries) {
-      innerHTML += '<div class="search-result-entry">'
+      innerHTML += '<div class="post-card post" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: box-shadow 0.2s ease-out 0s, opacity 0.5s ease-out 0s, transform 0.5s ease-out 0s;">'
       const title = entry.children[0].textContent
       const url = entry.children[2].textContent
       const content = entry.children[3].textContent
-      innerHTML += '<h2><a href="' + url + '">' + title + '</a></h2>'
-      const thumbnail = /<img[^>]*>/.exec(content)
-      if (thumbnail && thumbnail.length >= 1) {
-        innerHTML += '<div class="search-result-thumbnail">' + thumbnail[0] + '</div>'
-      }
+      innerHTML += '<article class="md">'
+      innerHTML += '<a class="post-title" href="' + url + '">' + title + '</a>'
+      //const thumbnail = /<img[^>]*>/.exec(content)
+      //if (thumbnail && thumbnail.length >= 1) {
+//        innerHTML += '<div class="search-result-thumbnail">' + thumbnail[0] + '</div>'
+      //}
+      innerHTML += '<div class="excerpt">'
       innerHTML += '... ' + content.replace(/<[^>]*>/g, '').substring(0, 150).replaceAll(keyword,'<font color=red>'+keyword+'</font>') + ' ...'
       innerHTML += '</div>'
+      innerHTML += '</div>'
+      innerHTML += '</article>'
     }
-    innerHTML += '<div><h3><hr></h3>';
-    innerHTML += '<h3><a href="/search">⬅️ 返回搜索</a></h3></div>';
+    innerHTML += `
+    <div class="paginator-wrap dis-select">
+      <a href="/search" class="paginator prev">
+        <img src="/cdn/images/prev.svg">
+      </a>
+      <a href="/search" class="paginator next">返回搜索</a>
+    </div>
+    </div></div>
+    `;
     return innerHTML
   }
 
