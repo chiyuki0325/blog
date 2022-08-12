@@ -1,5 +1,5 @@
 'use strict';
-const bilicard_js = require('../source/cdn/bilicard.js')
+const bilicard_js = require('../source/cdn/js/bilicard.js')
 
 const micromatch = require('micromatch');
 
@@ -37,6 +37,6 @@ hexo.extend.filter.register('after_post_render', (data) => {
         }
     }
 
-    data.content += '<link rel="stylesheet" href="/cdn/bilicard.css" type="text/css">';
+    data.content += '<link rel="stylesheet" href="/cdn/css/bilicard.css" type="text/css">';
     return data;
 });

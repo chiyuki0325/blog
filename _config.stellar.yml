@@ -86,7 +86,7 @@ footer:
        url: 'https://jq.qq.com/?_wv=1027&k=c0oqCyOm'
      - icon: '<img src="https://www.helloimg.com/images/2021/05/30/Bj8A3A.png"/>'
        url: 'https://pan.yidaozhan.top/'
-     - icon: '<img src="/cdn/github.svg"/>'
+     - icon: '<img src="/cdn/images/github.svg"/>'
        url: 'https://github.com/YidaozhanYa/'
   sitemap:
      '博客':
@@ -123,11 +123,10 @@ tag_plugins:
   checkbox:
     interactive: false # enable interactive for user
   emoji:
-    default: /cdn/qq/%s.gif
+    default: /cdn/emoji/qq/%s.gif
     twemoji: https://twemoji.maxcdn.com/%s.svg
-    qq: /cdn/qq/%s.gif
-    aru: /cdn/aru-l/%s.gif
-    tieba: /cdn/tieba/%s.png
+    qq: /cdn/emoji/qq/%s.gif
+    tieba: /cdn/emoji/tieba/%s.png
   # {% image %}
   image:
     fancybox: true
@@ -142,17 +141,25 @@ plugins:
   # fancybox
   fancybox:
     enable: true
-    js: /cdn/fancybox.umd.js
-    css: /cdn/fancybox.css
-    selector: .swiper-slide img,.vcontent img:not(.vemoji),article.content :not(div.article-footer) img # 多个选择器用英文逗号隔开
+    js: /cdn/js/fancybox.umd.js
+    css: /cdn/css/fancybox.css
+    selector: .vcontent img:not(.vemoji) # 多个选择器用英文逗号隔开
   # swiper
   swiper:
     enable: true
     css: https://cdn.bootcdn.net/ajax/libs/Swiper/6.8.4/swiper-bundle.min.css
     js: https://cdn.bootcdn.net/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js
+
   # issues api
   sitesjs: /js/plugins/sites.js
   friendsjs: /js/plugins/friends.js
+
+  # 赫蹏 (Heti) - 专为中文网页内容设计的排版样式增强
+  # https://github.com/sivan/heti
+  heti:
+    enable: true
+    css: /cdn/css/heti.min.css
+    js: /cdn/js/heti-addon.min.js
 
   ## optional plugins ##
   # preload
@@ -160,7 +167,7 @@ plugins:
     enable: true
     service: instant_page #instant_page, flying_pages
     instant_page: https://cdn.bootcdn.net/ajax/libs/instant.page/3.0.0/instantpage.min.js
-    flying_pages: https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js
+    flying_pages: /cdn/js/flying-pages.min.js
 
   # image lazyload
   # https://www.npmjs.com/package/vanilla-lazyload
@@ -188,9 +195,10 @@ style:
     background: https://imgsrc.baidu.com/super/pic/item/960a304e251f95caaf1452608c177f3e66095207.jpg
   codeblock:
     scrollbar: 4px
+    highlightjs_theme: https://cdn.bootcdn.net/ajax/libs/highlight.js/11.5.0/styles/atom-one-light.min.css
 
 default:
-  avatar: /cdn/avatar.svg
-  link: /cdn/link.svg
-  cover: /cdn/cover.svg
-  image: /cdn/image.svg
+  avatar: /cdn/images/avatar.svg
+  link: /cdn/images/link.svg
+  cover: /cdn/images/cover.svg
+  image: /cdn/images/image.svg
