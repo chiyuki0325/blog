@@ -44,7 +44,7 @@ article:
   # npm i hexo-related-popular-posts
   related_posts:
     enable: true
-    max_count: 1
+    max_count: 3
     auto_cover: false
 
 
