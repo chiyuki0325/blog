@@ -21,16 +21,11 @@ date: 2022-05-10 13:02:19
 
 ### 关于我
 
-🏃 一个对计算机感兴趣的普通高一学生
-✒️ 擅长化学、生物和英语，不擅长语文，所以这里都是瞎写的（
+🏃 普通摸鱼高二学生
 🐧 是[ **<font color="#0f94d2">Arch Linux</font>**](https://archlinux.org) {% psw 教徒 %} 用户！
 📄 会 **<font color="purple">Visual Basic</font>** 、 **<font color="#8892bf">PHP</font>** ，也会一点 **<font color="#254f72">Python</font>** 和 **<font color="#ebd50a">JavaScript</font>**
 🇨🇳 希望为互联网中文化贡献力量
 🌐 开源万岁！国际化万岁！
-🖥️ ~~24 小时高强度网上冲浪（大雾）~~，常年混在游戏区、科技区等
-🏷️ 按照 16 型人格的说法，是 [INFP 型人格](https://www.16personalities.com/ch/infp-%E4%BA%BA%E6%A0%BC)
-~~但感觉这个不怎么靠谱来着 不太相信~~
-🕹 喜欢玩《原神》、《SMBX》、《Phigros》和一些任天堂的游戏！详见下面的「查成分」
 🔗 你可以在[这里](https://github.com/yidaozhanya/)找到我的其他联系方式
 🔄 对未来的方向还很迷茫 ... 走一步算一步吧 wwwww
 
@@ -223,23 +218,17 @@ s390x 架构比较罕见，但仍然成功地把 [Alist](https://github.com/Xhof
 
 🔫 本站被 DDoS 攻击，因此暂时停止部分服务。
 
+<!--node 2022 年 8 月 12 日 -->
+
+📦 将博客和 fork 的博客主题开源。
+
+🤪 改用微软 Segoe UI Emoji。
+
 {% endtimeline %}
 
 ### 查成分
 
-#原神 #温迪 #宵宫 #任天堂 #马里奥 #马里奥制造 #马里奥赛车 #马里奥同人 #SMBX #SM4J #SMMWE #动物森友会 #塞尔达传说 #旷野之息 #宝可梦 #阿尔宙斯 #GBA #NDS #模拟器 #海豚模拟器 #CEMU #Yuzu #Ryujinx #红色警戒 #尤里的复仇 #MarioMultiverse #Minecraft #1.12.2 #泰拉瑞亚 #Minecraft基岩版 #HMCL #音乐游戏 #Phigros #冰与火之舞 #植物大战僵尸 #东方Project #永夜抄 #风神录 #非想天则 #地灵殿 #虹龙洞
+玩的游戏有原神，东方 Project，超级马里奥系列、宝可梦系列、塞尔达传说系列等任天堂游戏，Phigros、Arcaea、MAIMAI DX 等音游和 SMBX 等同人游戏。
 
-#Linux #ArchLinux #KDE #火狐浏览器 #LatteDock #Fcitx5 #FluentDesign #WPS #VB #VB6 #PHP #Python #HTML
-
-#QQ #微信 #GitHub #Bilibili #Telegram #Google #Discord #YouTube
-
-#Hexo #Qexo #Alist #OneDrive #阿里云盘 #Office #Vercel #Heroku #Render #LeanCloud
-
-**#白嫖党** **#零氪党**
-
-### 聊天室
-
-{% image https://chat.yidaozhan.ga/room/@YidaozhanYa/svg?width=600&height=280&limit=20&theme=light&fontSize=13&title=%E8%81%8A%E5%A4%A9%E5%AE%A4 %}
-
-[🗣 点击加入](https://chat.yidaozhan.ga/room/@YidaozhanYa)
+喜欢折腾各种模拟器！
 
