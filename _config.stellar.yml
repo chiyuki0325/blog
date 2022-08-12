@@ -143,7 +143,8 @@ plugins:
     enable: true
     js: /cdn/js/fancybox.umd.js
     css: /cdn/css/fancybox.css
-    selector: .vcontent img:not(.vemoji) # 多个选择器用英文逗号隔开
+    #selector: .swiper-slide img,.vcontent img:not(.vemoji),article.content :not(div.article-footer) img # 多个选择器用英文逗号隔开
+    selector: .swiper-slide img, .vcontent img:not(.vemoji) # 多个选择器用英文逗号隔开
   # swiper
   swiper:
     enable: true
