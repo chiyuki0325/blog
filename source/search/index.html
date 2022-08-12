@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+  <style>
+
+    div.search * {
+      box-sizing: border-box;
+    }
+
+    div.search input[type=text] {
+      padding: 10px;
+      font-size: 17px;
+      border: 1px solid grey;
+      float: left;
+      width: 80%;
+      background: #f1f1f1;
+      border-radius: 15px 0px 0px 15px;
+    }
+
+    div.search button {
+      float: left;
+      width: 20%;
+      padding: 10px;
+      background: #2196F3;
+      color: white;
+      font-size: 17px;
+      border: 1px solid grey;
+      border-left: none;
+      cursor: pointer;
+      border-radius: 0px 15px 15px 0px;
+    }
+
+    div.search button:hover {
+      background: #0b7dda;
+    }
+
+    div.search::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+  </style>
+</head>
+
+<body onload="hideComments()">
+  <h1>🔍 搜索</h1>
+  <div class="search">
+    <input type="text" placeholder="搜索文章 (支持正则) ..." id="search_text">
+    <button id="search_button" onclick="javascript:searchInternal();"><i class="fa fa-search"></i></button>
+  </div>
+  <div name="search_methods">
+    <p>搜索引擎: 
+      <a href="javascript:switchToInternal();"><font id="switch_to_internal" color="blue">站内搜索</font></a>
+      |
+      <a href="javascript:switchToBing();"><font id="switch_to_bing" color="grey">必应搜索</font></a>
+    </p>
+  </div>
+  <script language="javascript">
+    function searchBing() {
+      location.href = 'https://cn.bing.com/search?q=site:yidaozhan.ga ' + document.getElementById('search_text').value;
+    }
+    function searchInternal() {
+      location.href = '/results/?serach=' + document.getElementById('search_text').value;
+    }
+    function switchToBing() {
+      document.getElementById('search_text').setAttribute("placeholder", "搜索文章 ...");
+      document.getElementById('search_button').setAttribute("onclick", "javascript:searchBing();");
+      document.getElementById('switch_to_bing').setAttribute("color", "blue");
+      document.getElementById('switch_to_internal').setAttribute("color", "grey");
+    }
+    function switchToInternal() {
+      document.getElementById('search_text').setAttribute("placeholder", "搜索文章 (支持正则) ...");
+      document.getElementById('search_button').setAttribute("onclick", "javascript:searchInternal();");
+      document.getElementById('switch_to_bing').setAttribute("color", "grey");
+      document.getElementById('switch_to_internal').setAttribute("color", "blue");
+    }
+    function hideComments() {
+      document.getElementById("comments").style.display = "none";
+    }
+  </script>
+</body>
+
+</html>

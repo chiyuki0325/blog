@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+.deploy*/
+github-deploy-key.pub
+github-deploy-key
+public/
+yarn.lock
+package-lock.json

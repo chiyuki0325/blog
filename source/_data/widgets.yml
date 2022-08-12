@@ -1,0 +1,19 @@
+welcome:
+    layout: markdown
+    title: 欢迎
+    content: |
+        欢迎光临我的网站， 你可以随便逛逛!
+        ヾ(≧▽≦\*)o
+recent:
+    layout: recent
+    rss: /atom.xml
+    limit: 5 # Count of posts
+toc:
+    layout: toc
+    list_number: false
+    min_depth: 2
+    max_depth: 5
+sm4j_sidebar:
+    layout: markdown
+    title: "交流群"
+    content: "[SM4J交流群 543369123](https://jq.qq.com/?_wv=1027&k=Go26XtOJ)"

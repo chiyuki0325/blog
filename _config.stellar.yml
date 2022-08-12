@@ -1,0 +1,196 @@
+
+######## head tags ########
+open_graph:
+  enable: true
+  twitter_id: # for open_graph meta
+
+
+sidebar:
+  logo:
+    avatar: '[https://q1.qlogo.cn/g?b=qq&nk=3526514925&s=640](/about)' # you can set avatar link in _config.yml or '[https://xxx.png](/about/)'
+    title: '[config.title](/)' # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
+  menu:
+    post: '[最新](/)'
+    list: '[文章](/archives/)'
+    paste: '[文档](/wiki/)'
+    friends: '[友链](/links/)'
+    #about: # '[关于](/about/)'
+
+
+
+
+######## Main ########
+breadcrumb:
+  home: home # config.title / config.author / home or custom content
+
+
+######## Article ########
+article:
+  # 如果没有指定 excerpt 和 description，将自动取多长的内容作为文章摘要？
+  auto_excerpt: 150
+  # 分类颜色
+  category_color:
+    '模拟器': '#F58220'
+    'Arch折腾记': '#35A1D7'
+    '游戏': '#319D5A'
+    '编程': '#940522'
+    '网络': '#EEBE00'
+    '日常': '#660000'
+  # 文章许可协议
+  license: # '本文采用 [署名-非商业性使用-相同方式共享 4.0 国际](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议，转载请注明出处。'
+  # 分享
+  share:  [wechat, weibo, email, link]
+  # 相关文章，需要安装插件 (for layout: post)
+  # npm i hexo-related-popular-posts
+  related_posts:
+    enable: true
+    max_count: 1
+    auto_cover: false
+
+
+######## Comments ########
+comments:
+  service: valine
+  valine:
+    js: /cdn/Valine.mod.js
+    appId: 'zoX8kazyGBliRB8slCeYbOMI-MdYXbMMI'
+    appKey: 'ayoqJFfEYQj3teSHqfK03JJo'
+    meta: [nick, mail]
+    placeholder: '📨 快发条评论吧 (`･ω･´)ฅ'
+    requiredFields: [nick]
+    enableQQ: true # Unstable avatar link
+    recordIP: false # Record commenter IP
+    avatar: robohash # gravatar style https://valine.js.org/avatar
+    pageSize: 10 # comment list page size
+    lang: zh-cn
+    highlight: true
+    mathJax: false
+    serverURLs: 'https://valine-api.yidaozhan.top'
+    tagMeta: [博主, 小伙伴, 访客] # 标签要显示的文字,默认'博主,小伙伴,访客'
+    metaPlaceholder:
+      nick: "📋️ 昵称/QQ"
+      mail: "📪 邮箱"
+      link: "🔗 网址(https://)"
+    master: #md5加密后的博主邮箱
+      - 6783037F2DF30EAB99F9FC256157D875
+    friends: #md5加密后的小伙伴邮箱
+      - 6783037F2DF30EAB99F9FC256157D875
+
+
+######## Footer ########
+footer:
+  social:
+     - icon: '<img src="https://www.bilibili.com/favicon.ico"/>'
+       url: 'https://space.bilibili.com/485832788'
+     - icon: '<img src="https://www.helloimg.com/images/2021/05/30/Bj8trz.png"/>'
+       url: 'https://jq.qq.com/?_wv=1027&k=c0oqCyOm'
+     - icon: '<img src="https://www.helloimg.com/images/2021/05/30/Bj8A3A.png"/>'
+       url: 'https://pan.yidaozhan.top/'
+     - icon: '<img src="/cdn/github.svg"/>'
+       url: 'https://github.com/YidaozhanYa/'
+  sitemap:
+     '博客':
+       - '[💡 近期发布](/)'
+       - '[📜 历史文章](/archives)'
+       - '[📊 标签](/tags)'
+       - '[📗 文档](/wiki)'
+       - '[🔗 友情链接](/links)'
+     '网站':
+       - '[🗂️️️️ 个人网盘](https://file.yidaozhan.top/)'
+       - '[💸 喝了盘文件共享](https://hel.smbx.world/)'
+       - '[🍄 SMBX 地图仓库](https://smbx.world/d/54-smbx)'
+       - '[🌐 更多](https://nav.yidaozhan.top)'
+     '社交':
+       - '[📺 Bilibili](https://space.bilibili.com/485832788)'
+       - '[🐱 GitHub](https://github.com/YidaozhanYa)'
+       - '[🐧 QQ](https://jq.qq.com/?_wv=1027&k=c0oqCyOm)'
+       - '[▶️️ YouTube](https://www.youtube.com/channel/UC9VPn5_heoBDCOglDqeuuiA)'
+     '其它':
+       - '[🏠 首页](https://yidaozhan.top/)'
+       - '[📈 状态监控](https://status.yidaozhan.top/)'
+       - '[🔌 后台](https://qexo.yidaozhan.top/)'
+       - '[🚇 开往•友链接力](https://travellings.link)'
+  license: '[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)'
+  source: '[⛩ 萌ICP备20212688号](https://icp.gov.moe/?keyword=20212688)'
+
+
+######## Tag Plugins ########
+tag_plugins:
+  # {% note text %}
+  note:
+    default_color: '' # light, dark, red, orange, yellow, green, cyan, blue, purple
+  # {% checkbox %}
+  checkbox:
+    interactive: false # enable interactive for user
+  emoji:
+    default: /cdn/qq/%s.gif
+    twemoji: https://twemoji.maxcdn.com/%s.svg
+    qq: /cdn/qq/%s.gif
+    aru: /cdn/aru-l/%s.gif
+    tieba: /cdn/tieba/%s.png
+  # {% image %}
+  image:
+    fancybox: true
+
+######## JS Plugins ########
+plugins:
+  ## required plugins ##
+  # jquery
+  jquery: https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js
+
+  ## lazyload plugins ##
+  # fancybox
+  fancybox:
+    enable: true
+    js: /cdn/fancybox.umd.js
+    css: /cdn/fancybox.css
+    selector: .swiper-slide img,.vcontent img:not(.vemoji),article.content :not(div.article-footer) img # 多个选择器用英文逗号隔开
+  # swiper
+  swiper:
+    enable: true
+    css: https://cdn.bootcdn.net/ajax/libs/Swiper/6.8.4/swiper-bundle.min.css
+    js: https://cdn.bootcdn.net/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js
+  # issues api
+  sitesjs: /js/plugins/sites.js
+  friendsjs: /js/plugins/friends.js
+
+  ## optional plugins ##
+  # preload
+  preload:
+    enable: true
+    service: instant_page #instant_page, flying_pages
+    instant_page: https://cdn.bootcdn.net/ajax/libs/instant.page/3.0.0/instantpage.min.js
+    flying_pages: https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js
+
+  # image lazyload
+  # https://www.npmjs.com/package/vanilla-lazyload
+  lazyload:
+    enable: true # [hexo clean && hexo s] is required after changing this value.
+    js: https://cdn.bootcdn.net/ajax/libs/vanilla-lazyload/17.3.1/lazyload.min.js
+    transition: blur # blur, fade
+
+  # https://scrollrevealjs.org/api/reveal.html
+  scrollreveal:
+    enable: true
+    js: https://cdn.bootcdn.net/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js
+    distance: 8px
+    duration: 500 # ms
+    interval: 100 # ms
+    scale: 1 # 0.1~1
+
+style:
+  darkmode: auto # auto / always / false
+  theme:
+    light: '#f8f8f8'
+    dark: '#313438'
+  animated_avatar:
+    animate: auto # auto, always
+    background: https://imgsrc.baidu.com/super/pic/item/960a304e251f95caaf1452608c177f3e66095207.jpg
+  codeblock:
+    scrollbar: 4px
+
+default:
+  avatar: /cdn/avatar.svg
+  link: /cdn/link.svg
+  cover: /cdn/cover.svg
+  image: /cdn/image.svg
