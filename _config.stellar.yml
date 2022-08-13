@@ -52,7 +52,7 @@ article:
 comments:
   service: valine
   valine:
-    js: /cdn/Valine.mod.js
+    js: /cdn/js/Valine.mod.js
     appId: 'zoX8kazyGBliRB8slCeYbOMI-MdYXbMMI'
     appKey: 'ayoqJFfEYQj3teSHqfK03JJo'
     meta: [nick, mail]
@@ -135,7 +135,8 @@ tag_plugins:
 plugins:
   ## required plugins ##
   # jquery
-  jquery: https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js
+#  jquery: https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js
+  jquery: /cdn/js/jquery.min.js
 
   ## lazyload plugins ##
   # fancybox
@@ -148,8 +149,10 @@ plugins:
   # swiper
   swiper:
     enable: true
-    css: https://cdn.bootcdn.net/ajax/libs/Swiper/6.8.4/swiper-bundle.min.css
-    js: https://cdn.bootcdn.net/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js
+    #css: https://cdn.bootcdn.net/ajax/libs/Swiper/6.8.4/swiper-bundle.min.css
+    #js: https://cdn.bootcdn.net/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js
+    css: /cdn/css/swiper-bundle.min.css
+    js: /cdn/js/swiper-bundle.min.js
 
   # issues api
   sitesjs: /js/plugins/sites.js
@@ -163,21 +166,24 @@ plugins:
   # preload
   preload:
     enable: true
-    service: instant_page #instant_page, flying_pages
-    instant_page: https://cdn.bootcdn.net/ajax/libs/instant.page/3.0.0/instantpage.min.js
+    service: flying_pages #instant_page, flying_pages
+    #instant_page: https://cdn.bootcdn.net/ajax/libs/instant.page/3.0.0/instantpage.min.js
+    instant_page: /cdn/js/instantpage.min.js
     flying_pages: /cdn/js/flying-pages.min.js
 
   # image lazyload
   # https://www.npmjs.com/package/vanilla-lazyload
   lazyload:
     enable: true # [hexo clean && hexo s] is required after changing this value.
-    js: https://cdn.bootcdn.net/ajax/libs/vanilla-lazyload/17.3.1/lazyload.min.js
+    #js: https://cdn.bootcdn.net/ajax/libs/vanilla-lazyload/17.3.1/lazyload.min.js
+    js: /cdn/js/lazyload.min.js
     transition: blur # blur, fade
 
   # https://scrollrevealjs.org/api/reveal.html
   scrollreveal:
     enable: true
-    js: https://cdn.bootcdn.net/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js
+    #js: https://cdn.bootcdn.net/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js
+    js: /cdn/js/scrollreveal.min.js
     distance: 8px
     duration: 500 # ms
     interval: 100 # ms
@@ -193,7 +199,8 @@ style:
     background: https://imgsrc.baidu.com/super/pic/item/960a304e251f95caaf1452608c177f3e66095207.jpg
   codeblock:
     scrollbar: 4px
-    highlightjs_theme: https://cdn.bootcdn.net/ajax/libs/highlight.js/11.6.0/styles/atom-one-light.min.css
+    highlightjs_theme: /cdn/css/atom-one-light.min.css
+    #highlightjs_theme: https://cdn.bootcdn.net/ajax/libs/highlight.js/11.6.0/styles/atom-one-light.min.css
 
 default:
   avatar: /cdn/images/avatar.svg
