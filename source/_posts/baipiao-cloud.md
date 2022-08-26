@@ -27,7 +27,7 @@ Vercel 是一个很万能的云平台，前身是 ZEIT Now，支持托管静态�
 
 ### 后端类 / 容器云
 
-##### Heroku
+##### ~~Heroku~~
 
 支持多种编程语言（Node.js、Ruby、Java、PHP、Python、Go、Scala、Clojure）和 Docker 的老牌容器云。
 
@@ -41,11 +41,13 @@ Vercel 是一个很万能的云平台，前身是 ZEIT Now，支持托管静态�
 官网： https://heroku.com
 白嫖攻略： https://www.163.com/dy/article/GS5O4VB60519EA27.html https://www.hztdst.com/1489.html
 
+**Heroku 将从 2022 年 11 月开始取消免费额度。**
+
 ##### Railway
 
 不休眠的容器云，支持部署 Docker 镜像和 Postgres 等数据库。
 
-该平台因为不休眠，配合上数据库几乎什么都可以部署，~~包括学术研究~~，**但不能注册多于一个账号，否则会封号。**
+该平台因为不休眠，配合上数据库几乎什么都可以部署，~~包括学术研究~~，**但不能注册多于一个账号，否则会封号。风控机制很迷惑，所以不能乱部署。**
 
 该平台在国内速度很快。
 
@@ -55,7 +57,7 @@ Vercel 是一个很万能的云平台，前身是 ZEIT Now，支持托管静态�
 
 ##### Render
 
-对标 Heroku 的容器云平台，配置更高，有新加坡数据中心，网速更快。适合用于托管那些对数据存储要求不高的服务。
+对标 Heroku 的容器云平台，配置更高，有新加坡数据中心，在国内网速更快。适合用于托管那些对数据存储要求不高的服务。
 
 免费版支持托管静态网站、 Docker 容器和编程语言容器，限制和 Heroku 类似，不过每月的总运行时长是 750 小时，15 分钟无人访问会休眠。
 
@@ -92,8 +94,6 @@ Hax 和 Woiden 这两个平台师出同门，Hax 提供免费 IPv6 VPS，Woiden 
 
 官网： https://hax.co.id https://woiden.id
 
-白嫖攻略： https://owo.misaka.rest/Hax-VPS/ https://owo.misaka.rest/woiden-nat-vps/
-
 ##### IBM LinuxONE 社区云
 
 由 IBM 公司和美国曼利斯特学院联合推出的免费 VPS 服务，可以领取 s390x 架构的免费 VPS。因为它是 IBM 自研架构，比较罕见，所以能托管的东西就比较少，但它网速很快且有公网 IPv4，性能也很强，所以托管网站还是挺不错的。
@@ -108,9 +108,9 @@ Hax 和 Woiden 这两个平台师出同门，Hax 提供免费 IPv6 VPS，Woiden 
 ##### LeanCloud
 
 综合性后端云服务，免费额度几乎无限，其数据库（结构化数据存储）可以免费白嫖。
-特点是只能用它家 SDK，支持的编程语言也有限，但调用很方便，前后端均可以使用，并且速度也不错。
+特点是提供 SDK，SDK 支持的编程语言有限，但比 REST API 调用更方便，前后端均可以使用，并且速度也不错。
 
-国内版需要实名认证，国际版不需要。
+国内版需要实名认证，国际版不需要，但需要绑定域名。
 
 国内版： https://leancloud.cn
 国际版： https://leancloud.app
@@ -119,7 +119,13 @@ Hax 和 Woiden 这两个平台师出同门，Hax 提供免费 IPv6 VPS，Woiden 
 
 免费 MySQL 数据库，小于 200 MB 可以无限白嫖。
 
-官网： https://db4free.net
+官网: https://db4free.net
+
+##### PlanetScale
+
+提供免费的 MySQL 数据库，可与 Vercel、Render 等紧密集成。
+
+官网: https://planetscale.com
 
 ### 域名及 DNS
 
@@ -183,7 +189,7 @@ GitHub 提供的免费 CI 服务，可以用于编译软件，自动发布 relea
 
 ##### Replit
 
-Replit 将自身定位于在线代码编辑器，你可以用它提供的低配容器在线编写代码或托管自己的项目，也支持多人协作共同编写，支持很多语言和库。目前 Replit 给免费用户提供无限数量代码库、500 MB 免费存储。它不仅支持静态网站，还支持 Node.js / PHP 后端托管，但后端半小时到一小时不访问就会休眠，放一些自己写的小东西还是很不错的。
+Replit 将自身定位于在线代码编辑器，你可以用它提供的低配容器在线编写代码或托管自己的项目，也支持多人协作共同编写，支持很多语言和库。目前 Replit 给免费用户提供无限数量代码库、500 MB 免费存储。它不仅支持静态网站，还支持 Node.js / PHP 等后端托管，但后端半小时到一小时不访问就会休眠，放一些自己写的小东西还是很不错的。
 
 免费限制： https://replit.com/pricing
 
@@ -205,3 +211,4 @@ Uptimerobot 用于监控网站运行状态，它几分钟会往指定网站发�
 
 2022.5.3 加入 Glitch、 Replit 和 Uptimerobot。
 
+2022.8.26 修正部分过时内容。
