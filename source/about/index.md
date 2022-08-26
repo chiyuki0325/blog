@@ -247,7 +247,7 @@ s390x 架构比较罕见，但仍然成功地把 [Alist](https://github.com/Xhof
 |                                                              | 站点             | URL                                                          | URL 2                                                  | HTTP |
 | ------------------------------------------------------------ | ---------------- | ------------------------------------------------------------ | ------------------------------------------------------ | ---- |
 | <img src="https://imgsrc.baidu.com/super/pic/item/58ee3d6d55fbb2fb1663f1cf0a4a20a44723dca7.jpg" width="16"> | Vercel           | [blog.yidaozhan.top](https://blog.yidaozhan.top)             | [ydz-blog.vercel.app](https://ydz-blog.vercel.app)     | 2    |
-| <img src="https://dash.cloudflare.com/favicon-16x16.png" width="16"> | Cloudflare Pages | [blog-cf.yidaozhan.top](https://blog-cf.yidaozhan.top)       | [ydz-blog.pages.dev](https://ydz-blog.pages.dev)       | 2    |
+| <img src="https://dash.cloudflare.com/favicon-16x16.png" width="16"> | Cloudflare Pages | [blog-cf.yidaozhan.top](https://blog-cf.yidaozhan.top)       | [ydz-blog.pages.dev](https://ydz-blog.pages.dev)       | 3    |
 | <img src="https://imgsrc.baidu.com/super/pic/item/b90e7bec54e736d18f5e25d5de504fc2d462699a.jpg" width="16"> | Azure            | [blog.azure.yidaozhan.top](https://blog.azure.yidaozhan.top) | 暂无                                                   | 1.1  |
 | <img src="https://imgsrc.baidu.com/super/pic/item/94cad1c8a786c917a5bcfbe48c3d70cf3ac757b4.jpg" width="16"> | Render           | [blog-rd.yidaozhan.top](https://blog-rd.yidaozhan.top)       | [ydz-blog.onrender.com](https://ydz-blog.onrender.com) | 3    |
 
