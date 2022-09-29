@@ -7,13 +7,13 @@ tags:
 - 音游
 - 希沃
 title: 🎶 在希沃上打几款音游的方案，快乐摸鱼
-updated: '2022-09-29 15:49:06'
+updated: '2022-09-29 15:55:02'
 ---
 ## Phigros
 
 在希沃上打 Phigros 有两种主流方案：安卓模拟器和 lchzh3473 的网页模拟器。
 
-可以使用两种安卓模拟器：雷电模拟器、夜神模拟器和 BlueStacks，别的模拟器都不能多押。
+可以使用两种安卓模拟器：雷电模拟器和 BlueStacks，别的模拟器都不能多押。
 
 安卓模拟器方案需降低分辨率或打开 Phigros 的低分辨率模式，但此方法依然会有触控延迟。
 
@@ -29,7 +29,7 @@ Arcaea 可以直接使用安卓模拟器游玩，触控延迟约等于零，体�
 
 ## maimai
 
-### HDD (街机硬盘转储)
+### HDD
 
 maimai 旧框体 (FiNALE) 的 HDD 可直接配合 maisense 游玩，就是触控延迟有些高。
 
@@ -39,6 +39,6 @@ maimai 新框体 (目前截止到 DX Splash PLUS) 的 HDD 可直接游玩，就�
 
 maimai 旧框体模拟器 maipad、新框体模拟器 AstroDX 及相关衍生版本可以直接使用之前提到的安卓模拟器运行，通过更改分辨率游玩体验都很不错。
 
-AstroDX 只能使用 1.x，2.x 奇卡无比。
+AstroDX 只能使用 1.x，2.x 奇卡无比。目押延迟调为 0.32，帧率调为 30FPS，音押延迟调为 0.01，判定问题就基本解决了。
 
 可以 [在此](https://file.yidaozhan.top/%E4%B8%80%E5%88%80%E6%96%A9%E3%81%AE%E5%B0%8F%E7%AA%9D/%E5%AE%89%E5%8D%93%E6%B8%B8%E6%88%8F/maimaiDXUNiVERSE) 下载解包的 maimai DX 谱面资源，如果侵犯 SEGA 版权请联系我删除。
