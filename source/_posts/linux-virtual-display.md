@@ -9,23 +9,22 @@ tags:
 - X11
 title: 📲 在 Linux 上把手机/平板当作虚拟副屏，游戏聊天两不误
 updated: '2022-09-25 17:52:19'
----在 Windows 系统中，可以使用 Spacedesk 软件来把手机/平板当作电脑的虚拟副屏使用，在 Linux 下也可以通过 X11 虚拟显示器实现类似的效果。
+---
+
+在 Windows 系统中，可以使用 Spacedesk 软件来把手机/平板当作电脑的虚拟副屏使用，在 Linux 下也可以通过 X11 虚拟显示器实现类似的效果。
 
 <!--more-->
 
-## ⚠️ 用前须知
-
-> - 本教程需要 X11 图形环境，如果您使用 Wayland，请切换到 X11。
-> - 如果您有英特尔核显，可以提升成功率。
-
 ## 🔩 前置需求
 
-如果您使用台式机，首先需要让桌面在核显上运行，笔记本可以忽略这步。
+如果您使用台式机，首先尽量让桌面在核显上运行，笔记本可以忽略这步。
 一般把显示器接到主板上，就可以做到。
+
+如果不在核显上运行桌面，可能创建虚拟显示器失败。
 
 ## 🔌 找到要使用的虚拟显示器
 
-### 🖥️ 使用现成的闲置显示接口
+### 🖥️ 使用现成的闲置显示接口 (X11)
 
 输入 `xrandr` 命令，然后查看哪个显示接口没有使用（disconnected）。
 
@@ -33,7 +32,7 @@ updated: '2022-09-25 17:52:19'
 
 {% image http://imgsrc.baidu.com/super/pic/item/ca1349540923dd546d10b0b39409b3de9d82488d.jpg 此处就可以使用 HDMI-1-0 显示接口 %}
 
-### 🎞️ 创建英特尔虚拟显示器
+### 🎞️ 创建英特尔虚拟显示器 (X11)
 
 > ⚠️ 此方法在 NVIDIA Optimus 笔记本上无法使用，会导致 Wine 无法运行。
 > 我没有其它双显卡的机器，无法尝试，请自行测试。
@@ -57,13 +56,13 @@ EndSection
 
 创建完成后重启电脑或重新登录，在 `xrandr` 中就可以看见 VIRTUAL1 显示器了。
 
-### 🎞️ 使用 NVIDIA xconfig
+### 🎞️ 使用 NVIDIA xconfig (X11)
 
 参照这条 issue：
 
 https://github.com/dianariyanto/virtual-display-linux/issues/9#issuecomment-786389065
 
-### 🎞️ 使用 evdi 内核模块
+### 🎞️ 使用 evdi 内核模块 (X11)
 
 如果上面三种方法都无法使用，那可以试试 evdi 内核模块。
 此方法可以在 NVIDIA Optimus 笔记本上使用。
@@ -72,11 +71,23 @@ https://github.com/dianariyanto/virtual-display-linux/issues/9#issuecomment-7863
 
 之后把 `options evdi initial_device_count=1` 写到 `/etc/modprobe.d/evdi.conf` 之后，重启就可以在 `xrandr` 中看见多出来的虚拟显示器。
 
+### 🛤️ 使用 XDG Desktop Portal 虚拟显示器 (Wayland)
+
+在经由 XDG Desktop Portal 捕获屏幕时，就可以创建虚拟显示器。
+
+{% image https://www.helloimg.com/images/2022/10/19/Zkv7aM.png width:500 %}
+
+此方法不太稳定，已知在 KDE 上可能导致崩溃。
+
+### 🛤️ 使用 Krfb 创建虚拟显示器 (Wayland)
+
+Krfb 提供了 `krfb-virtualmonitor` 命令行工具，可以直接使用以创建虚拟显示器。
+
 ---
 
 如果上述方法都不行，只能搜索然后自求多福了。
 
-## 🖥️ 配置虚拟显示器
+## 🖥️ 配置虚拟显示器 (X11)
 
 首先确定要使用的设备的屏幕比例和分辨率，建议使用目标设备分辨率的二分之一或四分之一大小，因为 Xorg 不支持在不同显示器上使用不同 DPI。
 
