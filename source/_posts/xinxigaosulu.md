@@ -4,6 +4,7 @@ date: 2021-12-05 19:02:07
 tags:
 - 转载
 category: 其它
+cover: 'https://imgsrc.baidu.com/super/pic/item/0ff41bd5ad6eddc41f1fc53a7cdbb6fd53663372.jpg'
 ---
 
 　　“太好啦！大好啦！”听妈妈说，我家的电脑可以上网了。我情不自禁地欢呼起来。

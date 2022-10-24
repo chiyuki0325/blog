@@ -4,6 +4,7 @@ date: 2022-01-02 22:06:24
 tags: 
 - SM4J
 category: 游戏
+cover: 'https://imgsrc.baidu.com/super/pic/item/f603918fa0ec08faf68b62661cee3d6d54fbda6c.jpg'
 ---
 
 之前的教程用到了公网 IP，考虑到大多数人都没有公网 IP，这次重新来做一个教程，使用了 ZeroTier 映射工具。
@@ -66,3 +67,7 @@ category: 游戏
 
 - ZeroTier 一定要保持在后台运行，无论用何种方法（包括用浮窗/分屏），保持其在后台即可。
 - 玩的时候如果你的手机没有给 SM4J 关闭电池优化，当切到其它 App 的时候，SM4J 就会掉线，所以如果想聊天，建议使用浮窗或给 SM4J 关闭电池优化。
+
+### 视频
+
+{% bilicard BV1gt4y1E7Vy %}

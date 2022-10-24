@@ -6,6 +6,7 @@ tags:
 - 马里奥
 - 马里奥制造
 category: 游戏
+cover: 'https://imgsrc.baidu.com/super/pic/item/48540923dd54564ed2dccfe4f6de9c82d0584fb5.jpg'
 ---
 
 

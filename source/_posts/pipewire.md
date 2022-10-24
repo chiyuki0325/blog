@@ -5,6 +5,7 @@ tags:
 - Linux
 - PipeWire
 category: Arch折腾记
+cover: 'https://imgsrc.baidu.com/super/pic/item/0b7b02087bf40ad1fe99b122122c11dfa8eccef6.jpg'
 ---
 
 {% grid %}

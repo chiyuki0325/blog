@@ -4,6 +4,7 @@ date: 2022-06-06 22:12:09
 tags:
 - systemd
 category: Arch折腾记
+cover: 'https://imgsrc.baidu.com/super/pic/item/267f9e2f070828388f45add5fd99a9014d08f1a3.jpg'
 ---
 Arch Linux 上的 systemd 251 更新之后，在关机和重启的时候都会在 tty 打印 wall message 并伴有震耳的蜂鸣器响声，貌似是一个远古的 bug 又被触发了。本文就来教大家如何禁用此特性。
 

@@ -5,6 +5,7 @@ tags:
 - 原神
 - 图集
 category: 游戏
+cover: 'https://imgsrc.baidu.com/super/pic/item/810a19d8bc3eb135b440606fe31ea8d3fc1f445b.jpg'
 ---
 
 {% image https://imgsrc.baidu.com/super/pic/item/810a19d8bc3eb135b440606fe31ea8d3fc1f445b.jpg %}

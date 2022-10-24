@@ -6,6 +6,7 @@ tags:
 - Wine
 - Linux
 category: 游戏
+cover: 'https://www.helloimg.com/images/2021/05/30/BjNB8q.png'
 ---
 
 喝了，最近装了ArchLinux，想在上面玩SMBX，却发现直接用Wine运行有重重BUG，后来经过一番调教终于能玩，来分享一下经验，争取让各位Linux SMBX玩家都能正常地喝上Wine!

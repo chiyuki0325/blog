@@ -5,8 +5,9 @@ date: '2022-08-04 22:58:27'
 tags:
 - 原神
 - 图集
-title: 🌿 [渊深 3.0] 须弥一游
+title: 🌿 [Leak] 须弥一游
 updated: '2022-08-07 22:10:39'
+cover: 'https://imgsrc.baidu.com/super/pic/item/14ce36d3d539b60099a1496bac50352ac75cb7fb.jpg'
 ---
 {% image https://imgsrc.baidu.com/super/pic/item/29381f30e924b89939950be42b061d950b7bf645.jpg %}
 {% image https://imgsrc.baidu.com/super/pic/item/0bd162d9f2d3572c8a40ee00cf13632763d0c348.jpg %}

@@ -1,5 +1,5 @@
 ---
-title: 🕸️ 用ADB把手机或平板的Wifi共享给电脑
+title: 🕸️ 用 ADB 把手机或平板的 WiFi 共享给电脑
 date: 2021-06-11 22:17:44
 tags:
 - WiFi

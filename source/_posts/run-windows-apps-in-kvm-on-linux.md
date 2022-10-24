@@ -5,6 +5,7 @@ tags:
 - KVM
 - Linux
 category: Arch折腾记
+cover: 'http://imgsrc.baidu.com/super/pic/item/d009b3de9c82d15863d0d864c50a19d8bd3e4291.jpg'
 ---
 
 **看前须知：不支持图形加速**
