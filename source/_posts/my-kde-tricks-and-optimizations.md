@@ -94,7 +94,7 @@ LightlyShaders 仓库地址： https://github.com/a-parhom/LightlyShaders ，按
 
 LightlyShaders 目前有两个分支：master 和 v2.0。
 master 分支适用于 KWin 5.25.5 及其之前的版本，实现方法是在窗口上「糊上」圆角，比较吃资源，不过也不像 README 写得那么离谱，Intel 超核芯显卡就可以流畅带动。master 分支画出来的圆角清晰流畅，已经和 macOS 差不多了。
-v2.0 分支是用 5.25.90 新引入的特性完全重构的，所以不适用于旧版 KWin。此分支性能消耗更小，但 bug 很多（比如 [圆角有毛刺](https://github.com/a-parhom/LightlyShaders/issues/70)），还需等待后续更新。并且 v2.0 分支还需要配合兼容的窗口装饰（如 `SierraBreezeEnhanced`使用。
+v2.0 分支是用 5.25.90 新引入的特性完全重构的，所以不适用于旧版 KWin。此分支性能消耗更小，但存在 bug，还需等待后续更新。并且 v2.0 分支还需要配合兼容的窗口装饰（如 `SierraBreezeEnhanced`）使用。
 根据 KWin 版本选择即可。
 
 可以在 `lightlyshaders.cpp` 中自定义要排除的窗口。建议把 Wine 应用和部分离谱窗口（比如网易云音乐的桌面歌词）加入其中。
