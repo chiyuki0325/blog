@@ -32,8 +32,9 @@ PipeWire 的性能虽然还不如 ALSA，但它 ~~又新又好~~，支持很多�
 ### 📦 安装 PipeWire
 
 ```bash
-sudo pacman -S pipewire pipewire-pulse pipewire-alsa pipewire-jack \
-	 wireplumber lib32-pipewire lib32-pipewire-jack --needed
+sudo pacman -S pipewire pipewire-audio pipewire-pulse pipewire-alsa \
+               pipewire-jack wireplumber lib32-pipewire lib32-pipewire-jack \
+               --needed
 ```
 
 这条命令可以安装 PipeWire，并且用其代替 PulseAudio 作为音频服务器。
