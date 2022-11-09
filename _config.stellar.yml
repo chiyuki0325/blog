@@ -84,6 +84,8 @@ footer:
        url: 'https://space.bilibili.com/485832788'
      - icon: '<img src="https://www.helloimg.com/images/2021/05/30/Bj8trz.png"/>'
        url: 'https://jq.qq.com/?_wv=1027&k=c0oqCyOm'
+     - icon: '<img src="https://www.helloimg.com/images/2022/11/09/ZfONaD.png" />'
+       url: 'https://t.me/yidaozhan_group'
      - icon: '<img src="https://www.helloimg.com/images/2021/05/30/Bj8A3A.png"/>'
        url: 'https://file.yidaozhan.top/'
      - icon: '<img src="/cdn/images/github.svg"/>'
@@ -104,6 +106,7 @@ footer:
        - '[📺 Bilibili](https://space.bilibili.com/485832788)'
        - '[🐱 GitHub](https://github.com/YidaozhanYa)'
        - '[🐧 QQ](https://jq.qq.com/?_wv=1027&k=c0oqCyOm)'
+       - '[🛩️ 电报](https://t.me/yidaozhan_group)'
        - '[▶️️ YouTube](https://www.youtube.com/channel/UC9VPn5_heoBDCOglDqeuuiA)'
      '其它':
        - '[🏠 首页](https://yidaozhan.top/)'
