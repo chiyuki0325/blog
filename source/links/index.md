@@ -9,7 +9,7 @@
 
 本博客使用 Qexo 作为后台，友情链接使用该后台一键生成。
 
-如果想互加友链，欢迎填写下面的申请表或者在 B 站等平台给我私信或[发送 email](mailto://yidaozhan_ya@outlook.com)。
+如果想互加友链，欢迎填写下面的申请表或者在 B 站等平台给我私信或[发送 email](mailto:yidaozhan_ya@outlook.com)。
 
 <details>
 <summary>友链申请表</summary>
