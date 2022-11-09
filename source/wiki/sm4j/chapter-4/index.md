@@ -181,7 +181,9 @@ SM4J当然也可以像马造一样，随时切换创作和游玩。可以点击�
 
 这些是NPC，放置之后没有对话，但是在它们头上放置<img src="https://www.helloimg.com/images/2020/12/06/image-202011252133162880bd6244fa5982790.png" alt="image-20201125213316288" style="zoom:80%;" />，并且输入对话内容之后，就可以对话了。
 
-<img src="https://www.helloimg.com/images/2021/02/13/image-20210213200803197f756f6ab24afe554.png" alt="image-20210213200803197" style="zoom:25%;" />这个招手的奇诺比奥NPC，如果不设置对话是可以被吃掉的，马力欧也可以做一回带恶人了。
+<img src="https://www.helloimg.com/images/2021/02/13/image-20210213200803197f756f6ab24afe554.png" alt="image-20210213200803197" style="zoom:25%;" />
+
+这个招手的奇诺比奥NPC，如果不设置对话是可以被吃掉的，马力欧也可以做一回带恶人了。
 
 剩余的特殊道具，详见 ~~《编辑器进阶》~~ WIP。
 
