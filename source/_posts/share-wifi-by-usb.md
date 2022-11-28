@@ -23,10 +23,10 @@ category: Arch折腾记
 adb shell settings put global ethernet_on 3
 ```
 
-{% grid %}
+{% border %}
 （注：如果你是Linux，请在adb前面加上“./”。）
 如果手机弹出窗口，那就在手机上允许USB调试，然后再执行上述命令。
-{% endgrid %}
+{% endborder %}
 
 然后执行如下命令启动服务：
 

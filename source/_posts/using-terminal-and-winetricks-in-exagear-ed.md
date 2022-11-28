@@ -34,13 +34,13 @@ cover: 'https://imgsrc.baidu.com/super/pic/item/8b82b9014a90f6030f32ed867c12b31b
 
 https://github.com/akbarri/ExaTermV2/releases/latest/
 
-{% grid %}
+{% border %}
 
 如果你无法访问GitHub，可以试试镜像站。
 
 https://hub.fastgit.org/akbarri/ExaTermV2/releases/latest/
 
-{% endgrid %}
+{% endborder %}
 
 在其中点击“ExaTerm.exe”下载即可。
 
@@ -52,10 +52,10 @@ https://hub.fastgit.org/akbarri/ExaTermV2/releases/latest/
 
 https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
 
-{% grid %}
+{% border %}
 对于国内用户请使用镜像站
 https://raw.fastgit.org/Winetricks/winetricks/master/src/winetricks
-{% endgrid %}
+{% endborder %}
 
 如果你点进去看到一堆不知所云的鬼画符，那么就将下载地址粘贴到```ADM Pro```之类的下载器。
 

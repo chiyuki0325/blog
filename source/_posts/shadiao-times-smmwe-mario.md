@@ -8,7 +8,7 @@ category: 其它
 cover: 'https://imgsrc.baidu.com/super/pic/item/ac345982b2b7d0a2eb52755c8eef76094a369a5c.jpg'
 ---
 
-{% grid %}
+{% border %}
 
 观前须知：懒得调整图片大小了，请自行调整缩放比（手动滑稽）
 
@@ -16,7 +16,7 @@ cover: 'https://imgsrc.baidu.com/super/pic/item/ac345982b2b7d0a2eb52755c8eef7609
 
 P.S. 本篇可能要素过多，并且和上一篇[「伸手党」](https://blog.yidaozhan.top/2022/04/08/shadiao-times-hand-party/)内容有部分重复，因此本篇删去重复内容，请到该篇查看。
 
-{% endgrid %}
+{% endborder %}
 
 {% image https://imgsrc.baidu.com/super/pic/item/0df3d7ca7bcb0a46f6c444ed2e63f6246a60af04.jpg %}
 

@@ -16,6 +16,11 @@ sidebar:
     friends: '[友链](/links/)'
     #about: # '[关于](/about/)'
 
+  widgets:
+    index: search, welcome, recent, tagcloud # for home/wiki/categories/tags/archives/404 pages
+    page: welcome, toc # for pages using 'layout:page'
+    post: toc, search, ghrepo # for pages using 'layout:post'
+    wiki: toc, search, ghrepo, related # for pages using 'layout:wiki'
 
 
 

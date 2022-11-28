@@ -14,7 +14,7 @@ cover: 'https://imgsrc.baidu.com/super/pic/item/91ef76c6a7efce1b9997b90bea51f3de
 
 ## 原文
 
-{% grid %}
+{% border %}
 
 　　土はぬかるみ、氷で覆われた大地から有象無象が目覚める。
 　　幻想郷を覆った僅かな雪は、この冬目覚めた地霊達を封じ込め、
@@ -95,11 +95,11 @@ cover: 'https://imgsrc.baidu.com/super/pic/item/91ef76c6a7efce1b9997b90bea51f3de
 　ないだろう。
 　　その破片を全て集めることが出来ればあるいは……。
 
-{% endgrid %}
+{% endborder %}
 
 ## 谷歌翻译
 
-{% grid %}
+{% border %}
 
 泥土泥泞，大象从冰雪覆盖的土地上醒来。
 笼罩幻想乡的微雪中蕴藏着今冬苏醒的鬼魂。
@@ -180,13 +180,13 @@ cover: 'https://imgsrc.baidu.com/super/pic/item/91ef76c6a7efce1b9997b90bea51f3de
 将没有。
 如果可以收集所有碎片......
 
-{% endgrid %}
+{% endborder %}
 
 还算有些生草，但起码可以正常读下来，对吧。
 
 ## DeepL
 
-{% grid %}
+{% border %}
 　　土壤是泥泞的，大地被冰覆盖，唤醒了有形的。
 　　覆盖幻境的小雪足以容纳今年冬天苏醒的大地之灵，并进一步减缓仙女们的行动。
 　　这也足以让仙女们的行动放慢。 宁静的睡眠季节即将结束。
@@ -267,7 +267,7 @@ cover: 'https://imgsrc.baidu.com/super/pic/item/91ef76c6a7efce1b9997b90bea51f3de
 　然而，主留下的宝藏，即使是零碎的，也没有失去它的力量。 {% mark ？？？ %}
 　　只要我们能收集到它的所有碎片或.......
 
-{% endgrid %}
+{% endborder %}
 
 {% quot 高下立判。 %}
 

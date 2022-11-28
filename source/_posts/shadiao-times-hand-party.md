@@ -8,7 +8,7 @@ category: 其它
 cover: 'https://imgsrc.baidu.com/super/pic/item/d31b0ef41bd5ad6e906f152bc4cb39dbb7fd3c58.jpg'
 ---
 
-{% grid %}
+{% border %}
 
 观前须知：懒得调整图片大小了，请自行调整缩放比（手动滑稽）
 
@@ -18,7 +18,7 @@ P.S. 其中某些人要的东西是不存在的。
 
 {% image https://imgsrc.baidu.com/super/pic/item/c2cec3fdfc039245581b2edbc294a4c27c1e25bc.jpg %}
 
-{% endgrid %}
+{% endborder %}
 
 ---
 {% image https://imgsrc.baidu.com/super/pic/item/9358d109b3de9c82b903365b2981800a18d84384.jpg %}

@@ -22,6 +22,6 @@ date: 2021-05-30 14:52:04
 |      | [Yidaozhan API](https://blog.yidaozhan.ga/list/api) | 本站提供的一些 API。                                                                       |
 | …   | 还有更多…                                          | 等待添加~                                                                                  |
 
-{% grid 镇站吉祥物 (bushi) %}
+{% border 镇站吉祥物 (bushi) %}
 {% image https://www.helloimg.com/images/2020/12/19/MCL6QSANIIXHOYG7RXF3Lde6f6d90cbbac9ab.gif download:true %}
-{% endgrid %}
+{% endborder %}

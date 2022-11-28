@@ -29,13 +29,13 @@ AUR 的软件经常需要用到 GitHub 的仓库、Raw 或 Releases，所以需�
   
   ``makepkg`` 不能自定义 Git 客户端，所以需要修改 ``makepkg`` 本体。
   
-  {% grid  color:red %}
+  {% border  color:red %}
   
   此操作需要修改 ``makepkg`` 本体，具有一定危险性，请谨慎操作！
   
   另外此操作会随着 ``pacman`` 包的更新而复原，所以当 ``pacman`` 更新的时候，需要重新操作。
   
-  {% endgrid %}
+  {% endborder %}
   
   首先下载我制作的 Git 脚本（替换 GitHub 域名为 FastGit），放在自定义位置（我这里使用 ``/usr/local/bin/fakegit``）并且赋予可执行权限。
   
@@ -63,11 +63,11 @@ AUR 的软件经常需要用到 GitHub 的仓库、Raw 或 Releases，所以需�
 
 #### ② 多线程压缩
 
-{% grid %}
+{% border %}
 
 参考：https://www.limstash.com/articles/202004/1597
 
-{% endgrid %}
+{% endborder %}
 
 先安装 `pigz` 和 `pbzip2`，这两个包支持多线程压缩。
 

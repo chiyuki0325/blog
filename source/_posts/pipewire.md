@@ -8,7 +8,7 @@ category: Arch折腾记
 cover: 'https://imgsrc.baidu.com/super/pic/item/0b7b02087bf40ad1fe99b122122c11dfa8eccef6.jpg'
 ---
 
-{% grid %}
+{% border %}
 
 [PipeWire](https://pipewire.org) 是一个新的底层多媒体框架。 它旨在以 **最小的延迟** 为音频和视频提供捕获和播放，并支持 PulseAudio、JACK、ALSA 和 基于 GStreamer 的应用程序。
 
@@ -17,7 +17,7 @@ cover: 'https://imgsrc.baidu.com/super/pic/item/0b7b02087bf40ad1fe99b122122c11df
 PipeWire 还支持像 Flatpak 这样的容器，不依赖于 `audio` 和 `video` 用户组。 相反，它采用了类似于 Polkit 的安全模式，请求 Flatpak 或 Wayland 允许录制屏幕或音频。
 
 —— 摘自 ArchWiki
-{% endgrid %}
+{% endborder %}
 
 
 

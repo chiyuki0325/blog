@@ -54,11 +54,11 @@ Windows XP 、 Mac OS 以及内核版本过旧的 Linux 不可以使用 Yuzu 。
 
 解答：下载NS系统密钥（keys）并解压，将```prod.keys```文件放到```Yuzu数据目录\keys```即可。
 
-{% grid %}
+{% border %}
 
 传播NS系统密钥虽然违反任天堂的使用协定，但你可以在一些模拟器相关的交流群找到密钥。
 
-{% endgrid %}
+{% endborder %}
 
 
 
@@ -198,11 +198,11 @@ Tips：由于本次的Project Hades更新，旧的缓存已经全部失效，请
 
 覆盖之后，再次启动游戏，字体就正常了。
 
-{% grid %}
+{% border %}
 
 传播NS系统文件虽然违反任天堂的使用协定，但你可以在一些模拟器相关的交流群找到它。
 
-{% endgrid %}
+{% endborder %}
 
 
 

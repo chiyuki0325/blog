@@ -21,9 +21,9 @@ SMBX是用VB6语言编写而成（TheXTech除外），Wine不像Windows一样自
 env WINEPREFIX="/home/[你的用户名]/.[Wine容器名字]" winetricks vb6run
 ```
 
-{% grid %}
+{% border %}
 注：此处创建 Wine 容器的时候推荐创建 64 位容器而不是 32 位容器，这样可以提高 38A 版本的帧数。
-{% endgrid %}
+{% endborder %}
 
 也可以使用图形界面安装。因为```vb6run```包需要从Internet Archive下载，所以记得开启科学上网。
 
@@ -55,10 +55,10 @@ MD5：3f079faa9cffc8ee518309a03fcaa742
 
 如果LunaLua脚本不正常，可以在Wine的函数库顶替中添加
 
-{% grid %}
+{% border %}
 LunaDLL.dll
 opengl32.dll
-{% endgrid %}
+{% endborder %}
 
 然后重启游戏即可。
 
@@ -75,7 +75,7 @@ opengl32.dll
 
 首先需要准备：
 
-{% grid %}
+{% border %}
 
 - 一个干净的Wine容器
 
@@ -92,7 +92,7 @@ env WINEPREFIX="/home/[你的用户名]/.[Wine容器名字]" WINEARCH="win32" wi
 - Windows下的Tahoma和宋体字体
   可从百度下载，也可自行从Windows系统中拿出。
 - 推荐准备一个Wine主题，否则编辑器会很违和
-  {% endgrid %}
+  {% endborder %}
 
 然后打开这个容器中的Wine设置（可通过刚才那步的指令打开，如果觉得麻烦，推荐使用Lutris）。
 

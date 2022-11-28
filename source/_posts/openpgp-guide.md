@@ -30,13 +30,13 @@ PGP（Pretty Good Privacy，优良保密协议）是一套用于讯息加密、�
 
 在创建好个人密钥对之后，一定要{% mark color:red 妥善备份好 %}自己的公钥和私钥文件，防止丢失。
 
-{% grid 🛈 Tips %}
+{% border 🛈 Tips %}
 
 在创建密钥时点击设置，将加密算法更改为 `EdDSA`，可创建出体积更小的密钥，在发送加密消息时更方便。
 
-{% endgrid %}
+{% endborder %}
 
-{% grid %}
+{% border %}
 
 在一份 PGP 密钥对中，包含公钥和私钥。私钥用于以你的身份加密或签名信息，公钥用于让别人解密或验证你的信息。
 
@@ -44,7 +44,7 @@ PGP（Pretty Good Privacy，优良保密协议）是一套用于讯息加密、�
 
 详见 [百度百科](https://baike.baidu.com/item/pgp%E5%8A%A0%E5%AF%86/9868918?fr=aladdin)
 
-{% endgrid %}
+{% endborder %}
 
 ### 📤 上传公钥
 

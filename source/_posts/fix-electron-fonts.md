@@ -30,11 +30,11 @@ cp /usr/share/applications/electron-netease-cloud-music.desktop ~/.local/share/a
 Exec=/usr/bin/bwrap --dev-bind / / --tmpfs /usr/share/fonts --tmpfs /usr/local/share/fonts --tmpfs /etc/fonts/conf.d --ro-bind /usr/share/fonts/lxwk /usr/share/fonts/lxwk electron-netease-cloud-music /usr/bin/electron-netease-cloud-music
 ```
 
-{% grid %}
+{% border %}
 
 此启动命令使用 bubblewrap 创建了一个临时沙盒，以「可访问设备」的模式挂载全盘（``--dev-bind / /``），并屏蔽掉 Noto 和 Noto CJK 字体文件夹（``--tmpfs /usr/share/fonts/noto-cjk --tmpfs /usr/share/fonts/noto``，即在沙盒中把这两个文件夹挂载到 tmpfs 而非原有文件夹），这样就实现了字体的屏蔽。
 
-{% endgrid %}
+{% endborder %}
 
 这样只要这个家里的 desktop 文件不被删除，系统就会优先使用这个 desktop 文件而非 `/usr/share` 中的。
 
@@ -60,13 +60,13 @@ vim /usr/local/share/pacman-hooks/electron-ncm.sh # 名字和路径随意
 sed -i 's/Exec\=/Exec\=\/usr\/bin\/bwrap --dev-bind \/ \/ --tmpfs \/usr\/share\/fonts\/noto-cjk --tmpfs \/usr\/share\/fonts\/noto /' /usr/share/applications/electron-netease-cloud-music.desktop
 ```
 
-{% grid %}
+{% border %}
 
 此脚本更改了 ElectronNCM 的桌面启动文件，使用 bubblewrap 创建了一个临时沙盒，以「可访问设备」的模式挂载全盘（``--dev-bind / /``），并屏蔽掉 Noto 和 Noto CJK 字体文件夹（``--tmpfs /usr/share/fonts/noto-cjk --tmpfs /usr/share/fonts/noto``，即在沙盒中把这两个文件夹挂载到 tmpfs 而非原有文件夹），这样就实现了字体的屏蔽。
 
 该 shell 脚本将会以 root 权限运行，所以不用担心权限问题。
 
-{% endgrid %}
+{% endborder %}
 
 并将这个脚本赋予可执行权限。
 
@@ -90,15 +90,15 @@ When = PostTransaction
 Exec = /usr/local/share/pacman-hooks/electron-ncm.sh
 ```
 
-{% grid %}
+{% border %}
 Target 中填写软件包包名，可以填写多个，用空格分割；Exec 中填写之前创建的 shell 脚本路径。
-{% endgrid %}
+{% endborder %}
 
 之后在下次更新该软件包时，这个钩子就会被触发，进而执行之前的 shell 脚本，实现在软件启动时屏蔽字体。
 
-{% grid %}
+{% border %}
 当然，还可以使用更极端的做法，比如屏蔽掉几乎所有字体文件夹（`/usr/share/fonts`、`/usr/local/share/fonts` 等），只留一个字体文件夹，并且把需要的字体放在其中。
-{% endgrid %}
+{% endborder %}
 
 ### Icalingua++
 
@@ -170,11 +170,11 @@ rm -rf "/tmp/icalingua.d"
 
 pacman 钩子可以按照上文方法创建。
 
-{% grid %}
+{% border %}
 该脚本使用 asar 工具解包 Icalingua++，删除其中的字体并且替换指定的 css，让 Icalingua++ 只加载指定字体（本文中为 LXGW Bold WenKai）和 Noto Sans CJK SC（为了显示特殊符号）。
 
 只适用于 icalingua++ icalingua++-electron icalingua++-electron-git 包，不适用于 icalingua++-git 包。
-{% endgrid %}
+{% endborder %}
 
 附件：[我修改好的霞鹜文楷粗体字独立版](https://pan.yidaozhan.top/ali/%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/%E9%9C%9E%E9%B9%9C%E6%96%87%E6%A5%B7%E5%8A%A0%E7%B2%97%E7%8B%AC%E7%AB%8B%E7%89%88/)，可以当作系统字体使用。
 

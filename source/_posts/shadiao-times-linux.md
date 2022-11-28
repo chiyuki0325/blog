@@ -8,7 +8,7 @@ category: 其它
 cover: 'https://imgsrc.baidu.com/super/pic/item/8d5494eef01f3a297bd71b1adc25bc315d607cc3.jpg'
 ---
 
-{% grid %}
+{% border %}
 
 观前须知：懒得调整图片大小了，请自行调整缩放比（手动滑稽）
 
@@ -16,7 +16,7 @@ cover: 'https://imgsrc.baidu.com/super/pic/item/8d5494eef01f3a297bd71b1adc25bc31
 
 P.S. 本篇可能要素过多，请谨慎查看。
 
-{% endgrid %}
+{% endborder %}
 
 {% image https://imgsrc.baidu.com/super/pic/item/a1ec08fa513d2697aa05c78910fbb2fb4216d815.jpg %}
 
