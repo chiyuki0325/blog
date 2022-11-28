@@ -20,7 +20,7 @@ sm4j_sidebar:
 
 tagcloud:
   layout: tagcloud
-  title: '博客词云'
+  title: '标签'
   # 标签云配置
   min_font: 12
   max_font: 24
