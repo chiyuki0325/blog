@@ -238,13 +238,17 @@ s390x 架构比较罕见，但仍然成功地把 [Alist](https://github.com/Xhof
 
 🔤 更换博客字体为 HarmonyOS Sans SC 和 Win11 的 Segoe UI Emoji。
 
+<!--node 2022 年 11 月 28 日 -->
+
+📝 大费周章地把博客主题同步到了上游的 1.17.0。
+
 {% endtimeline %}
 
 ### 查成分
 
-玩的游戏有原神，东方 Project，超级马里奥系列、宝可梦系列、塞尔达传说系列等任天堂游戏，Phigros、Arcaea、MAIMAI DX 等音游和 SMBX 等同人游戏。
+喜欢玩的游戏有原神，东方 Project，超级马里奥系列、宝可梦系列、塞尔达传说系列等任天堂游戏，Phigros、Arcaea、maimai DX 等音游和 SMBX、Mario Multiverse 等同人游戏。
 
-喜欢折腾各种模拟器！
+被同学拉着追 Fate 番剧。
 
 ### 镜像站
 
@@ -252,18 +256,18 @@ s390x 架构比较罕见，但仍然成功地把 [Alist](https://github.com/Xhof
 
 ##### 博客
 
-|                                                              | 站点             | URL                                                          | URL 2                                                  | HTTP |
-| ------------------------------------------------------------ | ---------------- | ------------------------------------------------------------ | ------------------------------------------------------ | ---- |
-| <img src="https://imgsrc.baidu.com/super/pic/item/58ee3d6d55fbb2fb1663f1cf0a4a20a44723dca7.jpg" width="16"> | Vercel           | [blog.yidaozhan.top](https://blog.yidaozhan.top)             | [ydz-blog.vercel.app](https://ydz-blog.vercel.app)     | 2    |
-| <img src="https://dash.cloudflare.com/favicon-16x16.png" width="16"> | Cloudflare Pages | [blog-cf.yidaozhan.top](https://blog-cf.yidaozhan.top)       | [ydz-blog.pages.dev](https://ydz-blog.pages.dev)       | 3    |
-| <img src="https://imgsrc.baidu.com/super/pic/item/b90e7bec54e736d18f5e25d5de504fc2d462699a.jpg" width="16"> | Azure            | [blog.azure.yidaozhan.top](https://blog.azure.yidaozhan.top) | 暂无                                                   | 1.1  |
-| <img src="https://imgsrc.baidu.com/super/pic/item/94cad1c8a786c917a5bcfbe48c3d70cf3ac757b4.jpg" width="16"> | Render           | [blog-rd.yidaozhan.top](https://blog-rd.yidaozhan.top)       | [ydz-blog.onrender.com](https://ydz-blog.onrender.com) | 3    |
+|                                                              | 站点             | URL                                                          | URL 2                                                  |
+| ------------------------------------------------------------ | ---------------- | ------------------------------------------------------------ | ------------------------------------------------------ |
+| <img src="https://imgsrc.baidu.com/super/pic/item/58ee3d6d55fbb2fb1663f1cf0a4a20a44723dca7.jpg" width="16"> | Vercel           | [blog.yidaozhan.top](https://blog.yidaozhan.top)             | [ydz-blog.vercel.app](https://ydz-blog.vercel.app)     |
+| <img src="https://dash.cloudflare.com/favicon-16x16.png" width="16"> | Cloudflare Pages | [blog-cf.yidaozhan.top](https://blog-cf.yidaozhan.top)       | [ydz-blog.pages.dev](https://ydz-blog.pages.dev)       |
+| <img src="https://imgsrc.baidu.com/super/pic/item/b90e7bec54e736d18f5e25d5de504fc2d462699a.jpg" width="16"> | Azure            | [blog.azure.yidaozhan.top](https://blog.azure.yidaozhan.top) | 暂无                                                   |
+| <img src="https://imgsrc.baidu.com/super/pic/item/94cad1c8a786c917a5bcfbe48c3d70cf3ac757b4.jpg" width="16"> | Render           | [blog-rd.yidaozhan.top](https://blog-rd.yidaozhan.top)       | [ydz-blog.onrender.com](https://ydz-blog.onrender.com) |
 
 ##### 文件分享
 
-|                                                              | 站点              | URL                                                    |
-| ------------------------------------------------------------ | ----------------- | ------------------------------------------------------ |
-| <img src="https://imgsrc.baidu.com/super/pic/item/b90e7bec54e736d18f5e25d5de504fc2d462699a.jpg" width="16"> | Azure Alist       | [file.yidaozhan.top](https://file.yidaozhan.top)       |
-| <img src="https://app.koyeb.com/favicon.ico" width="16">     | Koyeb Alist       | [file-ko.yidaozhan.top](https://file-ko.yidaozhan.top) |
-| <img src="https://imgsrc.baidu.com/super/pic/item/58ee3d6d55fbb2fb1663f1cf0a4a20a44723dca7.jpg" width="16"> | Vercel OneManager | [pan.yidaozhan.top](https://file.yidaozhan.top)        |
+|                                                              | 站点              | URL                                              |
+| ------------------------------------------------------------ | ----------------- | ------------------------------------------------ |
+| <img src="https://imgsrc.baidu.com/super/pic/item/b90e7bec54e736d18f5e25d5de504fc2d462699a.jpg" width="16"> | Azure Alist       | [file.yidaozhan.top](https://file.yidaozhan.top) |
+| <img src="https://imgsrc.baidu.com/super/pic/item/58ee3d6d55fbb2fb1663f1cf0a4a20a44723dca7.jpg" width="16"> | Vercel OneManager | [pan.yidaozhan.top](https://file.yidaozhan.top)  |
 
+<!--| <img src="https://app.koyeb.com/favicon.ico" width="16">     | Koyeb Alist       | [file-ko.yidaozhan.top](https://file-ko.yidaozhan.top) |-->
