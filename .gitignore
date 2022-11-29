@@ -9,3 +9,4 @@ github-deploy-key
 public/
 yarn.lock
 package-lock.json
+pnpm-lock.json
