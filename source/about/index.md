@@ -23,9 +23,9 @@ date: 2022-05-10 13:02:19
 
 ### 关于我
 
-🏃 普通摸鱼高二学生
+🏃 想长大的普通摸鱼高二学生
 🐧 是[ **<font color="#0f94d2">Arch Linux</font>**](https://archlinux.org) {% psw 教徒 %} 用户！
-📄 会 **<font color="purple">Visual Basic</font>** 、 **<font color="#8892bf">PHP</font>** ，也会一点 **<font color="#254f72">Python</font>** 和 **<font color="#ebd50a">JavaScript</font>**
+📄 会写 **<font color="purple">经典 Visual Basic</font>**、**<font color="#254f72">Python</font>** ，也会一点 **<font color="#8892bf">PHP</font>** 和 **<font color="#ebd50a">JavaScript</font>**
 🇨🇳 希望为互联网中文化贡献力量
 🌐 支持开源和自由软件
 🔗 你可以在[这里](https://github.com/yidaozhanya/)找到我的其他联系方式
