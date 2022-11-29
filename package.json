@@ -1,5 +1,5 @@
 {
-  "name": "hexo-site",
+  "name": "Yidaozhan's Blog",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -12,12 +12,15 @@
     "version": "5.4.2"
   },
   "dependencies": {
+    "bluebird": "^3.7.2",
+    "chokidar": "^3.5.3",
+    "graceful-fs": "^4.2.10",
     "hexo": "^5.4.2",
+    "hexo-fs": "^4.1.1",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-feed": "^3.0.0",
     "hexo-generator-index": "^2.0.0",
-    "hexo-generator-search": "^2.4.3",
     "hexo-generator-sitemap": "^3.0.1",
     "hexo-generator-tag": "^1.0.0",
     "hexo-memorial-day": "^0.3.0",
@@ -26,8 +29,11 @@
     "hexo-renderer-marked": "^5.0.0",
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^3.0.0",
-    "hexo-theme-landscape": "^0.0.3",
+    "hexo-util": "^3.0.1",
+    "micromatch": "^4.0.5",
     "node-fetch": "^2.6.1",
-    "nunjucks": "^3.2.3"
+    "nunjucks": "^3.2.3",
+    "protobufjs": "^7.1.2",
+    "utils-merge": "^1.0.1"
   }
 }

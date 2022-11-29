@@ -215,3 +215,9 @@ default:
   link: /cdn/images/link.svg
   cover: /cdn/images/cover.svg
   image: /cdn/images/image.svg
+
+search:
+  service: local_search
+  local_search:
+    js: 'https://cdn.bootcdn.net/ajax/libs/protobufjs/7.1.2/protobuf.min.js'
+    path: /search.protobuf

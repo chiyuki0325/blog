@@ -122,8 +122,3 @@ memorial_day:
   enable: true
   # Specified date will be greyed, you can set yyyy-MM-dd or MM-dd
   day: 07-07
-
-search:
-  path: search.xml
-  field: post
-  content: true
