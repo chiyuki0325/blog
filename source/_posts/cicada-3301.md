@@ -6,7 +6,7 @@ tags:
 - 转载
 references:
 - title: 'Cicada 3301密码传说'
-  url: https://www.fx361.com/page/2016/0107/1288667.shtml 
+  url: https://file.yidaozhan.top/OneDrive/%E6%96%87%E6%A1%A3/Cicada_3301%E5%AF%86%E7%A0%81%E4%BC%A0%E8%AF%B4_%E9%9B%85%E5%85%8B%E8%90%A8_2.pdf
 - title: 'What Happened (2012)'
   url: https://uncovering-cicada.fandom.com/wiki/What_Happened_(2012)
 author: 雅克萨
@@ -47,7 +47,7 @@ cover: https://imgsrc.baidu.com/super/pic/item/80cb39dbb6fd5266b8a726d7ee18972bd
 
 新的网址打开后，一幅鸭子图案欢迎着他的到来。
 
-{% image width:25rem https://imgsrc.baidu.com/super/pic/item/b999a9014c086e06b65b258847087bf40bd1cb06.jpg %}
+{% image width:25rem https://imgsrc.baidu.com/super/pic/item/b999a9014c086e06b65b258847087bf40bd1cb06.jpg 隐写术软件可以破解图案中的奥秘。 %}
 
 #### 神秘隐写术
 
@@ -83,7 +83,7 @@ cover: https://imgsrc.baidu.com/super/pic/item/80cb39dbb6fd5266b8a726d7ee18972bd
 
 哈里用图形软件将 14 个二维码重叠起来，组成一个新的二维码，扫描后顺利进入 Twitter（社交网站）的一个账户主页，上面分享了「Cicada 3301」发的另一张图片——「你好。昨日重现了。你的朝圣之路已经开始。启蒙之日在等待。」
 
-{% image width:25rem https://imgsrc.baidu.com/super/pic/item/908fa0ec08fa513d9b55761d786d55fbb3fbd972.jpg %}
+{% image width:25rem https://imgsrc.baidu.com/super/pic/item/908fa0ec08fa513d9b55761d786d55fbb3fbd972.jpg 用 Photoshop 处理后，图案发生了变化 %}
 
 哈里看得云里雾里，但文段中央的巨大空缺令他感到怀疑。果然，在用 Photoshop（图形处理软件）轻微调整了图片颜色后，一个隐藏的「蝉」图案出现了！跟之前一样，图案内采用了隐写术，其中隐藏的三部分文字被哈里轻松取得——最后一部分照旧是「Cicada 3301」的耍帅签名；第一部分读着像一首诗；第二部分是一系列由「/」号隔开的数字，还跟着奇怪的字母后缀。经过验证，哈里确认它不是网址，并搜索出字母后缀是一所国际级大学的缩写。
 
@@ -101,7 +101,7 @@ cover: https://imgsrc.baidu.com/super/pic/item/80cb39dbb6fd5266b8a726d7ee18972bd
 
 「你们都在思考我们到底是什么人，因此我们现在告诉你。我们是一些证明了自己的个人，正如你们一样，我们通过了招聘测试，被共同的信念吸引到一起。我们想要推动加密技术的运用，因此需要精通密码的人。恭喜你成为我们的一员，但你首先要履行一项职责 —— 积极误导参与者，因为，我们只需要最优秀的人才。」
 
-{% image https://imgsrc.baidu.com/super/pic/item/b7003af33a87e950dffde9af55385343faf2b40f.jpg 3301 的徽标被发现是拼接的图案，蝉的前后翼纹理不同，并非来自同一物种。  %}
+{% image https://imgsrc.baidu.com/super/pic/item/8b82b9014a90f603e39099847c12b31bb151edd5.jpg 3301 的徽标被发现是拼接的图案，蝉的前后翼纹理不同，并非来自同一物种。  %}
 
 > 转载自 小哥白尼·趣味科学画报 2015年10期
 > 作者署名: 雅克萨
