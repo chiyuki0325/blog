@@ -33,6 +33,6 @@
     "micromatch": "^4.0.5",
     "node-fetch": "^2.6.1",
     "nunjucks": "^3.2.3",
-    "protobufjs": "^7.1.2",
+    "protobufjs": "^7.1.2"
   }
 }
