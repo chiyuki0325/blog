@@ -244,7 +244,7 @@ s390x 架构比较罕见，但仍然成功地把 [Alist](https://github.com/Xhof
 
 <!--node 2022 年 11 月 30 日 -->
 
-☁️ Vercel 系统出现故障，将主站点移至 Cloudflare Pages。
+☁️ Vercel 系统出现故障，将主站点移至 Render。
 
 {% endtimeline %}
 
@@ -260,10 +260,10 @@ s390x 架构比较罕见，但仍然成功地把 [Alist](https://github.com/Xhof
 
 ##### 博客
 
-|                                                              | 站点             | URL                                                          | URL 2                                                  |
-| ------------------------------------------------------------ | ---------------- | ------------------------------------------------------------ | ------------------------------------------------------ |
-| <img src="https://dash.cloudflare.com/favicon-16x16.png" width="16"> | Cloudflare Pages | [blog-cf.yidaozhan.top](https://blog.yidaozhan.top)       | [ydz-blog.pages.dev](https://ydz-blog.pages.dev)       |
-| <img src="https://imgsrc.baidu.com/super/pic/item/94cad1c8a786c917a5bcfbe48c3d70cf3ac757b4.jpg" width="16"> | Render           | [blog-rd.yidaozhan.top](https://blog-rd.yidaozhan.top)       | [ydz-blog.onrender.com](https://ydz-blog.onrender.com) |
+|                                                              | 站点             | URL                                                 | URL 2                                                  |
+| ------------------------------------------------------------ | ---------------- | --------------------------------------------------- | ------------------------------------------------------ |
+| <img src="https://dash.cloudflare.com/favicon-16x16.png" width="16"> | Cloudflare Pages | [blog-cf.yidaozhan.top](https://blog.yidaozhan.top) | [ydz-blog.pages.dev](https://ydz-blog.pages.dev)       |
+| <img src="https://imgsrc.baidu.com/super/pic/item/94cad1c8a786c917a5bcfbe48c3d70cf3ac757b4.jpg" width="16"> | Render           | [blog.yidaozhan.top](https://blog-rd.yidaozhan.top) | [ydz-blog.onrender.com](https://ydz-blog.onrender.com) |
 
 ##### 文件分享
 
