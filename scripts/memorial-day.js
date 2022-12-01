@@ -60,7 +60,6 @@ hexo.extend.filter.register('after_render:html', function (html, data) {
   const js = `
   <script type="text/javascript">
     (function () {
-      /*
       var dayStr = '${dayStr.replace(/-/g, '/')}';
       if (/^\\d{1,2}\\/\\d{1,2}$/.test(dayStr)) {
         dayStr = new Date().getFullYear() + '/' + dayStr;
@@ -71,8 +70,7 @@ hexo.extend.filter.register('after_render:html', function (html, data) {
       var day = new Date(dayStr);
       var now = new Date();
       var isMemorialDay = now.getFullYear() === day.getFullYear() && now.getMonth() === day.getMonth() && now.getDate() === day.getDate();
-      */
-      isMemorialDay = true;
+      // isMemorialDay = true;
       if (isMemorialDay) {
         if (document.all) {
           window.style = '${css}';

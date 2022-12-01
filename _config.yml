@@ -119,6 +119,6 @@ deploy:
 
 memorial_day:
   # Better to close it when it is not used
-  enable: true
+  enable: false
   # Specified date will be greyed, you can set yyyy-MM-dd or MM-dd
   day: 07-07
