@@ -1,0 +1,35 @@
+my_friends:
+    - title: 资源管理器博客
+      url: https://www.zyglq.cn/
+      avatar: https://cos.zyglq.cn/static/web-logo.jpg
+      description: 资源管理器猫猫的博客！
+      screenshot: https://imgsrc.baidu.com/super/pic/item/203fb80e7bec54e7ecf34eddfc389b504ec26ad2.jpg
+    - title: 池塘的博客
+      url: https://blog.chitang.dev/
+      avatar: https://chitangcos.zyglq.cn/images/avatar.webp
+      description: 只是一个普通的初中生罢了
+      screenshot: https://imgsrc.baidu.com/super/pic/item/e1fe9925bc315c60c1933f2cc8b1cb13485477eb.jpg
+    - title: 灯花小屋～
+      url: https://yisui.zyglq.cn/
+      avatar: https://yisui.zyglq.cn/images/logo.png
+      description: 我们是宇宙的尘埃，佩戴着璀璨的星辰。
+      screenshot: https://imgsrc.baidu.com/super/pic/item/9f2f070828381f309d18d96aec014c086f06f0f4.jpg
+    - title: "SugarMGP's Blog"
+      url: https://sugarblog.vercel.app
+      avatar: https://sugarblog.vercel.app/images/avatar.png
+      #description:
+      screenshot: https://imgsrc.baidu.com/super/pic/item/64380cd7912397dd6405ccc71c82b2b7d1a287f1.jpg
+    - title: 李某人的博客
+      url: https://blog.liziqian.net/
+      avatar: https://blog.liziqian.net/img/avatar.jpg
+      description: 某初中学生的小博客
+      screenshot: https://imgsrc.baidu.com/super/pic/item/b219ebc4b74543a9da6aae0f5b178a82b80114fb.jpg
+    - title: 某TRL66的网盘
+      url: http://trl66.ysepan.com/
+      avatar: https://imgsrc.baidu.com/super/pic/item/810a19d8bc3eb1353bade378e31ea8d3fc1f448e.jpg
+      screenshot: https://imgsrc.baidu.com/super/pic/item/962bd40735fae6cd46daffa24ab30f2443a70f82.jpg
+    - title: "Nofated's Blog"
+      url: https://blog.nofated.win
+      avatar: https://img.9595095.xyz/avatar/256
+      screenshot: https://imgsrc.baidu.com/super/pic/item/9922720e0cf3d7cae0966bb5b71fbe096a63a995.jpg
+      description: "Forever you will be in my heart."
