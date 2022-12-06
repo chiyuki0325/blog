@@ -97,15 +97,12 @@ GNOME 有一个第三方的爆改窗口管理器 `mutter-rounded`，可以在窗
 
 {% image https://imgsrc.baidu.com/super/pic/item/f2deb48f8c5494eefc6f79d868f5e0fe98257ea5.jpg README 中的图片 %}
 
-### 🐭 触控板和触摸屏
+### 🔗 使用命令调用快捷操作
 
-在 KDE Plasma X11 下有两款触控驱动可以使用：**Synaptics** 和 **libinput**。
+使用 `qdbus` 命令可以调用 Qt 程序 (比如 KDE) 的快捷操作，这个命令可以在脚本中使用，以快捷配置 KDE，也可以和其它程序结合使用。  
+使用 Qt QDBusViewer 可以查看各个程序可用的快捷操作。
 
-**Synaptics** 更老并停止维护，但拥有更多功能特性（比如惯性滚动）。其刷新率比 **libinput** 低一些。
-
-**libinput** 更新，和新的应用程序适配得更好（比如在 Firefox 中就可以用手势前进后退），但它不支持惯性滚动。
-
-如果两款驱动都安装了，KDE 会优先使用 **Synaptics**。我个人推荐使用 **libinput**，所以并没有安装。
+比如，显示桌面网格的快捷命令是 `qdbus org.kde.kglobalaccel /component/kwin invokeShortcut ShowDesktopGrid`。
 
 ### 🌚 夜间模式
 
@@ -115,45 +112,7 @@ KDE Plasma 并没有统一的夜间模式实现。但如果装了某款主题的
 
 **此脚本需要系统中装有 Python 和 PyQt5。**
 
-```bash
-#!/bin/bash
-
-# $HOME/.local/bin/dark-theme-switch
-# By YidaozhanYa
-
-LIGHT_KVANTUM_THEME="Fluent-round"  # 亮色 Kvantum 主题
-DARK_KVANTUM_THEME="Fluent-roundDark"  # 暗色 Kvantum 主题
-LIGHT_GTK_THEME="Fluent-round-Light"  # 亮色 GTK2/3 主题
-DARK_GTK_THEME="Fluent-round-Dark"  # 暗色 GTK2/3 主题
-LIGHT_GTK4_THEME="Fluent-round-Light"  # 亮色 GTK4 主题
-DARK_GTK4_THEME="Fluent-round-Dark"  # 暗色 GTK4 主题
-LIGHT_COLOR_SCHEME="FluentLight"  # 亮色配色方案
-DARK_COLOR_SCHEME="FluentDark"  # 暗色配色方案
-DARK_ICON_THEME="Win10Sur-dark"  # 暗色图标主题
-LIGHT_ICON_THEME="Win10Sur"   # 暗色图标主题
-
-CURRENT_KVANTUM_THEME="$(kreadconfig5 --group "General" --file "$XDG_CONFIG_HOME/Kvantum/kvantum.kvconfig" --key "theme")"
-
-if [ "$CURRENT_KVANTUM_THEME" == "$LIGHT_KVANTUM_THEME" ]; then
-    plasma-apply-colorscheme "$DARK_COLOR_SCHEME"
-    /usr/lib/plasma-changeicons "$DARK_ICON_THEME"
-    gsettings set org.gnome.desktop.interface gtk-theme "$DARK_GTK_THEME"
-    gsettings set org.gnome.desktop.interface color-scheme "prefer-dark"
-    cp "$HOME/.themes/$DARK_GTK4_SCHEME/gtk-4.0/gtk.css" "$XDG_CONFIG_HOME/gtk-4.0/gtk.css"
-    kvantummanager --set "$DARK_KVANTUM_THEME"
-else
-    plasma-apply-colorscheme "$LIGHT_COLOR_SCHEME"
-    /usr/lib/plasma-changeicons "$LIGHT_ICON_THEME"
-    gsettings set org.gnome.desktop.interface gtk-theme "$LIGHT_GTK_THEME"
-    gsettings set org.gnome.desktop.interface color-scheme "prefer-light"
-    cp "$HOME/.themes/$LIGHT_GTK4_THEME/gtk-4.0/gtk.css" "$XDG_CONFIG_HOME/gtk-4.0/gtk.css"
-    kvantummanager --set "$LIGHT_KVANTUM_THEME"
-fi
-
-python -c 'from PyQt5 import QtDBus as qd; StyleChanged = 2; SETTINGS_STYLE = 7; message: qd.QDBusMessage = qd.QDBusMessage.createSignal("/KGlobalSettings", "org.kde.KGlobalSettings","notifyChange"); message.setArguments({StyleChanged, SETTINGS_STYLE}); qd.QDBusConnection.sessionBus().send(message)'  # 重新加载 Qt Widgets 主题
-qdbus org.kde.KWin /KWin reconfigure  # 重新加载 KWin
-latte-dock --replace &  # 重新加载 Latte Dock
-```
+https://github.com/YidaozhanYa/kde-dark-mode
 
 {% image https://imgsrc.baidu.com/super/pic/item/d000baa1cd11728b798afae38dfcc3cec2fd2c4f.jpg 日间 %}
 
