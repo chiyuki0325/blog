@@ -11,9 +11,9 @@ sidebar:
     title: '[config.title](/)' # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
   menu:
     post: '[最新](/)'
-    list: '[文章](/archives/)'
-    paste: '[文档](/wiki/)'
-    friends: '[友链](/links/)'
+    archive: '[文章](/archives/)'
+    wiki: '[文档](/wiki/)'
+    links: '[友链](/links/)'
     #about: # '[关于](/about/)'
 
   widgets:
@@ -89,11 +89,11 @@ footer:
        url: 'https://space.bilibili.com/485832788'
      - icon: '<img src="https://qzonestyle.gtimg.cn/qzone/qzact/act/external/tiqq/logo.png"/>'
        url: 'https://jq.qq.com/?_wv=1027&k=c0oqCyOm'
-     - icon: '<img src="https://imgsrc.baidu.com/super/pic/item/f603918fa0ec08fa99fb05641cee3d6d54fbda7e.jpg" />'
+     - icon: '<img src="/images/qq.svg" />'
        url: 'https://t.me/yidaozhan_group'
      - icon: '<img src="https://imgsrc.baidu.com/super/pic/item/8326cffc1e178a8223cc6963b303738da877e805.jpg"/>'
        url: 'https://file.yidaozhan.top/'
-     - icon: '<img src="/cdn/images/github.svg"/>'
+     - icon: '<img src="/images/github.svg"/>'
        url: 'https://github.com/YidaozhanYa/'
   sitemap:
      '博客':
@@ -211,10 +211,10 @@ style:
     #highlightjs_theme: https://cdn.bootcdn.net/ajax/libs/highlight.js/11.6.0/styles/atom-one-light.min.css
 
 default:
-  avatar: /cdn/images/avatar.svg
-  link: /cdn/images/link.svg
-  cover: /cdn/images/cover.svg
-  image: /cdn/images/image.svg
+  avatar: /images/avatar.svg
+  link: /images/link.svg
+  cover: /images/cover.svg
+  image: /images/image.svg
 
 search:
   service: local_search
