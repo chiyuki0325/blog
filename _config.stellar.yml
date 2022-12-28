@@ -17,10 +17,22 @@ sidebar:
     #about: # '[关于](/about/)'
 
   widgets:
-    index: search, welcome, recent, tagcloud # for home/wiki/categories/tags/archives/404 pages
-    page: welcome, toc # for pages using 'layout:page'
-    post: toc, ghrepo # for pages using 'layout:post'
-    wiki: toc, ghrepo, related # for pages using 'layout:wiki'
+    #### 自动生成的页面 ####
+    # 主页
+    home: search_blog, recent, timeline, tagcloud # for home
+    # 博客索引页
+    blog_index: search_blog, recent, timeline # for categories/tags/archives
+    # 文档索引页
+    wiki_index: search_docs, recent, timeline # for wiki
+    # 其它（404）
+    others: search, welcome, recent, timeline # for 404 and ...
+    #### 手动创建的页面 ####
+    # 文章内页
+    post: toc, ghrepo, search, ghissues # for pages using 'layout:post'
+    # 文档内页
+    wiki: search, ghrepo, toc, ghissues, related # for pages using 'layout:wiki'
+    # 其它 layout:page 的页面
+    page: welcome, toc, search # for custom pages using 'layout:page'
 
 
 
@@ -217,7 +229,8 @@ default:
   image: /images/image.svg
 
 search:
-  service: local_search
-  local_search:
-    js: 'https://cdn.bootcdn.net/ajax/libs/protobufjs/7.1.2/protobuf.min.js'
-    path: /search.protobuf
+  service: local_search # local_search, todo...
+  local_search: # 在 front-matter 中设置 indexing:false 来避免被搜索索引
+    path: /search.json # 搜索文件存放位置
+    content: true # 是否搜索内容
+    codeblock: true # 是否搜索代码块（需要content: true)
