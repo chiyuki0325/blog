@@ -6,6 +6,7 @@ tags:
 - 沙雕一刻
 category: 其它
 cover: 'https://imgsrc.baidu.com/super/pic/item/4a36acaf2edda3ccccf30ee544e93901203f92e4.jpg'
+description: '我们 SMMWE 圈的人才真是太多辣'
 ---
 
 {% border %}
@@ -49,3 +50,7 @@ P.S. 本篇可能要素过多，请谨慎查看。
 {% image https://imgsrc.baidu.com/super/pic/item/cb8065380cd7912335b222b1e8345982b3b780a1.jpg %}
 
 {% image https://imgsrc.baidu.com/super/pic/item/b8389b504fc2d5623b446628a21190ef77c66ca3.jpg %}
+
+{% image https://imgsrc.baidu.com/super/pic/item/a044ad345982b2b777df8f0174adcbef77099bb7.jpg %}
+
+{% image https://imgsrc.baidu.com/super/pic/item/9213b07eca806538aca912d6d2dda144ac3482b0.jpg %}
