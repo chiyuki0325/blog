@@ -15,7 +15,7 @@
     "bluebird": "^3.7.2",
     "chokidar": "^3.5.3",
     "graceful-fs": "^4.2.10",
-    "hexo": "^5.4.2",
+    "hexo": "^6.3.0",
     "hexo-fs": "^4.1.1",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
