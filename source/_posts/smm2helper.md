@@ -5,7 +5,7 @@ tags:
 - 马里奥
 - 马里奥制造
 description: "SMM2Helper 是 TheGreatRambler 的《马里奥制造 2》API 的图形化前端，可以浏览全球关卡，查询用户信息，和从全球关卡中下载关卡，适用于 Windows 和 Linux。一年之前我曾经编写过名为「隐藏的无敌星」的工具，SMM2Helper 即为隐藏的无敌星的增强版。"
-cover: https://imgsrc.baidu.com/super/pic/item/a686c9177f3e6709c85107397ec79f3df9dc55a6.jpg
+cover: https://imgsrc.baidu.com/super/pic/item/e61190ef76c6a7ef885f9ce1b8faaf51f2de66ff.png
 ---
 
 {% ghcard YidaozhanYa/SMM2Helper %}
