@@ -26,7 +26,7 @@ padding: 8px;
 
 下面是一个用 jQuery 编写的计数按钮和计时器。本文就要用比较现代的方式，把它用 Vue 改造一遍。
 
-<script src="https://cdn.jsdelivr.net/npm/jquery"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 
 <div class="html-frame">
 <button id="counter" data-click-times="0">Click Times: 0</button>
@@ -46,7 +46,7 @@ padding: 8px;
 </script>
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/jquery"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 
 <button id="counter" data-click-times="0">Click Times: 0</button>
 <div id="timer">0</div>
@@ -72,7 +72,7 @@ padding: 8px;
 之后用 ES 模块的方式导入 Vue：
 
 ```javascript
-import { createApp } from 'https://cdn.jsdelivr.net/npm/vue@3/dist/vue.esm-browser.js';
+import { createApp } from 'https://cdn.bootcdn.net/ajax/libs/vue/3.2.47/vue.esm-browser.min.js';
 ```
 
 ### 📔 创建 Vue 应用
@@ -178,7 +178,7 @@ mounted() {
 </div>
 
 <script type="module">
-    import { createApp } from 'https://cdn.jsdelivr.net/npm/vue@3/dist/vue.esm-browser.js';
+    import { createApp } from 'https://cdn.bootcdn.net/ajax/libs/vue/3.2.47/vue.esm-browser.min.js';
     const vm = createApp({
         data() {
             return {
@@ -266,7 +266,7 @@ export default {
 </div>
 
 <script type="module">
-    import { createApp } from 'https://cdn.jsdelivr.net/npm/vue@3/dist/vue.esm-browser.js';
+    import { createApp } from 'https://cdn.bootcdn.net/ajax/libs/vue/3.2.47/vue.esm-browser.min.js';
     import CounterButton from './CounterButton.js';
     import Timer from './Timer.js';
 
@@ -288,10 +288,9 @@ export default {
 </div>
 
 <script type="module">
-    import { createApp } from 'https://cdn.jsdelivr.net/npm/vue@3/dist/vue.esm-browser.js';
+    import { createApp } from 'https://cdn.bootcdn.net/ajax/libs/vue/3.2.47/vue.esm-browser.min.js';
     import CounterButton from '/static/CounterButton.js';
     import Timer from '/static/Timer.js';
-
     const vm = createApp({
         components: {
             CounterButton,
