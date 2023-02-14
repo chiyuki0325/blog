@@ -6,6 +6,7 @@ tags:
 - 任天堂
 description: '我两年前在 91wii 论坛发布的汉化补丁，论坛无了，在这里补档一下。'
 category: 游戏
+cover: https://imgsrc.baidu.com/super/pic/item/728da9773912b31b1415d8eec318367adbb4e1f8.jpg
 ---
 
 > 汉化由我一人完成
@@ -20,11 +21,24 @@ category: 游戏
 >
 > 我自己翻译的，所以不是官方，如果有对应名词的官译文本，欢迎反馈
 
+
+
+> 已知问题: 
+> 主页印章数字会错位
+> 部分文字缩进过头
+> 游戏记录部分 赛道名字会显示为？，部分文字由于调用WiiU系统字库，改为繁体中文
+> WiiU的按键字符 显示为"—"，因为我没有对应的字库
+> 我实在没办法修复QAQ
+> 在和好友私房联机的时候，房主宣布规则的气泡会显示异常，如“大?? 100cc”，“所有车?”等
+> 因为此部分调用的是系统字库，而系统字库没有对应的字
+> 如果你是cemu模拟器，那么请下载下面的系统字库修复包，覆盖到cemu安装目录
+> 如果你是实机，那么没救了
+
 算是我初中时候的黑历史了。
 
 已知问题：没有按键图标，不过不打算去修了。
 
-原帖地址：https://www.91tvg.com/forum.php?mod=viewthread&tid=209627
+原帖地址：https://www.91wii.com/forum.php?mod=viewthread&tid=209627
 
 二转：https://bbs.oldmanemu.net/thread-8385.htm
 
