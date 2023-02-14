@@ -4,6 +4,7 @@ date: 2023-02-14 16:54:10
 tags:
 - 马里奥
 - 任天堂
+- WiiU
 description: '我两年前在 91wii 论坛发布的汉化补丁，论坛无了，在这里补档一下。'
 category: 游戏
 cover: https://imgsrc.baidu.com/super/pic/item/728da9773912b31b1415d8eec318367adbb4e1f8.jpg
