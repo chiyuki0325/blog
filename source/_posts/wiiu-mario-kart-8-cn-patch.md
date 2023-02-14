@@ -47,3 +47,19 @@ cover: https://imgsrc.baidu.com/super/pic/item/728da9773912b31b1415d8eec318367ad
 [📥 汉化补丁 + 脚本 (用于 WiiU 实机)](https://file.yidaozhan.top/OneDrive/%E6%A8%A1%E6%8B%9F%E5%99%A8%E6%B8%B8%E6%88%8F/WiiU/%E6%B1%89%E5%8C%96/WiiU%20%E9%A9%AC%E5%8A%9B%E6%AC%A7%E5%8D%A1%E4%B8%81%E8%BD%A68%E5%AE%98%E7%BF%BB%E7%A7%BB%E6%A4%8D%E6%B1%89%E5%8C%96%E8%A1%A5%E4%B8%81%20v2020.9.26.zip)
 
 [📥 已汉化的升级档 (用于 Cemu 模拟器)](https://file.yidaozhan.top/d/OneDrive/%E6%A8%A1%E6%8B%9F%E5%99%A8%E6%B8%B8%E6%88%8F/WiiU/%E9%A9%AC%E8%BD%A68%E5%8D%87%E7%BA%A7%E6%A1%A3(%E4%B8%AA%E4%BA%BA%E6%B1%89%E5%8C%96).7z)
+
+
+
+{% image https://imgsrc.baidu.com/super/pic/item/728da9773912b31b14f6d8eec318367adbb4e15b.jpg %}
+
+{% image https://imgsrc.baidu.com/super/pic/item/0e2442a7d933c89554ea8dbc941373f083020064.jpg %}
+
+{% image https://imgsrc.baidu.com/super/pic/item/d8f9d72a6059252d388008c3719b033b5ab5b966.jpg %}
+
+{% image https://imgsrc.baidu.com/super/pic/item/00e93901213fb80e6240741073d12f2eb8389467.jpg %}
+
+{% image https://imgsrc.baidu.com/super/pic/item/a9d3fd1f4134970a60e005e8d0cad1c8a6865d61.jpg %}
+
+{% image https://imgsrc.baidu.com/super/pic/item/0df431adcbef760944868c586bdda3cc7dd99e63.jpg %}
+
+{% image https://imgsrc.baidu.com/super/pic/item/8644ebf81a4c510f3149f7dd2559252dd52aa56c.jpg %}
