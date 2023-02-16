@@ -6,7 +6,7 @@ tags:
 - 任天堂
 - 转载
 category: 游戏
-cover: https://imgsrc.baidu.com/super/pic/item/8326cffc1e178a8225286b67b303738da877e8e5.jpg
+cover: https://imgsrc.baidu.com/forum/pic/item/8326cffc1e178a8225286b67b303738da877e8e5.jpg
 description: '近来 K大 发表了不少用来修改 WiiU 文件的工具软件介绍贴，合理的组合使用，可以修改到游戏的内容。这个贴是个人折腾了几个小时总结的经验方法，希望能对有兴趣汉化游戏的人有所帮助。自己动手还是蛮有意思跟成就的，期盼 WiiU 上能出来更多的游戏汉化 😄'
 references:
 - title: '[教程] 新手 WiiU 游戏汉化研究入门：字库篇'
@@ -37,9 +37,9 @@ references:
 
 **完成后效果图：**
 
-{% image https://imgsrc.baidu.com/super/pic/item/503d269759ee3d6d9baf930c06166d224e4ade88.jpg %}
+{% image https://imgsrc.baidu.com/forum/pic/item/503d269759ee3d6d9baf930c06166d224e4ade88.jpg %}
 
-{% image https://imgsrc.baidu.com/super/pic/item/f9198618367adab4e2b80f84ced4b31c8601e489.jpg %}
+{% image https://imgsrc.baidu.com/forum/pic/item/f9198618367adab4e2b80f84ced4b31c8601e489.jpg %}
 
 ---
 
@@ -49,31 +49,31 @@ references:
 
  1）首先的找到相应字库文件，每个游戏的字库文件都不一样。一般观察文件路径名称判断，具体游戏具体分析
 
-{% image https://imgsrc.baidu.com/super/pic/item/8d5494eef01f3a291dafc109dc25bc315d607c95.jpg %}
+{% image https://imgsrc.baidu.com/forum/pic/item/8d5494eef01f3a291dafc109dc25bc315d607c95.jpg %}
 
  2）判断文件的加密/压缩方式，~~这个靠观察文件名 + 经验 尝试不同的工具（我不会看代码只能给出多尝试的意见了）~~
  ~~几种解包方式测试下来，判定出字库为 Yaz0 算法压缩， SARC 算法打包而成~~
  通过 <font color="blue">HxD</font> 观察文件头，看到首行 Yaz0 ，第二行 SARC 。确认文件格式为 Yaz0 压缩 SARC 打包的 SARC.SZS
 
-{% image https://imgsrc.baidu.com/super/pic/item/0b55b319ebc4b745d4f2a3d18afc1e178b821596.jpg %}
+{% image https://imgsrc.baidu.com/forum/pic/item/0b55b319ebc4b745d4f2a3d18afc1e178b821596.jpg %}
 
  运行 <font color="blue">Uwizard</font> 按 1 所指向的按钮解包文件，看图操作
 
-{% image https://imgsrc.baidu.com/super/pic/item/d62a6059252dd42ac468156c463b5bb5c8eab890.jpg %}
+{% image https://imgsrc.baidu.com/forum/pic/item/d62a6059252dd42ac468156c463b5bb5c8eab890.jpg %}
 
-{% image https://imgsrc.baidu.com/super/pic/item/09fa513d269759eef030740cf7fb43166c22df91.jpg %}
+{% image https://imgsrc.baidu.com/forum/pic/item/09fa513d269759eef030740cf7fb43166c22df91.jpg %}
 
-{% image https://imgsrc.baidu.com/super/pic/item/bba1cd11728b4710d84ce90b86cec3fdfd032391.jpg %}
+{% image https://imgsrc.baidu.com/forum/pic/item/bba1cd11728b4710d84ce90b86cec3fdfd032391.jpg %}
 
  3）接下来就可以进行替换操作了，不过首先的制作用作替换的 .bffnt 字体文件
     这个时候就得用到 <font color="blue">NW4F Font Converter</font> 这个软件
 
-{% image https://imgsrc.baidu.com/super/pic/item/1e30e924b899a901fb684ff158950a7b0308f59c.jpg %}
+{% image https://imgsrc.baidu.com/forum/pic/item/1e30e924b899a901fb684ff158950a7b0308f59c.jpg %}
 
  4）得到 .bffnt 字体后的替换操作就不详细说明了，按个人喜好替换
    **<font color="red">值得注意的是游戏主机有严格的文件大小限制，请尽量用体积贴近原字体的文件。文件过大很可能造成死机</font>**
 
-{% image https://imgsrc.baidu.com/super/pic/item/0eb30f2442a7d9334bf3f0b4e84bd11372f00199.jpg %}
+{% image https://imgsrc.baidu.com/forum/pic/item/0eb30f2442a7d9334bf3f0b4e84bd11372f00199.jpg %}
 
  5）替换完就到文件封包了，再次打开 <font color="blue">Uwizard</font> 选择选择 2
 
@@ -99,9 +99,9 @@ references:
 
  **教学开始前，惯例贴上成果：**
 
-{% image https://imgsrc.baidu.com/super/pic/item/023b5bb5c9ea15cec4bcf4cef3003af33b87b2a3.jpg %}
+{% image https://imgsrc.baidu.com/forum/pic/item/023b5bb5c9ea15cec4bcf4cef3003af33b87b2a3.jpg %}
 
-{% image https://imgsrc.baidu.com/super/pic/item/1e30e924b899a901fb784ff158950a7b0308f5ac.jpg %}
+{% image https://imgsrc.baidu.com/forum/pic/item/1e30e924b899a901fb784ff158950a7b0308f5ac.jpg %}
 
 
  图片是 WiiU 的马造，替换了字库修改了一开始的教学关的文本测试了下效果
@@ -119,37 +119,37 @@ references:
 
  1）定位到疑似文本的文件
 
-{% image https://imgsrc.baidu.com/super/pic/item/8644ebf81a4c510f3e8af6dd2559252dd52aa5af.jpg %}
+{% image https://imgsrc.baidu.com/forum/pic/item/8644ebf81a4c510f3e8af6dd2559252dd52aa5af.jpg %}
 
  2）运行 <font color="blue">HxD</font> 打开文件观察文件头，以确认文件压缩/打包方式
 
-{% image https://imgsrc.baidu.com/super/pic/item/c8ea15ce36d3d53942741b047f87e950342ab0a8.jpg %}
+{% image https://imgsrc.baidu.com/forum/pic/item/c8ea15ce36d3d53942741b047f87e950342ab0a8.jpg %}
 
  3）看到首行以 SARC 开始，确认文件格式为 SARC，利用 <font color="blue">Uwizard</font> 来处理
 
-{% image https://imgsrc.baidu.com/super/pic/item/622762d0f703918f6899290d143d269758eec4a9.jpg %}
+{% image https://imgsrc.baidu.com/forum/pic/item/622762d0f703918f6899290d143d269758eec4a9.jpg %}
 
  4）得到 <font color="orange">Message</font> 文件夹跟里边的 <font color="green">Msg_JPja.product.ssarc</font> 文件
     从文件名上判断这个还是压缩/打包过的文件，继续用 <font color="blue">HxD</font> 观察文件头
 
-{% image https://imgsrc.baidu.com/super/pic/item/d01373f082025aaf2e766a0cbeedab64024f1ab4.jpg %}
+{% image https://imgsrc.baidu.com/forum/pic/item/d01373f082025aaf2e766a0cbeedab64024f1ab4.jpg %}
 
  5）看到首行 Yaz0 ，第二行 SARC 。确认文件格式为 Yaz0 压缩 SARC 打包的 SARC.SZS，继续用 <font color="blue">Uwizard</font> 解包
 
-{% image https://imgsrc.baidu.com/super/pic/item/0b55b319ebc4b745d4f2a3d18afc1e178b821596.jpg %}
+{% image https://imgsrc.baidu.com/forum/pic/item/0b55b319ebc4b745d4f2a3d18afc1e178b821596.jpg %}
 
-{% image https://imgsrc.baidu.com/super/pic/item/91ef76c6a7efce1bba6adc0dea51f3deb58f65b7.jpg %}
+{% image https://imgsrc.baidu.com/forum/pic/item/91ef76c6a7efce1bba6adc0dea51f3deb58f65b7.jpg %}
 
  6）终于解包出来得到的 .msbt 格式可编辑的文本，翻译可以走起
 
-{% image https://imgsrc.baidu.com/super/pic/item/4a36acaf2edda3cc6ea4ace744e93901203f92b0.jpg %}
+{% image https://imgsrc.baidu.com/forum/pic/item/4a36acaf2edda3cc6ea4ace744e93901203f92b0.jpg %}
 
  7）使用 <font color="blue">MsbtEditor</font> 打开 .msbt 文件，通过搜索定位文本
       就能简便的翻译
 
-{% image https://imgsrc.baidu.com/super/pic/item/9f2f070828381f305d5a996eec014c086f06f0b2.jpg %}
+{% image https://imgsrc.baidu.com/forum/pic/item/9f2f070828381f305d5a996eec014c086f06f0b2.jpg %}
 
-{% image https://imgsrc.baidu.com/super/pic/item/9c16fdfaaf51f3de9ff0ada3d1eef01f3b2979b2.jpg %}
+{% image https://imgsrc.baidu.com/forum/pic/item/9c16fdfaaf51f3de9ff0ada3d1eef01f3b2979b2.jpg %}
 
  8）翻译好文本，最后就是反向封包文件测试。
      具体流程就不在本篇细述，相信教学看到这个部分封包应该不会难得到你。

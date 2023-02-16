@@ -40,7 +40,7 @@ Ryujinx 中固件是运行游戏必装的。
 
 它一般是一个文件名为 `Firmware XX.X.X.zip` 的压缩包。
 
-![http://imgsrc.baidu.com/super/pic/item/f7246b600c338744c538cda8140fd9f9d62aa061.jpg](http://imgsrc.baidu.com/super/pic/item/f7246b600c338744c538cda8140fd9f9d62aa061.jpg)
+![http://imgsrc.baidu.com/forum/pic/item/f7246b600c338744c538cda8140fd9f9d62aa061.jpg](http://imgsrc.baidu.com/forum/pic/item/f7246b600c338744c538cda8140fd9f9d62aa061.jpg)
 
 {% endfolding %}
 
@@ -56,7 +56,7 @@ Ryujinx 中固件是运行游戏必装的。
 
 {% folding 模拟器为何如此费电 %}
 
-![http://imgsrc.baidu.com/super/pic/item/810a19d8bc3eb135a137556fe31ea8d3fc1f4476.jpg](http://imgsrc.baidu.com/super/pic/item/810a19d8bc3eb135a137556fe31ea8d3fc1f4476.jpg)
+![http://imgsrc.baidu.com/forum/pic/item/810a19d8bc3eb135a137556fe31ea8d3fc1f4476.jpg](http://imgsrc.baidu.com/forum/pic/item/810a19d8bc3eb135a137556fe31ea8d3fc1f4476.jpg)
 模拟一个东西需要十倍于他的机能，所以要么做好电表倒转的心理准备，要么就买NS。
 笔记本电脑的话尽量插上电源游玩。
 {% endfolding %}
@@ -132,9 +132,9 @@ https://www.bilibili.com/read/cv15405863
 {% folding 如何安装升级档和 DLC %}
 选择**文件**->**安装文件到NAND...**
 
-![http://imgsrc.baidu.com/super/pic/item/738b4710b912c8fc6fd31b19b9039245d78821c6.jpg](http://imgsrc.baidu.com/super/pic/item/738b4710b912c8fc6fd31b19b9039245d78821c6.jpg)
+![http://imgsrc.baidu.com/forum/pic/item/738b4710b912c8fc6fd31b19b9039245d78821c6.jpg](http://imgsrc.baidu.com/forum/pic/item/738b4710b912c8fc6fd31b19b9039245d78821c6.jpg)
 
-![http://imgsrc.baidu.com/super/pic/item/b7003af33a87e95074341eb855385343faf2b4c7.jpg](http://imgsrc.baidu.com/super/pic/item/b7003af33a87e95074341eb855385343faf2b4c7.jpg)
+![http://imgsrc.baidu.com/forum/pic/item/b7003af33a87e95074341eb855385343faf2b4c7.jpg](http://imgsrc.baidu.com/forum/pic/item/b7003af33a87e95074341eb855385343faf2b4c7.jpg)
 
 转自 https://www.bilibili.com/read/cv15405863
 
@@ -162,13 +162,13 @@ Windows XP 、 Mac OS 以及内核版本过旧的 Linux 不可以使用 Yuzu 。
 常见mod下载地址： https://github.com/yuzu-emu/yuzu/wiki/Switch-Mods
 安装方法：右键某个游戏，选择 **打开MOD数据位置**
 
-![http://imgsrc.baidu.com/super/pic/item/6d81800a19d8bc3e2113eb1ec78ba61ea9d345cf.jpg](http://imgsrc.baidu.com/super/pic/item/6d81800a19d8bc3e2113eb1ec78ba61ea9d345cf.jpg)
+![http://imgsrc.baidu.com/forum/pic/item/6d81800a19d8bc3e2113eb1ec78ba61ea9d345cf.jpg](http://imgsrc.baidu.com/forum/pic/item/6d81800a19d8bc3e2113eb1ec78ba61ea9d345cf.jpg)
 
-![http://imgsrc.baidu.com/super/pic/item/d62a6059252dd42a1d13ec7f463b5bb5c8eab8c8.jpg](http://imgsrc.baidu.com/super/pic/item/d62a6059252dd42a1d13ec7f463b5bb5c8eab8c8.jpg)
+![http://imgsrc.baidu.com/forum/pic/item/d62a6059252dd42a1d13ec7f463b5bb5c8eab8c8.jpg](http://imgsrc.baidu.com/forum/pic/item/d62a6059252dd42a1d13ec7f463b5bb5c8eab8c8.jpg)
 
 放进去之后在模拟器界面，右键某个游戏，选择 **属性** 就可以看到放进去的mod了
 
-![http://imgsrc.baidu.com/super/pic/item/8cb1cb134954092359738eaad758d109b2de49c8.jpg](http://imgsrc.baidu.com/super/pic/item/8cb1cb134954092359738eaad758d109b2de49c8.jpg)
+![http://imgsrc.baidu.com/forum/pic/item/8cb1cb134954092359738eaad758d109b2de49c8.jpg](http://imgsrc.baidu.com/forum/pic/item/8cb1cb134954092359738eaad758d109b2de49c8.jpg)
 如果你放进去了mod但是这里没有显示，那么可能是因为mod的目录结构不对，**mod的目录结构**一般都是**mod名字\exefs\xxx.pchtxt**，例如**Disable FXAA\exefs\1.0.0.pchtxt**，如果你只有pchtxt文件或者，可以自己创建一个这种目录结构放进去，试试会不会生效。
 
 同时mod也有版本，如果游戏更新了，mod可能也需要更新才能使用。
@@ -243,7 +243,7 @@ https://www.bilibili.com/read/cv9561850
 
 {% folding 控制台窗口红字报错&nbsp;Unable&nbsp;to&nbsp;decrypt&nbsp;NCA&nbsp;section %}
 
-![http://imgsrc.baidu.com/super/pic/item/1e30e924b899a9014daab9e258950a7b0308f543.jpg](http://imgsrc.baidu.com/super/pic/item/1e30e924b899a9014daab9e258950a7b0308f543.jpg)
+![http://imgsrc.baidu.com/forum/pic/item/1e30e924b899a9014daab9e258950a7b0308f543.jpg](http://imgsrc.baidu.com/forum/pic/item/1e30e924b899a9014daab9e258950a7b0308f543.jpg)
 {% endfolding %}
 
 ### 显卡驱动篇
@@ -327,7 +327,7 @@ https://blog.yidaozhan.top/2021/07/27/yuzu-faq/#%E5%85%B7%E4%BD%93%E6%B8%B8%E6%8
 
 {% folding Ryuzu&nbsp;Tool&nbsp;无法打开（无响应） %}
 
-![http://imgsrc.baidu.com/super/pic/item/2e2eb9389b504fc2be9750d1a0dde71191ef6d1e.jpg](http://imgsrc.baidu.com/super/pic/item/2e2eb9389b504fc2be9750d1a0dde71191ef6d1e.jpg)
+![http://imgsrc.baidu.com/forum/pic/item/2e2eb9389b504fc2be9750d1a0dde71191ef6d1e.jpg](http://imgsrc.baidu.com/forum/pic/item/2e2eb9389b504fc2be9750d1a0dde71191ef6d1e.jpg)
 
 Ryuzu Tool 不兼容 Win7。
 

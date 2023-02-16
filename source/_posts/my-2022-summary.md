@@ -3,7 +3,7 @@ title: '📜 我的 2022：悲喜交加，一边长大一边摆烂的一年'
 date: 2023-01-02 14:53:46
 # tags:
 categories: ['日常']
-cover: https://imgsrc.baidu.com/super/pic/item/b64543a98226cffcea654d76fc014a90f703eaac.jpg
+cover: https://imgsrc.baidu.com/forum/pic/item/b64543a98226cffcea654d76fc014a90f703eaac.jpg
 ---
 
 又是新的一年到来了，是时候来碎碎念一下这个并不令人满意，悲喜交加的 2022 了。

@@ -4,7 +4,7 @@ date: 2022-08-11 22:19:00
 tags:
 - Arch Linux
 category: Arch折腾记
-cover: 'https://imgsrc.baidu.com/super/pic/item/7a899e510fb30f241d999ac28d95d143ac4b03eb.jpg'
+cover: 'https://imgsrc.baidu.com/forum/pic/item/7a899e510fb30f241d999ac28d95d143ac4b03eb.jpg'
 ---
 
 [x86-64-v3](https://en.wikipedia.org/wiki/X86-64#Microarchitecture_levels) 是 x86-64 处理器架构的一个「微架构」，搭载于 Haswell 及其之后的处理器，其支持 AVX2 等新指令集。据传将程序编译为 x86-64-v3 架构可以获得大约 10% 的性能提升 {% sup (不确定) %}。

@@ -6,7 +6,7 @@ tags:
 - 网站
 - CDN
 category: 网络
-cover: 'https://imgsrc.baidu.com/super/pic/item/3ac79f3df8dcd100802b89e0378b4710b8122fbf.jpg'
+cover: 'https://imgsrc.baidu.com/forum/pic/item/3ac79f3df8dcd100802b89e0378b4710b8122fbf.jpg'
 ---
 
 jsDelivr 之前是唯一在国内有 ICP 备案的海外 CDN，所以很多面向国内的海外网站和网站源码都在使用，但它近来一天比一天慢，上个月还被某种世界东方的神秘力量阻挡了，之前本站一直在使用 jsDelivr 作为静态资源 CDN，但近来也跟着 jsDelivr 变慢了，部分地区甚至 **无法刷出文章列表** 。那么本文咱就来分享一下从 jsDelivr 迁移走的经验。

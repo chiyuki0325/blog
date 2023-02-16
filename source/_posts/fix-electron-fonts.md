@@ -6,7 +6,7 @@ tags:
 - ArchLinux
 - Icalingua
 category: Arch折腾记
-cover: 'https://imgsrc.baidu.com/super/pic/item/58ee3d6d55fbb2fbee6529d30a4a20a44723dca1.jpg'
+cover: 'https://imgsrc.baidu.com/forum/pic/item/58ee3d6d55fbb2fbee6529d30a4a20a44723dca1.jpg'
 ---
 
 昨天心血来潮把电脑字体换成了[霞鹜文楷](https://github.com/lxgw/LxgwWenKai)，于是就发现了一个问题，如果系统中安装了微软雅黑或 Noto Sans，那么那些 electron 应用会优先使用微软雅黑或 Noto Sans，而不是用自定义的字体。现在就使用 [bubblewrap](https://wiki.archlinux.org/title/Bubblewrap) 沙盒程序来解决这个问题。

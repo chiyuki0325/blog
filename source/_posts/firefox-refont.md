@@ -5,7 +5,7 @@ tags:
 - 字体
 - Firefox
 category: 其它
-cover: https://imgsrc.baidu.com/super/pic/item/b64543a98226cffcb0798770fc014a90f703eaa5.jpg
+cover: https://imgsrc.baidu.com/forum/pic/item/b64543a98226cffcb0798770fc014a90f703eaa5.jpg
 ---
 
 各种各样的网站都会使用各种不同的字体，比如必应喜欢微软雅黑，百度贴吧偏爱宋体，谷歌又会使用 Roboto。作为一个重度强迫症，使用 [ReFont](https://addons.mozilla.org/zh-CN/firefox/addon/refont/) 扩展可以统一这些字体。

@@ -2,7 +2,7 @@
 abbrlink: ''
 categories: []
 category: Arch折腾记
-cover: http://imgsrc.baidu.com/super/pic/item/a8014c086e061d95b32820e33ef40ad163d9cafb.jpg
+cover: http://imgsrc.baidu.com/forum/pic/item/a8014c086e061d95b32820e33ef40ad163d9cafb.jpg
 date: '2022-07-17 12:13:24'
 tags:
 - Linux
@@ -30,7 +30,7 @@ updated: '2022-09-25 17:52:19'
 
 ⚠️ 此方法比创建新的虚拟显示器更方便，但有可能出现 X Error 报错导致无法使用。
 
-{% image http://imgsrc.baidu.com/super/pic/item/ca1349540923dd546d10b0b39409b3de9d82488d.jpg 此处就可以使用 HDMI-1-0 显示接口 %}
+{% image http://imgsrc.baidu.com/forum/pic/item/ca1349540923dd546d10b0b39409b3de9d82488d.jpg 此处就可以使用 HDMI-1-0 显示接口 %}
 
 ### 🎞️ 创建英特尔虚拟显示器 (X11)
 
@@ -93,7 +93,7 @@ Krfb 提供了 `krfb-virtualmonitor` 命令行工具，可以直接使用以创�
 
 然后输入 `gtf 宽 高 刷新率` 命令生成一个 `xrandr` 配置。
 
-![http://imgsrc.baidu.com/super/pic/item/4afbfbedab64034ff652d5ddeac379310b551d49.jpg](http://imgsrc.baidu.com/super/pic/item/4afbfbedab64034ff652d5ddeac379310b551d49.jpg)
+![http://imgsrc.baidu.com/forum/pic/item/4afbfbedab64034ff652d5ddeac379310b551d49.jpg](http://imgsrc.baidu.com/forum/pic/item/4afbfbedab64034ff652d5ddeac379310b551d49.jpg)
 
 然后将此配置导入到 `xrandr` 中，并且将其添加到虚拟显示器。
 
@@ -138,8 +138,8 @@ Deskreen 可以使用有线连接。
 
 ## 🖼️ 效果图
 
-{% image http://imgsrc.baidu.com/super/pic/item/a8014c086e061d95b32820e33ef40ad163d9cafb.jpg %}
+{% image http://imgsrc.baidu.com/forum/pic/item/a8014c086e061d95b32820e33ef40ad163d9cafb.jpg %}
 
-{% image http://imgsrc.baidu.com/super/pic/item/18d8bc3eb13533faca4484f5edd3fd1f40345b7e.jpg %}
+{% image http://imgsrc.baidu.com/forum/pic/item/18d8bc3eb13533faca4484f5edd3fd1f40345b7e.jpg %}
 
-{% image http://imgsrc.baidu.com/super/pic/item/a9d3fd1f4134970a7e9d07f4d0cad1c8a6865d7a.jpg 感谢池塘姐姐友情出演( %}
+{% image http://imgsrc.baidu.com/forum/pic/item/a9d3fd1f4134970a7e9d07f4d0cad1c8a6865d7a.jpg 感谢池塘姐姐友情出演( %}

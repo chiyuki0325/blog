@@ -5,7 +5,7 @@ tags:
 - ExaGear
 - Wine
 category: 模拟器
-cover: 'https://imgsrc.baidu.com/super/pic/item/8b82b9014a90f6030f32ed867c12b31bb151ed75.jpg'
+cover: 'https://imgsrc.baidu.com/forum/pic/item/8b82b9014a90f6030f32ed867c12b31bb151ed75.jpg'
 ---
 
 #### 序言

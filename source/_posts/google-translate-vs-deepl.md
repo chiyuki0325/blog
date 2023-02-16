@@ -5,7 +5,7 @@ tags:
 - 翻译
 - 谷歌
 category: 日常
-cover: 'https://imgsrc.baidu.com/super/pic/item/91ef76c6a7efce1b9997b90bea51f3deb58f65b6.jpg'
+cover: 'https://imgsrc.baidu.com/forum/pic/item/91ef76c6a7efce1b9997b90bea51f3deb58f65b6.jpg'
 ---
 
 今天在啃东方自带文档里的剧情，顺便就对比了一下谷歌翻译和 DeepL，从日语->中文的翻译结果来看，可以好好锤一波那些捧 DeepL 的人了。

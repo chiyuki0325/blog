@@ -5,7 +5,7 @@ tags:
 - Valine
 - LeanCloud
 category: 网络
-cover: 'https://imgsrc.baidu.com/super/pic/item/b3b7d0a20cf431ad222e32f80e36acaf2fdd9877.jpg'
+cover: 'https://imgsrc.baidu.com/forum/pic/item/b3b7d0a20cf431ad222e32f80e36acaf2fdd9877.jpg'
 ---
 
 今日 LeanCloud 更改了用户使用条款，**为履行合规责任，降低平台风险**，宣布于 8 月 1 日起，LeanCloud 国际版的共享域名 (``*.api.lncldglobal.com``) 不再对中国大陆用户提供服务。
