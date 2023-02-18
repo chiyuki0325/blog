@@ -3,73 +3,73 @@ my_friends:
       url: https://www.zyglq.cn/
       avatar: https://cos.zyglq.cn/static/web-logo.jpg
       description: 资源管理器猫猫的博客！
-      screenshot: https://imgsrc.baidu.com/super/pic/item/203fb80e7bec54e7ecf34eddfc389b504ec26ad2.jpg
+      screenshot: https://imgsrc.baidu.com/forum/pic/item/203fb80e7bec54e7ecf34eddfc389b504ec26ad2.jpg
     - title: "池塘的博客"
       url: https://blog.chitang.dev/
       avatar: https://chitangcos.zyglq.cn/images/avatar.webp
       description: 只是一个普通的初中生罢了
-      screenshot: https://imgsrc.baidu.com/super/pic/item/a686c9177f3e6709de4f113c7ec79f3df9dc55a1.jpg
+      screenshot: https://imgsrc.baidu.com/forum/pic/item/a686c9177f3e6709de4f113c7ec79f3df9dc55a1.jpg
     - title: "NameSetter's Blog"
       url: https://ssmzhn.vercel.app/
       avatar: https://q1.qlogo.cn/g?b=qq&nk=3285956207&s=640
-      screenshot: https://imgsrc.baidu.com/super/pic/item/a6efce1b9d16fdfa4623922df18f8c5495ee7ba2.jpg
+      screenshot: https://imgsrc.baidu.com/forum/pic/item/a6efce1b9d16fdfa4623922df18f8c5495ee7ba2.jpg
       description: 一个专靠CV运营的博客罢了
     - title: "李某人的博客"
       url: https://blog.liziqian.net/
       avatar: https://blog.liziqian.net/img/avatar.jpg
       description: 某初中学生的小博客
-      screenshot: https://imgsrc.baidu.com/super/pic/item/a08b87d6277f9e2f767c49cb5a30e924b999f3ac.jpg
+      screenshot: https://imgsrc.baidu.com/forum/pic/item/a08b87d6277f9e2f767c49cb5a30e924b999f3ac.jpg
     - title: "灯花小屋～"
       url: https://yisui.zyglq.cn/
       avatar: https://yisui.zyglq.cn/images/logo.png
       description: 我们是宇宙的尘埃，佩戴着璀璨的星辰。
-      screenshot: https://imgsrc.baidu.com/super/pic/item/9f2f070828381f309d18d96aec014c086f06f0f4.jpg
+      screenshot: https://imgsrc.baidu.com/forum/pic/item/9f2f070828381f309d18d96aec014c086f06f0f4.jpg
     - title: "SugarMGP's Blog"
       url: https://sugarblog.vercel.app
       avatar: https://sugarblog.vercel.app/images/avatar.png
       #description:
-      screenshot: https://imgsrc.baidu.com/super/pic/item/64380cd7912397dd6405ccc71c82b2b7d1a287f1.jpg
+      screenshot: https://imgsrc.baidu.com/forum/pic/item/64380cd7912397dd6405ccc71c82b2b7d1a287f1.jpg
     - title: "某TRL66的网盘"
       url: http://trl66.ysepan.com/
-      avatar: https://imgsrc.baidu.com/super/pic/item/810a19d8bc3eb1353bade378e31ea8d3fc1f448e.jpg
-      screenshot: https://imgsrc.baidu.com/super/pic/item/962bd40735fae6cd46daffa24ab30f2443a70f82.jpg
+      avatar: https://imgsrc.baidu.com/forum/pic/item/810a19d8bc3eb1353bade378e31ea8d3fc1f448e.jpg
+      screenshot: https://imgsrc.baidu.com/forum/pic/item/962bd40735fae6cd46daffa24ab30f2443a70f82.jpg
     - title: "Nofated's Blog"
       url: https://blog.nofated.win
       avatar: https://img.9595095.xyz/avatar/256
-      screenshot: https://imgsrc.baidu.com/super/pic/item/caef76094b36acaffe4fc23f39d98d1000e99c42.jpg
+      screenshot: https://imgsrc.baidu.com/forum/pic/item/caef76094b36acaffe4fc23f39d98d1000e99c42.jpg
       description: "Forever you will be in my heart."
     - title: "Purofle 的 Blog"
       url: https://blog.archlinux.tech/
       avatar: https://q1.qlogo.cn/g?b=qq&nk=3272912942&s=640
       description: 平平无奇的一个人罢了。
-      screenshot: https://imgsrc.baidu.com/super/pic/item/342ac65c10385343479bd3e2d613b07ecb808899.jpg
+      screenshot: https://imgsrc.baidu.com/forum/pic/item/342ac65c10385343479bd3e2d613b07ecb808899.jpg
     - title: "Kevin Huang 的小站"
       url: https://kevinh.wang/
       description: 一个不太靠谱的「三无人士」
       avatar: https://kevinh.wang/img/avatar.png
-      screenshot: https://imgsrc.baidu.com/super/pic/item/29381f30e924b899df6d2dfb2b061d950b7bf6a4.jpg
+      screenshot: https://imgsrc.baidu.com/forum/pic/item/29381f30e924b899df6d2dfb2b061d950b7bf6a4.jpg
     - title: "Floppy β Studio"
       url: https://www.iruanp.com/
       description: 软盘贝塔工作室
-      avatar: https://imgsrc.baidu.com/super/pic/item/267f9e2f070828386c4e88d7fd99a9014d08f1b6.png
-      screenshot: https://imgsrc.baidu.com/super/pic/item/060828381f30e924cde1c8f209086e061c95f7a8.jpg
+      avatar: https://imgsrc.baidu.com/forum/pic/item/267f9e2f070828386c4e88d7fd99a9014d08f1b6.png
+      screenshot: https://imgsrc.baidu.com/forum/pic/item/060828381f30e924cde1c8f209086e061c95f7a8.jpg
     - title: "MBR's Blog"
       url: https://www.mbrjun.cn/
       description: 我们生活在大地上，但我们的梦想超越天空
       avatar: https://cos.mbrjun.cn/PICS/LG4v3avatar144px.jpg
-      screenshot: https://imgsrc.baidu.com/super/pic/item/c995d143ad4bd113953840f61fafa40f4afb0579.jpg
+      screenshot: https://imgsrc.baidu.com/forum/pic/item/c995d143ad4bd113953840f61fafa40f4afb0579.jpg
     - title: "InternetBugs 的个人小站"
       url: https://zhmoegirl.com/
       description: 一个分享互联网技术的个人博客
-      avatar: https://imgsrc.baidu.com/super/pic/item/a8773912b31bb0513fef78ed737adab44bede029.jpg
-      screenshot: https://imgsrc.baidu.com/super/pic/item/37d3d539b6003af3235817a5702ac65c1138b611.jpg
+      avatar: https://imgsrc.baidu.com/forum/pic/item/a8773912b31bb0513fef78ed737adab44bede029.jpg
+      screenshot: https://imgsrc.baidu.com/forum/pic/item/37d3d539b6003af3235817a5702ac65c1138b611.jpg
     - title: "TakamiのBlog"
       url: https://blog.ayaka.ink
       description: 是谁呢
       avatar: https://tkmcos.zyglq.cn/blog-files/pic/avatar/me.jpg
-      screenshot: https://imgsrc.baidu.com/super/pic/item/7aec54e736d12f2e86dc65a50ac2d5628435681e.jpg
+      screenshot: https://imgsrc.baidu.com/forum/pic/item/7aec54e736d12f2e86dc65a50ac2d5628435681e.jpg
     - title: "Molyuu Blog"
       url: https://blog.molyuu.xyz/
       description: Molyuu的博客
       avatar: https://cos.zyglq.cn/static/link-pic/230129.molyuu.xyz.jpg
-      screenshot: https://imgsrc.baidu.com/super/pic/item/4e4a20a4462309f7667599d5370e0cf3d6cad6db.jpg
+      screenshot: https://imgsrc.baidu.com/forum/pic/item/4e4a20a4462309f7667599d5370e0cf3d6cad6db.jpg

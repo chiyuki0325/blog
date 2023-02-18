@@ -4,7 +4,7 @@ wiki: SM4J
 title: 欢迎来到 Super Mario 4 Jugadores 的世界
 ---
 
-![image-20221109084603208](https://imgsrc.baidu.com/super/pic/item/d043ad4bd11373f012ae435de10f4bfbfaed045a.jpg)
+![image-20221109084603208](https://imgsrc.baidu.com/forum/pic/item/d043ad4bd11373f012ae435de10f4bfbfaed045a.jpg)
 
 <font color=#FF0000>Super Mario 4 Jugadores</font>，中文名：<font color=#ff0000>超级马力欧 四个玩家</font>，简称<font color=#ff0000>SM4J</font>，是一款优秀的马力欧同人游戏。在这里你可以玩各种各样精彩的关卡，还可以玩玩小游戏以及和别人一起对战！SM4J也有高自由度的编辑器，可以自己创作你的关卡，还支持自定义材质包和音乐等。这款游戏有好多致敬<font color=#d2691e>SMBX</font>的元素，游戏如其名，这款游戏和SMBX最大的不同就是支持4人一起游玩，可以本地多人，局域网多人，最近还更新了在线多人以及噩梦模式。
 
