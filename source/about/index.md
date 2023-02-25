@@ -290,6 +290,16 @@ s390x 架构比较罕见，但还是成功地把 [Alist](https://github.com/Xhof
 💠 我学了一点 HTML 和 CSS，用 Fluent Design 设计风格重写了博客的样式。  
 也是从此时起，博客主题开始和上游脱钩。
 
+<!--node 2023 年 2 月 16 日 -->
+
+🤯 百度图床爆炸。  
+其实并没有真正炸掉，只是 URL 变了。  
+毕竟是十多年百度贴吧传下来的图床，不可能轻易炸掉。
+
+<!--node 2023 年 2 月 25 日 -->
+
+🤪 换上了更好看的 Twemoji 字体。
+
 {% endtimeline %}
 
 ### 镜像站
@@ -306,8 +316,7 @@ s390x 架构比较罕见，但还是成功地把 [Alist](https://github.com/Xhof
 
 ##### 文件分享
 
-|                                                              | 站点              | URL                                                      |
-| ------------------------------------------------------------ | ----------------- | -------------------------------------------------------- |
-| <img src="https://imgsrc.baidu.com/forum/pic/item/b90e7bec54e736d18f5e25d5de504fc2d462699a.jpg" width="16"> | Azure Alist       | [file.yidaozhan.top](https://file.yidaozhan.top)         |
-| <img src="https://imgsrc.baidu.com/forum/pic/item/58ee3d6d55fbb2fb1663f1cf0a4a20a44723dca7.jpg" width="16"> | Vercel OneManager | [pan.yidaozhan.top](https://file.yidaozhan.top)          |
-| <img src="https://imgsrc.baidu.com/forum/pic/item/83025aafa40f4bfbf2e50f90464f78f0f7361838.jpg" width="16"> | Koyeb Alist       | [file-ko.yidaozhan.top](https://file-ko.yidaozhan.top)im |
+|                                                              | 站点              | URL                                                    |
+| ------------------------------------------------------------ | ----------------- | ------------------------------------------------------ |
+| <img src="https://imgsrc.baidu.com/forum/pic/item/b90e7bec54e736d18f5e25d5de504fc2d462699a.jpg" width="16"> | Azure Alist       | [file.yidaozhan.top](https://file.yidaozhan.top)       |
+| <img src="https://imgsrc.baidu.com/forum/pic/item/58ee3d6d55fbb2fb1663f1cf0a4a20a44723dca7.jpg" width="16"> | Vercel OneManager | [pan.yidaozhan.top](https://file.yidaozhan.top)        |

@@ -1,3 +1,5 @@
+### hexo-theme-stellar 一刀斩定制版
+
 
 ######## head tags ########
 open_graph:
@@ -99,11 +101,11 @@ footer:
   social:
      - icon: '<img src="https://www.bilibili.com/favicon.ico"/>'
        url: 'https://space.bilibili.com/485832788'
-     - icon: '<img src="https://qzonestyle.gtimg.cn/qzone/qzact/act/external/tiqq/logo.png"/>'
+     - icon: '<img src="/images/qq.svg" style="scale:0.85;top:-2px;position:relative;"/>'
        url: 'https://jq.qq.com/?_wv=1027&k=c0oqCyOm'
-     - icon: '<img src="/images/qq.svg" />'
+     - icon: '<img src="https://imgsrc.baidu.com/forum/pic/item/f603918fa0ec08fa99fb05641cee3d6d54fbda7e.png"/>'
        url: 'https://t.me/yidaozhan_group'
-     - icon: '<img src="https://imgsrc.baidu.com/super/pic/item/8326cffc1e178a8223cc6963b303738da877e805.jpg"/>'
+     - icon: '<img src="https://imgsrc.baidu.com/forum/pic/item/8326cffc1e178a8223cc6963b303738da877e805.png"/>'
        url: 'https://file.yidaozhan.top/'
      - icon: '<img src="/images/github.svg"/>'
        url: 'https://github.com/YidaozhanYa/'
@@ -184,12 +186,8 @@ plugins:
     enable: false
   ## optional plugins ##
   # preload
-  preload:
-    enable: true
-    service: flying_pages #instant_page, flying_pages
-    #instant_page: https://cdn.bootcdn.net/ajax/libs/instant.page/3.0.0/instantpage.min.js
-    instant_page: /cdn/js/instantpage.min.js
-    flying_pages: /cdn/js/flying-pages.min.js
+  instant_click:
+    js: https://cdn.bootcdn.net/ajax/libs/instantclick/3.1.0/instantclick.min.js
 
   # image lazyload
   # https://www.npmjs.com/package/vanilla-lazyload
@@ -216,7 +214,7 @@ style:
     dark: '#313438'
   animated_avatar:
     animate: auto # auto, always
-    background: https://imgsrc.baidu.com/super/pic/item/960a304e251f95caaf1452608c177f3e66095207.jpg
+    background: https://imgsrc.baidu.com/forum/pic/item/960a304e251f95caaf1452608c177f3e66095207.jpg
   codeblock:
     scrollbar: 4px
     highlightjs_theme: /cdn/css/atom-one-light.min.css
