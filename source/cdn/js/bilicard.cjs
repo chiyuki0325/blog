@@ -1,6 +1,5 @@
-(async () => {
     const nunjucks = require('nunjucks');
-    const fetch = await import ('node-fetch')
+    const fetch = require('node-fetch')
     const path = require('path');
 
     nunjucks.configure({autoescape: true});
@@ -52,4 +51,3 @@
             path.resolve(__dirname, 'bilicard.njk'), await getVideoMessage(id));
         return card;
     }
-})();
