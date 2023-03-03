@@ -29,10 +29,10 @@ With LiHua  '可以使用 With 语句充当「构造函数」
     .ID = 1
 End With
 
-MsgBox LiHua.Name  '李华
+Debug.Print LiHua.Name  '李华
 ```
 
-与对象不同的是，自定义数据类型可以被存放在数组中。
+可以创建一个自定义类型数组，更方便地访问。
 
 ```vb
 Dim Students(1 To 10) As Student
@@ -42,7 +42,7 @@ Dim Students(1 To 10) As Student
 
 在工程资源管理器中，右键点击，点击「添加」-「添加类模块」即可创建一个类。
 
-使用类模块编写的类是真正的对象，但因为操作略微蛋疼，并且不能被存放在数组中，因此不适合存储数据，但适合进行一些更复杂的操作。
+使用类模块编写的类是真正的对象，但因为操作略微蛋疼，因此不适合存储数据，但适合进行一些更复杂的操作。
 
 下面是一个存储颜色值的类。
 
@@ -69,7 +69,7 @@ Public Property Get HexValue() As String
 End Property
 
 Public Function ToVBColor() As Long
-    ToVBColor = RGB(Me.R, Me.G, Me.B)
+        ToVBColor = RGB(Red:=Me.R, Green:=Me.G, Blue:=Me.B)
 End Function
 ```
 
@@ -82,8 +82,8 @@ Sub Main()
     With GreatColor
         .HexValue = "66ccff"
     End With
-    MsgBox GreatColor.HexValue  '#66CCFF
-    MsgBox GreatColor.ToVBColor  '16764006
+    Debug.Print GreatColor.HexValue  '#66CCFF
+    Debug.Print GreatColor.ToVBColor  '16764006
 	'如果你有内存洁癖的话
 	Set GreatColor = Nothing
 	'不过现在是 2023 年了谁还手动释放内存啊 (
@@ -109,7 +109,7 @@ Set GreatColor = New Color
 Dim Greatcolor2 As Color
 Set GreatColor2 = GreatColor
 GreatColor2.HexValue = "39c5bb"
-MsgBox GreatColor.HexValue  '#39C5BB，因为是传引用，GreatColor 的值也会更改
+Debug.Print GreatColor.HexValue  '#39C5BB，因为是传引用，GreatColor 的值也会更改
 ```
 
 #### 🚮 初始化方法和销毁方法
