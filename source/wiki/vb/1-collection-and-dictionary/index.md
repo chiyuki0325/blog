@@ -17,7 +17,7 @@ title: 📓 集合和字典 - 处理现代数据
 ```vb
 Enum Sex
     Male = 1
-    female = 2
+    Female = 2
 End Enum
 
 Sub Main()
@@ -30,7 +30,7 @@ Sub Main()
     With Ken
         .Add key:="name", Item:="Ken Jones"
         .Add key:="age", Item:=39
-        .Add key:="sex", Item:=Sex.female
+        .Add key:="sex", Item:=Sex.Female
     End With
     
     Dim People As New Collection
@@ -59,18 +59,18 @@ End Sub
 
 ```json
 {
-    "people": [
-        {
-            "name": "Rand McKinnon",
-            "age": 33,
-            "sex": 1
-        },
-        {
-            "name": "Ken Jones",
-            "age": 39,
-            "sex": 2
-        }
-    ]
+  "people": [
+    {
+      "name": "Rand McKinnon",
+      "age": 33,
+      "sex": 1
+    },
+    {
+      "name": "Ken Jones",
+      "age": 39,
+      "sex": 2
+    }
+  ]
 }
 ```
 
