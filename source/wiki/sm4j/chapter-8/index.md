@@ -1,6 +1,6 @@
 ---
 layout: wiki
-wiki: SM4J
+wiki: 从零开始玩转 SM4J
 order: 108
 title: 八、世界编辑器
 ---

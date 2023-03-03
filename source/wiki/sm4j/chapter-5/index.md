@@ -1,6 +1,6 @@
 ---
 layout: wiki
-wiki: SM4J
+wiki: 从零开始玩转 SM4J
 order: 105
 title: 五、游戏设置
 ---

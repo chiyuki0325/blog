@@ -1,9 +1,11 @@
 ---
 layout: wiki
-wiki: SM4J
+wiki: 从零开始玩转 SM4J
 order: 204
 title: 物品图鉴
---- 
+---
+
+# 物品图鉴
 
 ### 【道具】类
 

@@ -1,6 +1,6 @@
 ---
 layout: wiki
-wiki: SM4J
+wiki: 从零开始玩转 SM4J
 order: 202
 title: 游戏更新日志
 ---

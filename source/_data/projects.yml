@@ -1,10 +1,24 @@
-SM4J:
+从零开始玩转 SM4J:
   title: 🍄 从零开始玩转 SM4J
   subtitle: SM4J 的攻略及教程
   cover: true
   sidebar: [toc,sm4j_sidebar]
   logo:
     src: https://imgsrc.baidu.com/forum/pic/item/a08b87d6277f9e2fb7a80acb5a30e924b999f350.jpg
-    small: 112px
+    small: 150px
     large: 240px
-  description: Super Mario 4 Jugadores，中文名：超级马力欧 四个玩家，简称SM4J，是一款优秀的马力欧同人游戏。在这里你可以玩各种各样精彩的关卡，还可以玩玩小游戏以及和别人一起对战！SM4J也有高自由度的编辑器，可以自己创作你的关卡，还支持自定义材质包和音乐等。这款游戏有好多致敬SMBX的元素，游戏如其名，这款游戏和SMBX最大的不同就是支持4人一起游玩，可以本地多人，局域网多人，最近还更新了在线多人以及噩梦模式。
+  description: Super Mario 4 Jugadores，中文名：超级马力欧 四个玩家，简称SM4J，是一款优秀的马力欧同人游戏。在这里你可以玩各种各样精彩的关卡，还可以玩小游戏以及和别人一起对战。
+
+Visual Basic:
+  title: 🧱 重新认识 Visual Basic
+  subtitle: Visual Basic 编程语言的中高阶用法
+  cover: true
+  logo:
+    src: https://imgsrc.baidu.com/forum/pic/item/dbb44aed2e738bd42822b6f9e48b87d6267ff9f3.jpg
+    small: 150px
+    large: 240px
+  description: WIP.
+  sections:
+    '「向上」篇': [100, 199]
+    '「向下」篇': [200, 299]
+    '「向前」篇': [300, 399]

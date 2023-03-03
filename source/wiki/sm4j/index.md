@@ -1,6 +1,6 @@
 ---
 layout: wiki
-wiki: SM4J
+wiki: 从零开始玩转 SM4J
 title: 欢迎来到 Super Mario 4 Jugadores 的世界
 ---
 
