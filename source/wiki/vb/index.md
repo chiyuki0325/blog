@@ -2,7 +2,6 @@
 layout: wiki
 wiki: Visual Basic
 title: 🖊️ 重新认识 Visual Basic —— 序言
-order: 0
 ---
 
 《重新认识 Visual Basic》，其名灵感来自 Mozilla 的[《重新介绍 JavaScript》](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Language_Overview)。
