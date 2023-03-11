@@ -21,13 +21,13 @@ sidebar:
   widgets:
     #### 自动生成的页面 ####
     # 主页
-    home: search_blog, recent, timeline, tagcloud # for home
+    home: search_blog, recent, tagcloud # for home
     # 博客索引页
-    blog_index: search_blog, recent, timeline # for categories/tags/archives
+    blog_index: search_blog, recent # for categories/tags/archives
     # 文档索引页
-    wiki_index: search_docs, recent, timeline # for wiki
+    wiki_index: search_docs, recent # for wiki
     # 其它（404）
-    others: search, welcome, recent, timeline # for 404 and ...
+    others: search, welcome, recent # for 404 and ...
     #### 手动创建的页面 ####
     # 文章内页
     post: toc, ghrepo, search, ghissues # for pages using 'layout:post'
@@ -120,7 +120,7 @@ footer:
        - '[🗂️️️️ 个人网盘](https://file.yidaozhan.top/)'
        - '[💸 喝了盘文件共享](https://hel.smbx.world/)'
        - '[🍄 SMBX 地图仓库](https://smbx.world/d/54-smbx)'
-       - '[🌐 更多](https://nav.yidaozhan.top)'
+       - '[🏠 主页](https://yidaozhan.top)'
      '社交':
        - '[📺 Bilibili](https://space.bilibili.com/485832788)'
        - '[🐱 GitHub](https://github.com/YidaozhanYa)'
@@ -180,10 +180,6 @@ plugins:
   sitesjs: /js/plugins/sites.js
   friendsjs: /js/plugins/friends.js
 
-  # 赫蹏 (Heti) - 专为中文网页内容设计的排版样式增强
-  # https://github.com/sivan/heti
-  heti:
-    enable: false
   ## optional plugins ##
   # preload
   instant_click:

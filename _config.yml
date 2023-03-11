@@ -110,7 +110,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: stellar
+theme: stellaris
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
