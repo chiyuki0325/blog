@@ -32,6 +32,8 @@
     "hexo-util": "^3.0.1",
     "micromatch": "^4.0.5",
     "node-fetch": "^2.0.0",
-    "nunjucks": "^3.2.3"
+    "nunjucks": "^3.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
