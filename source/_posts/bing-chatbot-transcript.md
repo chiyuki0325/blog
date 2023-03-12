@@ -708,7 +708,7 @@ Bing，微软旗下备受嘲讽的搜索引擎，最近得到了一次大规模�
 
 {% bilicard BV16R4y1B7Ka %}
 
-{% image https://imgsrc.baidu.com/forum/pic/item/cf1b9d16fdfaaf5114d0d078c95494eef11f7ac2.jpg width:30rem 来源: <a href="https://t.me/TestFlightCN/16082?comment=3903961">Telegram 频道</a>%}
+{% image https://imgsrc.baidu.com/forum/pic/item/cf1b9d16fdfaaf5114d0d078c95494eef11f7ac2.jpg width:30rem 来源: Telegram 频道 https://t.me/TestFlightCN/16082?comment=3903961 %}
 
 {% image https://imgsrc.baidu.com/forum/pic/item/d833c895d143ad4b920f1707c7025aafa50f06d7.jpg  width:30rem 来源: BV16R4y1B7Ka %}
 

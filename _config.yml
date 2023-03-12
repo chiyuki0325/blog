@@ -122,3 +122,7 @@ memorial_day:
   enable: false
   # Specified date will be greyed, you can set yyyy-MM-dd or MM-dd
   day: 07-07
+
+
+# Minify
+all_minifier: true

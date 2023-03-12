@@ -16,6 +16,7 @@
     "chokidar": "^3.5.3",
     "graceful-fs": "^4.2.10",
     "hexo": "6.3.0",
+    "hexo-all-minifier": "^0.5.7",
     "hexo-fs": "^4.1.1",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
