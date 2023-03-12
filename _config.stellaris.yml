@@ -156,8 +156,7 @@ tag_plugins:
 plugins:
   ## required plugins ##
   # jquery
-#  jquery: https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js
-  jquery: /cdn/js/jquery.min.js
+  jquery: https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js
 
   ## lazyload plugins ##
   # fancybox
@@ -170,10 +169,8 @@ plugins:
   # swiper
   swiper:
     enable: true
-    #css: https://cdn.bootcdn.net/ajax/libs/Swiper/6.8.4/swiper-bundle.min.css
-    #js: https://cdn.bootcdn.net/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js
-    css: /cdn/css/swiper-bundle.min.css
-    js: /cdn/js/swiper-bundle.min.js
+    css: https://cdn.bootcdn.net/ajax/libs/Swiper/6.8.4/swiper-bundle.min.css
+    js: https://cdn.bootcdn.net/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js
 
   # issues api
   sitesjs: /js/plugins/sites.js
@@ -188,15 +185,13 @@ plugins:
   # https://www.npmjs.com/package/vanilla-lazyload
   lazyload:
     enable: true # [hexo clean && hexo s] is required after changing this value.
-    #js: https://cdn.bootcdn.net/ajax/libs/vanilla-lazyload/17.3.1/lazyload.min.js
-    js: /cdn/js/lazyload.min.js
+    js: https://cdn.bootcdn.net/ajax/libs/vanilla-lazyload/17.3.1/lazyload.min.js
     transition: blur # blur, fade
 
   # https://scrollrevealjs.org/api/reveal.html
   scrollreveal:
     enable: true
-    #js: https://cdn.bootcdn.net/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js
-    js: /cdn/js/scrollreveal.min.js
+    js: https://cdn.bootcdn.net/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js
     distance: 20px
     duration: 350 # ms
     interval: 100 # ms
@@ -212,8 +207,7 @@ style:
     background: https://imgsrc.baidu.com/forum/pic/item/960a304e251f95caaf1452608c177f3e66095207.jpg
   codeblock:
     scrollbar: 4px
-    highlightjs_theme: /cdn/css/atom-one-light.min.css
-    #highlightjs_theme: https://cdn.bootcdn.net/ajax/libs/highlight.js/11.6.0/styles/atom-one-light.min.css
+    highlightjs_theme: https://cdn.bootcdn.net/ajax/libs/highlight.js/11.6.0/styles/atom-one-light.min.css
 
 default:
   avatar: /images/avatar.svg
