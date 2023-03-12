@@ -197,8 +197,8 @@ plugins:
     enable: true
     #js: https://cdn.bootcdn.net/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js
     js: /cdn/js/scrollreveal.min.js
-    distance: 8px
-    duration: 500 # ms
+    distance: 20px
+    duration: 350 # ms
     interval: 100 # ms
     scale: 1 # 0.1~1
 

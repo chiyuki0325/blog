@@ -125,4 +125,27 @@ memorial_day:
 
 
 # Minify
-all_minifier: true
+html_minifier:
+  enable: true
+  ignore_error: true
+  silent: false
+  exclude:
+
+css_minifier:
+  enable: true
+  silent: false
+  exclude:
+    - '*.min.css'
+        
+js_minifier:
+  enable: true
+  mangle: true
+  silent: false
+  output:
+  compress:
+  exclude:
+    - '*.min.js'
+    - 'check_outdated_browser.js'
+
+image_minifier:
+  enable: false
