@@ -296,9 +296,11 @@ s390x 架构比较罕见，但还是成功地把 [Alist](https://github.com/Xhof
 其实并没有真正炸掉，只是 URL 变了。  
 毕竟是十多年百度贴吧传下来的图床，不可能轻易炸掉。
 
-<!--node 2023 年 2 月 25 日 -->
+<!--node 2023 年 3 月 11 日 -->
 
-🤪 换上了更好看的 Twemoji 字体。
+🤪 删除 Emoji 字体以兼容基于 Chromium 的浏览器。
+
+⚛️ 用 React 重构了博客主题。
 
 {% endtimeline %}
 
