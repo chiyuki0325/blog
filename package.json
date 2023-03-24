@@ -1,6 +1,6 @@
 {
   "name": "yidaozhan-blog",
-  "version": "8.9.6",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "build": "hexo generate",

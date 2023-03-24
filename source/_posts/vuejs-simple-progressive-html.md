@@ -15,12 +15,13 @@ Vue.js 是一个易学易用，性能出色，适用场景丰富的**渐进式**
 <!--more-->
 
 <style>
-div.html-frame {
+.html-frame {
 border: 1px solid grey;
 border-radius: 4px;
 padding: 8px;
 }
 </style>
+
 
 ### 🌐 古代的原始代码
 
@@ -282,20 +283,5 @@ export default {
 
 ### 🌐 现代的全新代码
 
-<div id="app" class="html-frame">
-    <counter-button></counter-button>
-    <timer></timer>
-</div>
+<iframe src="/static/vue.html" class="html-frame"></iframe>
 
-<script type="module">
-    import { createApp } from 'https://cdn.bootcdn.net/ajax/libs/vue/3.2.47/vue.esm-browser.min.js';
-    import CounterButton from '/static/CounterButton.js';
-    import Timer from '/static/Timer.js';
-    const vm = createApp({
-        components: {
-            CounterButton,
-            Timer
-        }
-    })
-    vm.mount('#app')
-</script>

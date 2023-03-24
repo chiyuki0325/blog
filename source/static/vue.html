@@ -1,0 +1,17 @@
+<div id="app">
+    <counter-button></counter-button>
+    <timer></timer>
+</div>
+
+<script type="module">
+    import { createApp } from 'https://cdn.bootcdn.net/ajax/libs/vue/3.2.47/vue.esm-browser.min.js';
+    import CounterButton from '/static/CounterButton.js';
+    import Timer from '/static/Timer.js';
+    const vm = createApp({
+        components: {
+            CounterButton,
+            Timer
+        }
+    })
+    vm.mount('#app')
+</script>
