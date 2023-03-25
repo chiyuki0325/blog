@@ -55,7 +55,7 @@ article:
     '网络': '#EEBE00'
     '日常': '#660000'
   # 文章许可协议
-  license: # '本文采用 [署名-非商业性使用-相同方式共享 4.0 国际](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议，转载请注明出处。'
+  license: '本文采用 [署名-非商业性使用-相同方式共享 4.0 国际](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议，转载请注明出处。'
   # 分享
   share:  [wechat, weibo, email, link]
   # 相关文章，需要安装插件 (for layout: post)
@@ -132,7 +132,8 @@ footer:
        - '[🗞️ 频道](https://t.me/s/yidaozhan_channel)'
        - '[🚇 开往•友链接力](https://www.travellings.cn/go.html)'
   license: '[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)'
-  source: '[⛩ 萌ICP备20212688号](https://icp.gov.moe/?keyword=20212688)'
+  source: '[GitHub](https://github.com/YidaozhanYa/blog)'
+  icp: '[⛩ 萌ICP备20212688号](https://icp.gov.moe/?keyword=20212688)'
 
 
 ######## Tag Plugins ########
@@ -221,3 +222,10 @@ search:
     path: /search.json # 搜索文件存放位置
     content: true # 是否搜索内容
     codeblock: true # 是否搜索代码块（需要content: true)
+
+
+api_host:
+  ghapi: https://r.ydz1.gq/https://api.github.com
+  ghraw: https://www.githubs.cn/raw-githubusercontent
+  gist: https://r.ydz1.gq/https://gist.github.com
+
