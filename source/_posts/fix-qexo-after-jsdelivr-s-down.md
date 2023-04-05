@@ -1,6 +1,8 @@
 ---
 title:  💧 在 jsDelivr 挂掉后修复 Qexo 无法加载的问题
 date: 2022-05-22 12:55:04
+updated: 2022-05-22 12:55:04
+category: 建站小记
 tags:
 - Qexo
 - jsDelivr

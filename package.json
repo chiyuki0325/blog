@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "fix-last-update": "./fix-last-update.sh",
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",

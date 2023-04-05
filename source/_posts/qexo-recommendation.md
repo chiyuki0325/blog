@@ -1,10 +1,11 @@
 ---
 title: 📜 Qexo - 给你的 Hexo 网站加上后台
 date: 2022-02-25 20:21:48
+updated: 2022-02-25 20:21:48
 tags: 
 - Hexo
 - Vercel
-category: 网络
+category: 建站小记
 ---
 
 众所周知，Hexo 是没有后台的，想要增删改查文章只能通过修改源 markdown 实现，如果在多设备之间编辑，需要反复克隆仓库并 `npm install` ~~并且 packages.json 可能随时炸掉~~，很不方便。于是在这里推荐 Qexo，一款开源的 Hexo 后台。
