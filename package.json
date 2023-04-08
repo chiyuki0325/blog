@@ -32,6 +32,7 @@
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^3.0.0",
     "hexo-util": "^3.0.1",
+    "node-fetch": "^2.6.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
