@@ -3,43 +3,26 @@ title: 关于
 date: 2022-05-10 13:02:19
 ---
 
-### 关于本站
-
-> 所谓薙刀，乃是斩除芜杂之利器。
->
-> 秉薙刀之人，意在守护恒常之道。
->
-> 当高踞雷云之上者俯视她所倾心的凡世， 所见无不浅薄的争端，闪灭的执欲泡影… 争夺源于无谓爱执与狂欲，乃恒世之敌。 搅扰不变恒世的杂草，将交由雷光殛灭。
->
-> ...
->
-> 既然谁人都无法逆转现世之无常、绪绝的独乐，
->
-> 那就将心中的常世净土带到她所珍爱的国度吧。
->
-> 
->
-> 摘自《原神》
-
 ### 关于我
 
-{% split %}
+- 🏫 居住在辽宁，想长大的普通高二学生
+- 🥦 是只菜鸟，啥也不会
+- ✏️ 乐于创造、发现和记录
+- 🐧 使用 Arch Linux 操作系统
+- 🖊️ 数理化很差，正在努力挣扎
+- 🕹️ 游戏打得很菜，但又菜又爱玩
+- 🧱 会写经典 Visual Basic，正在学习 Python 和 JavaScript
+- 🔄 对未来的方向还很迷茫 … 走一步算一步吧
+- 🫂 爱着身边的每一个人！
 
-<!-- cell left -->
+### 关于本站
 
-🏃想长大的普通高二摸鱼学生
-🐧是[ **<font color="#0f94d2">Arch Linux</font>**](https://archlinux.org) 用户
-📄会写 <font color="purple">经典 Visual Basic</font>、<font color="#254f72">Python</font>，  
-　  也会一点 <font color="#8892bf">PHP</font>
-🌐支持开源和自由软件
-🔄对未来的方向还很迷茫 ...   
-　  走一步算一步吧 wwwww
-
-<!-- cell right -->
-
-{% image height:8.5rem https://imgsrc.baidu.com/forum/pic/item/a8ec8a13632762d0b3fc327be5ec08fa503dc630.jpg %}
-
-{% endsplit %}
+> 两个人恍若花瓣凋零一样
+>在稚嫩的春风里起舞一样
+> 这样的结局和她们俩多相称
+>挥手告别这个喧闹的世界吧
+> 
+>——摘自《再会》
 
 ### 查成分
 
@@ -49,13 +32,22 @@ date: 2022-05-10 13:02:19
 
 ### 联系我
 
-[![Bilibili:是一刀斩哒](https://img.shields.io/badge/Bilibili-是一刀斩哒-ff6699?style=flat&logo=bilibili)](https://space.bilibili.com/485832788)  [![Telegram:YidaozhanYa](https://img.shields.io/badge/Telegram-YidaozhanYa-28a8ea?style=flat&logo=telegram)](https://t.me/YidaozhanYa)  ![QQ:920064067](https://img.shields.io/badge/QQ群-920064067-faad01?style=flat&logo=tencentqq)  ![Discord](https://img.shields.io/badge/Discord-YidaozhanYa%238565-5865f2?style=flat&logo=discord)
+<p>
+<a href="https://t.me/YidaozhanYa"><img src="https://img.shields.io/badge/Telegram-YidaozhanYa-28a8ea?logo=telegram" alt="Telegram:YidaozhanYa"></a>&nbsp; 
+<a href="https://t.me/yidaozhan_channel"><img alt="Telegram 频道" src="https://img.shields.io/badge/Telegram-频道-28a8ea?logo=telegram"></a>&nbsp; 
+<a href="https://space.bilibili.com/485832788"><img alt="Bilibili:是一刀斩哒" src="https://img.shields.io/badge/Bilibili-是一刀斩哒-ff6699?logo=bilibili"></a>&nbsp; 
+<img alt="QQ:920064067" src="https://img.shields.io/badge/QQ群-920064067-faad01?logo=tencentqq">
+</p>
+<p>
+<img src="https://img.shields.io/badge/Discord-YidaozhanYa%238565-5865f2?logo=discord" alt="Discord">&nbsp; 
+<a href="https://github.com/YidaozhanYa"><img src="https://img.shields.io/badge/GitHub-YidaozhanYa-fff?logo=github" alt="GitHub"></a>
+</p>
 
 ### 有趣的事实
 
 📜 我比较守旧，很难适应新鲜事物，被称为「赛博原始人」。
 
-💢 我讨厌 JavaScript 以及围绕 JavaScript 的 Node.js / npm 生态。
+💢 不喜欢 Node.js / npm 生态。
 
 ### 时间轴
 
@@ -302,6 +294,14 @@ s390x 架构比较罕见，但还是成功地把 [Alist](https://github.com/Xhof
 
 ⚛️ 用 React 重构了博客主题。
 
+<!--node 2023 年 4 月 11 日 -->
+
+🏡 用原生 js 编写了新的[个人主页](https://yidaozhan.top)。
+
+<!--node 2023 年 4 月 28 日 -->
+
+🪛 兼容 Chrome 70。
+
 {% endtimeline %}
 
 ### 镜像站
@@ -318,7 +318,11 @@ s390x 架构比较罕见，但还是成功地把 [Alist](https://github.com/Xhof
 
 ##### 文件分享
 
-|                                                              | 站点              | URL                                                    |
-| ------------------------------------------------------------ | ----------------- | ------------------------------------------------------ |
-| <img src="https://imgsrc.baidu.com/forum/pic/item/b90e7bec54e736d18f5e25d5de504fc2d462699a.jpg" width="16"> | Azure Alist       | [file.yidaozhan.top](https://file.yidaozhan.top)       |
-| <img src="https://imgsrc.baidu.com/forum/pic/item/58ee3d6d55fbb2fb1663f1cf0a4a20a44723dca7.jpg" width="16"> | Vercel OneManager | [pan.yidaozhan.top](https://file.yidaozhan.top)        |
+|                                                              | 站点              | URL                                              |
+| ------------------------------------------------------------ | ----------------- | ------------------------------------------------ |
+| <img src="https://imgsrc.baidu.com/forum/pic/item/b90e7bec54e736d18f5e25d5de504fc2d462699a.jpg" width="16"> | Azure Alist       | [file.yidaozhan.top](https://file.yidaozhan.top) |
+| <img src="https://imgsrc.baidu.com/forum/pic/item/58ee3d6d55fbb2fb1663f1cf0a4a20a44723dca7.jpg" width="16"> | Vercel OneManager | [pan.yidaozhan.top](https://pan.yidaozhan.top)   |
+
+---
+
+**🥰 永远爱你们！**
