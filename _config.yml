@@ -123,6 +123,10 @@ memorial_day:
   # Specified date will be greyed, you can set yyyy-MM-dd or MM-dd
   day: 07-07
 
+april_fools:
+  # Better to close it when it is not used
+  enable: false
+
 
 # Minify
 html_minifier:

@@ -59,7 +59,7 @@ hexo.extend.filter.register('after_render:html', function (html, data) {
 
   const js = `
   <script type="text/javascript">
-    (function () {
+    const applyMemorialDay = function () {
       var dayStr = '${dayStr.replace(/-/g, '/')}';
       if (/^\\d{1,2}\\/\\d{1,2}$/.test(dayStr)) {
         dayStr = new Date().getFullYear() + '/' + dayStr;
@@ -82,7 +82,24 @@ hexo.extend.filter.register('after_render:html', function (html, data) {
           document.getElementsByTagName('HEAD').item(0).appendChild(style);
         }
       }
-    })();
+    }
+    window.addEventListener(
+      "load",
+      applyMemorialDay,
+      false
+    )
+    const memorialDayInterval = setInterval(
+      () => {
+        if('InstantClick' in window) {
+          InstantClick.on(
+          'change',
+          applyMemorialDay
+          )
+          clearInterval(memorialDayInterval)
+        }
+      }, 100
+    )
+
   </script>
   `;
 
