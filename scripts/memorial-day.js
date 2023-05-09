@@ -72,15 +72,10 @@ hexo.extend.filter.register('after_render:html', function (html, data) {
       var isMemorialDay = now.getFullYear() === day.getFullYear() && now.getMonth() === day.getMonth() && now.getDate() === day.getDate();
       // isMemorialDay = true;
       if (isMemorialDay) {
-        if (document.all) {
-          window.style = '${css}';
-          document.createStyleSheet('javascript:style');
-        } else {
-          var style = document.createElement('style');
-          style.type = 'text/css';
-          style.innerHTML = '${css}';
-          document.getElementsByTagName('HEAD').item(0).appendChild(style);
-        }
+        const style = document.createElement('style');
+        style.type = 'text/css';
+        style.innerHTML = '${css}';
+        document.getElementsByTagName('HEAD').item(0).appendChild(style);
       }
     }
     window.addEventListener(
