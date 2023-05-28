@@ -1,5 +1,5 @@
 ---
-title: "📈 给 Arch Linux 「大脑升级」到 x86-64-v3 架构，获得性能提升"
+title: "📈 给 Arch Linux 「大脑升级」到 x86-64-v3 / v4 架构，获得性能提升"
 date: 2022-08-11 22:19:00
 tags:
 - Arch Linux
@@ -7,11 +7,13 @@ category: Arch折腾记
 cover: 'https://imgsrc.baidu.com/forum/pic/item/7a899e510fb30f241d999ac28d95d143ac4b03eb.jpg'
 ---
 
-[x86-64-v3](https://en.wikipedia.org/wiki/X86-64#Microarchitecture_levels) 是 x86-64 处理器架构的一个「微架构」，搭载于 Haswell 及其之后的处理器，其支持 AVX2 等新指令集。据传将程序编译为 x86-64-v3 架构可以获得大约 10% 的性能提升 {% sup (不确定) %}。
+[x86-64-v3 / v4](https://en.wikipedia.org/wiki/X86-64#Microarchitecture_levels) 是 x86-64 处理器架构的「微架构」，x86-64-v3 搭载于 Haswell 及其之后的处理器，x86-64-v4 搭载于 Skylake-X 及其之后的处理器。其支持 AVX2 等新指令集。据传将程序编译为 x86-64-v3 / v4 架构可以获得大约 10% 的性能提升 {% sup (不确定) %}。
 
-Arch Linux [支持](https://gitlab.archlinux.org/archlinux/rfcs/-/blob/master/rfcs/0002-march.rst) x86-64-v3 架构，因此将内核、编译器等软件包更换为 x86-64-v3 架构可以提升性能，虽然~~这是 Gentoo 偏执狂才会干的事~~，但我们 Arch 也可以尝试一下。
+Arch Linux [支持](https://gitlab.archlinux.org/archlinux/rfcs/-/blob/master/rfcs/0002-march.rst) x86-64-v3 / v4 架构，因此将内核、编译器等软件包更换为 x86-64-v3 / v4 架构可以提升性能，虽然~~这是 Gentoo 偏执狂才会干的事~~，但我们 Arch 也可以尝试一下。
 
 <!--more-->
+
+> 在本文编写时期，Arch Linux 还没有支持 x86-64-v4 架构，因此下文全部使用 v3。如果你的 CPU 支持 x86-64-v4，就把所有 `v3` 替换为 `v4` 即可。
 
 ### ⚠️ 操作前须知
 
@@ -21,7 +23,7 @@ Arch Linux [支持](https://gitlab.archlinux.org/archlinux/rfcs/-/blob/master/rf
 
 ### 🔍 检查是否支持 x86-64-v3 架构
 
-在终端中执行 `/lib/ld-linux-x86-64.so.2 --help | grep "x86-64-v"`，如果输出中有 `x86-64-v3 (supported, searched)` 字样，即代表支持 x86-64-v3 架构。
+在终端中执行 `/lib/ld-linux-x86-64.so.2 --help | grep "x86-64-v"`，如果输出中有 `x86-64-v3 (supported, searched)` 字样，即代表支持 x86-64-v3 架构。v4 架构同理。
 
 ### 🗃️ 更换 x86-64-v3 架构软件仓库
 
@@ -34,12 +36,18 @@ CachyOS 是一个基于 Arch Linux 的发行版，其使用 x86-64-v3 架构，�
   ```bash
   sudo pacman-key --recv-keys F3B607488DB35A47 --keyserver keyserver.ubuntu.com
   sudo pacman-key --lsign-key F3B607488DB35A47
-  sudo pacman -U 'https://mirror.cachyos.org/repo/x86_64/cachyos/cachyos-keyring-2-1-any.pkg.tar.zst' 'https://mirror.cachyos.org/repo/x86_64/cachyos/cachyos-v3-mirrorlist-13-1-any.pkg.tar.zst'
+  sudo pacman -U 'https://mirror.cachyos.org/repo/x86_64/cachyos/cachyos-keyring-2-1-any.pkg.tar.zst' 'https://mirror.cachyos.org/repo/x86_64/cachyos/cachyos-mirrorlist-17-1-any.pkg.tar.zst' 'https://mirror.cachyos.org/repo/x86_64/cachyos/cachyos-v3-mirrorlist-17-1-any.pkg.tar.zst' 'https://mirror.cachyos.org/repo/x86_64/cachyos/cachyos-v4-mirrorlist-5-1-any.pkg.tar.zst' 'https://mirror.cachyos.org/repo/x86_64/cachyos/pacman-6.0.2-10-x86_64.pkg.tar.zst'
   ```
 
 - 编辑 `/etc/pacman.conf`，用 `Architecture = x86_64 x86_64_v3` 替换掉原有的 `#Architecture = auto`，并在原版软件仓库 (core、extra、community) 上方加入 `cachyos-v3` 仓库：
 
   ```ini
+  [cachyos-core-v3]
+  Include = /etc/pacman.d/cachyos-v3-mirrorlist
+  
+  [cachyos-extra-v3]
+  Include = /etc/pacman.d/cachyos-v3-mirrorlist
+  
   [cachyos-v3]
   Include = /etc/pacman.d/cachyos-v3-mirrorlist
   ```
