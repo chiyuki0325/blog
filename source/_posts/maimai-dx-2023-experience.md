@@ -5,7 +5,7 @@ tags:
 - maimai
 category: 游戏
 cover: https://imgsrc.baidu.com/forum/pic/item/d043ad4bd11373f0facd6b51e10f4bfbfaed0409.jpg
-description: '玩了这么多年游戏，还是第一次被游戏本身的问题气到。'
+description: '玩了这么多年游戏，还是第一次被游戏本身的问题气到。出勤时间最长的一次，同时也是打的最少的一次，最憋屈的一次。'
 ---
 
 鞍山有两家有 mai 的机厅，四隆和新玛特，我常去的是后者。
