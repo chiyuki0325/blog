@@ -9,6 +9,8 @@ description: '.NET Framework 中设为 [ComVisible(true)] 的类，都可以在 
 
 .NET Framework 中设为 `[ComVisible(true)]` 的类，都可以在 Visual Basic 6 中直接引用。使用这些更现代的类，可以极大地增强 VB6 的功能，比如进行长字符串连接、哈希值计算、UTF-8 编解码等。
 
+**需要在「启用或关闭 Windows 功能」中打开 .NET Framework 3.5。**
+
 #### 创建对象
 
 可以在项目的引用中添加 mscorlib.dll，之后使用 `New` 关键字创建对象。
@@ -114,5 +116,7 @@ MyArrayList.Sort  '此时 MyArrayList 的内容即为 1, 2, 3, 4, 5
 ```
 
 ### 将自己编写的 .NET 类导入到 VB6 中
+
+可以使用更现代的 .NET Framework 版本。
 
 参考 https://learn.microsoft.com/en-us/previous-versions/dotnet/articles/ms973802(v=msdn.10)?redirectedfrom=MSDN 。
