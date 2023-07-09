@@ -1,0 +1,71 @@
+name: '🚀 部署博客  '
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    steps:
+      - name: '📥 检出 main 分支'
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          # 附带所有的 commit 记录，以更正文章修改时间
+
+      - name: '🌲 安装 Node.js'
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: '📦 安装 pnpm'
+        uses: pnpm/action-setup@v2
+
+      - name: '🔄 获取 pnpm 缓存路径'
+        id: pnpm-cache
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+
+      - name: '🔄 恢复 pnpm 缓存'
+        uses: actions/cache@v3
+        with:
+          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
+      - name: '📦 安装依赖'
+        run: pnpm install
+
+      - name: '⏰ 修正文章修改时间'
+        run: pnpm fix-last-update
+
+      - name: '♾️ 生成网站静态文件'
+        run: pnpm build
+
+      - name: '🔧 写入平台配置'
+        run: cp platforms/vercel.json public/vercel.json
+
+      - name: '🚀 部署到 Vercel'
+        uses: BetaHuhn/deploy-to-vercel-action@v1
+        with:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID}}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID}}
+          WORKING_DIRECTORY: 'public'
+
+      - name: '🌤️ 部署到 Cloudflare Pages'
+        uses: cloudflare/pages-action@1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: 'ydz-blog'
+          directory: 'public'
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}

@@ -33,12 +33,10 @@ wiki_dir: wiki
 about_dir: about
 skip_render:
   - "shorten.html"
-  - "nsemuhelper.txt"
   - "robots.txt"
   - "test.txt"
   - "server.json"
   - "404.html"
-  - "vercel.json"
   - "favicon.ico"
   - "static/**"
   - "cdn/**"
