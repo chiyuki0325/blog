@@ -1,4 +1,4 @@
-name: '🚀 部署博客  '
+name: '🚀 部署博客'
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  deploy:
+  '🚀 部署博客':
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -25,6 +25,8 @@ jobs:
 
       - name: '📦 安装 pnpm'
         uses: pnpm/action-setup@v2
+        with:
+          version: latest
 
       - name: '🔄 获取 pnpm 缓存路径'
         id: pnpm-cache
