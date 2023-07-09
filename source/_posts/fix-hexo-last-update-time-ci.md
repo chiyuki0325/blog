@@ -14,19 +14,22 @@ category: 建站小记
 
 ```bash
 #!/usr/bin/env bash
+export TZ='Asia/Shanghai'
 git ls-files -z | while read -d '' path; do
-    touch -d "$(git log -1 --format="@%ct" "$path")" "$path"
+    if [[ $path == source/_posts/* ]]; then
+        touch -d "$(git log -1 --format="@%ct" "$path")" "$path"
+        printf "$(git log -1 --format="%ct" "$path" | xargs -I{} date -d @{} "+%Y-%m-%d %H:%M:%S")"
+        printf \\t
+        echo "$path"
+    fi
 done
 ```
 
-文中给了 Travis CI 的使用例，如下：
+之后根据你的部署方式，将这个脚本加入到工作流文件或其他配置文件中。
 
-```yaml
-# Restore last modified time
- - "git ls-files -z | while read -d '' path; do touch -d \"$(git log -1 --format=\"@%ct\" \"$path\")\" \"$path\"; done"
-```
+**注意：Vercel 尚不支持深层克隆，所以只能在 GitHub Actions 中部署。**
 
-我的博客使用 Vercel 部署，所以我将这个脚本直接写到 `package.json` 中，并且在部署时执行该脚本。
+为方便调用，可以直接将这个脚本直接写到 `package.json` 中，并且在部署时执行该脚本。
 
 ```json
 // package.json
