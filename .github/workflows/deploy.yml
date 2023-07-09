@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  '🚀 部署博客':
+  deploy:
     runs-on: ubuntu-latest
     permissions:
       contents: read
