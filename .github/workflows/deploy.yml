@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -15,6 +16,7 @@ jobs:
       - name: '📥 检出 main 分支'
         uses: actions/checkout@v3
         with:
+          submodules: true
           fetch-depth: 0
           # 附带所有的 commit 记录，以更正文章修改时间
 
