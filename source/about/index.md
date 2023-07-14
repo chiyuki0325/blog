@@ -3,13 +3,12 @@ title: 关于
 date: 2022-05-10 13:02:19
 ---
 
-### 关于我
+### 关于咱
 
-- 🏫 居住在辽宁，想长大的普通高三学生
-- 🥦 是只菜鸟，啥也不会
+- 🏫 是居住在辽宁，想长大的普通高三学生
+- 🥦 是只蒟蒻，啥也不会
 - ✏️ 乐于创造、发现和记录
 - 🐧 使用 Arch Linux 操作系统
-- 🖊️ 数理化很差，正在努力挣扎
 - 🕹️ 游戏打得很菜，但又菜又爱玩
 - 🧱 会写经典 Visual Basic，正在学习 Python 和 JavaScript
 - 🔄 对未来的方向还很迷茫 … 走一步算一步吧
@@ -18,19 +17,23 @@ date: 2022-05-10 13:02:19
 ### 关于本站
 
 > 两个人恍若花瓣凋零一样
->在稚嫩的春风里起舞一样
+> 在稚嫩的春风里起舞一样
 > 这样的结局和她们俩多相称
->挥手告别这个喧闹的世界吧
-> 
->——摘自《再会》
+> 挥手告别这个喧闹的世界吧
+> 她俩就这样握紧着手
+> 在这只此一次的再会
+>
+> ——摘自《再会》
 
 ### 查成分
 
-我的成分比较杂，大概有 <span title="UID: 902336292">{% icon https://imgsrc.baidu.com/forum/pic/item/e850352ac65c10382ad75806f7119313b17e894d.jpg %} 原神</span>、<span title="JE: YidaozhanYa | BE: YidaozhanQwQ">{% icon https://imgsrc.baidu.com/forum/pic/item/8c1001e93901213f2dcdd81811e736d12e2e957c.jpg %} MC</span>、{% icon https://imgsrc.baidu.com/forum/pic/item/562c11dfa9ec8a132195c124b203918fa1ecc063.jpg %} 任天堂、<span title="Phigros、Arcaea、maimai DX、pjsk">{% icon https://imgsrc.baidu.com/forum/pic/item/fc1f4134970a304eeba8363e94c8a786c8175c68.jpg %} 音游</span>、{% icon https://imgsrc.baidu.com/forum/pic/item/c75c10385343fbf2c9d130e7f57eca8064388f71.jpg %} 东方等。玩过的游戏很多，但都很菜。
+游戏方面 ... 咱的成分比较杂，大概有 <span title="UID: 902336292">{% icon https://imgsrc.baidu.com/forum/pic/item/e850352ac65c10382ad75806f7119313b17e894d.jpg %} 原神</span>、<span title="JE: YidaozhanYa | BE: YidaozhanQwQ">{% icon https://imgsrc.baidu.com/forum/pic/item/8c1001e93901213f2dcdd81811e736d12e2e957c.jpg %} MC</span>、{% icon https://imgsrc.baidu.com/forum/pic/item/562c11dfa9ec8a132195c124b203918fa1ecc063.jpg %} 任天堂、<span title="Phigros、Arcaea、maimai DX、pjsk">{% icon https://imgsrc.baidu.com/forum/pic/item/fc1f4134970a304eeba8363e94c8a786c8175c68.jpg %} 音游</span>、{% icon https://imgsrc.baidu.com/forum/pic/item/c75c10385343fbf2c9d130e7f57eca8064388f71.jpg %} 东方 Project 等。玩过的游戏很多，但都很菜。
 
-因为没有主机，所以经常折腾 {% icon https://imgsrc.baidu.com/forum/pic/item/42166d224f4a20a414e4aa03d5529822730ed078.jpg %} 模拟器和 {% icon https://imgsrc.baidu.com/forum/pic/item/54fbb2fb43166d221f818350032309f79152d204.jpg %} 同人游戏。
+目前正在玩的游戏有 maimai DX 和塞尔达传说 王国之泪。
 
-### 联系我
+喜欢听[幽闭星光](https://space.bilibili.com/23052222)和[春卷饭](https://space.bilibili.com/251134371)的歌曲，以及 VOCALOID 音乐。
+
+### 联系方式
 
 <p>
 <a href="https://t.me/YidaozhanYa"><img src="https://img.shields.io/badge/Telegram-YidaozhanYa-28a8ea?logo=telegram" alt="Telegram:YidaozhanYa"></a>&nbsp; 
@@ -41,11 +44,13 @@ date: 2022-05-10 13:02:19
 <p>
 <img src="https://img.shields.io/badge/Discord-YidaozhanYa%238565-5865f2?logo=discord" alt="Discord">&nbsp; 
 <a href="https://github.com/YidaozhanYa"><img src="https://img.shields.io/badge/GitHub-YidaozhanYa-fff?logo=github" alt="GitHub"></a>
+<a href="https://music.163.com/#/user/home?id=3392019481"><img src="https://img.shields.io/badge/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90-%E6%98%AF%E4%B8%80%E5%88%80%E6%96%A9%E5%93%92-e60026?logo=youtube-music" alt="163 Music"></a>
 </p>
+
 
 ### 有趣的事实
 
-📜 我比较守旧，很难适应新鲜事物，被称为「赛博原始人」。
+📜 咱比较守旧，很难适应新鲜事物，被称为「赛博原始人」。
 
 💢 不喜欢 Node.js / npm 生态。
 
@@ -57,7 +62,7 @@ date: 2022-05-10 13:02:19
 
 <!-- node 2020 年 10 月 ? 日 -->
 
-☁️ 我注册了 Cloudflare 帐号，并开始部署一些简单的云函数。
+☁️ 注册了 Cloudflare 帐号，并开始部署一些简单的云函数。
 
 <!-- node 2020 年 11 月 ? 日 -->
 
@@ -279,7 +284,7 @@ s390x 架构比较罕见，但还是成功地把 [Alist](https://github.com/Xhof
 
 <!--node 2022 年 12 月 23 日 -->
 
-💠 我学了一点 HTML 和 CSS，用 Fluent Design 设计风格重写了博客的样式。  
+💠 学了一点 HTML 和 CSS，用 Fluent Design 设计风格重写了博客的样式。  
 也是从此时起，博客主题开始和上游脱钩。
 
 <!--node 2023 年 2 月 16 日 -->
