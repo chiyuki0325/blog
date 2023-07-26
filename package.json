@@ -29,7 +29,7 @@
     "hexo-renderer-marked": "^6.0.0",
     "hexo-renderer-stylus": "^3.0.0",
     "hexo-server": "^3.0.0",
-    "node-fetch": "^2.6.9",
+    "node-fetch": "^3.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
