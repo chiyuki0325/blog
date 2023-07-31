@@ -26,14 +26,14 @@ sidebar:
     # 文档索引页
     wiki_index: search_docs, recent # for wiki
     # 其它（404）
-    others: search, welcome, recent # for 404 and ...
+    others: search, recent # for 404 and ...
     #### 手动创建的页面 ####
     # 文章内页
     post: toc, ghrepo, search, ghissues # for pages using 'layout:post'
     # 文档内页
     wiki: search, ghrepo, toc, ghissues, related # for pages using 'layout:wiki'
     # 其它 layout:page 的页面
-    page: welcome, toc, search # for custom pages using 'layout:page'
+    page: toc, search # for custom pages using 'layout:page'
 
 
 
@@ -115,6 +115,7 @@ footer:
        - '[📜 历史文章](/archives)'
        - '[📊 标签](/tags)'
        - '[📗 文档](/wiki)'
+       - '[🗓️ 时间轴](/timeline)'
        - '[🔗 友情链接](/links)'
      '网站':
        - '[🗂️️️️ 个人网盘](https://file.yidaozhan.top/)'

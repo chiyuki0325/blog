@@ -5,6 +5,7 @@
   "scripts": {
     "fix-last-update": "./fix-last-update.sh",
     "new-post": "hexo new post",
+    "new-page": "hexo new page",
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
