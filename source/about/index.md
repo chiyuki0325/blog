@@ -31,13 +31,17 @@ date: 2023-07-31 08:50:22
 
 正在学习 <font color="#42b883">Vue</font><font color="#35495e">.js</font> 和 <font color="#007d9c">Golang</font>。
 
-### 讨厌的东西
+#### 讨厌的东西
 
 最讨厌的东西是 <font color="#f45326">Wi</font><font color="#82bc06">nd</font><font color="#05a6f1">ow</font><font color="#ffbb08">s</font>，最讨厌的人是牛头人。
 
 #### 理想
 
 我 2024 年高考，目标是考上[合肥工业大学](https://www.hfut.edu.cn/)，经过未来的学习，成为一名优秀的全栈开发者。
+
+#### 名字的来源
+
+{%bilicard BV1Sb411q7gY %}
 
 #### 捕捉
 
