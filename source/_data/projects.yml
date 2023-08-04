@@ -9,16 +9,17 @@
     large: 240px
   description: Super Mario 4 Jugadores，中文名：超级马力欧 四个玩家，简称SM4J，是一款优秀的马力欧同人游戏。在这里你可以玩各种各样精彩的关卡，还可以玩小游戏以及和别人一起对战。
 
-Visual Basic:
-  title: 🧱 重新认识 Visual Basic
-  subtitle: Visual Basic 编程语言的中高阶用法
-  cover: true
-  logo:
-    src: https://imgsrc.baidu.com/forum/pic/item/dbb44aed2e738bd42822b6f9e48b87d6267ff9f3.jpg
-    small: 150px
-    large: 240px
-  description: WIP.
-  sections:
-    '「向上」篇': [100, 199]
-    '「向下」篇': [200, 299]
-    '「向前」篇': [300, 399]
+
+# Visual Basic:
+#   title: 🧱 重新认识 Visual Basic
+#   subtitle: Visual Basic 编程语言的中高阶用法
+#   cover: true
+#   logo:
+#     src: https://imgsrc.baidu.com/forum/pic/item/dbb44aed2e738bd42822b6f9e48b87d6267ff9f3.jpg
+#     small: 150px
+#     large: 240px
+#   description: WIP.
+#   sections:
+#     '「向上」篇': [100, 199]
+#     '「向下」篇': [200, 299]
+#     '「向前」篇': [300, 399]
