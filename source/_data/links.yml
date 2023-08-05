@@ -20,8 +20,8 @@ my_friends:
     #   description: "某初中学生的小博客"
     #   screenshot: https://imgsrc.baidu.com/forum/pic/item/a08b87d6277f9e2f767c49cb5a30e924b999f3ac.jpg
     - title: "灯花小屋～"
-      url: https://yisui.zyglq.cn/
-      avatar: https://yisui.zyglq.cn/images/logo.png
+      url: https://诺艾尔.我爱你/
+      avatar: https://诺艾尔.我爱你/images/logo.png
       description: "我们是宇宙的尘埃，佩戴着璀璨的星辰。"
       screenshot: https://imgsrc.baidu.com/forum/pic/item/9f2f070828381f309d18d96aec014c086f06f0f4.jpg
     # - title: "SugarMGP's Blog"
@@ -33,9 +33,9 @@ my_friends:
       avatar: https://imgsrc.baidu.com/forum/pic/item/810a19d8bc3eb1353bade378e31ea8d3fc1f448e.jpg
       screenshot: https://imgsrc.baidu.com/forum/pic/item/962bd40735fae6cd46daffa24ab30f2443a70f82.jpg
     - title: "Nofated's Blog"
-      url: https://nofated.win/
-      avatar: https://img.9595095.xyz/avatar/256
-      screenshot: https://imgsrc.baidu.com/forum/pic/item/caef76094b36acaffe4fc23f39d98d1000e99c42.jpg
+      url: https://nof.moe/
+      avatar: https://cdn.nofated.win/avatarsoss
+      screenshot: https://imgsrc.baidu.com/forum/pic/item/9f510fb30f2442a75e5ad3949743ad4bd11302ae.jpg
       description: "Forever you will be in my heart."
     - title: "Purofle 的 Blog"
       url: https://blog.archlinux.tech/
@@ -102,5 +102,13 @@ my_friends:
       url: https://leziblog.cn
       avatar: https://leziblog.cn/logo.jpg
       screenshot: https://imgsrc.baidu.com/forum/pic/item/4afbfbedab64034faef42e36e9c379310a551dc1.jpg
-
-
+    - title: '白玉楼製作所'
+      description: '最爱妖梦惹~'
+      url: https://blog.inuyasha.love
+      avatar: https://blog.inuyasha.love/img/youmu.jpg
+      screenshot: https://imgsrc.baidu.com/forum/pic/item/902397dda144ad3455cda9b696a20cf431ad8594.jpg
+    - title: "huige233's blog"
+      description: 'Everyone can be the light in the darkness.'
+      url: https://huige233.github.io/vuepress-theme
+      avatar: https://imgsrc.baidu.com/forum/pic/item/e1fe9925bc315c600eff45decbb1cb134954779c.jpg
+      screenshot: https://imgsrc.baidu.com/forum/pic/item/caef76094b36acaf3b85b8cd3ad98d1001e99c9d.jpg
