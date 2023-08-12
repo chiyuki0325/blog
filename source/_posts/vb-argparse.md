@@ -88,4 +88,4 @@ End Select
 
 ### GitHub
 
-{%ghcard https://github.com/YidaozhanYa/ArgParse %}
+{%ghcard YidaozhanYa/ArgParse %}
