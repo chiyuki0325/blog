@@ -13,7 +13,7 @@ my_friends:
       url: https://ssmzhn.vercel.app/
       avatar: https://q1.qlogo.cn/g?b=qq&nk=3285956207&s=640
       screenshot: https://imgsrc.baidu.com/forum/pic/item/a6efce1b9d16fdfa4623922df18f8c5495ee7ba2.jpg
-      description: "一个专靠CV运营的博客罢了"
+      description: "一个专靠 CV 运营的博客罢了"
     # - title: "李某人的博客"
     #   url: https://blog.liziqian.net/
     #   avatar: https://blog.liziqian.net/img/avatar.jpg
@@ -65,7 +65,8 @@ my_friends:
     - title: "KanaのBlog"
       url: https://blog.rikko.moe/
       description: "Lost in life"
-      avatar: https://cdn.rikko.moe/static/avatar/me.png
+      # avatar: https://cdn.rikko.moe/static/avatar/me.png
+      avatar: https://imgsrc.baidu.com/forum/pic/item/8644ebf81a4c510f72e78b282659252dd42aa5e5.jpg
       screenshot: https://imgsrc.baidu.com/forum/pic/item/7aec54e736d12f2e86dc65a50ac2d5628435681e.jpg
     - title: "Molyuu Blog"
       url: https://blog.molyuu.xyz/
@@ -123,3 +124,13 @@ my_friends:
       # avatar: https://mx-space.thynanami.dev/api/v2/objects/icon/8yzwx1ezf3tlsbv7kf.jpeg
       avatar: https://cos.zyglq.cn/static/link-pic/230813.thynanami.com.jpg
       screenshot: https://imgsrc.baidu.com/forum/pic/item/0df431adcbef7609e1e128ae68dda3cc7cd99e1d.jpg
+    - title: '字节君'
+      description: '热爱漫无边际，生活自有分寸'
+      url: https://blog.lvbyte.top
+      avatar: https://npm.elemecdn.com/lvbyte-cdn/20230104/%E8%8B%B9%E6%9E%9C.156l7bksen40.jpg
+      screenshot: https://imgsrc.baidu.com/forum/pic/item/5fdf8db1cb134954f6828656104e9258d1094a60.jpg
+    - title: 'PJ568 的博客'
+      description: ':-)'
+      url: https://pj568.eu.org
+      avatar: https://pj568.eu.org/images/PJ568.svg
+      screenshot: https://imgsrc.baidu.com/forum/pic/item/962bd40735fae6cd3aa9c25349b30f2442a70fe6.jpg
