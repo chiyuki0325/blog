@@ -29,7 +29,7 @@ date: 2023-07-31 08:50:22
 
 目前还掌握了 <font color="#336fa1">Pyt</font><font color="#f9c83d">hon</font> 和一点点 <font color="#efaa0f">Java</font>Script。
 
-正在学习 <font color="#42b883">Vue</font><font color="#35495e">.js</font> 和 <font color="#007d9c">Golang</font>。
+正在学习 <font color="#42b883">Vue</font><font color="#35495e">.js</font>、<font color="#007d9c">Golang</font> 和 <font color="#f74b00">Rust</font>。
 
 #### 讨厌的东西
 
