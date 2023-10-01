@@ -1,4 +1,7 @@
 ### hexo-theme-stellaris
+stellar:
+  cdn_css: https://ydz-cos.zyglq.cn/blog-static/css/main.css?v=141
+  cdn_js: https://ydz-cos.zyglq.cn/blog-static/js/main.js?v=141
 
 ######## head tags ########
 open_graph:
@@ -155,6 +158,10 @@ tag_plugins:
   image:
     fancybox: true # true, false
     parse_markdown: true # 把 markdown 格式的图片解析成图片标签
+  # bilicard
+  bilicard:
+    enable: true
+    image_proxy: "https://images.weserv.nl/?url="
 
 ######## JS Plugins ########
 plugins:
@@ -170,15 +177,12 @@ plugins:
     css: https://ydz-cos.zyglq.cn/blog-static/css/fancybox.css
     #selector: .swiper-slide img,.vcontent img:not(.vemoji),article.content :not(div.article-footer) img # 多个选择器用英文逗号隔开
     selector: .swiper-slide img, .vcontent img:not(.vemoji) # 多个选择器用英文逗号隔开
+
   # swiper
   swiper:
     enable: true
     css: https://ydz-cos.zyglq.cn/blog-static/css/swiper-bundle.min.css
     js: https://ydz-cos.zyglq.cn/blog-static/js/swiper-bundle.min.js
-
-  # issues api
-  sitesjs: https://ydz-cos.zyglq.cn/blog-static/js/plugins/sites.js
-  friendsjs: https://ydz-cos.zyglq.cn/blog-static/js/plugins/friends.js
 
   ## optional plugins ##
   # preload
@@ -201,6 +205,15 @@ plugins:
     interval: 100 # ms
     scale: 1 # 0.1~1
 
+  # stellar api
+  stellar:
+    sites: https://ydz-cos.zyglq.cn/blog-static/js/plugins/sites.js
+    friends: https://ydz-cos.zyglq.cn/blog-static/js/plugins/friends.js
+    ghinfo: https://ydz-cos.zyglq.cn/blog-static/js/plugins/ghinfo.js
+    timeline: https://ydz-cos.zyglq.cn/blog-static/js/plugins/timeline.js
+    linkcard: https://ydz-cos.zyglq.cn/blog-static/js/plugins/linkcard.js
+    fcircle: https://ydz-cos.zyglq.cn/blog-static/js/plugins/fcircle.js
+
 style:
   darkmode: auto # auto / always / false
   theme:
@@ -214,7 +227,7 @@ style:
     highlightjs_theme: https://ydz-cos.zyglq.cn/blog-static/css/atom-one-light.min.css
   font:
     name: "HarmonyOS_Regular"
-    css: https://ydz-cos.zyglq.cn/blog-static/css/HarmonyOS_Regular.css
+    css: https://s1.hdslb.com/bfs/static/jinkela/long/font/regular.css
 
 default:
   avatar: /images/avatar.svg
@@ -225,9 +238,8 @@ default:
 search:
   service: local_search # local_search, todo...
   local_search: # 在 front-matter 中设置 indexing:false 来避免被搜索索引
+    js: https://ydz-cos.zyglq.cn/blog-static/js/search/local_search.js
     path: /search.json # 搜索文件存放位置
-    content: true # 是否搜索内容
-    codeblock: true # 是否搜索代码块（需要content: true)
 
 
 api_host:
