@@ -256,4 +256,12 @@ s390x 架构比较罕见，但还是成功地把 [Alist](https://github.com/Xhof
 
 🤗 重新编写了关于页面。
 
+<!--node 2023 年 10 月 1 日 -->
+
+🧱 Vercel 在中国大陆被封锁，因此博客迁移到 Cloudflare Pages。
+
+<!--node 2023 年 10 月 10 日 -->
+
+🗨️ 迁移到更加安全的 Waline 评论系统。
+
 {% endtimeline %}

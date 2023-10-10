@@ -1,7 +1,7 @@
 ### hexo-theme-stellaris
 stellar:
-  cdn_css: https://ydz-cos.zyglq.cn/blog-static/css/main.css?v=141
-  cdn_js: https://ydz-cos.zyglq.cn/blog-static/js/main.js?v=141
+  cdn_css: https://ydz-cos.zyglq.cn/blog-static/css/main.css?v=142
+  cdn_js: https://ydz-cos.zyglq.cn/blog-static/js/main.js?v=142
 
 ######## head tags ########
 open_graph:
@@ -72,31 +72,25 @@ article:
 
 ######## Comments ########
 comments:
-  service: valine
-  valine:
-    js: https://ydz-cos.zyglq.cn/blog-static/js/Valine.mod.js
-    appId: 'zoX8kazyGBliRB8slCeYbOMI-MdYXbMMI'
-    appKey: 'ayoqJFfEYQj3teSHqfK03JJo'
+  service: waline
+  waline:
+    js: https://ydz-cos.zyglq.cn/blog-static/js/waline.js
+    css: https://ydz-cos.zyglq.cn/blog-static/css/waline.css
+    serverURL: 'https://comments.yidaozhan.top'
     meta: [nick, mail]
     placeholder: '📨 快发条评论吧 (`･ω･´)ฅ'
     requiredFields: [nick]
-    enableQQ: true # Unstable avatar link
-    recordIP: false # Record commenter IP
+    enableQQ: false # Unstable avatar link
+    recordIP: true # Record commenter IP
     avatar: robohash # gravatar style https://valine.js.org/avatar
     pageSize: 10 # comment list page size
     lang: zh-cn
     highlight: true
     mathJax: false
-    serverURLs: 'https://valine-api.yidaozhan.top'
-    tagMeta: [博主, 小伙伴, 访客] # 标签要显示的文字,默认'博主,小伙伴,访客'
     metaPlaceholder:
       nick: "📋️ 昵称/QQ"
       mail: "📪 邮箱"
       link: "🔗 网址(https://)"
-    master: #md5加密后的博主邮箱
-      - 6783037F2DF30EAB99F9FC256157D875
-    friends: #md5加密后的小伙伴邮箱
-      - 6783037F2DF30EAB99F9FC256157D875
 
 
 ######## Footer ########
