@@ -91,6 +91,7 @@ comments:
       nick: "📋️ 昵称/QQ"
       mail: "📪 邮箱"
       link: "🔗 网址(https://)"
+    search: false
 
 
 ######## Footer ########
