@@ -1,12 +1,14 @@
 ### hexo-theme-stellaris
 stellar:
-  cdn_css: https://ydz-cos.zyglq.cn/blog-static/css/main.css?v=147
-  cdn_js: https://ydz-cos.zyglq.cn/blog-static/js/main.js?v=146
+  cdn_css: https://ydz-cos.zyglq.cn/blog-static/css/main.css?v=153
+  cdn_js: https://ydz-cos.zyglq.cn/blog-static/js/main.js?v=153
 
 ######## head tags ########
-open_graph:
-  enable: true
-  twitter_id: # for open_graph meta
+head:
+  open_graph:
+    # 启用 Open Graph 以在 Twitter 和 Telegram 等平台中获得更好的链接预览体验
+    enabled: true
+  twitter_id:
 
 
 sidebar:
@@ -61,11 +63,11 @@ article:
   # 文章许可协议
   license: '本文采用 [署名-非商业性使用-相同方式共享 4.0 国际](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议，转载请注明出处。'
   # 分享
-  share:  [wechat, weibo, email, link]
+  share:  [wechat, weibo, telegram, email, link]
   # 相关文章，需要安装插件 (for layout: post)
   # npm i hexo-related-popular-posts
   related_posts:
-    enable: true
+    enabled: true
     max_count: 3
     auto_cover: false
 
@@ -155,11 +157,13 @@ tag_plugins:
     parse_markdown: true # 把 markdown 格式的图片解析成图片标签
   # bilicard
   bilicard:
-    enable: true
+    enabled: true
     image_proxy: "https://images.weserv.nl/?url="
 
 ######## JS Plugins ########
 plugins:
+  # 在头部信息中写入 dns-prefetch 和 preconnect 以加快加载
+  prefetch_and_preconnect: ["https://s1.hdslb.com", "https://ydz-cos.zyglq.cn"]
   ## required plugins ##
   # jquery
   jquery: https://ydz-cos.zyglq.cn/blog-static/js/jquery.min.js
@@ -167,7 +171,7 @@ plugins:
   ## lazyload plugins ##
   # fancybox
   fancybox:
-    enable: true
+    enabled: true
     js: https://ydz-cos.zyglq.cn/blog-static/js/fancybox.umd.js
     css: https://ydz-cos.zyglq.cn/blog-static/css/fancybox.css
     #selector: .swiper-slide img,.vcontent img:not(.vemoji),article.content :not(div.article-footer) img # 多个选择器用英文逗号隔开
@@ -175,7 +179,7 @@ plugins:
 
   # swiper
   swiper:
-    enable: true
+    enabled: true
     css: https://ydz-cos.zyglq.cn/blog-static/css/swiper-bundle.min.css
     js: https://ydz-cos.zyglq.cn/blog-static/js/swiper-bundle.min.js
 
@@ -187,13 +191,13 @@ plugins:
   # image lazyload
   # https://www.npmjs.com/package/vanilla-lazyload
   lazyload:
-    enable: true # [hexo clean && hexo s] is required after changing this value.
+    enabled: true # [hexo clean && hexo s] is required after changing this value.
     js: https://ydz-cos.zyglq.cn/blog-static/js/lazyload.min.js
     transition: blur # blur, fade
 
   # https://scrollrevealjs.org/api/reveal.html
   scrollreveal:
-    enable: true
+    enabled: true
     js: https://ydz-cos.zyglq.cn/blog-static/js/scrollreveal.min.js
     distance: 20px
     duration: 350 # ms
