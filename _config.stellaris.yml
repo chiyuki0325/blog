@@ -78,7 +78,7 @@ comments:
   waline:
     js: https://ydz-cos.zyglq.cn/blog-static/js/waline.js
     css: https://ydz-cos.zyglq.cn/blog-static/css/waline.css
-    serverURL: 'https://comments.yidaozhan.top'
+    serverURL: 'https://comments.chyk.ink'
     meta: [nick, mail]
     placeholder: '📨 快发条评论吧 (`･ω･´)ฅ'
     requiredFields: [nick]
@@ -104,11 +104,11 @@ footer:
      - icon: '<img src="/images/qq.svg" style="scale:0.85;top:-2px;position:relative;"/>'
        url: 'https://jq.qq.com/?_wv=1027&k=c0oqCyOm'
      - icon: '<img src="https://imgsrc.baidu.com/forum/pic/item/f603918fa0ec08fa99fb05641cee3d6d54fbda7e.png"/>'
-       url: 'https://t.me/yidaozhan_group'
+       url: 'https://t.me/s/chiyuki_channel'
      - icon: '<img src="https://imgsrc.baidu.com/forum/pic/item/8326cffc1e178a8223cc6963b303738da877e805.png"/>'
-       url: 'https://file.yidaozhan.top/'
+       url: 'https://file.chyk.ink/'
      - icon: '<img src="/images/github.svg"/>'
-       url: 'https://github.com/YidaozhanYa/'
+       url: 'https://github.com/chiyuki0325'
   sitemap:
      '博客':
        - '[💡 近期发布](/)'
@@ -118,23 +118,23 @@ footer:
        - '[🗓️ 时间轴](/timeline)'
        - '[🔗 友情链接](/links)'
      '网站':
-       - '[🗂️️️️ 个人网盘](https://file.yidaozhan.top/)'
+       - '[🗂️️️️ 个人网盘](https://file.chyk.ink/)'
        - '[💸 喝了盘文件共享](https://hel.smbx.world/)'
        - '[🍄 SMBX 地图仓库](https://smbx.world/d/54-smbx)'
-       - '[🏠 主页](https://yidaozhan.top)'
+       - '[🏠 首页](https://chyk.ink)'
      '社交':
        - '[📺 Bilibili](https://space.bilibili.com/485832788)'
-       - '[🐱 GitHub](https://github.com/YidaozhanYa)'
-       - '[🛩️ Telegram](https://t.me/s/yidaozhan_channel)'
+       - '[🐱 GitHub](https://github.com/chiyuki0325)'
+       - '[🛩️ Telegram](https://t.me/s/chiyuki_channel)'
        - '[🐧 QQ](https://jq.qq.com/?_wv=1027&k=c0oqCyOm)'
        - '[▶️️ YouTube](https://www.youtube.com/channel/UC9VPn5_heoBDCOglDqeuuiA)'
      '其它':
-       - '[🏠 首页](https://yidaozhan.top/)'
-       - '[⏬ 更深处](https://inner.yidaozhan.top/)'
-       - '[📈 状态监控](https://status.yidaozhan.top/)'
+       # - '[🏠 首页](https://chyk.ink/)'
+       # - '[⏬ 更深处](https://inner.chyk.top/)'
+       - '[📈 状态监控](https://status.chyk.ink/)'
        - '[🚇 开往•友链接力](https://www.travellings.cn/go.html)'
   license: '[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)'
-  source: '[GitHub](https://github.com/YidaozhanYa/blog)'
+  source: '[GitHub](https://github.com/chiyuki0325/blog)'
   icp: '[⛩ 萌ICP备20212688号](https://icp.gov.moe/?keyword=20212688)'
 
 

@@ -70,6 +70,6 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: 'ydz-blog'
+          projectName: 'chiyuki-blog'
           directory: 'public'
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
