@@ -104,7 +104,7 @@ footer:
      - icon: '<img src="/images/qq.svg" style="scale:0.85;top:-2px;position:relative;"/>'
        url: 'https://jq.qq.com/?_wv=1027&k=c0oqCyOm'
      - icon: '<img src="https://imgsrc.baidu.com/forum/pic/item/f603918fa0ec08fa99fb05641cee3d6d54fbda7e.png"/>'
-       url: 'https://t.me/s/chiyuki_channel'
+       url: 'https://t.me/s/chiyuki_cafe'
      - icon: '<img src="https://imgsrc.baidu.com/forum/pic/item/8326cffc1e178a8223cc6963b303738da877e805.png"/>'
        url: 'https://file.chyk.ink/'
      - icon: '<img src="/images/github.svg"/>'
@@ -125,7 +125,7 @@ footer:
      '社交':
        - '[📺 Bilibili](https://space.bilibili.com/485832788)'
        - '[🐱 GitHub](https://github.com/chiyuki0325)'
-       - '[🛩️ Telegram](https://t.me/s/chiyuki_channel)'
+       - '[🛩️ Telegram](https://t.me/s/chiyuki_cafe)'
        - '[🐧 QQ](https://jq.qq.com/?_wv=1027&k=c0oqCyOm)'
        - '[▶️️ YouTube](https://www.youtube.com/channel/UC9VPn5_heoBDCOglDqeuuiA)'
      '其它':
