@@ -1,7 +1,7 @@
 ### hexo-theme-stellaris
 stellar:
-  cdn_css: https://ydz-cos.zyglq.cn/blog-static/css/main.css?v=155
-  cdn_js: https://ydz-cos.zyglq.cn/blog-static/js/main.js?v=154
+  #cdn_css: https://ydz-cos.zyglq.cn/blog-static/css/main.css?v=155
+  #cdn_js: https://ydz-cos.zyglq.cn/blog-static/js/main.js?v=154
 
 ######## head tags ########
 head:
@@ -225,7 +225,11 @@ style:
   codeblock:
     scrollbar: 4px
     highlightjs_theme: https://ydz-cos.zyglq.cn/blog-static/css/atom-one-light.min.css
-  font_face: "HarmonyOS_Regular"
+  font-size:
+    root: 16px
+    body: 1rem
+    code: 85%
+    codeblock: 0.875rem
   custom_font_css:
     enabled: true
     css: https://s1.hdslb.com/bfs/static/jinkela/long/font/regular.css
