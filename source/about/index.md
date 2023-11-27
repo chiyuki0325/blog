@@ -7,7 +7,7 @@ date: 2023-07-31 08:50:22
 
 ヾ(≧▽≦*)o 你好~ 欢迎来到我的博客！
 
-这里是斬風·千雪 (Kirukaze Chiyuki)，一个居住在辽宁的，想长大的普通高三学生。我正在尝试着改变自己，为了成为一个更好的人而努力着。
+这里是斬風·千雪 (Kirikaze Chiyuki)，一个居住在辽宁的，想长大的普通高三学生。我正在尝试着改变自己，为了成为一个更好的人而努力着。
 
 我正在尝试着接触新的事物，对未来的方向还很迷茫 ... 走一步算一步吧。
 
@@ -21,7 +21,7 @@ date: 2023-07-31 08:50:22
 
 喜欢听幽闭星光和春卷饭的歌曲，以及 VOCALOID 音乐。
 
-最喜欢做的事是摸鱼！
+最喜欢做的事是摸鱼！🐟
 
 #### 计算机
 
@@ -29,11 +29,11 @@ date: 2023-07-31 08:50:22
 
 目前还掌握了 <font color="#336fa1">Pyt</font><font color="#f9c83d">hon</font> 和一点点 <font color="#efaa0f">Java</font>Script。
 
-正在学习 <font color="#42b883">Vue</font><font color="#35495e">.js</font>、<font color="#007d9c">Golang</font> 和 <font color="#f74b00">Rust</font>。
+正在学习 <font color="#42b883">Vue</font><font color="#35495e">.js</font> 和 <font color="#007d9c">Golang</font>。
 
 #### 讨厌的东西
 
-最讨厌的东西是 <font color="#f45326">Wi</font><font color="#82bc06">nd</font><font color="#05a6f1">ow</font><font color="#ffbb08">s</font>，最讨厌的人是牛头人。
+最讨厌的东西是 <font color="#f45326">Wi</font><font color="#82bc06">nd</font><font color="#05a6f1">ow</font><font color="#ffbb08">s</font>，最讨厌的人是牛头人 🐮。
 
 #### 名字的来源
 
@@ -61,8 +61,6 @@ date: 2023-07-31 08:50:22
 <a href="https://music.163.com/#/user/home?id=3392019481"><img src="https://img.shields.io/badge/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90-e60026?logo=youtube-music" alt="163 Music"></a>
 </p>
 
-
-​     
 
 > 两个人恍若花瓣凋零一样
 > 在稚嫩的春风里起舞一样
