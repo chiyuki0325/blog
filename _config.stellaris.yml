@@ -78,7 +78,7 @@ comments:
   waline:
     js: https://ydz-cos.zyglq.cn/blog-static/js/waline.js
     css: https://ydz-cos.zyglq.cn/blog-static/css/waline.css
-    serverURL: 'https://comments.chyk.ink'
+    serverURL: 'https://comments-v2.chyk.ink'
     meta: [nick, mail]
     placeholder: '📨 快发条评论吧 (`･ω･´)ฅ'
     requiredFields: [nick]
@@ -94,6 +94,7 @@ comments:
       mail: "📪 邮箱"
       link: "🔗 网址(https://)"
     search: false
+    pageview: true
 
 
 ######## Footer ########
