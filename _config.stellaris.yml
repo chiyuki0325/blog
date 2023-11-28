@@ -213,6 +213,13 @@ plugins:
     timeline: https://ydz-cos.zyglq.cn/blog-static/js/plugins/timeline.js
     linkcard: https://ydz-cos.zyglq.cn/blog-static/js/plugins/linkcard.js
     fcircle: https://ydz-cos.zyglq.cn/blog-static/js/plugins/fcircle.js
+  # 代码块复制按钮
+  copycode:
+    enabled: true
+    js: https://ydz-cos.zyglq.cn/blog-static/js/plugins/copycode.js
+    default_text: '复制'
+    success_text: '已复制'
+
 
 style:
   darkmode: auto # auto / always / false
