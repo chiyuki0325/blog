@@ -16,7 +16,10 @@ toc:
   '基本使用':
     - theme-settings
     - pages
+  '侧边栏':
     - sidebar
+    - widgets
+  '标签组件':
     - tag-plugins
     - tag-plugins/express
     - tag-plugins/data
