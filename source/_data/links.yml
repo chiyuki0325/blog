@@ -65,7 +65,7 @@ my_friends:
     - title: "かしんふう"
       url: https://blog.rikko.moe/
       description: "CielZero 的博客"
-      avatar: https://cdn.rikko.moe/static/avatar/me.png
+      avatar: https://cdn.sayo.ink/static/avatar/me.png
       # avatar: https://imgsrc.baidu.com/forum/pic/item/8644ebf81a4c510f72e78b282659252dd42aa5e5.jpg
       screenshot: https://imgsrc.baidu.com/forum/pic/item/7aec54e736d12f2e86dc65a50ac2d5628435681e.jpg
     - title: "Molyuu Blog"
