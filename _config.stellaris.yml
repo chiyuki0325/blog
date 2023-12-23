@@ -177,7 +177,7 @@ plugins:
     js: https://ydz-cos.zyglq.cn/blog-static/js/fancybox.umd.js
     css: https://ydz-cos.zyglq.cn/blog-static/css/fancybox.css
     #selector: .swiper-slide img,.vcontent img:not(.vemoji),article.content :not(div.article-footer) img # 多个选择器用英文逗号隔开
-    selector: .swiper-slide img, .vcontent img:not(.vemoji) # 多个选择器用英文逗号隔开
+    selector: .swiper-slide img, .vcontent img:not(.vemoji), .tag-plugin.image img # 多个选择器用英文逗号隔开
 
   # swiper
   swiper:
@@ -208,13 +208,13 @@ plugins:
 
   # stellar api
   stellar:
-    sites: https://ydz-cos.zyglq.cn/blog-static/js/plugins/sites.js
-    friends: https://ydz-cos.zyglq.cn/blog-static/js/plugins/friends.js
-    ghinfo: https://ydz-cos.zyglq.cn/blog-static/js/plugins/ghinfo.js
-    timeline: https://ydz-cos.zyglq.cn/blog-static/js/plugins/timeline.js
-    linkcard: https://ydz-cos.zyglq.cn/blog-static/js/plugins/linkcard.js
-    fcircle: https://ydz-cos.zyglq.cn/blog-static/js/plugins/fcircle.js
-    bvideo: https://ydz-cos.zyglq.cn/blog-static/js/plugins/bvideo.js
+    sites: https://ydz-cos.zyglq.cn/blog-static/js/plugins/sites.js?v=199
+    friends: https://ydz-cos.zyglq.cn/blog-static/js/plugins/friends.js?v=199
+    ghinfo: https://ydz-cos.zyglq.cn/blog-static/js/plugins/ghinfo.js?v=199
+    timeline: https://ydz-cos.zyglq.cn/blog-static/js/plugins/timeline.js?v=199
+    linkcard: https://ydz-cos.zyglq.cn/blog-static/js/plugins/linkcard.js?v=199
+    fcircle: https://ydz-cos.zyglq.cn/blog-static/js/plugins/fcircle.js?v=199
+    bvideo: https://ydz-cos.zyglq.cn/blog-static/js/plugins/bvideo.js?v=199
 
   # 代码块复制按钮
   copycode:
