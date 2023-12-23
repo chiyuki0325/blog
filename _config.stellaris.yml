@@ -1,7 +1,7 @@
 ### hexo-theme-stellaris
 stellar:
-  cdn_css: https://ydz-cos.zyglq.cn/blog-static/css/main.css?v=182
-  cdn_js: https://ydz-cos.zyglq.cn/blog-static/js/main.js?v=182
+  cdn_css: https://ydz-cos.zyglq.cn/blog-static/css/main.css?v=199
+  cdn_js: https://ydz-cos.zyglq.cn/blog-static/js/main.js?v=199
 
 ######## head tags ########
 head:
@@ -157,9 +157,10 @@ tag_plugins:
     fancybox: true # true, false
     parse_markdown: true # 把 markdown 格式的图片解析成图片标签
   # bilicard
-  bilicard:
+  bvideo:
     enabled: true
-    image_proxy: "https://images.weserv.nl/?url="
+  video:
+    js: https://ydz-cos.zyglq.cn/blog-static/js/artplayer.min.js
 
 ######## JS Plugins ########
 plugins:
@@ -213,6 +214,8 @@ plugins:
     timeline: https://ydz-cos.zyglq.cn/blog-static/js/plugins/timeline.js
     linkcard: https://ydz-cos.zyglq.cn/blog-static/js/plugins/linkcard.js
     fcircle: https://ydz-cos.zyglq.cn/blog-static/js/plugins/fcircle.js
+    bvideo: https://ydz-cos.zyglq.cn/blog-static/js/plugins/bvideo.js
+
   # 代码块复制按钮
   copycode:
     enabled: true

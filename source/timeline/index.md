@@ -256,6 +256,12 @@ s390x 架构比较罕见，但还是成功地把 [Alist](https://github.com/Xhof
 
 🤗 重新编写了关于页面。
 
+<!--node 2023 年 9 月 24 日 -->
+
+📦 主题上架 [npm](https://www.npmjs.com/package/hexo-theme-stellaris)。
+
+🫂 [千畔](https://nekoq.top) 加入了本博客主题的开发。
+
 <!--node 2023 年 10 月 1 日 -->
 
 🧱 Vercel 在中国大陆被封锁，因此博客迁移到 Cloudflare Pages。
@@ -263,5 +269,23 @@ s390x 架构比较罕见，但还是成功地把 [Alist](https://github.com/Xhof
 <!--node 2023 年 10 月 10 日 -->
 
 🗨️ 迁移到更加安全的 Waline 评论系统。
+
+<!--node 2023 年 11 月 19 日 -->
+
+🥰 我改了新网名，因此博客的域名也一并更换为 chyk.ink。
+
+之后这里就叫做「千雪的咖啡厅」咯！
+
+<!--node 2023 年 12 月 14 日 -->
+
+📑 博客主题文档上线。
+
+<!--node 2023 年 12 月 17 日 -->
+
+🧱 Vercel 解墙，博客迁移回 Vercel。
+
+<!--node 2023 年 12 月 23 日 -->
+
+❄️ 博客主题跨年纪念版 1.9.9 发布。
 
 {% endtimeline %}
