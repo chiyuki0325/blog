@@ -37,7 +37,7 @@ date: 2024-01-07 23:11:24
 
 <div class="ui-mono">
 ```
-    This is a code block with "ui-monospace" font family.
+    This is a code block with "ui-monospace" font family and a fallback to "monospace" font-family.
     This font family is frequently used on GitHub or other websites.
 ```
 </div>
@@ -57,7 +57,7 @@ date: 2024-01-07 23:11:24
         font-family: serif !important
     }
     .ui-mono, .ui-mono * {
-        font-family: ui-monospace !important
+        font-family: ui-monospace, monospace !important
     }
     .mono, .mono * {
         font-family: monospace !important
