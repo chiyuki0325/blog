@@ -63,7 +63,7 @@ my_friends:
     #   avatar: https://imgsrc.baidu.com/forum/pic/item/a8773912b31bb0513fef78ed737adab44bede029.jpg
     #  screenshot: https://imgsrc.baidu.com/forum/pic/item/37d3d539b6003af3235817a5702ac65c1138b611.jpg
     - title: "かしんふう"
-      url: https://blog.rikko.moe/
+      url: https://blog.kori.moe/
       description: "CielZero 的博客"
       avatar: https://cdn.sayo.ink/static/avatar/me.png
       # avatar: https://imgsrc.baidu.com/forum/pic/item/8644ebf81a4c510f72e78b282659252dd42aa5e5.jpg
@@ -134,7 +134,7 @@ my_friends:
       url: https://pj568.eu.org
       avatar: https://pj568.eu.org/images/PJ568.svg
       screenshot: https://imgsrc.baidu.com/forum/pic/item/962bd40735fae6cd3aa9c25349b30f2442a70fe6.jpg
-    - title: 'Tibrella 的隙间'
+    - title: '伞的隙间'
       description: '天终会再明。'
       url: https://blog.tibrella.space
       avatar: https://blog.tibrella.space/img/avatar.webp
@@ -144,3 +144,8 @@ my_friends:
       url: https://blog.hicosor.top
       avatar: https://blog.hicosor.top/images/avatar.png?v=1696858859287
       screenshot: https://imgsrc.baidu.com/forum/pic/item/ae51f3deb48f8c548a60df1b7c292df5e0fe7f56.jpg
+    - title: 'Haru 的碎碎念'
+      description: '向光而行的人'
+      url: https://harumoe.me
+      avatar: https://www.harumoe.me/usr/themes/handsome/assets/img/avatar.jpg
+      screenshot: https://imgsrc.baidu.com/forum/pic/item/d8f9d72a6059252d62987d3c729b033b5bb5b97f.jpg
