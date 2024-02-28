@@ -62,10 +62,10 @@ my_friends:
     #   description: "一个分享互联网技术的个人博客"
     #   avatar: https://imgsrc.baidu.com/forum/pic/item/a8773912b31bb0513fef78ed737adab44bede029.jpg
     #  screenshot: https://imgsrc.baidu.com/forum/pic/item/37d3d539b6003af3235817a5702ac65c1138b611.jpg
-    - title: "かしんふう"
-      url: https://blog.kori.moe/
-      description: "CielZero 的博客"
-      avatar: https://cdn.sayo.ink/static/avatar/me.png
+    - title: "花と詩"
+      url: https://blog.ayo.moe/
+      description: "Hana to Uta"
+      avatar: https://cdn.ayo.moe/static/avatar/me.webp
       # avatar: https://imgsrc.baidu.com/forum/pic/item/8644ebf81a4c510f72e78b282659252dd42aa5e5.jpg
       screenshot: https://imgsrc.baidu.com/forum/pic/item/7aec54e736d12f2e86dc65a50ac2d5628435681e.jpg
     - title: "Molyuu Blog"
