@@ -22,7 +22,7 @@ subtitle:  标题1 | 标题2
 
 如果您想用一个图片作为 logo，可以直接在主题配置文件 sidebar.logo.title 中设置：
 
-```yaml blog/_config.stellar.yml
+```yaml blog/_config.stellaris.yml
 sidebar:
   logo:
     title: '[<img no-lazy height="32px" src="xxx"/>](/)'
@@ -30,7 +30,7 @@ sidebar:
 
 ## 主导航栏
 
-```yaml blog/_config.stellar.yml
+```yaml blog/_config.stellaris.yml
 sidebar:
   menu:
     post: '[btn.blog](/)'
@@ -43,7 +43,7 @@ sidebar:
 
 ## 文章搜索
 
-```yaml blog/_config.stellar.yml
+```yaml blog/_config.stellaris.yml
 search:
   service: local_search # local_search, todo...
   local_search: # 在 front-matter 中设置 indexing:false 来避免被搜索索引
@@ -94,7 +94,7 @@ sidebar:
 
 ## 页脚
 
-```yaml blog/_config.stellar.yml
+```yaml blog/_config.stellaris.yml
 footer:
   social:
     github:
