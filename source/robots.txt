@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /shorten.html
 Disallow: /cdn/
-Sitemap: https://blog.yidaozhan.top/sitemap.xml
+Sitemap: https://blog.chyk.ink/sitemap.xml

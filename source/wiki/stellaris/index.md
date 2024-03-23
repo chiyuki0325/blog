@@ -10,7 +10,7 @@ Stellaris 是一款 Hexo 博客主题，派生自 [Stellar](https://github.com/x
 
 {% border color:warning ⚠️ 用前须知 %}
 
-- 本主题为我为了个人博客 [千雪的咖啡厅](https://blog.chyk.ink) 而专门开发，稳定性远未达到 "production-ready" 水平，因此部分原主题的功能可能并未支持，或存在 bug。
+- 本主题为我为了个人博客而专门开发，稳定性远未达到 "production-ready" 水平，因此部分原主题的功能可能并未支持，或存在 bug。
 
 {%endborder%}
 
