@@ -14,3 +14,4 @@ pnpm-lock.yaml
 .idea/
 .vercel
 channel_bot/node_modules/
+channel_bot/.env

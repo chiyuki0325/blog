@@ -150,3 +150,19 @@ my_friends:
       url: https://blog.zhilu.cyou
       avatar: https://cravatar.cn/avatar/13aa912754e6bb5e671f3e6654e4712d?s=100
       screenshot: https://imgsrc.baidu.com/forum/pic/item/b3b7d0a20cf431ad166d39030d36acaf2edd9849.jpg
+    - title: '风语阁'
+      description: '风吹拂，语轻扬。'
+      url: https://blog.wtm.moe
+      avatar: https://blog.wtm.moe/img/me.webp
+      screenshot: https://imgsrc.baidu.com/forum/pic/item/0b46f21fbe096b6320ab416c4a338744ebf8ac58.jpg
+    - title: 'Mare_Infinitus'
+      description: '77569 号奇点观察员的观察日志'
+      url: https://lab.imgb.space
+      avatar: https://lab.imgb.space/img/favicon@square.png
+      screenshot: https://imgsrc.baidu.com/forum/pic/item/1e30e924b899a901e197440a5b950a7b0208f568.jpg
+    - title: '李皓奇'
+      description: '岂有电报倾社稷，从来佞幸覆乾坤。'
+      url: https://liolok.com
+      avatar: https://imgsrc.baidu.com/forum/pic/item/a08b87d6277f9e2fa0ac02345930e924b899f375.jpg
+      screenshot: https://imgsrc.baidu.com/forum/pic/item/b58f8c5494eef01f1f8f07f9a6fe9925bc317d76.jpg
+
