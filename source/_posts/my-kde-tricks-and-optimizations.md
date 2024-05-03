@@ -1,5 +1,5 @@
 ---
-title: '⚙️ 我在使用 KDE 过程中的技巧 / 优化方案'
+title: '⚙️ 我在使用 KDE Plasma 5 过程中的技巧 / 优化方案'
 date: 2022-10-24 12:09:36
 tags:
 - KDE
@@ -11,6 +11,8 @@ cover: 'https://imgsrc.baidu.com/forum/pic/item/91529822720e0cf36ffd383a4f46f21f
 KDE Plasma 桌面之所以有如此高的用户量，很大程度上在于它的高自定义性。本文就记载一些我在使用过程中的小技巧 / 优化方案。但如果已经是烂大街的修复技巧，我就不记载了。
 
 > 本文属于笔记，比较杂乱，并且并不是最终稿，之后可能会加入新东西，请谅解。	
+
+{%note color:red ⚠️&nbsp;请注意 本文已经严重过时，已经更新 Plasma 6 版本，请[前往阅读](/2024/05/03/plasma-6-tricks-and-optimizations)。 %}
 
 <!--more-->
 

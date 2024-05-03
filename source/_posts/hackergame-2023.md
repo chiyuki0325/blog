@@ -68,7 +68,7 @@ Hackergame，启动！
 
 ### 📡 ✅ 虫
 
-这道题和之前[池塘铸币厂的群友赛](http://localhost:4000/2023/09/30/zhongqiu-group-friend-puzzles-writeup/#%E6%B1%A0%E5%A1%98)撞了思路，于是我上来想都没想直接打开 QSSTV，轻松拿下。
+这道题和之前[池塘铸币厂的群友赛](/2023/09/30/zhongqiu-group-friend-puzzles-writeup/#%E6%B1%A0%E5%A1%98)撞了思路，于是我上来想都没想直接打开 QSSTV，轻松拿下。
 
 再次感谢池塘让我知道了 SSTV。
 
