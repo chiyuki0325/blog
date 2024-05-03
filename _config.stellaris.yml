@@ -1,7 +1,7 @@
 ### hexo-theme-stellaris
 stellar:
-  cdn_css: https://ydz-cos.zyglq.cn/blog-static/css/main.css?v=2
-  cdn_js: https://ydz-cos.zyglq.cn/blog-static/js/main.js?v=2
+  cdn_css: https://ydz-cos.zyglq.cn/blog-static/css/main.css?v=201
+  cdn_js: https://ydz-cos.zyglq.cn/blog-static/js/main.js?v=201
 
 ######## head tags ########
 head:
