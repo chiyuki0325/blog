@@ -51,7 +51,6 @@ const sleep = async (ms) =>
 const main = async () => {
     const driver = new Builder().forBrowser(Browser.CHROME).build()
     await driver.manage().window().maximize()
-    await driver.manage().window().minimize()
 
     Message.msg('正在爬取博文信息...')
     await driver.get(URL_TO_PROCESS)
@@ -67,11 +66,14 @@ const main = async () => {
         if (document.querySelectorAll('span#more').length > 0) {
             let summary = ''
             let el = articleContent.firstChild
-            while (!(el.tagName.toLowerCase() == 'span' && el.id == 'more')) {
+            while (
+                el &&
+                !(el.tagName?.toLowerCase() == 'span' && el.id == 'more')
+            ) {
                 summary += el.innerText + '\n'
                 el = el.nextSibling
             }
-            summary = summary.trim()
+            summary = summary.replace('\nundefined', '').trim()
             return summary
         } else {
             return (

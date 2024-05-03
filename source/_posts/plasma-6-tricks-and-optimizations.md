@@ -121,6 +121,6 @@ Latte Dock 不能在 KDE 6 上使用。不过，KDE 6 的面板经过一番配�
 
 ### 🖼️ 我的截图
 
-{%image https://imgsrc.baidu.com/forum/pic/item/08f790529822720efb30d5c73dcb0a46f21fab15.png 壁纸：<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2239430876">璃月港</a> %}
+{%image https://imgsrc.baidu.com/forum/pic/item/08f790529822720efb30d5c73dcb0a46f21fab15.jpg 壁纸：<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2239430876">璃月港</a> %}
 
-{%image https://imgsrc.baidu.com/forum/pic/item/ae51f3deb48f8c54df2cf2127c292df5e0fe7f0b.png 壁纸：<a href="https://www.pixiv.net/artworks/68686407">星星坠落的傍晚</a>%}
+{%image https://imgsrc.baidu.com/forum/pic/item/ae51f3deb48f8c54df2cf2127c292df5e0fe7f0b.jpg 壁纸：<a href="https://www.pixiv.net/artworks/68686407">星星坠落的傍晚</a>%}
