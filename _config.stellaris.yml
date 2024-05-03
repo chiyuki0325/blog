@@ -161,6 +161,8 @@ tag_plugins:
     enabled: true
   video:
     js: https://ydz-cos.zyglq.cn/blog-static/js/artplayer.min.js
+    image_proxy: "http://stellaris-api-dev.chyk.ink:5678/bilibili/?url="
+    video_info: "http://stellaris-api-dev.chyk.ink:5678/bvideo_info/"
 
 ######## JS Plugins ########
 plugins:
