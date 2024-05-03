@@ -42,7 +42,7 @@ references:
 
 根据 `tags` 作为关键词，从 Unsplash 为每一篇文章在线搜索封面：
 
-```yaml blog/_config.stellar.yml
+```yaml blog/_config.stellaris.yml
 article:
   auto_cover: true
 ```
@@ -102,7 +102,7 @@ poster: # 海报（可选，全图封面卡片）
 
 建议您通过 `description` 或者 `excerpt` 方式生成摘要，但如果您希望自动从文章内容截取一定字数的文字作为摘要，可以这样设置：
 
-```yaml blog/_config.stellar.yml
+```yaml blog/_config.stellaris.yml
 article:
   auto_excerpt: 200
 ```
@@ -216,7 +216,7 @@ tags: [游戏, 音游, "舞萌 DX"]
 
 然后在主题配置文件中开启：
 
-```yaml blog/_config.stellar.yml
+```yaml blog/_config.stellaris.yml
 article:
   # npm i hexo-related-popular-posts
   related_posts:
@@ -263,7 +263,7 @@ title: 友链
 
 在主题配置文件中设置导航栏：
 
-```yaml blog/_config.stellar.yml
+```yaml blog/_config.stellaris.yml
 sidebar:
   menu:
     # ...
