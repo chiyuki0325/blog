@@ -10,6 +10,8 @@ cover: https://imgsrc.baidu.com/forum/pic/item/d1a20cf431adcbef5d31493beaaf2edda
 
 随着今年二月份 KDE Plasma 6 大版本的更新，基础框架更新到了 Qt 6，默认图形环境也变为了 Wayland，之前在 KDE 5 上的一些技巧和优化方案已经不再管用，因此本文就记载一些我在 KDE Plasma 6 刚推出几个月内，进行「拓荒」的经验。
 
+<!--more-->
+
 {%ablock ⚠️ 请注意%}
 
 - 本文写作时 KDE Plasma 的最新版本为 6.0.4，因此当你阅读此文时，其中的部分信息**很可能已经过时**。
