@@ -23,7 +23,7 @@ description: '《我的世界》网易国服的启动器使用 WPF 编写，并�
 
 > 装好 .NET 4.5.2 之后 Wine Windows 版本会被 winetricks 改成 Windows 2003，会出现 `wine: Call from 7BC2C280 to unimplemented function MSVCR100_CLR0400.dll._except_handler4_common, aborting` 报错，改成  Windows 7 即可。
 >
-> 如果懒得折腾 .NET，可以[下载我配置好的 wineprefix](https://file.yidaozhan.top/d/OneDrive/Linux/dotnet45-caffe720.tar.gz)。
+> 如果懒得折腾 .NET，可以[下载我配置好的 wineprefix](https://file.chyk.ink/d/OneDrive/Linux/dotnet45-caffe720.tar.gz)。
 
 ### 📥 安装启动器
 
@@ -65,7 +65,7 @@ description: '《我的世界》网易国服的启动器使用 WPF 编写，并�
 
 因为开发者启动器的外部调试工具无法运行，所以需要在开发者启动器中下载好 modpc 之后，使用 wine 单独运行。
 
-如果只是想体验游戏，不是为了调试或不想申请开发者资格，这里是[我下载好的 modpc 包](https://file.yidaozhan.top/OneDrive/PC%E6%B8%B8%E6%88%8F/%E7%BD%91%E6%98%93%E5%9F%BA%E5%B2%A9)，但不推荐。基岩版还是推荐使用 [MCPELauncher](https://github.com/minecraft-linux/mcpelauncher-manifest) 原生游玩。
+如果只是想体验游戏，不是为了调试或不想申请开发者资格，这里是[我下载好的 modpc 包](https://file.chyk.ink/OneDrive/PC%E6%B8%B8%E6%88%8F/%E7%BD%91%E6%98%93%E5%9F%BA%E5%B2%A9)，但不推荐。基岩版还是推荐使用 [MCPELauncher](https://github.com/minecraft-linux/mcpelauncher-manifest) 原生游玩。
 
 {% image https://imgsrc.baidu.com/forum/pic/item/faf2b2119313b07e711d03cc49d7912396dd8c56.jpg modpc 运行截图 %}
 

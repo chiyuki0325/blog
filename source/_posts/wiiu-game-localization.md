@@ -80,7 +80,7 @@ references:
  6）最后得到的 .szs 就是最终成品。
     修改名字为 <font color="green">Font_JP.sbfarc</font> 覆盖原文件就完成所有教学
 
-[📥 下载字库篇的相关工具](https://file.yidaozhan.top/OneDrive/%E6%A8%A1%E6%8B%9F%E5%99%A8%E6%B8%B8%E6%88%8F/WiiU/WiiU%E7%9B%B8%E5%85%B3%E5%B7%A5%E5%85%B7/Uwizard%20NW4F%20Font%20Converter.zip)
+[📥 下载字库篇的相关工具](https://file.chyk.ink/OneDrive/%E6%A8%A1%E6%8B%9F%E5%99%A8%E6%B8%B8%E6%88%8F/WiiU/WiiU%E7%9B%B8%E5%85%B3%E5%B7%A5%E5%85%B7/Uwizard%20NW4F%20Font%20Converter.zip)
 
 ### 🔡 文本篇
 
@@ -154,9 +154,9 @@ references:
  8）翻译好文本，最后就是反向封包文件测试。
      具体流程就不在本篇细述，相信教学看到这个部分封包应该不会难得到你。
 
-[📥 文本编辑: MsbtEditor](https://file.yidaozhan.top/OneDrive/%E6%A8%A1%E6%8B%9F%E5%99%A8%E6%B8%B8%E6%88%8F/WiiU/WiiU%E7%9B%B8%E5%85%B3%E5%B7%A5%E5%85%B7/MsbtEditor.zip)
+[📥 文本编辑: MsbtEditor](https://file.chyk.ink/OneDrive/%E6%A8%A1%E6%8B%9F%E5%99%A8%E6%B8%B8%E6%88%8F/WiiU/WiiU%E7%9B%B8%E5%85%B3%E5%B7%A5%E5%85%B7/MsbtEditor.zip)
 
-[📥 解包封包: SARCTools (Python 2.7)](https://file.yidaozhan.top/OneDrive/%E6%A8%A1%E6%8B%9F%E5%99%A8%E6%B8%B8%E6%88%8F/WiiU/WiiU%E7%9B%B8%E5%85%B3%E5%B7%A5%E5%85%B7/%5B%E8%A7%A3%E5%8C%85%E5%B0%81%E5%8C%85%5DSARCTools%20%28Python2.7%29.zip)
+[📥 解包封包: SARCTools (Python 2.7)](https://file.chyk.ink/OneDrive/%E6%A8%A1%E6%8B%9F%E5%99%A8%E6%B8%B8%E6%88%8F/WiiU/WiiU%E7%9B%B8%E5%85%B3%E5%B7%A5%E5%85%B7/%5B%E8%A7%A3%E5%8C%85%E5%B0%81%E5%8C%85%5DSARCTools%20%28Python2.7%29.zip)
 
 ### 📝 后记
 

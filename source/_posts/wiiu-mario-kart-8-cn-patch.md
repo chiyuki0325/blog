@@ -45,9 +45,9 @@ cover: https://imgsrc.baidu.com/forum/pic/item/728da9773912b31b1415d8eec318367ad
 
 {% bilicard BV1yv411C7Xh %}
 
-[📥 汉化补丁 + 脚本 (用于 WiiU 实机)](https://file.yidaozhan.top/OneDrive/%E6%A8%A1%E6%8B%9F%E5%99%A8%E6%B8%B8%E6%88%8F/WiiU/%E6%B1%89%E5%8C%96/WiiU%20%E9%A9%AC%E5%8A%9B%E6%AC%A7%E5%8D%A1%E4%B8%81%E8%BD%A68%E5%AE%98%E7%BF%BB%E7%A7%BB%E6%A4%8D%E6%B1%89%E5%8C%96%E8%A1%A5%E4%B8%81%20v2020.9.26.zip)
+[📥 汉化补丁 + 脚本 (用于 WiiU 实机)](https://file.chyk.ink/OneDrive/%E6%A8%A1%E6%8B%9F%E5%99%A8%E6%B8%B8%E6%88%8F/WiiU/%E6%B1%89%E5%8C%96/WiiU%20%E9%A9%AC%E5%8A%9B%E6%AC%A7%E5%8D%A1%E4%B8%81%E8%BD%A68%E5%AE%98%E7%BF%BB%E7%A7%BB%E6%A4%8D%E6%B1%89%E5%8C%96%E8%A1%A5%E4%B8%81%20v2020.9.26.zip)
 
-[📥 已汉化的升级档 (用于 Cemu 模拟器)](https://file.yidaozhan.top/d/OneDrive/%E6%A8%A1%E6%8B%9F%E5%99%A8%E6%B8%B8%E6%88%8F/WiiU/%E9%A9%AC%E8%BD%A68%E5%8D%87%E7%BA%A7%E6%A1%A3(%E4%B8%AA%E4%BA%BA%E6%B1%89%E5%8C%96).7z)
+[📥 已汉化的升级档 (用于 Cemu 模拟器)](https://file.chyk.ink/d/OneDrive/%E6%A8%A1%E6%8B%9F%E5%99%A8%E6%B8%B8%E6%88%8F/WiiU/%E9%A9%AC%E8%BD%A68%E5%8D%87%E7%BA%A7%E6%A1%A3(%E4%B8%AA%E4%BA%BA%E6%B1%89%E5%8C%96).7z)
 
 
 

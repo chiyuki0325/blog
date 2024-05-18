@@ -12,7 +12,7 @@ category: 其它
 
 之前我想停止维护 SMMWE Cloud，于是就把它扔在一边撒手不管，可没想到 Vercel 还留了一手——系统升级。今日 Vercel 貌似系统升级，导致大多数部署在 Vercel 平台的 OneManager 项目无法访问（404），考虑到我没有足够技术力修复这个问题，于是决定彻底关停 SMMWE Cloud，即关停网页端，并且不再接受新关卡的上传。
 
-你可以在 [这里](https://file.yidaozhan.top/OneDrive/%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/SMMWE%20Cloud%20Archive.zip) 下载 SMMWE Cloud 现有的 2151 个关卡。
+你可以在 [这里](https://file.chyk.ink/OneDrive/%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/SMMWE%20Cloud%20Archive.zip) 下载 SMMWE Cloud 现有的 2151 个关卡。
 
 你也可以在 [这里](https://github.com/SMMWECloud/SMMWECloudLevelManager) 下载 SMMWE Cloud 关卡管理器的源码，在 [这里](https://github.com/SMMWECloud/SMMWECloudPrivateServer) 下载 SMMWE Cloud 3.1.0 私服的源码。
 

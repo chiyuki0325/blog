@@ -19,7 +19,7 @@ Visual Basic 是一门虽然已经停更多年但经久不衰的编程语言，�
 
 ### 📥 安装本体
 
-下载 Visual Basic 6.0 中文企业版 安装光盘: [📥 脚本之家](https://www.jb51.net/softs/44280.html#downintro2) | [📥 本站](https://file.yidaozhan.top/OneDrive/PC%E8%BD%AF%E4%BB%B6/VB/VB6.0%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87%E4%BC%81%E4%B8%9A%E7%89%88.rar)
+下载 Visual Basic 6.0 中文企业版 安装光盘: [📥 脚本之家](https://www.jb51.net/softs/44280.html#downintro2) | [📥 本站](https://file.chyk.ink/OneDrive/PC%E8%BD%AF%E4%BB%B6/VB/VB6.0%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87%E4%BC%81%E4%B8%9A%E7%89%88.rar)
 
 #### 运行安装程序
 
@@ -45,7 +45,7 @@ Visual Basic 是一门虽然已经停更多年但经久不衰的编程语言，�
 
 ### 🛄 安装 Service Pack 6
 
-在[这里](https://file.yidaozhan.top/OneDrive/PC%E8%BD%AF%E4%BB%B6/VB)下载如下四个文件并按顺序安装：
+在[这里](https://file.chyk.ink/OneDrive/PC%E8%BD%AF%E4%BB%B6/VB)下载如下四个文件并按顺序安装：
 
 - `Vs6sp6B.exe`（微软已经从官网删除）
 - `Vs6sp6.exe`（微软已经从官网删除）
@@ -66,7 +66,7 @@ Visual Basic 是一门虽然已经停更多年但经久不衰的编程语言，�
 
 [CodeHelp](https://github.com/clayreimann/CodeHelp)：给 VB6 IDE 添加鼠标滚轮支持和多标签。
 
-[CodeSMART for VB6](https://www.axtools.com/products-codesmart-vb6.php)：重做 VB6 IDE 的大部分界面，加入了很多工具窗格。该软件是专有付费软件，并且同样在现代已经无法购买，不过你可以[在此](https://file.yidaozhan.top/OneDrive/PC%E8%BD%AF%E4%BB%B6/codesmart.rar)下载。
+[CodeSMART for VB6](https://www.axtools.com/products-codesmart-vb6.php)：重做 VB6 IDE 的大部分界面，加入了很多工具窗格。该软件是专有付费软件，并且同样在现代已经无法购买，不过你可以[在此](https://file.chyk.ink/OneDrive/PC%E8%BD%AF%E4%BB%B6/codesmart.rar)下载。
 
 [ModernVB](https://github.com/VykosX/ModernVB)：这个扩展程序本身不适用于中文版 VB，替换图标等功能不再可用，但仍然可以用于使 VB6 IDE 跟随新 Windows 窗体风格，并且也可以修改代码编辑器的配色。**如许安装，必须在 Vs6sp6B.exe 安装之后，Vs6sp6.exe 安装之前安装。**
 

@@ -17,11 +17,11 @@ cover: https://imgsrc.baidu.com/forum/pic/item/8435e5dde71190ef563d83ec881b9d16f
 
 目前红米 1S 4G 可用的，相对现代的安卓刷机包有三款，均由 [Minimal-W](https://xtremedev.top/) (rote66 / wanyikai0791) 制作，感谢这位大佬的辛苦付出。
 
-📥 [魔趣 (安卓 5.1)](https://file.yidaozhan.top/%E5%AE%89%E5%8D%93%E8%BD%AF%E4%BB%B6/HM2014501/HM1S4G_Mokee5.1_V2_wanyikai0791.zip): HM1S4G_Mokee5.1_V2_wanyikai0791.zip
+📥 [魔趣 (安卓 5.1)](https://file.chyk.ink/%E5%AE%89%E5%8D%93%E8%BD%AF%E4%BB%B6/HM2014501/HM1S4G_Mokee5.1_V2_wanyikai0791.zip): HM1S4G_Mokee5.1_V2_wanyikai0791.zip
 
-[📥 Resurrection Remix 5.7.1 (安卓 6.0)](https://file.yidaozhan.top/%E5%AE%89%E5%8D%93%E8%BD%AF%E4%BB%B6/HM2014501/HM1S4G_RR5.7.1_Alpha1_wanyikai0791.zip): HM1S4G_RR5.7.1_Alpha1_wanyikai0791.zip
+[📥 Resurrection Remix 5.7.1 (安卓 6.0)](https://file.chyk.ink/%E5%AE%89%E5%8D%93%E8%BD%AF%E4%BB%B6/HM2014501/HM1S4G_RR5.7.1_Alpha1_wanyikai0791.zip): HM1S4G_RR5.7.1_Alpha1_wanyikai0791.zip
 
-[📥 LineageOS 14.1 (安卓 7.1.2)](https://file.yidaozhan.top/%E5%AE%89%E5%8D%93%E8%BD%AF%E4%BB%B6/HM2014501/HM1S4G_Los14.1_beta1_wanyikai0791.zip): HM1S4G_Los14.1_beta1_wanyikai0791.zip
+[📥 LineageOS 14.1 (安卓 7.1.2)](https://file.chyk.ink/%E5%AE%89%E5%8D%93%E8%BD%AF%E4%BB%B6/HM2014501/HM1S4G_Los14.1_beta1_wanyikai0791.zip): HM1S4G_Los14.1_beta1_wanyikai0791.zip
 
 [😺 TWRP 3.3.1 (GitHub)](https://github.com/rote66/twrp_device_Xiaomi_HM2014501): TWRP3.3.1.0_HM2014501_rote66.img
 
@@ -47,6 +47,6 @@ cover: https://imgsrc.baidu.com/forum/pic/item/8435e5dde71190ef563d83ec881b9d16f
 
 三款 ROM 均已内置 SuperSU，并且 Magisk / Zygisk / Riru 均不能正常使用，所以装模块大概是别想了。
 
-如果你遇到了[如这个视频所示](https://t.me/yidaozhan_channel/4834)的幽灵关机条，可以尝试三清，或者使用 SP Flash Tool v5.2032.00 以下的版本刷入[📥 官方线刷救砖包](https://file.yidaozhan.top/%E5%AE%89%E5%8D%93%E8%BD%AF%E4%BB%B6/HM2014501/wt96007_images_V9.2.2.0.KHHCNEK_20180102.0000.00_4.4_cn_074353be8c.tgz) 解决。
+如果你遇到了[如这个视频所示](https://t.me/yidaozhan_channel/4834)的幽灵关机条，可以尝试三清，或者使用 SP Flash Tool v5.2032.00 以下的版本刷入[📥 官方线刷救砖包](https://file.chyk.ink/%E5%AE%89%E5%8D%93%E8%BD%AF%E4%BB%B6/HM2014501/wt96007_images_V9.2.2.0.KHHCNEK_20180102.0000.00_4.4_cn_074353be8c.tgz) 解决。
 
 ~~最后，大家一起喊出：天翼 3G 太快啦！！！~~

@@ -9,7 +9,7 @@ description: " "
 excerpt: " "
 ---
 
-{%video https://file.yidaozhan.top/d/OneDrive/%E8%A7%86%E9%A2%91/%E5%AD%94%E4%B9%99%E5%B7%B1H264.mp4 %}
+{%video https://file.chyk.ink/d/OneDrive/%E8%A7%86%E9%A2%91/%E5%AD%94%E4%B9%99%E5%B7%B1H264.mp4 %}
 
 ---
 

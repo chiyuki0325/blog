@@ -6,7 +6,7 @@ tags:
 - 转载
 references:
 - title: 'Cicada 3301密码传说'
-  url: https://file.yidaozhan.top/OneDrive/%E6%96%87%E6%A1%A3/Cicada_3301%E5%AF%86%E7%A0%81%E4%BC%A0%E8%AF%B4_%E9%9B%85%E5%85%8B%E8%90%A8_2.pdf
+  url: https://file.chyk.ink/OneDrive/%E6%96%87%E6%A1%A3/Cicada_3301%E5%AF%86%E7%A0%81%E4%BC%A0%E8%AF%B4_%E9%9B%85%E5%85%8B%E8%90%A8_2.pdf
 - title: 'What Happened (2012)'
   url: https://uncovering-cicada.fandom.com/wiki/What_Happened_(2012)
 author: 雅克萨

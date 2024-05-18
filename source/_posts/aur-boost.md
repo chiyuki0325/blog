@@ -18,7 +18,7 @@ AUR 的软件经常需要用到 GitHub 的仓库、Raw 或 Releases，所以需�
   
   ```bash
   sudo pacman -S --needed aria2 # 安装 aria2
-  sudo curl -L "https://file.yidaozhan.top/d/OneDrive/Linux/aurdl.sh" -o /usr/local/bin/aurdl
+  sudo curl -L "https://file.chyk.ink/d/OneDrive/Linux/aurdl.sh" -o /usr/local/bin/aurdl
   sudo chmod +x /usr/local/bin/aurdl
   ```
   
@@ -40,7 +40,7 @@ AUR 的软件经常需要用到 GitHub 的仓库、Raw 或 Releases，所以需�
   首先下载我制作的 Git 脚本（替换 GitHub 域名为 FastGit），放在自定义位置（我这里使用 ``/usr/local/bin/fakegit``）并且赋予可执行权限。
   
   ```bash
-  sudo curl -L "https://file.yidaozhan.top/d/OneDrive/Linux/fakegit.sh" -o /usr/local/bin/fakegit
+  sudo curl -L "https://file.chyk.ink/d/OneDrive/Linux/fakegit.sh" -o /usr/local/bin/fakegit
   sudo chmod +x /usr/local/bin/fakegit
   ```
   
