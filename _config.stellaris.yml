@@ -267,9 +267,7 @@ api_host:
 
 
 ######## 自定义插件 ########
-inject:
-  script:
-    - '<script src="/js/uwu.js"></script>'
+# inject:
   # script:
   #   # 使用 HTML 语法
   #   - '<script src="https://example.com/my_script.js" data-no-instant="true"></script>'
