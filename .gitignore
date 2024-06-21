@@ -7,9 +7,9 @@ node_modules/
 github-deploy-key.pub
 github-deploy-key
 public/
-yarn.lock
-package-lock.json
-pnpm-lock.yaml
+#yarn.lock
+#package-lock.json
+#pnpm-lock.yaml
 .vercel/
 .idea/
 .vercel
