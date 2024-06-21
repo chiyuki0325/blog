@@ -175,4 +175,15 @@ my_friends:
       url: https://www.sunnypai.top
       avatar: https://imgsrc.baidu.com/forum/pic/item/91ef76c6a7efce1bdf64f8f7e951f3deb48f65bb.jpg
       screenshot: https://imgsrc.baidu.com/forum/pic/item/10dfa9ec8a13632782bef20ed78fa0ec08fac7b8.jpg
+    - title: '笨蛋小破站'
+      description: 'May all the beauty be blessed.'
+      url: https://blog.obdo.cc
+      avatar: https://obdo.cc/icon
+      sceenshot: https://imgsrc.baidu.com/forum/pic/item/b151f8198618367a3c11abe368738bd4b31ce571.jpg
+    - title: "KimmyXYC's Blog"
+      description: "你所热爱的，就是你的生活。"
+      url: https://blog.schuvi.cn
+      avatar: https://blog.schuvi.cn/img/favicon.jpg
+      screenshot: https://imgsrc.baidu.com/forum/pic/item/7e3e6709c93d70cfa3637e33bedcd100baa12b77.jpg
+
 
