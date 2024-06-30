@@ -32,7 +32,6 @@ my_friends:
       url: http://trl66.ysepan.com/
       avatar: https://imgsrc.baidu.com/forum/pic/item/810a19d8bc3eb1353bade378e31ea8d3fc1f448e.jpg
       screenshot: https://imgsrc.baidu.com/forum/pic/item/962bd40735fae6cd46daffa24ab30f2443a70f82.jpg
-      description: "Forever you will be in my heart."
     - title: "Purofle 的 Blog"
       url: https://blog.archlinux.tech/
       avatar: https://q1.qlogo.cn/g?b=qq&nk=3272912942&s=640
@@ -185,5 +184,8 @@ my_friends:
       url: https://blog.schuvi.cn
       avatar: https://blog.schuvi.cn/img/favicon.jpg
       screenshot: https://imgsrc.baidu.com/forum/pic/item/7e3e6709c93d70cfa3637e33bedcd100baa12b77.jpg
-
+    - title: "凌莞喵~"
+      url: https://nyac.at
+      avatar: https://imgsrc.baidu.com/forum/pic/item/0df3d7ca7bcb0a4632e783062d63f6246a60afcc.jpg
+      screenshot: https://imgsrc.baidu.com/forum/pic/item/79f0f736afc379317cbb8e16adc4b74543a91139.jpg
 
