@@ -172,6 +172,9 @@ plugins:
   # jquery
   jquery: https://ydz-cos.zyglq.cn/blog-static/js/jquery.min.js
 
+  # marked
+  marked: https://ydz-cos.zyglq.cn/blog-static/js/marked.min.js
+
   ## lazyload plugins ##
   # fancybox
   fancybox:
