@@ -21,6 +21,12 @@ Arch Linux [支持](https://gitlab.archlinux.org/archlinux/rfcs/-/blob/master/rf
 
 本文提到的第三方软件仓库没有国内镜像源，所以速度很慢，请使用透明代理或提高 `pacman.conf` 中的 `ParallelDownloads` 值。
 
+{% ablock color:red %}
+
+cachyos 仓库和 archlinuxcn 等第三方 Arch Linux 扩展软件仓库并不兼容，请谨慎使用！
+
+{% endablock %}
+
 ### 🔍 检查是否支持 x86-64-v3 架构
 
 在终端中执行 `/lib/ld-linux-x86-64.so.2 --help | grep "x86-64-v"`，如果输出中有 `x86-64-v3 (supported, searched)` 字样，即代表支持 x86-64-v3 架构。v4 架构同理。
