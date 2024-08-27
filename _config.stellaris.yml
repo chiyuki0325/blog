@@ -80,21 +80,18 @@ comments:
     css: https://ydz-cos.zyglq.cn/blog-static/css/waline.css
     serverURL: 'https://comments-v2.chyk.ink'
     meta: [nick, mail]
-    placeholder: '📨 快发条评论吧 (`･ω･´)ฅ'
-    requiredFields: [nick]
-    enableQQ: false # Unstable avatar link
-    recordIP: true # Record commenter IP
-    avatar: robohash # gravatar style https://valine.js.org/avatar
+    requiredMeta: [nick]
     pageSize: 10 # comment list page size
-    lang: zh-cn
-    highlight: true
-    mathJax: false
-    metaPlaceholder:
+    locale:
+      placeholder: '📨 快发条评论吧 (`･ω･´)ฅ'
       nick: "📋️ 昵称/QQ"
       mail: "📪 邮箱"
       link: "🔗 网址(https://)"
+    highlight: true
+    mathJax: false
     search: false
     pageview: true
+    turnstileKey: '0x4AAAAAAAiMFZch3fm4FnFb5V4gy-um3Pg'
 
 
 ######## Footer ########
