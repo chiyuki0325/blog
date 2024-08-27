@@ -3,11 +3,9 @@ title: 关于
 date: 2023-07-31 08:50:22
 ---
 
-<!--新版关于页面，重新建设于 2023.7-->
-
 ヾ(≧▽≦*)o 你好~ 欢迎来到我的博客！
 
-这里是斬風·千雪 (Kirikaze Chiyuki)，一个居住在辽宁的，想长大的普通高三学生。我正在尝试着改变自己，为了成为一个更好的人而努力着。
+这里是斬風·千雪 (Kirikaze Chiyuki)，一个居住在辽宁的，想长大的普通学生，目前就读于东北大学软件学院。我正在尝试着改变自己，为了成为一个更好的人而努力着。
 
 我正在尝试着接触新的事物，对未来的方向还很迷茫 ... 走一步算一步吧。
 
@@ -42,16 +40,14 @@ date: 2023-07-31 08:50:22
       ——《月に叢雲華に風》
   - 起名当天刚好下了雪
 
-<!--#### 理想   我 2024 年高考，目标是考上[合肥工业大学](https://www.hfut.edu.cn/)，经过未来的学习，成为一名优秀的全栈开发者。-->
-
 #### 捕捉
 
 在哪里可以捕捉到千雪呢？
 
-你可以前往我的<a href="https://t.me/chiyuki_cafe"><img alt="Telegram 频道" src="https://img.shields.io/badge/Telegram-频道-28a8ea?logo=telegram"></a>，也可以在下面这些地方捕捉~
+你可以前往我的<a href="https://t.me/chykink"><img alt="Telegram 频道" src="https://img.shields.io/badge/Telegram-频道-28a8ea?logo=telegram"></a>，也可以在下面这些地方捕捉~
 
 <p>
-<a href="https://t.me/chiyuki0325"><img src="https://img.shields.io/badge/Telegram-YidaozhanYa-28a8ea?logo=telegram" alt="Telegram:chiyuki0325"></a>&nbsp; 
+<a href="https://t.me/chiyuki0325"><img src="https://img.shields.io/badge/Telegram-chiyuki0325-28a8ea?logo=telegram" alt="Telegram:chiyuki0325"></a>&nbsp; 
 <a href="https://space.bilibili.com/485832788"><img alt="Bilibili:斬風千雪" src="https://img.shields.io/badge/Bilibili-斬風千雪-ff6699?logo=bilibili"></a>&nbsp; 
 <img alt="QQ:920064067" src="https://img.shields.io/badge/QQ群-920064067-faad01?logo=tencentqq">
 </p>
@@ -60,6 +56,7 @@ date: 2023-07-31 08:50:22
 <a href="https://github.com/chiyuki0325"><img src="https://img.shields.io/badge/GitHub-chiyuki0325-fff?logo=github" alt="GitHub"></a>&nbsp;
 <a href="https://music.163.com/#/user/home?id=3392019481"><img src="https://img.shields.io/badge/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90-e60026?logo=youtube-music" alt="163 Music"></a>
 </p>
+
 
 
 > 两个人恍若花瓣凋零一样
