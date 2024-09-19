@@ -1,7 +1,7 @@
 ### hexo-theme-stellaris
 stellar:
-  cdn_css: https://ydz-cos.zyglq.cn/blog-static/css/main.css?v=201
-  cdn_js: https://ydz-cos.zyglq.cn/blog-static/js/main.js?v=201
+  cdn_css: https://ydz-cos.zyglq.cn/blog-static/css/main.css?v=202
+  cdn_js: https://ydz-cos.zyglq.cn/blog-static/js/main.js?v=202
 
 ######## head tags ########
 head:
@@ -76,8 +76,8 @@ article:
 comments:
   service: waline
   waline:
-    js: https://ydz-cos.zyglq.cn/blog-static/js/waline.js
-    css: https://ydz-cos.zyglq.cn/blog-static/css/waline.css
+    js: https://ydz-cos.zyglq.cn/blog-static/js/waline.umd.js?v=3
+    css: https://ydz-cos.zyglq.cn/blog-static/css/waline.css?v=3
     serverURL: 'https://comments-v2.chyk.ink'
     meta: [nick, mail]
     requiredMeta: [nick]
