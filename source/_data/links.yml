@@ -185,7 +185,13 @@ my_friends:
       avatar: https://blog.schuvi.cn/img/favicon.jpg
       screenshot: https://imgsrc.baidu.com/forum/pic/item/7e3e6709c93d70cfa3637e33bedcd100baa12b77.jpg
     - title: "凌莞喵~"
+      description: '你好，这里是凌莞'
       url: https://nyac.at
       avatar: https://imgsrc.baidu.com/forum/pic/item/0df3d7ca7bcb0a4632e783062d63f6246a60afcc.jpg
       screenshot: https://imgsrc.baidu.com/forum/pic/item/79f0f736afc379317cbb8e16adc4b74543a91139.jpg
+    - title: "FunForever"
+      description: "欲将心事付瑶琴。知音少，弦断有谁听。"
+      url: https://yl4869.github.io
+      avatar: https://yl4869.github.io/image/image.jpg
+      screenshot: https://imgsrc.baidu.com/forum/pic/item/42a98226cffc1e173256ba120c90f603738de92c.jpg
 
