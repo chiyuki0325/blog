@@ -84,6 +84,20 @@ plugins:
 这是 {% icon /static/system-file-manager.svg %} Dolphin，KDE Plasma 桌面的默认文件管理器。
 ```
 
+## hashtag 标签
+
+{% hashtag color:cyan Stellaris https://blog.chyk.ink/wiki/stellaris %} {% hashtag color:blue Hexo https://hexo.io/ %} {% hashtag GitHub https://github.com/chiyuki0325 %}
+
+默认颜色可在主题配置文件中设置。
+
+如果没有指定颜色，且没有设置默认颜色，则随机取一个颜色，快来试试吧～
+
+```markdown
+{% hashtag color:cyan Stellaris https://blog.chyk.ink/wiki/stellaris %}
+{% hashtag color:blue Hexo https://hexo.io/ %}
+{% hashtag GitHub https://github.com/chiyuki0325 %}
+```
+
 ## quot 引用
 
 适合居中且醒目的引用：
@@ -93,6 +107,8 @@ plugins:
 `quot` 支持自定义引号图标，详见[原主题文档](https://xaoxuu.com/wiki/stellar/tag-plugins/express/#quot-%E5%BC%95%E7%94%A8)。
 
 >  此外，加上 `el:h2/h3/h4/h5/h6` 参数，此组件可以作为标题使用。
+
+在 2.1 之后，您可以通过 prefix 或 suffix 参数设置任意图标或图片，支持 URL 或 icons.yml 文件中配置，详见[原主题文档](https://xaoxuu.com/wiki/stellar/tag-plugins/express/#%E4%BD%BF%E7%94%A8%E4%BB%BB%E6%84%8F%E5%9B%BE%E6%A0%87)。
 
 ## poetry 诗词
 
@@ -113,6 +129,102 @@ plugins:
 回首向来萧瑟处，归去，也无风雨也无晴。
 {% endpoetry %}
 ```
+
+## paper 纸张标签
+
+{%tabs%}
+
+<!--tab 示例 -->
+
+{% paper style:underline title:文言文 author:诸葛亮 date:三国 footer:节选 %}
+<!-- line left -->
+出师表
+<!-- paragraph -->
+先帝创业未半而中道崩殂，今天下三分，益州疲弊，此诚危急存亡之秋也。然侍卫之臣不懈于内，忠志之士忘身于外者，盖追先帝之殊遇，欲报之于陛下也。诚宜开张圣听，以光先帝遗德，恢弘志士之气，不宜妄自菲薄，引喻失义，以塞忠谏之路也。
+<!-- line right -->
+后出师表
+<!-- paragraph -->
+先帝深虑汉、贼不两立，王业不偏安，故托臣以讨贼也。以先帝之明，量臣之才，固知臣伐贼，才弱敌强也。然不伐贼，王业亦亡。惟坐而待亡，孰与伐之？是故托臣而弗疑也。
+{% endpaper %}
+
+<!--tab 写法 -->
+
+```markdown
+{% paper style:underline title:文言文 author:诸葛亮 date:三国 footer:节选 %}
+<!-- line left -->
+出师表
+<!-- paragraph -->
+先帝创业未半而中道崩殂，今天下三分，益州疲弊，此诚危急存亡之秋也。然侍卫之臣不懈于内，忠志之士忘身于外者，盖追先帝之殊遇，欲报之于陛下也。诚宜开张圣听，以光先帝遗德，恢弘志士之气，不宜妄自菲薄，引喻失义，以塞忠谏之路也。
+<!-- line right -->
+后出师表
+<!-- paragraph -->
+先帝深虑汉、贼不两立，王业不偏安，故托臣以讨贼也。以先帝之明，量臣之才，固知臣伐贼，才弱敌强也。然不伐贼，王业亦亡。惟坐而待亡，孰与伐之？是故托臣而弗疑也。
+{% endpaper %}
+```
+
+```yaml 可选参数
+style: underline/无 # 是否带下划线
+title: # 标题
+author: # 作者
+date: # 日期
+footer: # 页脚信息
+```
+
+正文中可以设置行段落格式以显示不同的效果
+
+```html
+<!-- section 小节标题 -->
+小节标题，居中显示
+<!-- paragraph -->
+段落，首行缩进两个字符
+<!-- line left -->
+段落左对齐
+<!-- line right -->
+段落右对齐
+```
+
+{%endtabs%}
+
+## reel 卷轴标签
+
+{%tabs%}
+
+<!--tab 示例-->
+
+{% reel 滕王阁序 author:王勃 date:重九日 footer:节选 %}
+时维九月，序属三秋。
+潦水尽而寒潭清，烟光凝而暮山紫。
+俨骖騑于上路，访风景于崇阿。
+临帝子之长洲，得天人之旧馆。
+层峦耸翠，上出重霄；
+飞阁流丹，下临无地。
+鹤汀凫渚，穷岛屿之萦回；
+桂殿兰宫，即冈峦之体势。
+{% endreel %}
+
+<!--tab 写法-->
+
+```markdown
+{% reel 滕王阁序 author:王勃 date:重九日 footer:节选 %}
+时维九月，序属三秋。
+潦水尽而寒潭清，烟光凝而暮山紫。
+俨骖騑于上路，访风景于崇阿。
+临帝子之长洲，得天人之旧馆。
+层峦耸翠，上出重霄；
+飞阁流丹，下临无地。
+鹤汀凫渚，穷岛屿之萦回；
+桂殿兰宫，即冈峦之体势。
+{% endreel %}
+```
+
+```yaml 可选参数
+title: # 标题
+author: # 作者
+date: # 日期
+footer: # 页脚信息
+```
+
+{%endtabs%}
 
 ## note 单行备注块
 
@@ -214,6 +326,17 @@ desc: 可选，是否显示摘要描述，为true时将会显示页面描述
 ```
 
 {%endtabs%}
+
+随着网站流量的增加，使用主题默认的 `api` 很可能会导致流量超限，推荐使用自部署的 `api` 抓取网站信息。参见 [site-info-api](https://github.com/xaoxuu/site-info-api) 仓库的 README 部署，并在主题配置中设置 url。
+
+```yaml blog/_config.stellaris.yml
+tag_plugins:
+  link:
+    # 接口测试通过后，把 href 部分替换成 {href} 之后填写到下方，例如：https://api.vlts.cc/site_info/v1?url={href}
+    siteinfo_api: 
+```
+
+
 
 ## copy 复制行
 

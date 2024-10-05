@@ -1,7 +1,7 @@
 ### hexo-theme-stellaris
 stellar:
-  cdn_css: https://ydz-cos.zyglq.cn/blog-static/css/main.css?v=202
-  cdn_js: https://ydz-cos.zyglq.cn/blog-static/js/main.js?v=202
+  cdn_css: https://ydz-cos.zyglq.cn/blog-static/css/main.css?v=210
+  cdn_js: https://ydz-cos.zyglq.cn/blog-static/js/main.js?v=210
 
 ######## head tags ########
 head:
@@ -97,16 +97,25 @@ comments:
 ######## Footer ########
 footer:
   social:
-     - icon: '<img src="https://www.bilibili.com/favicon.ico"/>'
-       url: 'https://space.bilibili.com/485832788'
-     - icon: '<img src="/images/qq.svg" style="scale:0.85;top:-2px;position:relative;"/>'
-       url: 'https://jq.qq.com/?_wv=1027&k=c0oqCyOm'
-     - icon: '<img src="https://imgsrc.baidu.com/forum/pic/item/f603918fa0ec08fa99fb05641cee3d6d54fbda7e.png"/>'
-       url: 'https://t.me/s/chykink'
-     - icon: '<img src="https://imgsrc.baidu.com/forum/pic/item/8326cffc1e178a8223cc6963b303738da877e805.png"/>'
-       url: 'https://file.chyk.ink/'
-     - icon: '<img src="/images/github.svg"/>'
-       url: 'https://github.com/chiyuki0325'
+    bilibili:
+      icon: '<img src="https://www.bilibili.com/favicon.ico"/>'
+      url: 'https://space.bilibili.com/485832788'
+    qq:
+      icon: '<img src="https://ydz-cos.zyglq.cn/blog-static/images/qq.svg" style="scale:0.85;top:-2px;position:relative;"/>'
+      url: 'https://jq.qq.com/?_wv=1027&k=c0oqCyOm'
+    tele:
+      icon: '<img src="https://ydz-cos.zyglq.cn/blog-static/images/telegram.svg"/>'
+      url: 'https://t.me/s/chykink'
+    file:
+      icon: '<img src="https://ydz-cos.zyglq.cn/blog-static/images/link.svg"/>'
+      url: 'https://file.chyk.ink/'
+    github:
+      icon: '<img src="https://ydz-cos.zyglq.cn/blog-static/images/github.svg"/>'
+      url: 'https://github.com/chiyuki0325'
+    darkmode:
+      auto: '<img no-lazy width="24" height="24" src="https://ydz-cos.zyglq.cn/blog-static/images/sun-moon.svg"/>'
+      light: '<img no-lazy width="24" height="24" src="https://ydz-cos.zyglq.cn/blog-static/images/sun-fill.svg"/>'
+      dark: '<img no-lazy width="24" height="24" src="https://ydz-cos.zyglq.cn/blog-static/images/moon-fill.svg"/>'
   sitemap:
      '博客':
        - '[💡 近期发布](/)'
@@ -214,7 +223,7 @@ plugins:
     friends: https://ydz-cos.zyglq.cn/blog-static/js/plugins/friends.js?v=199
     ghinfo: https://ydz-cos.zyglq.cn/blog-static/js/plugins/ghinfo.js?v=199
     timeline: https://ydz-cos.zyglq.cn/blog-static/js/plugins/timeline.js?v=199
-    linkcard: https://ydz-cos.zyglq.cn/blog-static/js/plugins/linkcard.js?v=199
+    linkcard: https://ydz-cos.zyglq.cn/blog-static/js/plugins/linkcard.js?v=210
     fcircle: https://ydz-cos.zyglq.cn/blog-static/js/plugins/fcircle.js?v=199
     bvideo: https://ydz-cos.zyglq.cn/blog-static/js/plugins/bvideo.js?v=199
 
@@ -227,7 +236,7 @@ plugins:
 
 
 style:
-  darkmode: auto # auto / always / false
+  darkmode: auto-switch # auto / always / false
   theme:
     light: '#f8f8f8'
     dark: '#313438'
@@ -247,10 +256,10 @@ style:
     css: https://s1.hdslb.com/bfs/static/jinkela/long/font/regular.css
 
 default:
-  avatar: /images/avatar.svg
-  link: /images/link.svg
-  cover: /images/cover.svg
-  image: /images/image.svg
+  avatar: https://ydz-cos.zyglq.cn/blog-static/images/avatar.svg
+  link: https://ydz-cos.zyglq.cn/blog-static/images/link.svg
+  cover: https://ydz-cos.zyglq.cn/blog-static/images/cover.svg
+  image: https://ydz-cos.zyglq.cn/blog-static/images/image.svg
 
 search:
   service: local_search # local_search, todo...
@@ -260,9 +269,9 @@ search:
 
 
 api_host:
-  ghapi: https://r.ydz1.gq/https://api.github.com
-  ghraw: https://www.githubs.cn/raw-githubusercontent
-  gist: https://r.ydz1.gq/https://gist.github.com
+  ghapi: https://r.chyk.ink/https://api.github.com
+  ghraw: https://r.chyk.ink/https://raw.githubusercontent.com
+  gist: https://r.chyk.ink/https://gist.github.com
 
 
 

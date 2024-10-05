@@ -12,18 +12,18 @@ path: /wiki/stellaris/
 toc:
   '快速开始':
     - index
-    - quickstart
-    - releases
+    - quickstart/index
+    - releases/index
   '基本使用':
-    - theme-settings
-    - pages
+    - theme-settings/index
+    - pages/index
   '侧边栏':
-    - sidebar
-    - widgets
+    - sidebar/index
+    - widgets/index
   '标签组件':
-    - tag-plugins
-    - tag-plugins/express
-    - tag-plugins/data
-    - tag-plugins/container
-    - tag-plugins/untested
-    - comments
+    - tag-plugins/index
+    - tag-plugins/express/index
+    - tag-plugins/data/index
+    - tag-plugins/container/index
+    - tag-plugins/untested/index
+    - comments/index

@@ -15,10 +15,6 @@ title: 😶‍🌫️ 未移植或未经测试的组件
 
 若要使用，请在配置文件中添加自定义的表情库。使用方法见 [原主题文档](https://xaoxuu.com/wiki/stellar/tag-plugins/express/#emoji-%E8%A1%A8%E6%83%85%E5%8C%85)。
 
-## hashtag 标签
-
-CSS 未移植。
-
 ## frame 设备框架
 
 我不是移动应用开发者，因此未移植。

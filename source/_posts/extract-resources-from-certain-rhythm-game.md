@@ -182,7 +182,7 @@ for music_file_orig in SOUND_FLAC_DIR.iterdir():
 
 {%image https://imgsrc.baidu.com/forum/pic/item/f703738da9773912392489acbd198618377ae2f9.jpg %}
 
-你可以在一刀斩の小窝的 Telegram 频道中获取这些歌曲。
+你可以在[千雪的文件站](https://file.chyk.ink/Backup/%E9%9F%B3%E4%B9%90/maimai%20FESTiVAL%20OST)获取这些歌曲。
 
 ### 📽️ 6. 解密并转换 BGA
 
