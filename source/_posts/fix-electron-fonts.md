@@ -3,7 +3,7 @@ title: 🔠 修复 Arch Linux 上 electron 应用不跟系统字体的问题
 date: 2022-04-18 21:41:47
 tags:
 - electron
-- ArchLinux
+- Arch Linux
 - Icalingua
 category: Arch折腾记
 cover: 'https://imgsrc.baidu.com/forum/pic/item/58ee3d6d55fbb2fbee6529d30a4a20a44723dca1.jpg'

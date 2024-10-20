@@ -2,7 +2,7 @@
 title: 📨 加速 AUR 的软件下载和安装
 date: 2021-12-26 18:37:51
 tags:
-- ArchLinux
+- Arch Linux
 - AUR
 ---
 

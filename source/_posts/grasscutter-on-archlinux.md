@@ -4,7 +4,7 @@ date: 2022-05-01 14:36:19
 tags:
 - Grasscutter
 - 原神
-- ArchLinux
+- Arch Linux
 category: 游戏
 cover: 'https://imgsrc.baidu.com/forum/pic/item/c8ea15ce36d3d53967867e027f87e950342ab0bc.jpg'
 ---

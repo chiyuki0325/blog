@@ -2,7 +2,7 @@
 title: 📦 在 Arch Linux 上使用 Pamac 提示未找到软件包的解决办法
 date: 2021-07-04 16:52:40
 tags:
-- ArchLinux
+- Arch Linux
 - Manjaro
 - Linux
 category: Arch折腾记
