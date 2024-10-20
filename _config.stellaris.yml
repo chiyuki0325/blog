@@ -60,6 +60,7 @@ article:
     '建站小记': '#459008'
     '网络': '#EEBE00'
     '日常': '#660000'
+    '数码': '#4CC2FF'
   # 文章许可协议
   license: '本文采用 [署名-非商业性使用-相同方式共享 4.0 国际](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议，转载请注明出处。'
   # 分享
@@ -274,6 +275,9 @@ api_host:
   gist: https://r.chyk.ink/https://gist.github.com
 
 
+inject:
+  script:
+    - '<script defer src="https://tj.zyglq.cn/script.js" data-website-id="6f5d8656-07b4-4111-ab3a-47c06c8f515e" data-no-instant="true"></script>'
 
 ######## 自定义插件 ########
 # inject:
