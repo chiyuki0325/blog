@@ -5,7 +5,7 @@ tags:
 - KDE
 - Linux
 category: Arch折腾记
-cover: https://imgsrc.baidu.com/forum/pic/item/d1a20cf431adcbef5d31493beaaf2edda3cc9f81.jpg
+cover: https://imgsrc.chyk.ink/d1a20cf431adcbef5d31493beaaf2edda3cc9f81.webp
 ---
 
 随着今年二月份 KDE Plasma 6 大版本的更新，基础框架更新到了 Qt 6，默认图形环境也变为了 Wayland，之前在 KDE 5 上的一些技巧和优化方案已经不再管用，因此本文就记载一些我在 KDE Plasma 6 刚推出几个月内，进行「拓荒」的经验。
@@ -79,7 +79,7 @@ Environment="QT_QPA_PLATFORMTHEME=KDE"
 
 安装 kwin-effects-forceblur 后你必须 **禁用** KDE 自带的 **窗口背景虚化** 和 LightlyShaders 的 **窗口背景虚化 (LightlyShaders)** 。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/a5c27d1ed21b0ef4974aaf639bc451da81cb3e68.png 应用了这两个效果之后的窗口 %}
+{%image https://imgsrc.chyk.ink/a5c27d1ed21b0ef4974aaf639bc451da81cb3e68.webp 应用了这两个效果之后的窗口 %}
 
 ### ❄️ 重启桌面
 
@@ -95,7 +95,7 @@ KDE 6 中可能仍然有什么东西在漏内存，用久了可能会发生严�
 
 如果使用第三方主题，可以使用[阴阳](https://github.com/oskarsh/Yin-Yang)切换夜间模式，或者参考[我的实现](https://github.com/chiyuki0325/KDEQuickSwitches/blob/main/switches/dark.py)自行编写脚本。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/50da81cb39dbb6fdc1cbd21b4f24ab18972b377e.jpg KDE 6 的夜间模式开关 %}
+{%image https://imgsrc.chyk.ink/50da81cb39dbb6fdc1cbd21b4f24ab18972b377e.webp KDE 6 的夜间模式开关 %}
 
 ### 🤞 触控板手势
 
@@ -121,6 +121,6 @@ Latte Dock 不能在 KDE 6 上使用。不过，KDE 6 的面板经过一番配�
 
 ### 🖼️ 我的截图
 
-{%image https://imgsrc.baidu.com/forum/pic/item/08f790529822720efb30d5c73dcb0a46f21fab15.jpg 壁纸：<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2239430876">璃月港</a> %}
+{%image https://imgsrc.chyk.ink/08f790529822720efb30d5c73dcb0a46f21fab15.webp 壁纸：<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2239430876">璃月港</a> %}
 
-{%image https://imgsrc.baidu.com/forum/pic/item/ae51f3deb48f8c54df2cf2127c292df5e0fe7f0b.jpg 壁纸：<a href="https://www.pixiv.net/artworks/68686407">星星坠落的傍晚</a>%}
+{%image https://imgsrc.chyk.ink/ae51f3deb48f8c54df2cf2127c292df5e0fe7f0b.webp 壁纸：<a href="https://www.pixiv.net/artworks/68686407">星星坠落的傍晚</a>%}

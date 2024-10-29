@@ -4,7 +4,7 @@ date: 2024-06-22 21:09:50
 tags:
 - Linux
 category: Arch折腾记
-cover: https://imgsrc.baidu.com/forum/pic/item/a1ec08fa513d2697a5abcd6313fbb2fb4316d891.jpg
+cover: https://imgsrc.chyk.ink/a1ec08fa513d2697a5abcd6313fbb2fb4316d891.webp
 references:
   - title: It's Linux, On Mi Pad 5. The fastest mainline tablet all the time.
     url: https://linux-on-nabu.gitbook.io/
@@ -482,4 +482,4 @@ echo "GSK_RENDERER=gl" | sudo tee /etc/profile.d/environment.sh
 
 ### 🖼️ 效果图
 
-{%image https://imgsrc.baidu.com/forum/pic/item/e7cd7b899e510fb3a072b3a99f33c895d1430ca1.jpg %}
+{%image https://imgsrc.chyk.ink/e7cd7b899e510fb3a072b3a99f33c895d1430ca1.webp %}

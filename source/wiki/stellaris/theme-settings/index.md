@@ -21,7 +21,7 @@ language:
 
 更多关于 Hexo 文件的配置请移步官方文档。
 
-{%link https://hexo.io/zh-cn/docs/configuration "配置 | Hexo" icon:https://imgsrc.baidu.com/forum/pic/item/77c6a7efce1b9d16ba0cae56b5deb48f8c546439.jpg %}
+{%link https://hexo.io/zh-cn/docs/configuration "配置 | Hexo" icon:https://imgsrc.chyk.ink/77c6a7efce1b9d16ba0cae56b5deb48f8c546439.webp %}
 
 ### 多语言设置
 

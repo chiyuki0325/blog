@@ -6,13 +6,13 @@ tags:
 - JavaScript
 - 前端
 category: 建站小记
-cover: https://imgsrc.baidu.com/forum/pic/item/d50735fae6cd7b8991db9f494a2442a7d8330e40.jpg
+cover: https://imgsrc.chyk.ink/d50735fae6cd7b8991db9f494a2442a7d8330e40.webp
 ---
 
 一直以来，我的博客一直在使用 fork 的 [Stellar](https://xaoxuu.com/wiki/stellar/) 主题，它的页面布局部分使用 EJS 语言编写，既不优雅，可维护性又不高。后来接触了现代前端技术之后，我便尝试用 React JSX 语言重构了博客主题，定名为 [Stellaris](https://github.com/YidaozhanYa/hexo-theme-stellaris)。<!--more-->
 本文就来回顾一下，我在重构博客主题过程中，遇到的几个问题。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/d50735fae6cd7b8991db9f494a2442a7d8330e40.jpg JSX 语言 %}
+{%image https://imgsrc.chyk.ink/d50735fae6cd7b8991db9f494a2442a7d8330e40.webp JSX 语言 %}
 
 ### ⚛️ JSX 渲染器的选择
 

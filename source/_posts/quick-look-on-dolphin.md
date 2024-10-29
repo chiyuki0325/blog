@@ -64,7 +64,7 @@ rm /tmp/selection # 删除备份，清理内存
 
 之后绑定一个窗口范围的自定义快捷键到这个 shell 脚本就行了。
 
-![http://imgsrc.baidu.com/forum/pic/item/a71ea8d3fd1f4134524b9aa8601f95cad0c85eec.jpg](http://imgsrc.baidu.com/forum/pic/item/a71ea8d3fd1f4134524b9aa8601f95cad0c85eec.jpg)
+![https://imgsrc.chyk.ink/a71ea8d3fd1f4134524b9aa8601f95cad0c85eec.webp](https://imgsrc.chyk.ink/a71ea8d3fd1f4134524b9aa8601f95cad0c85eec.webp)
 
 可以新建组，之后这么匹配 dolphin 窗口。
 

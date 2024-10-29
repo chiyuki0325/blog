@@ -5,7 +5,7 @@ tags:
 - 我的世界
 - Wine
 category: 其它
-cover: https://imgsrc.baidu.com/forum/pic/item/f9198618367adab429d34887ced4b31c8601e4f7.jpg
+cover: https://imgsrc.chyk.ink/f9198618367adab429d34887ced4b31c8601e4f7.webp
 description: '《我的世界》网易国服的启动器使用 WPF 编写，并带有反作弊系统，想要让它跑起来还需要费一番功夫。注意：可以运行，但仍然不能正常游玩。'
 ---
 
@@ -19,7 +19,7 @@ description: '《我的世界》网易国服的启动器使用 WPF 编写，并�
 
 我的世界启动器（MCLauncher）需要 .NET Framework 4.0.30319，使用 winetricks 或 Bottles 安装 `dotnet40` 即可，五分钟内就可以装好。我的世界开发者启动器（MCStudio）需要 .NET Framework 4.5.2，需要安装 `dotnet452`，安装过程奇慢无比，需要一个小时才能装好。
 
-{% image width:30rem https://imgsrc.baidu.com/forum/pic/item/cc11728b4710b912d570a53a86fdfc0393452244.jpg 终于安装完成了！ %}
+{% image width:30rem https://imgsrc.chyk.ink/cc11728b4710b912d570a53a86fdfc0393452244.webp 终于安装完成了！ %}
 
 > 装好 .NET 4.5.2 之后 Wine Windows 版本会被 winetricks 改成 Windows 2003，会出现 `wine: Call from 7BC2C280 to unimplemented function MSVCR100_CLR0400.dll._except_handler4_common, aborting` 报错，改成  Windows 7 即可。
 >
@@ -31,15 +31,15 @@ description: '《我的世界》网易国服的启动器使用 WPF 编写，并�
 
 安装之后启动启动器主程序，可以正常更新。
 
-{% image width:30rem https://imgsrc.baidu.com/forum/pic/item/d058ccbf6c81800a194cdacaf43533fa838b474c.jpg 可以正常更新 %}
+{% image width:30rem https://imgsrc.chyk.ink/d058ccbf6c81800a194cdacaf43533fa838b474c.webp 可以正常更新 %}
 
 ### 🏷️ 登录
 
 在 Wine 6 时代登录窗口本体会直接花屏，只剩后糊上去的 8+ 分级标签，现在渲染终于正常了。
 
-{% image width:30rem https://imgsrc.baidu.com/forum/pic/item/aec379310a55b319bb6fd1b106a98226cefc175b.jpg 我的世界启动器登录窗口 %}
+{% image width:30rem https://imgsrc.chyk.ink/aec379310a55b319bb6fd1b106a98226cefc175b.webp 我的世界启动器登录窗口 %}
 
-{% image height:15rem https://imgsrc.baidu.com/forum/pic/item/b7fd5266d016092498b6f1df910735fae7cd3466.jpg 开发者启动器登录窗口 %}
+{% image height:15rem https://imgsrc.chyk.ink/b7fd5266d016092498b6f1df910735fae7cd3466.webp 开发者启动器登录窗口 %}
 
 账号框中有时会无法输入文字，粘贴就行了。
 
@@ -47,9 +47,9 @@ description: '《我的世界》网易国服的启动器使用 WPF 编写，并�
 
 可能会出现 `CefSharp.BrowserSubprocess.exe` 崩溃的提示，不管即可。
 
-{% image https://imgsrc.baidu.com/forum/pic/item/bf096b63f6246b60919ae1b0aef81a4c500fa25a.jpg 我的世界启动器主窗口 %}
+{% image https://imgsrc.chyk.ink/bf096b63f6246b60919ae1b0aef81a4c500fa25a.webp 我的世界启动器主窗口 %}
 
-{% image https://imgsrc.baidu.com/forum/pic/item/838ba61ea8d3fd1f4983f1fe754e251f94ca5f6f.jpg 开发者启动器主窗口 %}
+{% image https://imgsrc.chyk.ink/838ba61ea8d3fd1f4983f1fe754e251f94ca5f6f.webp 开发者启动器主窗口 %}
 
 在焦点在启动器中时切窗口会导致启动器直接卡死，需要彻底杀死 Wine（`wineserver -k`）之后重新打开。
 
@@ -59,7 +59,7 @@ description: '《我的世界》网易国服的启动器使用 WPF 编写，并�
 
 可以在网易启动器中直接启动。因为 Wine 网易启动器很吃资源，所以性能表现一般。
 
-{% image https://imgsrc.baidu.com/forum/pic/item/3b87e950352ac65ca59835b7bef2b21192138a51.jpg 基岩版运行截图 %}
+{% image https://imgsrc.chyk.ink/3b87e950352ac65ca59835b7bef2b21192138a51.webp 基岩版运行截图 %}
 
 **🔨 开发者版 (modpc)**
 
@@ -67,11 +67,11 @@ description: '《我的世界》网易国服的启动器使用 WPF 编写，并�
 
 如果只是想体验游戏，不是为了调试或不想申请开发者资格，这里是[我下载好的 modpc 包](https://file.chyk.ink/OneDrive/PC%E6%B8%B8%E6%88%8F/%E7%BD%91%E6%98%93%E5%9F%BA%E5%B2%A9)，但不推荐。基岩版还是推荐使用 [MCPELauncher](https://github.com/minecraft-linux/mcpelauncher-manifest) 原生游玩。
 
-{% image https://imgsrc.baidu.com/forum/pic/item/faf2b2119313b07e711d03cc49d7912396dd8c56.jpg modpc 运行截图 %}
+{% image https://imgsrc.chyk.ink/faf2b2119313b07e711d03cc49d7912396dd8c56.webp modpc 运行截图 %}
 
 ### 🌅 光线追踪版
 
-{% image height:15rem https://imgsrc.baidu.com/forum/pic/item/0b46f21fbe096b636de50d9449338744eaf8ac72.jpg 网易现在的版本列表，1.10、1.13、1.14 都没了 %}
+{% image height:15rem https://imgsrc.chyk.ink/0b46f21fbe096b636de50d9449338744eaf8ac72.webp 网易现在的版本列表，1.10、1.13、1.14 都没了 %}
 
 我不知道网易所谓的「光线追踪版」是什么东西，可能只是启用了 RTX 的基岩版。我没有 RTX 显卡，就没去尝试。
 
@@ -83,7 +83,7 @@ description: '《我的世界》网易国服的启动器使用 WPF 编写，并�
 
 Java 版可以使用 Wine 在启动器里直接_运行_，但会出现 socket 断开连接的 error，之后崩溃。
 
-{% image https://imgsrc.baidu.com/forum/pic/item/0ff41bd5ad6eddc47d14e73f7cdbb6fd53663306.jpg Java 版加载过程 %}
+{% image https://imgsrc.chyk.ink/0ff41bd5ad6eddc47d14e73f7cdbb6fd53663306.webp Java 版加载过程 %}
 
 ```
 [18:24:03] [Sender/INFO] [STDERR]: [com.netease.mc.mod.network.socket.NetworkSocket$Sender:run:146]: java.net.SocketException: Socket closed
@@ -97,9 +97,9 @@ Java 版可以使用 Wine 在启动器里直接_运行_，但会出现 socket �
 
 有时还会因为越权访问（「该内存不能为 read」）报错而崩溃。
 
-{% image https://imgsrc.baidu.com/forum/pic/item/5882b2b7d0a20cf4f762ad1b33094b36adaf9900.jpg 完整的崩溃日志 %}
+{% image https://imgsrc.chyk.ink/5882b2b7d0a20cf4f762ad1b33094b36adaf9900.webp 完整的崩溃日志 %}
 
-{% image https://imgsrc.baidu.com/forum/pic/item/562c11dfa9ec8a131cf20424b203918fa1ecc00e.jpg 卡出的主界面 %}
+{% image https://imgsrc.chyk.ink/562c11dfa9ec8a131cf20424b203918fa1ecc00e.webp 卡出的主界面 %}
 
 #### 🐧 原生尝试
 
@@ -120,13 +120,13 @@ cd /home/yidaozhan/.local/share/wineprefixes/163/drive_c/MCLDownload/Game/.minec
 
 在假的 javaw.exe 被启动后，立刻运行启动脚本，游戏便成功启动了 ... 吗？
 
-{% image https://imgsrc.baidu.com/forum/pic/item/55e736d12f2eb9384388293690628535e4dd6f09.jpg 原生加载过程 %}
+{% image https://imgsrc.chyk.ink/55e736d12f2eb9384388293690628535e4dd6f09.webp 原生加载过程 %}
 
-{% image https://imgsrc.baidu.com/forum/pic/item/6c224f4a20a44623990ef6a6dd22720e0df3d72a.jpg 单人模式可以游玩 %}
+{% image https://imgsrc.chyk.ink/6c224f4a20a44623990ef6a6dd22720e0df3d72a.webp 单人模式可以游玩 %}
 
-{% image https://imgsrc.baidu.com/forum/pic/item/4e4a20a4462309f701affed6370e0cf3d6cad636.jpg 多人模式当场暴毙 %}
+{% image https://imgsrc.chyk.ink/4e4a20a4462309f701affed6370e0cf3d6cad636.webp 多人模式当场暴毙 %}
 
-{% image width:40rem https://imgsrc.baidu.com/forum/pic/item/c2fdfc039245d688f63fe060e1c27d1ed21b2430.jpg 鍔犺浇楠岃瘉妯″潡澶辫触 %}
+{% image width:40rem https://imgsrc.chyk.ink/c2fdfc039245d688f63fe060e1c27d1ed21b2430.webp 鍔犺浇楠岃瘉妯″潡澶辫触 %}
 
 把这句乱码翻译成人话，是「加载验证模块失败」。
 
@@ -154,4 +154,4 @@ cd /home/yidaozhan/.local/share/wineprefixes/163/drive_c/MCLDownload/Game/.minec
 
 ---
 
-{% image https://imgsrc.baidu.com/forum/pic/item/c995d143ad4bd11332efe5f61fafa40f4afb05d7.jpg 在官方论坛中只看到一名 Linux 玩家，看来我们的阵营还不够大 %}
+{% image https://imgsrc.chyk.ink/c995d143ad4bd11332efe5f61fafa40f4afb05d7.webp 在官方论坛中只看到一名 Linux 玩家，看来我们的阵营还不够大 %}

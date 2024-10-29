@@ -5,7 +5,7 @@ tags:
 - Linux
 - Wayland
 category: Arch折腾记
-cover: https://imgsrc.baidu.com/forum/pic/item/8b82b9014a90f60312d2f77a7f12b31bb051eda9.jpg
+cover: https://imgsrc.chyk.ink/8b82b9014a90f60312d2f77a7f12b31bb051eda9.webp
 ---
 
 两年前我曾经发表过使用 X11 虚拟显示器和 Deskreen 的 WebRTC 虚拟副屏方案，该方案有较多缺陷，如画面码率低延迟高、挑显卡、不支持 Wayland 等。随着开源串流工具 [Sunshine](https://app.lizardbyte.dev/Sunshine) 的完善，可以使用该工具来把安卓平板当作虚拟副屏了。
@@ -44,7 +44,7 @@ sudo pacman -U https://github.com/LizardByte/Sunshine/releases/download/nightly-
 
 我的解决方案是花几块钱买一个显卡欺骗器，有的商家也称之为虚拟显示器。
 
-{% image https://imgsrc.baidu.com/forum/pic/item/9922720e0cf3d7cae53d574bb41fbe096a63a9c0.jpg width:100px %}
+{% image https://imgsrc.chyk.ink/9922720e0cf3d7cae53d574bb41fbe096a63a9c0.webp width:100px %}
 
 把它插上电脑，在弹出的提示框中选择“向左扩展”或“向右扩展”即可。
 
@@ -67,7 +67,7 @@ EDID 可以理解为显示器的身份信息，包含该显示器的型号、支
 最后，编辑[内核参数](https://wiki.archlinuxcn.org/wiki/%E5%86%85%E6%A0%B8%E5%8F%82%E6%95%B0)，加入一行`drm.edid_firmware=HDMI-A-2:edid/vlv3001.bin`。
 其中，`HDMI-A-2` 为显卡欺骗器对应的显示器编号（可用 `xrandr` 命令查看）， `vlv3001.bin` 为上一步得到的 bin 文件。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/54fbb2fb43166d22db537ea9002309f79052d2e3.jpg %}
+{%image https://imgsrc.chyk.ink/54fbb2fb43166d22db537ea9002309f79052d2e3.webp %}
 
 覆盖 EDID 之后的效果如图所示。可以看到，系统已经成功地把我的显卡欺骗器当成了某阀门掌机的显示器。
 
@@ -92,4 +92,4 @@ Moonlight 可以自动检测到局域网下的电脑，直接连接上就可以�
 
 ### 🖼️ 效果图
 
-{%image https://imgsrc.baidu.com/forum/pic/item/0df431adcbef76099b0ff2a268dda3cc7cd99e83.jpg %}
+{%image https://imgsrc.chyk.ink/0df431adcbef76099b0ff2a268dda3cc7cd99e83.webp %}

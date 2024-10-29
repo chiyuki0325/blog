@@ -4,7 +4,7 @@ date: 2023-08-13 12:06:37
 tags:
 - Firefox
 category: 日常
-cover: https://imgsrc.baidu.com/forum/pic/item/7dd98d1001e9390193fc3c0f3dec54e736d19601.jpg
+cover: https://imgsrc.chyk.ink/7dd98d1001e9390193fc3c0f3dec54e736d19601.webp
 ---
 
 Firefox 固然好用，但其性能和流畅度一直不如 Chromium，在 Chromium 最近更新了节省内存模式之后，Firefox 唯一的优势现在也不如 Chromium 了。于是在用了一年半的 Firefox 之后，我决定回归 Chromium 系的怀抱。
@@ -15,9 +15,9 @@ Firefox 固然好用，但其性能和流畅度一直不如 Chromium，在 Chrom
 
 在对比了众多浏览器之后，我选择了 [Vivaldi](https://vivaldi.com)。Vivaldi 是由原 Opera 团队开发的开源浏览器，其和 Firefox 一样拥有出色的隐私保护功能和可自定义性。Vivaldi 不仅支持垂直标签栏，还有类似 Edge，但比 Edge 更好用的面板功能，也像 Firefox 一样可以用 CSS 自定义浏览器界面，还内置一个类似 Thunderbird 的邮件客户端。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/a08b87d6277f9e2f4b13ad395930e924b899f3d9.jpg 我简单配置的 Vivaldi %}
+{%image https://imgsrc.chyk.ink/a08b87d6277f9e2f4b13ad395930e924b899f3d9.webp 我简单配置的 Vivaldi %}
 
-{%image https://imgsrc.baidu.com/forum/pic/item/37d12f2eb9389b50f6cf5063c335e5dde7116ecb.jpg Vivaldi 的面板 %}
+{%image https://imgsrc.chyk.ink/37d12f2eb9389b50f6cf5063c335e5dde7116ecb.webp Vivaldi 的面板 %}
 
 在一番配置之后，我决定使用 Vivaldi 当作我的主力浏览器。但相比于我之前使用的 Firefox 方案，它仍有一些不足：
 

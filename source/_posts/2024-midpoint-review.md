@@ -2,7 +2,7 @@
 title: 📜 新生活的敲门砖，人生的巨大转折点 —— 我的 2024 “年中总结”
 date: 2024-08-27 21:58:25
 categories: ['日常']
-cover: https://imgsrc.baidu.com/forum/pic/item/d01373f082025aaf428b8feabdedab64034f1a52.jpg
+cover: https://imgsrc.chyk.ink/d01373f082025aaf428b8feabdedab64034f1a52.webp
 poster:
   headline: 📜 我的 2024 “年中总结”
   topic: 新生活的敲门砖，人生的巨大转折点
@@ -26,17 +26,17 @@ poster:
 
 这么看来，我发现自己平常学习和做事虽然很随意，但真急了还是可以好好学习好好做事的 ...（思考）
 
-{%image https://imgsrc.baidu.com/forum/pic/item/63d9f2d3572c11dfadf55402252762d0f703c2ef.jpg 毕业典礼 %}
+{%image https://imgsrc.chyk.ink/63d9f2d3572c11dfadf55402252762d0f703c2ef.webp 毕业典礼 %}
 
 最终也是混(?)到了毕业那天。嘛 ... 高考期间发生了一点小意外，我感觉有必要记在这里。
 
 考数学时，[单选第八题](https://gaokao.eol.cn/shiti/sx/202406/t20240612_2616034_3.shtml)我在考场上怎么也想不出来，想了快五分钟之后蒙了个错误选项就过去了，但当晚半夜三点，我起来上厕所，忽然就在厕所里想出来这道题该怎么做了 ... 别人都是马桶文学，我这是马桶数学啊 ... 不过虽然晚上睡得很差，第二天的英语却考得相当不错，比以往任何一次都好。这才是塞翁失马，焉知非福啊！
 
-{%image https://imgsrc.baidu.com/forum/pic/item/caef76094b36acaf7d2f7edd3ad98d1000e99cc0.jpg width:50% 成绩单 %}
+{%image https://imgsrc.chyk.ink/caef76094b36acaf7d2f7edd3ad98d1000e99cc0.webp width:50% 成绩单 %}
 
 最终的高考成绩是 644 分，成功考入了东北大学的软件工程专业。这所大学也是我母亲的母校，感觉这也是一种传承。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/d833c895d143ad4b0639bce1c4025aafa40f06f8.jpg width:80% 十年前的我站在东北大学门口 %}
+{%image https://imgsrc.chyk.ink/d833c895d143ad4b0639bce1c4025aafa40f06f8.webp width:80% 十年前的我站在东北大学门口 %}
 
 十年前的我，曾经傻傻地说「等我长大了以后，也要上这个大学」，十年后的我，终究是完成了这个目标。
 
@@ -46,21 +46,21 @@ poster:
 
 去年的 AOSCC 2023 因为我即将升入高三而没法参加，只能看着屏幕上的群友去而眼馋无比，今年的 AOSCC 2024 我终于可以参加了。正好，今年在长春的吉林大学举办，所以不用特意跑到南方去。这是我第一次自己出远门，增长了很多出门和社交经验。大会的氛围相当~~创~~，我学到了很多开源软件和社区相关的知识。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/a8773912b31bb0510def4909707adab44bede0cd.jpg AOSCC 2024 %}
+{%image https://imgsrc.chyk.ink/a8773912b31bb0510def4909707adab44bede0cd.webp AOSCC 2024 %}
 
 从长春回来后也差点入坑 AOSC OS，并且把它移植到了我那台米板 5 上 ~~（创！）~~，但因为它还在用 KDE 5，只能等等等等等 ...
 
 七月份我再次出门，去上海参加 ChinaJoy 和库璐璐音游嘉年华。五年之后再来一次上海，感觉那里发生了天翻地覆的变化，我这个原始人对这个快节奏的、高度现代化的市中心感觉到很不适应，但上海外围那些被他们称之为「村」的地带，却让我有了家的感觉。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/6a600c338744ebf83d588f1e9ff9d72a6059a7e2.jpg 某张流传颇广的 webm 的取景地（笑 %}
+{%image https://imgsrc.chyk.ink/6a600c338744ebf83d588f1e9ff9d72a6059a7e2.webp 某张流传颇广的 webm 的取景地（笑 %}
 
-{%image https://imgsrc.baidu.com/forum/pic/item/0b55b319ebc4b7459a8b5c3789fc1e178a8215f0.jpg 真的是「村」吗...? %}
+{%image https://imgsrc.chyk.ink/0b55b319ebc4b7459a8b5c3789fc1e178a8215f0.webp 真的是「村」吗...? %}
 
 因为群友都会骑车而只有我不会，我只能走路，大大减缓了旅游的进程，因此从上海回来后我买了一辆自行车，并开始了磕磕绊绊的学习。三天后，我终于战胜了自行车，并且整天骑着自行车到处跑图。
 
 八月份我又去了一趟北京，同样是几年之后再次来。受那首小学音乐课本上，令人印象深刻的[《卢沟谣》](https://y.music.163.com/m/song/5235738)的影响，我特地去那里打了一次卡。那时，一辆复兴号正从远处开过，令我感慨颇深。之后，我又顺路去了天津游玩。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/bd3eb13533fa828b2a1376c2bb1f4134970a5adb.jpg 卢沟桥与远处的复兴号 %}
+{%image https://imgsrc.chyk.ink/bd3eb13533fa828b2a1376c2bb1f4134970a5adb.webp 卢沟桥与远处的复兴号 %}
 
 据说，大学的工科生在寒暑假是经常要出去实习的，所以这个假期应该是我这辈子最无拘无束，可以尽情溜达的假期了。
 
@@ -68,13 +68,13 @@ poster:
 
 [舞萌](https://maimai.sega.jp)这款游戏，作为主要爱好，也成了 2024 年我生活中的一个重要部分。去年本博客也曾多次刊载舞萌相关的内容，而到现在，我的游戏次数已经从年初的 300 涨到了 800，成为了不折不扣的舞萌吃。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/c995d143ad4bd113badb5c131cafa40f4bfb05f9.jpg  width:60% 2024 年 2 月开学前 color change 的瞬间 %}
+{%image https://imgsrc.chyk.ink/c995d143ad4bd113badb5c131cafa40f4bfb05f9.webp  width:60% 2024 年 2 月开学前 color change 的瞬间 %}
 
 虽然去年年末到今年年初的大断网事件对我的游玩体验造成了很大的影响，但同时，搞舞萌科研也在一定程度上提升了我的计算机水平。
 
 有这么一种说法：如果想改掉一个人的社恐，那么最好的办法就是让他入坑舞萌。随着游玩时间的增加，我也认识了本地的好多 mai 友。回想起我 2022 年开始出门的原因就是舞萌，并且去年几次出市的原因也是舞萌（面群友、打神秘机台等）。舞萌改变了我，也改变了我的生活，把我从内向变得外向了许多。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/d000baa1cd11728be55767038efcc3cec3fd2c9d.jpg AOSCC 舞萌分 C %}
+{%image https://imgsrc.chyk.ink/d000baa1cd11728be55767038efcc3cec3fd2c9d.webp AOSCC 舞萌分 C %}
 
 最终，还是在音乐和旅游间选择了 ...
 

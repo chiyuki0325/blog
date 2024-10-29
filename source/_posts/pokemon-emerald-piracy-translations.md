@@ -20,11 +20,11 @@ category: 游戏
 
 <!-- cell left -->
 
-{%image https://imgsrc.baidu.com/forum/pic/item/c8ea15ce36d3d5396fbd01f57c87e950352ab000.jpg %}
+{%image https://imgsrc.chyk.ink/c8ea15ce36d3d5396fbd01f57c87e950352ab000.webp %}
 
 <!-- cell right -->
 
-{%image https://imgsrc.baidu.com/forum/pic/item/55e736d12f2eb93899e374c493628535e5dd6f7d.jpg %}
+{%image https://imgsrc.chyk.ink/55e736d12f2eb93899e374c493628535e5dd6f7d.webp %}
 
 {%endsplit%}
 
@@ -44,11 +44,11 @@ category: 游戏
 
 还是卡依市，进入这城市的友好商店（friendly shop 同样是被音译成了「非林特商店」...），你会发现这商店在卖剧情物品「哈伯邮件」，其实就是港口（harbor）。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/79f0f736afc379317d6e8f1fadc4b74543a91185.jpg %}
+{%image https://imgsrc.chyk.ink/79f0f736afc379317d6e8f1fadc4b74543a91185.webp %}
 
 再来看这游戏中的三种 PP 回复道具，PP 艾依（单项小回复，エイド / Ether），PP 依达（多项小回复，エイダー / Elixir）和 PP 力卡（单项大回复，リカバー）均为直接音译。在天元森林第一次捡到 PP 回复道具时，这个中二的叫法让第一次玩的我感觉不明所以，不过在见多了这种奇葩翻译之后就习惯了。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/7dd98d1001e93901db4c84083dec54e736d196be.jpg %}
+{%image https://imgsrc.chyk.ink/7dd98d1001e93901db4c84083dec54e736d196be.webp %}
 
 特殊道具的翻译也是音译的重灾区。
 
@@ -62,11 +62,11 @@ category: 游戏
 
 <!-- cell left -->
 
-{%image https://imgsrc.baidu.com/forum/pic/item/11385343fbf2b21171958c788c8065380cd78e49.jpg %}
+{%image https://imgsrc.chyk.ink/11385343fbf2b21171958c788c8065380cd78e49.webp %}
 
 <!-- cell right -->
 
-{%image https://imgsrc.baidu.com/forum/pic/item/caef76094b36acafda519fca3ad98d1001e99c57.jpg %}
+{%image https://imgsrc.chyk.ink/caef76094b36acafda519fca3ad98d1001e99c57.webp %}
 
 {%endsplit%}
 
@@ -80,11 +80,11 @@ category: 游戏
 
 <!-- cell left -->
 
-{%image https://imgsrc.baidu.com/forum/pic/item/0824ab18972bd4076abedacb3d899e510fb3098e.jpg %}
+{%image https://imgsrc.chyk.ink/0824ab18972bd4076abedacb3d899e510fb3098e.webp %}
 
 <!-- cell right -->
 
-{%image https://imgsrc.baidu.com/forum/pic/item/503d269759ee3d6de64089fd05166d224f4ade06.jpg %}
+{%image https://imgsrc.chyk.ink/503d269759ee3d6de64089fd05166d224f4ade06.webp %}
 
 {%endsplit%}
 
@@ -92,7 +92,7 @@ category: 游戏
 
 至于「花蚪花团」这个叫法，是校对问题，水（アクア）这三个字在盗版汉化的字库里对应的就是「花蚪花」。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/5fdf8db1cb1349541778e152104e9258d1094aa5.jpg %}
+{%image https://imgsrc.chyk.ink/5fdf8db1cb1349541778e152104e9258d1094aa5.webp %}
 
 ### 4、主菜单
 
@@ -102,11 +102,11 @@ category: 游戏
 
 <!-- cell left -->
 
-{%image https://imgsrc.baidu.com/forum/pic/item/c2fdfc039245d6889856bb92e2c27d1ed21b24ab.jpg %}
+{%image https://imgsrc.chyk.ink/c2fdfc039245d6889856bb92e2c27d1ed21b24ab.webp %}
 
 <!-- cell right -->
 
-{%image https://imgsrc.baidu.com/forum/pic/item/e850352ac65c10388c24c7f4f4119313b07e89aa.jpg %}
+{%image https://imgsrc.chyk.ink/e850352ac65c10388c24c7f4f4119313b07e89aa.webp %}
 
 {%endsplit%}
 
@@ -118,11 +118,11 @@ category: 游戏
 
 GBA《宝可梦 火红 / 叶绿》日版的汉化同样为这家盗版商完成，可他们在翻译游戏的时候似乎并不清楚自己在翻译哪款游戏，经常有串台的现象。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/d788d43f8794a4c232dcee1d48f41bd5ad6e390c.jpg 某改版的吐槽 %}
+{%image https://imgsrc.chyk.ink/d788d43f8794a4c232dcee1d48f41bd5ad6e390c.webp 某改版的吐槽 %}
 
 宝石版中的奥德博士（オダマキ博士）、道吉镇（コトキタウン）这两个译名是直接音译过来的，但是火红叶绿版中直接沿用了 ...
 
-{%image https://imgsrc.baidu.com/forum/pic/item/9345d688d43f8794ea1a4118941b0ef41bd53a1a.jpg %}
+{%image https://imgsrc.chyk.ink/9345d688d43f8794ea1a4118941b0ef41bd53a1a.webp %}
 
 ### 6、未解之谜
 

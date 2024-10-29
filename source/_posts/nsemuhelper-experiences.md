@@ -17,7 +17,7 @@ category: 其它
 
 {% ghcard YidaozhanYa/NSEmuHelper %}
 
-{% image https://imgsrc.baidu.com/forum/pic/item/3c6d55fbb2fb431663fdabad65a4462308f7d303.jpg width:300px NS 模拟器助手第一版的主菜单，到现在还没怎么变化 %}
+{% image https://imgsrc.chyk.ink/3c6d55fbb2fb431663fdabad65a4462308f7d303.webp width:300px NS 模拟器助手第一版的主菜单，到现在还没怎么变化 %}
 
 
 
@@ -30,7 +30,7 @@ category: 其它
 大家都知道，Yuzu 模拟器的版本更迭非常快，基本一天发布两三个版本，并且时不时就会在新版加入新功能和新特性。这时候作为重度玩家，我需要一种可以无脑快速更新 Yuzu 的工具。
 当时我只会批处理，所以就编写了一个简单的更新小脚本。
 
-{% image https://imgsrc.baidu.com/forum/pic/item/0eb30f2442a7d933086e35a4e84bd11372f00127.jpg 因为批处理的特性实在不太行，所以塞了一堆 exe wwwww %}
+{% image https://imgsrc.chyk.ink/0eb30f2442a7d933086e35a4e84bd11372f00127.webp 因为批处理的特性实在不太行，所以塞了一堆 exe wwwww %}
 
 当时由于 FastGit 连接不太行的，并且批处理没有图形化，一堆人不会敲回车，所以这个脚本并没有多少人用。
 
@@ -38,7 +38,7 @@ category: 其它
 
 不久后，贴吧吧友 [@浅时光°Triste](https://tieba.baidu.com/home/main?id=tb.1.49499a8d.blf4ca32-Qw58GSaOp6ihg?t=1642557514&fr=pb) (当时的 ID 为 @Luminary0000) 制作了一款工具，名为 [Yuzu Tool](https://tieba.baidu.com/p/7482949878)，使用 Visual Basic .NET 语言编写，当时这个界面我一眼就心动了。后来 Yuzu Tool 经过多次迭代，但仍然不是很好用，很多都需要手动操作，并且是直接访问 GitHub，网络问题很严重。
 
-{% image https://imgsrc.baidu.com/forum/pic/item/91ef76c6a7efce1bfe3d181dea51f3deb58f65d7.jpg Yuzu Tool %}
+{% image https://imgsrc.chyk.ink/91ef76c6a7efce1bfe3d181dea51f3deb58f65d7.webp Yuzu Tool %}
 
 #### ......
 

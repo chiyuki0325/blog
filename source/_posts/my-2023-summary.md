@@ -2,7 +2,7 @@
 title: 📜 我的 2023：新的改变，新的成长，新的开始
 date: 2023-12-23 21:18:00
 categories: ['日常']
-cover: https://imgsrc.baidu.com/forum/pic/item/a9d3fd1f4134970a24327e18d3cad1c8a7865d47.jpg
+cover: https://imgsrc.chyk.ink/a9d3fd1f4134970a24327e18d3cad1c8a7865d47.webp
 poster:
   headline: 📜 我的 2023 年终总结
   topic: 新的改变，新的生活，新的开始
@@ -141,7 +141,7 @@ Then I'll raise you like a phoenix
 
 <span style="font-size: 1.2rem">**祝乾亮 - 跟太阳系说再见** [🔗](https://www.bilibili.com/video/BV1c54y1K75f/)</span>
 
-{%image https://imgsrc.baidu.com/forum/pic/item/b8014a90f603738dcca56215f51bb051f819ec1e.jpg %}
+{%image https://imgsrc.chyk.ink/b8014a90f603738dcca56215f51bb051f819ec1e.webp %}
 
 在一月，我观看了《三体》电视剧，也因此认识了这个优秀的科幻作品系列，看到了人类内心的深邃，在 2023 年的开端给了我极大的震撼。
 
@@ -151,7 +151,7 @@ Then I'll raise you like a phoenix
 
 <span style="font-size: 1.2rem">**NEEDY GIRL OVERDOSE - INTERNET YAMERO** [🔗](https://www.bilibili.com/video/BV1jk4y187UA/)</span>
 
-{%image https://imgsrc.baidu.com/forum/pic/item/b3fb43166d224f4ab84d1d244ff790529822d135.jpg width:"50%" %}
+{%image https://imgsrc.chyk.ink/b3fb43166d224f4ab84d1d244ff790529822d135.webp width:"50%" %}
 
 在二月，我接触到了《主播女孩重度依赖》，糖糖这个形象给我留下了深刻的印象。虽然她给我带来了一段时间的忧郁，但也让我获得了成长。
 
@@ -161,7 +161,7 @@ Then I'll raise you like a phoenix
 
 <span style="font-size: 1.2rem">**はるまきごはん - 再会** [🔗](https://www.bilibili.com/video/BV1s4411A7Tj/)</span>
 
-{%image https://imgsrc.baidu.com/forum/pic/item/8b82b9014a90f603177af2707f12b31bb051ed3b.jpg %}
+{%image https://imgsrc.chyk.ink/8b82b9014a90f603177af2707f12b31bb051ed3b.webp %}
 
 在三月的一个周末，我独自坐火车去找身在盘锦的 [FunnyStudio](https://t.me/fnsddchannel) 玩。他是我在网上认识得最久的朋友，我非常喜欢他。这次出行使我获得了很多的成长经验。
 
@@ -171,7 +171,7 @@ Then I'll raise you like a phoenix
 
 <span style="font-size: 1.2rem">**鬼山哥 - 阳光开朗孔乙己** [🔗](/2023/04/08/yang-guang-kai-lang-kong-yi-ji/)</span>
 
-{%image https://imgsrc.baidu.com/forum/pic/item/203fb80e7bec54e7e8c27329ff389b504fc26adf.jpg width:"80%" %}
+{%image https://imgsrc.chyk.ink/203fb80e7bec54e7e8c27329ff389b504fc26adf.webp width:"80%" %}
 
 在四月，社会风气动荡，因此诞生了这首《阳光开朗孔乙己》。
 
@@ -181,7 +181,7 @@ Then I'll raise you like a phoenix
 
 <span style="font-size: 1.2rem">**《塞尔达传说 王国之泪》- 急冻盖拉之战** [🔗](https://youtu.be/ZO-iypCk5Iw?list=PL2XjmdkuVL-3Yybg24FG_aBdLjBE4Quru&t=204)</span>
 
-{%image https://imgsrc.baidu.com/forum/pic/item/1e30e924b899a901370d32015b950a7b0208f5c9.jpg width:"80%" %}
+{%image https://imgsrc.chyk.ink/1e30e924b899a901370d32015b950a7b0208f5c9.webp width:"80%" %}
 
 在五月，《塞尔达传说 王国之泪》发售。《王国之泪》游戏的优秀程度自然无需多言，是我 2023 年玩过的最令我心潮澎湃、热血沸腾、沉浸其中的游戏。
 
@@ -191,7 +191,7 @@ Then I'll raise you like a phoenix
 
 <span style="font-size: 1.2rem">**雄之助，WaMi - Navy** [🔗](https://www.bilibili.com/video/BV15g411P7cW/)</span>
 
-{%image https://imgsrc.baidu.com/forum/pic/item/cf1b9d16fdfaaf511dc2e888ca5494eef01f7ae0.jpg width:"50%" %}
+{%image https://imgsrc.chyk.ink/cf1b9d16fdfaaf511dc2e888ca5494eef01f7ae0.webp width:"50%" %}
 
 在六月，[我最好的朋友之一](https://t.me/YiRan_1945)因为家长的压迫离开了人世。
 
@@ -201,7 +201,7 @@ Then I'll raise you like a phoenix
 
 <span style="font-size: 1.2rem">**Hanser - 越权访问** [🔗](https://www.bilibili.com/video/BV1fY4y157Th/)</span>
 
-{%image https://imgsrc.baidu.com/forum/pic/item/b64543a98226cffc402ed685ff014a90f603ea85.jpg width:"80%" %}
+{%image https://imgsrc.chyk.ink/b64543a98226cffc402ed685ff014a90f603ea85.webp width:"80%" %}
 
 在七月，我入坑了《崩坏：星穹铁道》（其实是因为很喜欢银狼这个角色）。
 
@@ -211,7 +211,7 @@ Then I'll raise you like a phoenix
 
 <span style="font-size: 1.2rem">**Yooh - Good bye, Merry-Go-Round.** [🔗](https://www.bilibili.com/video/BV1pi4y1y7Cj/)</span>
 
-{%image https://imgsrc.baidu.com/forum/pic/item/7aec54e736d12f2e5907c75709c2d56285356883.jpg width:"60%" %}
+{%image https://imgsrc.chyk.ink/7aec54e736d12f2e5907c75709c2d56285356883.webp width:"60%" %}
 
 在八月，为了在 maimai 中解锁《Good bye, Merry-Go-Round.》，我和 FunnyStudio 一起前往沈阳玩。
 
@@ -221,7 +221,7 @@ Then I'll raise you like a phoenix
 
 <span style="font-size: 1.2rem">**王七七 - 人生态度** [🔗](https://www.bilibili.com/video/BV1uG4y1174X/)</span>
 
-{%image https://imgsrc.baidu.com/forum/pic/item/42166d224f4a20a4de6f55f0d6529822720ed090.jpg width:"80%" %}
+{%image https://imgsrc.chyk.ink/42166d224f4a20a4de6f55f0d6529822720ed090.webp width:"80%" %}
 
 九月我升入高三，被骤然增加的学习压力压得一下子喘不过气。然而从刚升入高中，面对同样大的压力的[池塘](https://t.me/chitang233)那，我听到了这首歌。
 
@@ -231,7 +231,7 @@ Then I'll raise you like a phoenix
 
 <span style="font-size: 1.2rem">**MyGo!!!!! - 春日影** [🔗](https://www.bilibili.com/video/BV1v14y1z7MV/)</span>
 
-{%image https://imgsrc.baidu.com/forum/pic/item/e7cd7b899e510fb34b461ea09f33c895d1430cad.jpg width:"50%" %}
+{%image https://imgsrc.chyk.ink/e7cd7b899e510fb34b461ea09f33c895d1430cad.webp width:"50%" %}
 
 在十月，我参加了 [Hackergame 2023](/2023/11/04/hackergame-2023/)。时隔一年，我再次参加 CTF 比赛，学到了很多东西，再次打开了新世界的大门。
 
@@ -241,7 +241,7 @@ Then I'll raise you like a phoenix
 
 <span style="font-size: 1.2rem">**森永真由美 - 月に叢雲華に風** [🔗](https://www.bilibili.com/video/BV19s411a7tg/)</span>
 
-{%image https://imgsrc.baidu.com/forum/pic/item/d62a6059252dd42a9847689c453b5bb5c9eab8bf.jpg width:"80%" %}
+{%image https://imgsrc.chyk.ink/d62a6059252dd42a9847689c453b5bb5c9eab8bf.webp width:"80%" %}
 
 在十一月，我赛博转生，改名为斬風·千雪，以新的面貌继续和网上的大家一起生活。
 
@@ -253,7 +253,7 @@ Then I'll raise you like a phoenix
 
 <span style="font-size: 1.2rem">**はるまきごはん - 秘密** [🔗](https://www.bilibili.com/video/BV1oV411R7Jf/)</span>
 
-{%image https://imgsrc.baidu.com/forum/pic/item/c8ea15ce36d3d5390e7866f47c87e950352ab044.jpg %}
+{%image https://imgsrc.chyk.ink/c8ea15ce36d3d5390e7866f47c87e950352ab044.webp %}
 
 这首歌描绘的，是那两只小家伙对充满秘密的大人世界的窥视。
 

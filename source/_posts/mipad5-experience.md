@@ -6,7 +6,7 @@ tags:
 - 安卓
 - Linux
 category: 数码
-cover: https://imgsrc.baidu.com/forum/pic/item/a6efce1b9d16fdfa62cc8fcaf28f8c5494ee7b76.jpg
+cover: https://imgsrc.chyk.ink/a6efce1b9d16fdfa62cc8fcaf28f8c5494ee7b76.webp
 ---
 
 2024 年 6 月高考后，我购入了小米平板 5 以替代之前那台老旧的华为 M6 平板。本文就来站在我实际使用的角度，讲一下这三个多月我的使用体验。
@@ -31,7 +31,7 @@ cover: https://imgsrc.baidu.com/forum/pic/item/a6efce1b9d16fdfa62cc8fcaf28f8c549
 
 其次是外设，官方的 Pogo Pin 触点键盘没有 F1-F12 功能键和 Esc 键，并且还没有触摸板。显然，米板 5 在设计之初是一台安卓平板，小米并没考虑到用户会这样乱搞，所以官方键盘并不能满足作为电脑的使用需求。这个问题只能购买第三方的蓝牙键盘解决。好在，蓝牙键盘的延迟没有我预想的那么高，虽然不能用来打 4K 音游，但是打打字，玩玩 Minecraft 之类的简单游戏还是比官方键盘好用的。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/a9d3fd1f4134970ac216580bd3cad1c8a7865da9.jpg width:70% 官方键盘没有功能键！ %}
+{%image https://imgsrc.chyk.ink/a9d3fd1f4134970ac216580bd3cad1c8a7865da9.webp width:70% 官方键盘没有功能键！ %}
 
 ## 🤖 作为安卓平板
 
@@ -39,7 +39,7 @@ cover: https://imgsrc.baidu.com/forum/pic/item/a6efce1b9d16fdfa62cc8fcaf28f8c549
 
 虽然很多人都调侃平板电脑「买前生产力，买后爱奇艺」，但是即使作为安卓平板，我感觉它还是有一定的生产力的。我不喜欢用平板记笔记，还是更喜欢传统纸笔，但是平板绝对是一个极好的草纸。课上随时打开就写，写好了清屏，都是极为方便的。浏览器小窗打开高数系统看题，主屏用来当草纸，体验也是相当棒的。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/30adcbef76094b361ea353c9e5cc7cd98d109de5.jpg 你说得对，但是 ... %}
+{%image https://imgsrc.chyk.ink/30adcbef76094b361ea353c9e5cc7cd98d109de5.webp 你说得对，但是 ... %}
 
 有一点是令我很意外的：在系统自带的「小米创作」软件中，有一个「用手指涂画」选项可以关闭，关掉之后，把手放到屏幕上是无法触发笔迹的，只有用手写笔才可以写字。在买之前，我本来会以为它相当容易误触，用平板写字不太现实，但由于可以把手放到屏幕上，实际的书写体验是很优秀的。
 
@@ -53,7 +53,7 @@ cover: https://imgsrc.baidu.com/forum/pic/item/a6efce1b9d16fdfa62cc8fcaf28f8c549
 
 华为 MediaPad M 系列平板打音游的延迟极高（大概 300ms），所以之前的平板一直没能给我带来一个好的游戏体验，而这台小米平板打音游基本没有延迟，在打烤 / Arc 的时候甚至可以打开打击音效，游玩体验是比之前的华为好上几万倍的。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/9e3df8dcd100baa1cc410f9f0110b912c8fc2ea0.jpg 烤批收收味 %}
+{%image https://imgsrc.chyk.ink/9e3df8dcd100baa1cc410f9f0110b912c8fc2ea0.webp 烤批收收味 %}
 
 在服务器上下载一些动漫和电影，装上 VLC 之类支持 SMB 的播放器，就可以流畅观看，在看 4K 的影片时一点也不会发热。
 
@@ -67,7 +67,7 @@ cover: https://imgsrc.baidu.com/forum/pic/item/a6efce1b9d16fdfa62cc8fcaf28f8c549
 
 有一个[小工具](https://github.com/timoxa0/Switch2Linux-Nabu)实现了双系统切换。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/e7cd7b899e510fb3a072b3a99f33c895d1430ca1.jpg Arch Linux ARM with GNOME 46 %}
+{%image https://imgsrc.chyk.ink/e7cd7b899e510fb3a072b3a99f33c895d1430ca1.webp Arch Linux ARM with GNOME 46 %}
 
 米板 5 在 Linux 下的待机续航远差于安卓，主要是因为驱动支持不完善，进不去深度睡眠状态。我现在采取的使用方法是要用时切到 Linux，用完了再切到安卓，切换过程不到一分钟。中等使用强度下的续航大概在 8 到 10 小时（100% ~ 20%），已经可以赶上大多数轻薄本了。
 
@@ -94,7 +94,7 @@ Linux 系统极大改善了米板 5 可用的软件生态，使得它可以作�
 
 米板 5 是可以装 [Windows 11 23H2](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5) 的，但是我装上以来就没开过几次，主要用来玩一些小游戏 {%psw 植物大战僵尸 %} 和启动 mstsc。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/3ac79f3df8dcd1001c311a05348b4710b9122f61.jpg %}
+{%image https://imgsrc.chyk.ink/3ac79f3df8dcd1001c311a05348b4710b9122f61.webp %}
 
 网上的说法是它的在 Windows 下的转译性能接近于四代 i5，但我拿到的这台机器可能由于电路老化，性能没那么高。玩一些 2D 小游戏还是问题不大的。之前测过 Windows 版的星穹铁道在 800p 分辨率也能跑在大概 30FPS。
 

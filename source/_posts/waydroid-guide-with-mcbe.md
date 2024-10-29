@@ -1,7 +1,7 @@
 ---
 categories: []
 category: Arch折腾记
-cover: https://imgsrc.baidu.com/forum/pic/item/adaf2edda3cc7cd9c819ee007c01213fb80e9137.jpg
+cover: https://imgsrc.chyk.ink/adaf2edda3cc7cd9c819ee007c01213fb80e9137.webp
 date: '2022-06-26 13:34:14'
 tags:
 - Waydroid
@@ -87,15 +87,15 @@ waydroid show-full-ui
 
 在进入安卓之后首先将语言改为中文（可选），之后在 {% kbd 应用和通知 %} - {% kbd 应用信息 %} 中停用 `Android 设置向导` （需要开启显示系统应用），否则会反复弹出 Android 设置向导屡次停止运行的弹框。
 
-{% image https://imgsrc.baidu.com/forum/pic/item/cefc1e178a82b9019a5718ea368da9773812ef76.jpg %}
+{% image https://imgsrc.chyk.ink/cefc1e178a82b9019a5718ea368da9773812ef76.webp %}
 
 由于镜像自带谷歌服务，所以之后可以进入谷歌商店下载游戏。
 
-{% image https://imgsrc.baidu.com/forum/pic/item/1ad5ad6eddc451da2427d732f3fd5266d1163212.jpg %}
+{% image https://imgsrc.chyk.ink/1ad5ad6eddc451da2427d732f3fd5266d1163212.webp %}
 
 在安装完成后，就可以开始游玩了。
 
-{% image https://imgsrc.baidu.com/forum/pic/item/adaf2edda3cc7cd9c819ee007c01213fb80e9137.jpg 最终，开源社区击败了渲染龙！ %}
+{% image https://imgsrc.chyk.ink/adaf2edda3cc7cd9c819ee007c01213fb80e9137.webp 最终，开源社区击败了渲染龙！ %}
 
 ## 💠 其它说明
 

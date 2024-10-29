@@ -27,7 +27,7 @@ date: 2022-05-10 13:02:19
 
 ### 查成分
 
-游戏方面 ... 咱的成分比较杂，大概有 <span title="UID: 902336292">{% icon https://imgsrc.baidu.com/forum/pic/item/e850352ac65c10382ad75806f7119313b17e894d.jpg %} 原神</span>、<span title="JE: YidaozhanYa | BE: YidaozhanQwQ">{% icon https://imgsrc.baidu.com/forum/pic/item/8c1001e93901213f2dcdd81811e736d12e2e957c.jpg %} MC</span>、{% icon https://imgsrc.baidu.com/forum/pic/item/562c11dfa9ec8a132195c124b203918fa1ecc063.jpg %} 任天堂、<span title="Phigros、Arcaea、maimai DX、pjsk">{% icon https://imgsrc.baidu.com/forum/pic/item/fc1f4134970a304eeba8363e94c8a786c8175c68.jpg %} 音游</span>、{% icon https://imgsrc.baidu.com/forum/pic/item/c75c10385343fbf2c9d130e7f57eca8064388f71.jpg %} 东方 Project 等。玩过的游戏很多，但都很菜。
+游戏方面 ... 咱的成分比较杂，大概有 <span title="UID: 902336292">{% icon https://imgsrc.chyk.ink/e850352ac65c10382ad75806f7119313b17e894d.jpg %} 原神</span>、<span title="JE: YidaozhanYa | BE: YidaozhanQwQ">{% icon https://imgsrc.baidu.com/forum/pic/item/8c1001e93901213f2dcdd81811e736d12e2e957c.jpg %} MC</span>、{% icon https://imgsrc.baidu.com/forum/pic/item/562c11dfa9ec8a132195c124b203918fa1ecc063.jpg %} 任天堂、<span title="Phigros、Arcaea、maimai DX、pjsk">{% icon https://imgsrc.baidu.com/forum/pic/item/fc1f4134970a304eeba8363e94c8a786c8175c68.jpg %} 音游</span>、{% icon https://imgsrc.baidu.com/forum/pic/item/c75c10385343fbf2c9d130e7f57eca8064388f71.webp %} 东方 Project 等。玩过的游戏很多，但都很菜。
 
 目前正在玩的游戏有 maimai DX 和塞尔达传说 王国之泪。
 
@@ -179,7 +179,7 @@ s390x 架构比较罕见，但还是成功地把 [Alist](https://github.com/Xhof
 🗄️ [池塘](https://blog.chitang.tech) 和 [资源管理器](https://zyglq.cn) 送我了两台一年期微软云 VPS，  
 因此之前部署在云函数上的一些东西可以搬下来了。
 
-{% image https://imgsrc.baidu.com/forum/pic/item/7acb0a46f21fbe09376c52d02e600c338644adc0.jpg Arch&nbsp;Linux&nbsp;yyds width:300px %}
+{% image https://imgsrc.chyk.ink/7acb0a46f21fbe09376c52d02e600c338644adc0.webp Arch&nbsp;Linux&nbsp;yyds width:300px %}
 
 🔍 本站添加 sitemap，并在[必应](https://cn.bing.com)搜索引擎申请收录。  
 
@@ -317,16 +317,16 @@ s390x 架构比较罕见，但还是成功地把 [Alist](https://github.com/Xhof
 
 |                                                              | 站点             | URL                                                    | URL 2                                                  |
 | ------------------------------------------------------------ | ---------------- | ------------------------------------------------------ | ------------------------------------------------------ |
-| <img src="https://imgsrc.baidu.com/forum/pic/item/58ee3d6d55fbb2fb1663f1cf0a4a20a44723dca7.jpg" width="16"> | Vercel           | [blog.yidaozhan.top](https://blog.yidaozhan.top)       | [ydz-blog.vercel.app](https://ydz-blog.vercel.app)     |
-| <img src="https://imgsrc.baidu.com/forum/pic/item/7c1ed21b0ef41bd54167793014da81cb39db3d3a.jpg" width="16"> | Cloudflare Pages | [blog-cf.yidaozhan.top](https://blog-cf.yidaozhan.top) | [ydz-blog.pages.dev](https://ydz-blog.pages.dev)       |
-| <img src="https://imgsrc.baidu.com/forum/pic/item/94cad1c8a786c917a5bcfbe48c3d70cf3ac757b4.jpg" width="16"> | Render           | [blog-rd.yidaozhan.top](https://blog-rd.yidaozhan.top) | [ydz-blog.onrender.com](https://ydz-blog.onrender.com) |
+| <img src="https://imgsrc.chyk.ink/58ee3d6d55fbb2fb1663f1cf0a4a20a44723dca7.webp" width="16"> | Vercel           | [blog.yidaozhan.top](https://blog.yidaozhan.top)       | [ydz-blog.vercel.app](https://ydz-blog.vercel.app)     |
+| <img src="https://imgsrc.chyk.ink/7c1ed21b0ef41bd54167793014da81cb39db3d3a.webp" width="16"> | Cloudflare Pages | [blog-cf.yidaozhan.top](https://blog-cf.yidaozhan.top) | [ydz-blog.pages.dev](https://ydz-blog.pages.dev)       |
+| <img src="https://imgsrc.chyk.ink/94cad1c8a786c917a5bcfbe48c3d70cf3ac757b4.webp" width="16"> | Render           | [blog-rd.yidaozhan.top](https://blog-rd.yidaozhan.top) | [ydz-blog.onrender.com](https://ydz-blog.onrender.com) |
 
 ##### 文件分享
 
 |                                                              | 站点              | URL                                              |
 | ------------------------------------------------------------ | ----------------- | ------------------------------------------------ |
-| <img src="https://imgsrc.baidu.com/forum/pic/item/b90e7bec54e736d18f5e25d5de504fc2d462699a.jpg" width="16"> | Azure Alist       | [file.yidaozhan.top](https://file.yidaozhan.top) |
-| <img src="https://imgsrc.baidu.com/forum/pic/item/58ee3d6d55fbb2fb1663f1cf0a4a20a44723dca7.jpg" width="16"> | Vercel OneManager | [pan.yidaozhan.top](https://pan.yidaozhan.top)   |
+| <img src="https://imgsrc.chyk.ink/b90e7bec54e736d18f5e25d5de504fc2d462699a.webp" width="16"> | Azure Alist       | [file.yidaozhan.top](https://file.yidaozhan.top) |
+| <img src="https://imgsrc.chyk.ink/58ee3d6d55fbb2fb1663f1cf0a4a20a44723dca7.webp" width="16"> | Vercel OneManager | [pan.yidaozhan.top](https://pan.yidaozhan.top)   |
 
 ---
 

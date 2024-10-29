@@ -3,7 +3,7 @@ title: 🚩 第二届 NEX CTF 赛后总结 + 个人思路
 date: 2024-10-22 18:00:00
 tags:
 - CTF
-cover: https://imgsrc.baidu.com/forum/pic/item/00e93901213fb80ee9d0f2f370d12f2eb9389495.jpg
+cover: https://imgsrc.chyk.ink/00e93901213fb80ee9d0f2f370d12f2eb9389495.webp
 ---
 
 学院举办了一场 CTF 比赛用来拷打 xdx，经过两天的战斗，我拿到了大部分的 flag。和去年的 Hackergame 一样，这次又学到了很多东西。本文来写一些会做的题的思路，并简单做一下复盘。
@@ -55,7 +55,7 @@ cover: https://imgsrc.baidu.com/forum/pic/item/00e93901213fb80ee9d0f2f370d12f2eb
 
 ### 🚩 ✅ 签到喵
 
-{%image https://imgsrc.baidu.com/forum/pic/item/8601a18b87d6277fb453a11c6e381f30e924fc55.jpg width:min(450px,100%) %}
+{%image https://imgsrc.chyk.ink/8601a18b87d6277fb453a11c6e381f30e924fc55.webp width:min(450px,100%) %}
 
 海报的底部是一段摩斯电码，抄下来解码后即可得出 flag。
 
@@ -67,33 +67,33 @@ cover: https://imgsrc.baidu.com/forum/pic/item/00e93901213fb80ee9d0f2f370d12f2eb
 
 <!--cell left-->
 
-{%image https://imgsrc.baidu.com/forum/pic/item/960a304e251f95ca136e17928f177f3e6709527f.jpg %}
+{%image https://imgsrc.chyk.ink/960a304e251f95ca136e17928f177f3e6709527f.webp %}
 
 <!--cell right-->
 
-{%image https://imgsrc.baidu.com/forum/pic/item/b7fd5266d016092443bf273f920735fae6cd3478.jpg 防不胜防 %}
+{%image https://imgsrc.chyk.ink/b7fd5266d016092443bf273f920735fae6cd3478.webp 防不胜防 %}
 
 {%endsplit%}
 
 在安装路径可以找到一个 `flag.mdb` 文件，由于我电脑上没有 Access（都 4202 年了 🤔），于是直接用 Detect It Easy 提取字符串，即可拿到 flag 2。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/7acb0a46f21fbe0924ce46302d600c338744ad06.jpg %}
+{%image https://imgsrc.chyk.ink/7acb0a46f21fbe0924ce46302d600c338744ad06.webp %}
 
 ### 💫 ✅ 从零开始的 CPP 生活
 
 题目是一段 cpp 源码，注释了打印 flag 的行。编译运行即可拿到 flag。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/3812b31bb051f81993b7866e9cb44aed2e73e700.jpg %}
+{%image https://imgsrc.chyk.ink/3812b31bb051f81993b7866e9cb44aed2e73e700.webp %}
 
 ### ⏰ ✅ 时光机器 (Time Machine)
 
 题目用 [v86](http://copy.sh/v86/) 在浏览器里运行了一个 Windows 3.1 的模拟器，需要先用 `win /s` 命令进入图形环境，之后 ~~在 Program Manager 中双击 Games，找到 Minesweeper (扫雷) 然后打开......~~
 
-{% image https://imgsrc.baidu.com/forum/pic/item/cdbf6c81800a19d87c94172175fa828ba61e467b.jpg 玩扫雷玩的 %}
+{% image https://imgsrc.chyk.ink/cdbf6c81800a19d87c94172175fa828ba61e467b.webp 玩扫雷玩的 %}
 
 把 `C:\FLAG.BMQ` 改名为 `FLAG.BMP`，打开即送 flag。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/cb8065380cd79123e36e1150eb345982b2b7800c.jpg %}
+{%image https://imgsrc.chyk.ink/cb8065380cd79123e36e1150eb345982b2b7800c.webp %}
 
 > 不得不说 v86 真是一款非常经典的软件啊。2022 年好像就在哪里见过来着，但是记不清了。
 
@@ -101,7 +101,7 @@ cover: https://imgsrc.baidu.com/forum/pic/item/00e93901213fb80ee9d0f2f370d12f2eb
 
 虽然在模拟器里无法打开 docx 文件，但是可以直接把模拟器的镜像文件下载下来，使用  `qemu-nbd` 和 `mount` 挂载即送 flag。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/810a19d8bc3eb1358b3b329fe01ea8d3fd1f4412.jpg %}
+{%image https://imgsrc.chyk.ink/810a19d8bc3eb1358b3b329fe01ea8d3fd1f4412.webp %}
 
 > 此处的 flag 是在 docx 里插入的图片，使用的是 Arial 字体而不是流行的编程等宽字体，所以可能有分不清 `iIlLj0Oo` 的问题，多试几次即可。
 
@@ -128,7 +128,7 @@ cover: https://imgsrc.baidu.com/forum/pic/item/00e93901213fb80ee9d0f2f370d12f2eb
 
 解压后在 `[Content_Types].xml` 里即可找到被 base64 编码后的隐藏的 Flag。
 
-{% image https://imgsrc.baidu.com/forum/pic/item/9358d109b3de9c8268d664ab2a81800a19d84367.jpg 我就说正常的 Office XML 怎么会有注释嘛 %}
+{% image https://imgsrc.chyk.ink/9358d109b3de9c8268d664ab2a81800a19d84367.webp 我就说正常的 Office XML 怎么会有注释嘛 %}
 
 ### 🔏 ✅ 凯撒超进化
 
@@ -136,7 +136,7 @@ cover: https://imgsrc.baidu.com/forum/pic/item/00e93901213fb80ee9d0f2f370d12f2eb
 
 密文为 `bdr{jka3bdlS_k5_50_Y45M_guvZboguV4}`，密钥为三位，查密码表得出密码 `ozu`，解码即得 flag。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/b3b7d0a20cf431ad4f74de1d0d36acaf2edd9874.jpg %}
+{%image https://imgsrc.chyk.ink/b3b7d0a20cf431ad4f74de1d0d36acaf2edd9874.webp %}
 
 > 这个密码对我来说也是熟人了，先锋的 ppt 题里就出现了这个密码。
 
@@ -151,11 +151,11 @@ cover: https://imgsrc.baidu.com/forum/pic/item/00e93901213fb80ee9d0f2f370d12f2eb
 
 <!-- cell left -->
 
-{%image https://imgsrc.baidu.com/forum/pic/item/c8177f3e6709c93da06893d3d93df8dcd1005478.jpg height:200px 题目 %}
+{%image https://imgsrc.chyk.ink/c8177f3e6709c93da06893d3d93df8dcd1005478.webp height:200px 题目 %}
 
 <!-- cell right -->
 
-{%image https://imgsrc.baidu.com/forum/pic/item/9d82d158ccbf6c813ca4b1ccfa3eb13533fa4007.jpg height:200px 实地考察 %}
+{%image https://imgsrc.chyk.ink/9d82d158ccbf6c813ca4b1ccfa3eb13533fa4007.webp height:200px 实地考察 %}
 
 {%endsplit%}
 
@@ -182,7 +182,7 @@ out;
 
 就是前端的那个手写数字识别模型让人血压很高，识别率奇低无比 ...
 
-{%image https://imgsrc.baidu.com/forum/pic/item/f7246b600c338744b035b358170fd9f9d72aa026.jpg %}
+{%image https://imgsrc.chyk.ink/f7246b600c338744b035b358170fd9f9d72aa026.webp %}
 
 ### 🐒 ✅ 黑神话 ● 迷宫
 
@@ -278,7 +278,7 @@ sock.close()
 
 题目是经典 Chrome 小恐龙游戏，需要打到 99999 分才能拿到 flag。flag 被异或密码加密后写在了 js 里，通过前端解密。不需要用调试器试图改分数，只需要把相关代码拷出来单独运行，即可拿到 flag。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/c8177f3e6709c93db8288bd3d93df8dcd1005438.jpg %}
+{%image https://imgsrc.chyk.ink/c8177f3e6709c93db8288bd3d93df8dcd1005438.webp %}
 
 > 如果实在是闲得蛋疼，可以[用 AI 模型](https://buzzorange.com/techorange/2018/05/09/ai-plays-chrome-t-rex/)来自动打到 99999 分，不过打到那一刻的时候，比赛也应该就结束了吧 ...
 
@@ -288,7 +288,7 @@ sock.close()
 
 这是我第一次做逆向题，现场恶补汇编语言。题目难度不大，因为给出了程序源代码。用 IDA 把创建遮挡物相关的语句改成 `NOP` 即可让遮挡物不出现，抄下 flag 即可。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/b219ebc4b74543a98dca66e858178a82b80114c4.jpg %}
+{%image https://imgsrc.chyk.ink/b219ebc4b74543a98dca66e858178a82b80114c4.webp %}
 
 > 你可能想问，既然有源代码，为什么我不编译？其实是因为我电脑上没有 VS ...
 
@@ -458,9 +458,9 @@ def decrypt(v, k):
 
 这道题 neta 了上个月的学生邮箱安全演练。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/faedab64034f78f0f10b05d73f310a55b3191c95.jpg %}
+{%image https://imgsrc.chyk.ink/faedab64034f78f0f10b05d73f310a55b3191c95.webp %}
 
-{%image https://imgsrc.baidu.com/forum/pic/item/9a504fc2d562853572e04d05d6ef76c6a7ef6396.jpg %}
+{%image https://imgsrc.chyk.ink/9a504fc2d562853572e04d05d6ef76c6a7ef6396.webp %}
 
 #### 🐦‍⬛ ✅ admin@trustme.com
 
@@ -499,7 +499,7 @@ insert into record (username, password, time) values ('20240721','1
 
 直接 Detect It Easy 起手，在字符串中找到明文 flag。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/58ee3d6d55fbb2fb7c11dc36094a20a44623dcd8.jpg %}
+{%image https://imgsrc.chyk.ink/58ee3d6d55fbb2fb7c11dc36094a20a44623dcd8.webp %}
 
 > 孩子，不要破坏 Ave Mujica 的世界观。
 
@@ -510,13 +510,13 @@ insert into record (username, password, time) values ('20240721','1
 
 题目程序带了调试符号，用 IDA 打开程序，F5 查看伪代码即可拿到条件，输入即可。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/a71ea8d3fd1f41342a30815a631f95cad1c85e8b.jpg %}
+{%image https://imgsrc.chyk.ink/a71ea8d3fd1f41342a30815a631f95cad1c85e8b.webp %}
 
 #### 🟡 ❌ 答案自动获取器
 
 题目程序改自 [Direct2DCircle](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/Win7Samples/begin/LearnWin32/Direct2DCircle)，说是点击屏幕上的圈圈就可以拿到 flag，但鼠标移到圈圈上，它就会移到屏幕上的随机位置。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/f9198618367adab454898467cdd4b31c8701e4bd.jpg %}
+{%image https://imgsrc.chyk.ink/f9198618367adab454898467cdd4b31c8701e4bd.webp %}
 
 但是，我都把屏幕分辨率改成 200*200 了，你都退无可退了，怎么我点你了，还是不给我 flag 呀？
 
@@ -573,7 +573,7 @@ nc -lnvup 11451
 - HTTP/2.0: `curl --http2 -k https://IP:PORT`
 - HTTP/3.0: `curl3 --http3-only -k https://IP:PORT`
 
-{%image https://imgsrc.baidu.com/forum/pic/item/c9fcc3cec3fdfc03471f679c923f8794a4c226ab.jpg %}
+{%image https://imgsrc.chyk.ink/c9fcc3cec3fdfc03471f679c923f8794a4c226ab.webp %}
 
 > HTTP/0.9 ... 去年在做 [HTTP 集邮册](/2023/11/04/hackergame-2023/#📶-✅-HTTP-集邮册)的时候，无意间认识到了这个东西，没想到它在一年后还在追我。
 >

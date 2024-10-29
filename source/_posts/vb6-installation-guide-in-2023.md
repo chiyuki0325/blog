@@ -4,7 +4,7 @@ date: 2023-03-04 18:06:02
 tags:
 - VB
 category: 编程
-cover: 'https://imgsrc.baidu.com/forum/pic/item/6d81800a19d8bc3eabf47d02c78ba61ea9d3457d.jpg'
+cover: 'https://imgsrc.chyk.ink/6d81800a19d8bc3eabf47d02c78ba61ea9d3457d.webp'
 ---
 
 Visual Basic 是一门虽然已经停更多年但经久不衰的编程语言，根据微软官方给出的「[It Just Works](https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-basic-6/visual-basic-6-support-policy)」——「能跑就行」支持原则，VB 的 IDE 在新系统上的兼容性[越来越差](https://www.bilibili.com/video/BV1rA4y1Z7N1/)，甚至达到了某种「不能跑」的地步。本文就教大家如何正确地在新系统上安装并调教 VB6 IDE。
@@ -15,7 +15,7 @@ Visual Basic 是一门虽然已经停更多年但经久不衰的编程语言，�
 
 在 21H2 及更新版本的 Windows 11 中，系统默认的字符编码为 UTF-8，而要跑 VB6 这种化石的话，就需要把字符编码改回之前的 GBK。在 {%kbd 设置%} - {%kbd 语言设置%} - {%kbd 语言与区域%} - {%kbd 管理语言设置%} - {%kbd 更改系统区域设置%} 中取消勾选 {%kbd 使用Unicode UTF-8提供全球语言支持%} 即可。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/267f9e2f070828389911a7dcfd99a9014d08f1de.jpg 字符编码设置%}
+{%image https://imgsrc.chyk.ink/267f9e2f070828389911a7dcfd99a9014d08f1de.webp 字符编码设置%}
 
 ### 📥 安装本体
 
@@ -25,13 +25,13 @@ Visual Basic 是一门虽然已经停更多年但经久不衰的编程语言，�
 
 运行 SETUP.EXE。如无问题，正常安装即可。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/a50f4bfbfbedab6462a53608b236afc378311e26.jpg %}
+{%image https://imgsrc.chyk.ink/a50f4bfbfbedab6462a53608b236afc378311e26.webp %}
 
 #### ACME 错误解决
 
-{%image https://imgsrc.baidu.com/forum/pic/item/2f738bd4b31c8701de8fc82e627f9e2f0708ff39.jpg %}
+{%image https://imgsrc.chyk.ink/2f738bd4b31c8701de8fc82e627f9e2f0708ff39.webp %}
 
-{%image https://imgsrc.baidu.com/forum/pic/item/0e2442a7d933c8958749e2b3941373f0830200c6.jpg %}
+{%image https://imgsrc.chyk.ink/0e2442a7d933c8958749e2b3941373f0830200c6.webp %}
 
 解决方法：
 

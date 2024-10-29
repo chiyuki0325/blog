@@ -10,14 +10,14 @@ references:
 - title: 'What Happened (2012)'
   url: https://uncovering-cicada.fandom.com/wiki/What_Happened_(2012)
 author: 雅克萨
-cover: https://imgsrc.baidu.com/forum/pic/item/80cb39dbb6fd5266b8a726d7ee18972bd5073660.jpg
+cover: https://imgsrc.chyk.ink/80cb39dbb6fd5266b8a726d7ee18972bd5073660.webp
 ---
 
 夜深人静，哈里早已困得哈气连天，却还一只手撑着脸，一只手晃着鼠标在论坛上闲逛。「喔！」不小心睡着的他一头撞到了键盘上，他揉着脑门，瞥了一眼遭受重击的电脑，一个意外点开的图片瞬间吸引了他的注意——那是署名「Cicada 3301」发布的一条信息 ……
 
 <!--more-->
 
-{% image width:25rem https://imgsrc.baidu.com/forum/pic/item/024f78f0f736afc3fd9425a6f619ebc4b645125c.jpg %}
+{% image width:25rem https://imgsrc.chyk.ink/024f78f0f736afc3fd9425a6f619ebc4b645125c.webp %}
 
 > 译文：
 > 你好，我们正在寻找高智商人士。为此，我们设计了一个测试。
@@ -35,7 +35,7 @@ cover: https://imgsrc.baidu.com/forum/pic/item/80cb39dbb6fd5266b8a726d7ee18972bd
 
 「对呀，表面现象对于破解谜题可能毫无帮助，甚至是扰乱视听，而真实信息往往藏在背后！」想到这儿，他点开图片的「属性」，发现文件格式是 JPEG（图形文件格式），哈里突然灵机一动，将它改为 TXT（文本文件格式），并急忙再次打开，一条新的信息出现了……
 
-{% image https://imgsrc.baidu.com/forum/pic/item/7e3e6709c93d70cf706db0cebddcd100bba12b59.jpg %}
+{% image https://imgsrc.chyk.ink/7e3e6709c93d70cf706db0cebddcd100bba12b59.webp %}
 
 #### 凯撒密码
 
@@ -47,7 +47,7 @@ cover: https://imgsrc.baidu.com/forum/pic/item/80cb39dbb6fd5266b8a726d7ee18972bd
 
 新的网址打开后，一幅鸭子图案欢迎着他的到来。
 
-{% image width:25rem https://imgsrc.baidu.com/forum/pic/item/b999a9014c086e06b65b258847087bf40bd1cb06.jpg 隐写术软件可以破解图案中的奥秘。 %}
+{% image width:25rem https://imgsrc.chyk.ink/b999a9014c086e06b65b258847087bf40bd1cb06.webp 隐写术软件可以破解图案中的奥秘。 %}
 
 #### 神秘隐写术
 
@@ -63,17 +63,17 @@ cover: https://imgsrc.baidu.com/forum/pic/item/80cb39dbb6fd5266b8a726d7ee18972bd
 
 「3301 不就是嘛，可还有呢？」他查看所有图片中涉及数字的信息，在其中两张的像素参数里找到了答案：509 和 503！根据合成音的提示，他将 3 个数字相乘，并在前面加上「http://」，顺利进入一个新的网站！此时的哈里满心激动，仿佛马上就要揭开最后的谜团 ……
 
-{% image width:25rem https://imgsrc.baidu.com/forum/pic/item/ac6eddc451da81cb5c66990e1766d01608243174.jpg %}
+{% image width:25rem https://imgsrc.chyk.ink/ac6eddc451da81cb5c66990e1766d01608243174.webp %}
 
 #### 遍布世界的「蝉」
 
 新网页上显示的编码标识了 14 个地点的 GPS 坐标，哈里抱着地球仪转来转去，发现它们分布于美国、日本、法国、澳大利亚、波兰，横跨四大洲！
 
-{% image https://imgsrc.baidu.com/forum/pic/item/9c16fdfaaf51f3dea94fa3a7d1eef01f3b297977.jpg %}
+{% image https://imgsrc.chyk.ink/9c16fdfaaf51f3dea94fa3a7d1eef01f3b297977.webp %}
 
 「好狠毒的题目 …… 难道买不起机票就笑不到最后？！」哈里怒拨电话给自己世界各地的朋友 —— 净是网上认识的密码爱好者 —— 求他们代为跑腿。由于符合胃口，大伙都乐意帮忙，不久后的几天纷纷出动，翻山越岭寻找坐标的精确地点。最终，他们在电线杆、邮筒、垃圾箱甚至是公共厕所都发现了印有蝉（Cidada）图案的传单，并拍成照片发给哈里。
 
-{% image https://imgsrc.baidu.com/forum/pic/item/d1a20cf431adcbef89c964c5e9af2edda2cc9f70.jpg %}
+{% image https://imgsrc.chyk.ink/d1a20cf431adcbef89c964c5e9af2edda2cc9f70.webp %}
 
 哈里看傻眼了，原来每张图案的下方都有有待扫描并破解的二维码，并且逐个扫描后，哈里发现这些二维码全部无效！
 
@@ -83,11 +83,11 @@ cover: https://imgsrc.baidu.com/forum/pic/item/80cb39dbb6fd5266b8a726d7ee18972bd
 
 哈里用图形软件将 14 个二维码重叠起来，组成一个新的二维码，扫描后顺利进入 Twitter（社交网站）的一个账户主页，上面分享了「Cicada 3301」发的另一张图片——「你好。昨日重现了。你的朝圣之路已经开始。启蒙之日在等待。」
 
-{% image width:25rem https://imgsrc.baidu.com/forum/pic/item/908fa0ec08fa513d9b55761d786d55fbb3fbd972.jpg 用 Photoshop 处理后，图案发生了变化 %}
+{% image width:25rem https://imgsrc.chyk.ink/908fa0ec08fa513d9b55761d786d55fbb3fbd972.webp 用 Photoshop 处理后，图案发生了变化 %}
 
 哈里看得云里雾里，但文段中央的巨大空缺令他感到怀疑。果然，在用 Photoshop（图形处理软件）轻微调整了图片颜色后，一个隐藏的「蝉」图案出现了！跟之前一样，图案内采用了隐写术，其中隐藏的三部分文字被哈里轻松取得——最后一部分照旧是「Cicada 3301」的耍帅签名；第一部分读着像一首诗；第二部分是一系列由「/」号隔开的数字，还跟着奇怪的字母后缀。经过验证，哈里确认它不是网址，并搜索出字母后缀是一所国际级大学的缩写。
 
-{% image width:50rem https://imgsrc.baidu.com/forum/pic/item/f2deb48f8c5494eed0d915da68f5e0fe98257e7d.jpg %}
+{% image width:50rem https://imgsrc.chyk.ink/f2deb48f8c5494eed0d915da68f5e0fe98257e7d.webp %}
 
 哈里委托那所大学的学生，将教学楼、操场、澡堂、电线杆、垃圾桶搜了个遍，终于在图书馆发现玄机 —— 由「/」号隔开的数字，是该校图书馆书籍的位置标记！而那本用来解码的书，是一位著名作家的诗集。
 
@@ -101,7 +101,7 @@ cover: https://imgsrc.baidu.com/forum/pic/item/80cb39dbb6fd5266b8a726d7ee18972bd
 
 「你们都在思考我们到底是什么人，因此我们现在告诉你。我们是一些证明了自己的个人，正如你们一样，我们通过了招聘测试，被共同的信念吸引到一起。我们想要推动加密技术的运用，因此需要精通密码的人。恭喜你成为我们的一员，但你首先要履行一项职责 —— 积极误导参与者，因为，我们只需要最优秀的人才。」
 
-{% image https://imgsrc.baidu.com/forum/pic/item/8b82b9014a90f603e39099847c12b31bb151edd5.jpg 3301 的徽标被发现是拼接的图案，蝉的前后翼纹理不同，并非来自同一物种。  %}
+{% image https://imgsrc.chyk.ink/8b82b9014a90f603e39099847c12b31bb151edd5.webp 3301 的徽标被发现是拼接的图案，蝉的前后翼纹理不同，并非来自同一物种。  %}
 
 > 转载自 小哥白尼·趣味科学画报 2015年10期
 > 作者署名: 雅克萨

@@ -8,7 +8,7 @@ category: 游戏
 references:
 - title: '六、获取密钥 – UNI’S ON AIR资源提取逆向全记录'
   url: 'http://web.archive.org/web/20220528140408/https://blog.touuki.com/archives/287'
-cover: 'https://imgsrc.baidu.com/forum/pic/item/241f95cad1c8a786f57546c32209c93d71cf509b.jpg'
+cover: 'https://imgsrc.chyk.ink/241f95cad1c8a786f57546c32209c93d71cf509b.webp'
 ---
 
 最近解包了某款心胸狭窄的公司开发的音乐游戏，从里面提取出了所有歌曲的无损音频和 BGA。那么在此记录一下解包的大致过程，和其中遇到的小问题。
@@ -41,7 +41,7 @@ cover: 'https://imgsrc.baidu.com/forum/pic/item/241f95cad1c8a786f57546c32209c93d
 
 当 AssetStudio 提示 Select Assembly Folder 时，直接选择 Managed 文件夹即可。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/55e736d12f2eb9389e59763f90628535e4dd6fc2.jpg 成功地得到了密钥！ %}
+{%image https://imgsrc.chyk.ink/55e736d12f2eb9389e59763f90628535e4dd6fc2.webp 成功地得到了密钥！ %}
 
 ### 🎵 2. 解密并转换歌曲
 
@@ -75,7 +75,7 @@ for sound in ./*; do ffmpeg -i "${sound}" "${sound/wav/flac}"; done
 
 使用 AssetStudio 可以直接把这些 ab 文件中的 png 图片文件提取出来。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/71cf3bc79f3df8dc9530835c8811728b461028e9.jpg %}
+{%image https://imgsrc.chyk.ink/71cf3bc79f3df8dc9530835c8811728b461028e9.webp %}
 
 ### ℹ️ 4. 给 flac 添加歌曲信息和曲绘
 
@@ -180,7 +180,7 @@ for music_file_orig in SOUND_FLAC_DIR.iterdir():
 
 提取成功！
 
-{%image https://imgsrc.baidu.com/forum/pic/item/f703738da9773912392489acbd198618377ae2f9.jpg %}
+{%image https://imgsrc.chyk.ink/f703738da9773912392489acbd198618377ae2f9.webp %}
 
 你可以在[千雪的文件站](https://file.chyk.ink/Backup/%E9%9F%B3%E4%B9%90/maimai%20FESTiVAL%20OST)获取这些歌曲。
 

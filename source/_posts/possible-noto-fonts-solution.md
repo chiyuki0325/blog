@@ -11,9 +11,9 @@ category: Arch折腾记
 
 <!-- more -->
 
-![](http://imgsrc.baidu.com/forum/pic/item/d01373f082025aaf3b88471cbeedab64024f1aaa.jpg)
+![](https://imgsrc.chyk.ink/d01373f082025aaf3b88471cbeedab64024f1aaa.webp)
 
-![](http://imgsrc.baidu.com/forum/pic/item/b7003af33a87e95038a2cabb55385343faf2b4ab.jpg)
+![](https://imgsrc.chyk.ink/b7003af33a87e95038a2cabb55385343faf2b4ab.webp)
 
 ... 好吧，我不会写 fontconfig，不过还可以用一些土办法解决问题。
 
@@ -54,7 +54,7 @@ B 站 UP 主 [綿雲飴里](https://space.bilibili.com/273931293) 曾经制作�
 
 ### 效果展示
 
-{% image http://imgsrc.baidu.com/forum/pic/item/d043ad4bd11373f01f7c5648e10f4bfbfaed04a1.jpg 清爽的字体列表www width:350px %}
+{% image https://imgsrc.chyk.ink/d043ad4bd11373f01f7c5648e10f4bfbfaed04a1.webp 清爽的字体列表www width:350px %}
 
-{% image http://imgsrc.baidu.com/forum/pic/item/3801213fb80e7bec7a643a366a2eb9389a506bae.jpg 颜文字可以勉强渲染出来 width:200px %}
+{% image https://imgsrc.chyk.ink/3801213fb80e7bec7a643a366a2eb9389a506bae.webp 颜文字可以勉强渲染出来 width:200px %}
 

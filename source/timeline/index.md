@@ -124,7 +124,7 @@ s390x 架构比较罕见，但还是成功地把 [Alist](https://github.com/Xhof
 🗄️ [池塘](https://blog.chitang.tech) 和 [资源管理器](https://zyglq.cn) 送我了两台一年期 Azure VPS，  
 因此之前部署在云函数上的一些东西可以搬下来了。
 
-{% image https://imgsrc.baidu.com/forum/pic/item/7acb0a46f21fbe09376c52d02e600c338644adc0.jpg Arch&nbsp;Linux&nbsp;yyds width:300px %}
+{% image https://imgsrc.chyk.ink/7acb0a46f21fbe09376c52d02e600c338644adc0.webp Arch&nbsp;Linux&nbsp;yyds width:300px %}
 
 🔍 本站添加 sitemap，并在[必应](https://cn.bing.com)搜索引擎申请收录。  
 

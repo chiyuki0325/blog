@@ -13,9 +13,9 @@ Kvantum 三年来在我主力电脑（x86_64）的 Arch Linux 系统上一直工
 
 编译一个带调试符号的 Kvantum 和 Qt base（五个小时啊 ...），并用 gdb 调试，发现程序是在[对一个未初始化的 `QVariant` 进行 `toBool()` 操作](https://github.com/tsujan/Kvantum/blob/master/Kvantum/style/themeconfig/ThemeConfig.cpp#L164)时爆掉的。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/9825bc315c6034a8ce414ba58d13495409237677.jpg %}
+{%image https://imgsrc.chyk.ink/9825bc315c6034a8ce414ba58d13495409237677.webp %}
 
-{%image https://imgsrc.baidu.com/forum/pic/item/00e93901213fb80e094092f370d12f2eb9389405.jpg %}
+{%image https://imgsrc.chyk.ink/00e93901213fb80e094092f370d12f2eb9389405.webp %}
 
 并且，这似乎不是 Kvantum 代码的问题，而是更底层的问题。
 

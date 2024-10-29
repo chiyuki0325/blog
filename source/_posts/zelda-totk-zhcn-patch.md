@@ -19,11 +19,11 @@ category: 游戏
 
 #### 效果如图
 
-{%image https://imgsrc.baidu.com/forum/pic/item/b21bb051f8198618280472b40ced2e738bd4e6bb.jpg %}
+{%image https://imgsrc.chyk.ink/b21bb051f8198618280472b40ced2e738bd4e6bb.webp %}
 
-{%image https://imgsrc.baidu.com/forum/pic/item/d1a20cf431adcbeff377e336eaaf2edda3cc9fbb.jpg %}
+{%image https://imgsrc.chyk.ink/d1a20cf431adcbeff377e336eaaf2edda3cc9fbb.webp %}
 
-{%image https://imgsrc.baidu.com/forum/pic/item/6609c93d70cf3bc74d4350dc9700baa1cd112abb.jpg %}
+{%image https://imgsrc.chyk.ink/6609c93d70cf3bc74d4350dc9700baa1cd112abb.webp %}
 
 ### 如何使用
 

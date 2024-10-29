@@ -42,6 +42,6 @@ done
 }
 ```
 
-{%image https://imgsrc.baidu.com/forum/pic/item/77c6a7efce1b9d167cc567abb6deb48f8d5464fe.jpg %}
+{%image https://imgsrc.chyk.ink/77c6a7efce1b9d167cc567abb6deb48f8d5464fe.webp %}
 
 运行好脚本之后，修改日期就不会出错啦~

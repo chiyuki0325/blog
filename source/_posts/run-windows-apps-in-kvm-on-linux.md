@@ -5,15 +5,15 @@ tags:
 - KVM
 - Linux
 category: Arch折腾记
-cover: 'http://imgsrc.baidu.com/forum/pic/item/d009b3de9c82d15863d0d864c50a19d8bd3e4291.jpg'
+cover: 'https://imgsrc.chyk.ink/d009b3de9c82d15863d0d864c50a19d8bd3e4291.webp'
 ---
 
 **看前须知：不支持图形加速**
 
 在日用 Linux 的过程中，总有必须使用某些 Windows 独占软件（比如 Microsoft 365、Adobe 全家桶、FL Studio 等）的场景，这时候大部分人会选择双系统，其实虚拟机也可以解决，并且可能体验更好。
 
-效果预览：![p](http://imgsrc.baidu.com/forum/pic/item/d009b3de9c82d15863d0d864c50a19d8bd3e4291.jpg)
-![p](http://imgsrc.baidu.com/forum/pic/item/241f95cad1c8a786086ecbdb2209c93d71cf509b.jpg)
+效果预览：![p](https://imgsrc.chyk.ink/d009b3de9c82d15863d0d864c50a19d8bd3e4291.webp)
+![p](https://imgsrc.chyk.ink/241f95cad1c8a786086ecbdb2209c93d71cf509b.webp)
 
 [KVM](https://baike.baidu.com/item/KVM%E8%99%9A%E6%8B%9F%E6%9C%BA/11016451?fr=aladdin) 是 Linux 内核自带的虚拟化模块，效率很高，可以使用 libvirt 进行管理，配合 RDP 可以实现无缝运行 Windows 应用。
 本文将使用 WinApps 脚本配置 RDP。

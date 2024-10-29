@@ -243,7 +243,7 @@ style:
     dark: '#313438'
   animated_avatar:
     animate: auto # auto, always
-    background: https://imgsrc.baidu.com/forum/pic/item/960a304e251f95caaf1452608c177f3e66095207.jpg
+    background: /images/colors.webp
   codeblock:
     scrollbar: 4px
     highlightjs_theme: https://ydz-cos.zyglq.cn/blog-static/css/atom-one-light.min.css
@@ -253,7 +253,7 @@ style:
     code: 85%
     codeblock: 0.875rem
   custom_font_css:
-    enabled: true
+    enabled: false
     css: https://s1.hdslb.com/bfs/static/jinkela/long/font/regular.css
 
 default:

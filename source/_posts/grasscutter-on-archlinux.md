@@ -6,7 +6,7 @@ tags:
 - 原神
 - Arch Linux
 category: 游戏
-cover: 'https://imgsrc.baidu.com/forum/pic/item/c8ea15ce36d3d53967867e027f87e950342ab0bc.jpg'
+cover: 'https://imgsrc.chyk.ink/c8ea15ce36d3d53967867e027f87e950342ab0bc.webp'
 ---
 
 这篇文章教大家在 Arch Linux 上搭建「割草机」，即 ~~某二次元游戏~~ 的私服，并在游戏中连入割草机。

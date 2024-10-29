@@ -4,10 +4,10 @@ date: 2023-09-17 08:53:17
 tags:
 - 安卓
 - 小米
-cover: https://imgsrc.baidu.com/forum/pic/item/8435e5dde71190ef563d83ec881b9d16fdfa603a.jpg
+cover: https://imgsrc.chyk.ink/8435e5dde71190ef563d83ec881b9d16fdfa603a.webp
 ---
 
-{%image https://imgsrc.baidu.com/forum/pic/item/8435e5dde71190ef563d83ec881b9d16fdfa603a.jpg%}
+{%image https://imgsrc.chyk.ink/8435e5dde71190ef563d83ec881b9d16fdfa603a.webp%}
 
 最近从家里翻出来一台[红米手机 1S 移动 4G 版](https://www.mi.com/hongmi1s4g)，想着拿出来当备用机，但是它搭载的是基于安卓 4.4 的 MIUI 9，很多现代软件都没法运行，于是我就来想个办法折腾一下这台手机。
 
@@ -43,7 +43,7 @@ cover: https://imgsrc.baidu.com/forum/pic/item/8435e5dde71190ef563d83ec881b9d16f
 
 如果没有 TF 卡，可以在「高级」中打开 ADB 侧载，之后在电脑上用 ADB 刷入 (`adb sideload HM1S4G_Mokee5.1_V2_wanyikai0791.zip `)。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/e7cd7b899e510fb3741c67a49f33c895d1430cff.jpg height:45rem %}
+{%image https://imgsrc.chyk.ink/e7cd7b899e510fb3741c67a49f33c895d1430cff.webp height:45rem %}
 
 三款 ROM 均已内置 SuperSU，并且 Magisk / Zygisk / Riru 均不能正常使用，所以装模块大概是别想了。
 

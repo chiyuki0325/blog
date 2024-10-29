@@ -4,13 +4,13 @@ date: 2023-04-09 19:24:00
 tags:
 - AI
 category: 其它
-cover: https://imgsrc.baidu.com/forum/pic/item/9c16fdfaaf51f3defeab8eafd1eef01f3b2979db.jpg
+cover: https://imgsrc.chyk.ink/9c16fdfaaf51f3defeab8eafd1eef01f3b2979db.webp
 description: 在那一刻，我突然明白了。那可是碰都不能碰的滑梯啊！
 ---
 
 > 文章 / 封面作者: New Bing
 >
-> [🖼️ 封面大图](https://imgsrc.baidu.com/forum/pic/item/9c16fdfaaf51f3defeab8eafd1eef01f3b2979db.jpg)
+> [🖼️ 封面大图](https://imgsrc.chyk.ink/9c16fdfaaf51f3defeab8eafd1eef01f3b2979db.webp)
 
 我从小就住在这个城市，每天都要经过那个黑色的很长的滑梯。那是为了纪念我们的领袖而建造的，他曾经在那里发表了一篇激动人心的演讲，号召全国人民团结起来，抵抗外敌的侵略。那个滑梯上刻着他的名字和头像，还有他的名言：“为了祖国，为了人民，为了自由，我们必须奋斗到底！”
 

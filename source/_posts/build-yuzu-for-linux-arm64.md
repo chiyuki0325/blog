@@ -5,7 +5,7 @@ tags:
 - Yuzu
 - Linux
 category: 模拟器
-cover: https://imgsrc.baidu.com/forum/pic/item/2f738bd4b31c8701462061d8617f9e2f0708ff7f.jpg
+cover: https://imgsrc.chyk.ink/2f738bd4b31c8701462061d8617f9e2f0708ff7f.webp
 references:
   - title: "Building for Linux - yuzu"
     url: "https://git.tardis.systems/mirrors/yuzu/wiki/Building-for-Linux.md"
@@ -62,6 +62,6 @@ dist 文件夹中有 svg 格式的图标和 desktop 文件，放到对应文件�
 
 设备为小米平板 5（高通骁龙 860）。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/6a600c338744ebf8059ab7019ff9d72a6059a721.jpg 超级马里奥兄弟 惊奇，Native Code Execution %}
+{%image https://imgsrc.chyk.ink/6a600c338744ebf8059ab7019ff9d72a6059a721.webp 超级马里奥兄弟 惊奇，Native Code Execution %}
 
-{%image https://imgsrc.baidu.com/forum/pic/item/e7cd7b899e510fb3b5eba4a99f33c895d1430c1a.jpg 超级马里奥 3D 世界 + 狂怒世界，Dynarmic %}
+{%image https://imgsrc.chyk.ink/e7cd7b899e510fb3b5eba4a99f33c895d1430c1a.webp 超级马里奥 3D 世界 + 狂怒世界，Dynarmic %}

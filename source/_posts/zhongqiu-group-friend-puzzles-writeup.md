@@ -14,7 +14,7 @@ description: '群友的红包小解谜，都挺有趣的'
 
 以下为官方题解
 
-{%image https://imgsrc.baidu.com/forum/pic/item/f11f3a292df5e0fe105b75321a6034a85edf7246.jpg %}
+{%image https://imgsrc.chyk.ink/f11f3a292df5e0fe105b75321a6034a85edf7246.webp %}
 
 ### KimmyXYC
 

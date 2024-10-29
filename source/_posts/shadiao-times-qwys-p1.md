@@ -5,7 +5,7 @@ tags:
 - 图集
 - 沙雕一刻
 category: 其它
-cover: 'https://imgsrc.baidu.com/forum/pic/item/54fbb2fb43166d22e0d36455032309f79152d24f.jpg'
+cover: 'https://imgsrc.chyk.ink/54fbb2fb43166d22e0d36455032309f79152d24f.webp'
 ---
 
 {% border %}

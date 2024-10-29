@@ -35,10 +35,10 @@ fancybox: true # 对某张图单独启用或禁用 Fancybox（点击大图）功
 
 无论在什么宽度的设备上都希望横向铺满的图片，一般不需要额外操作。可以在链接后面写上图片描述，如有必要，可以通过设置 `download:true` 使其显示一个「下载」按钮链接指向图片地址，如果下载链接与显示的图片地址不同，可以 `download:下载链接` 来使其能够下载原图。
 
-{% image https://imgsrc.baidu.com/forum/pic/item/fd039245d688d43faf0bc631381ed21b0ff43b56.jpg "文文最可爱了 w" download:https://imgsrc.baidu.com/forum/pic/item/fd039245d688d43faf0bc631381ed21b0ff43b56.png %}
+{% image https://imgsrc.chyk.ink/fd039245d688d43faf0bc631381ed21b0ff43b56.jpg "文文最可爱了 w" download:https://imgsrc.baidu.com/forum/pic/item/fd039245d688d43faf0bc631381ed21b0ff43b56.webp %}
 
 ```markdown 写法如下
-{% image https://imgsrc.baidu.com/forum/pic/item/fd039245d688d43faf0bc631381ed21b0ff43b56.jpg "文文最可爱了 w" download:https://imgsrc.baidu.com/forum/pic/item/fd039245d688d43faf0bc631381ed21b0ff43b56.png %}
+{% image https://imgsrc.chyk.ink/fd039245d688d43faf0bc631381ed21b0ff43b56.jpg "文文最可爱了 w" download:https://imgsrc.baidu.com/forum/pic/item/fd039245d688d43faf0bc631381ed21b0ff43b56.webp %}
 ```
 
 ### 小尺寸图片优化
@@ -298,7 +298,7 @@ footer: # 页脚信息
 
 <!--tab 示例-->
 
-{%link https://hexo.io/zh-cn/docs/ "文档 | Hexo" icon:https://imgsrc.baidu.com/forum/pic/item/77c6a7efce1b9d16ba0cae56b5deb48f8c546439.png %}
+{%link https://hexo.io/zh-cn/docs/ "文档 | Hexo" icon:https://imgsrc.chyk.ink/77c6a7efce1b9d16ba0cae56b5deb48f8c546439.webp %}
 
 
 {% link https://blog.chyk.ink/2023/06/08/generative-ai-first-year-is-far-from-coming/ desc:true %}
@@ -321,7 +321,7 @@ desc: 可选，是否显示摘要描述，为true时将会显示页面描述
 ```
 
 ```markdown
-{%link https://hexo.io/zh-cn/docs/ "文档 | Hexo" icon:https://imgsrc.baidu.com/forum/pic/item/77c6a7efce1b9d16ba0cae56b5deb48f8c546439.png %}
+{%link https://hexo.io/zh-cn/docs/ "文档 | Hexo" icon:https://imgsrc.chyk.ink/77c6a7efce1b9d16ba0cae56b5deb48f8c546439.webp %}
 {% link https://blog.chyk.ink/2023/06/08/generative-ai-first-year-is-far-from-coming/ desc:true %}
 ```
 

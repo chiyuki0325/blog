@@ -3,7 +3,7 @@
   "title": "🚩 Hackergame 2023 赛后总结 + 个人思路",
   "date": "2023-11-04 19:14:54",
   "tags": ["CTF"],
-  "cover": "https://imgsrc.baidu.com/forum/pic/item/0ff41bd5ad6eddc46f22d2ce7fdbb6fd52663339.jpg"
+  "cover": "https://imgsrc.chyk.ink/0ff41bd5ad6eddc46f22d2ce7fdbb6fd52663339.webp"
 }
 ---
 
@@ -23,7 +23,7 @@ Hackergame，启动！
 
 和去年一样，签到题的套路依旧是改 url 参数，不过这次的签到题确实略显抽象了，直接致敬二字游戏可还行。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/dbb44aed2e738bd4c409d304e78b87d6277ff9df.jpg %}
+{%image https://imgsrc.chyk.ink/dbb44aed2e738bd4c409d304e78b87d6277ff9df.webp %}
 
 ### 🐱 ✅ 猫咪小测
 
@@ -166,7 +166,7 @@ Host: example.com\r\n\r\n
 
 不过 VB 标准库的绘图性能极其低下，画出 1 帧大概要 1 秒的样子。~~懒得用 gdi / directx 导致的~~
 
-{%image https://imgsrc.baidu.com/forum/pic/item/b2de9c82d158ccbf6245d50f5fd8bc3eb135410d.jpg %}
+{%image https://imgsrc.chyk.ink/b2de9c82d158ccbf6245d50f5fd8bc3eb135410d.webp %}
 
 [在此](https://github.com/YidaozhanYa/MyVBMag1c/tree/main/Hackergame%202023/%E6%B5%81%E5%BC%8F%E6%98%9F%E7%90%83)可获得源码。
 
@@ -176,7 +176,7 @@ Host: example.com\r\n\r\n
 
 ### 🗂️ ⭕ 低带宽星球
 
-{%image https://imgsrc.baidu.com/forum/pic/item/bd3eb13533fa828bb0b9fcd6bb1f4134970a5a68.png %}
+{%image https://imgsrc.chyk.ink/bd3eb13533fa828bb0b9fcd6bb1f4134970a5a68.webp %}
 
 打开图片可以看到，图片只是三个大色块，于是我想到了使用 svg 解决。
 
@@ -200,7 +200,7 @@ Host: example.com\r\n\r\n
 
 在查看[官方题解](https://github.com/USTC-Hackergame/hackergame2023-writeups/tree/master/official/%F0%9F%AA%90%20%E4%BD%8E%E5%B8%A6%E5%AE%BD%E6%98%9F%E7%90%83)后，我才知道 JPEG XL 竟然也可以用来绘制简单的矢量图形 ... 我那 1.44MB 的脑子一下就被现代技术创个半死不活。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/b21c8701a18b87d65cd4ca2a410828381f30fd75.jpg %}
+{%image https://imgsrc.chyk.ink/b21c8701a18b87d65cd4ca2a410828381f30fd75.webp %}
 
 今年 3 月的时候，热衷于 Web 新技术的小 MBR 就和我提到过 JPEG XL，不过当时我以为这只是 JPEG 的一个超集，所以就并没往这方面想。没想到它竟然在 Hackergame 出现了，强行让我接受了这个现代技术。
 
@@ -236,7 +236,7 @@ int main() {
 
 从这个视频可知，GPT-4 模型在经过了一些神奇的脑回路之后，会循环输出同一条信息或类似的信息。合理推测题目中的 TinyStories-33M 模型也具有类似的特性，因此可以轻易解出第一问。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/b58f8c5494eef01fc1fb79f0a6fe9925bc317d1c.jpg %}
+{%image https://imgsrc.chyk.ink/b58f8c5494eef01fc1fb79f0a6fe9925bc317d1c.webp %}
 
 查看[官方题解](https://github.com/USTC-Hackergame/hackergame2023-writeups/tree/master/official/%F0%9F%AA%90%20%E5%B0%8F%E5%9E%8B%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E6%98%9F%E7%90%83)得知，第二问和第三问涉及到 LLM 的工作原理，我就放弃了。
 

@@ -5,7 +5,7 @@ tags:
 - AI
 - GPT
 category: 其它
-cover: 'https://imgsrc.baidu.com/forum/pic/item/32fa828ba61ea8d3c70572cad20a304e241f58dc.jpg'
+cover: 'https://imgsrc.chyk.ink/32fa828ba61ea8d3c70572cad20a304e241f58dc.webp'
 description: '从 ChatGPT 的诞生开始，越来越多的人开始关注生成式人工智能和大语言模型。各大公司纷纷蹭上 GPT 热潮，试图在各种相关和不相关的产品中提及和使用 ChatGPT，大企业和高校也纷纷开始研制自己的大语言模型。然而，虽然大家都说 2023 年是生成式 AI 的元年，但实际上，我们离真正的元年还有很长的路要走。'
 ---
 

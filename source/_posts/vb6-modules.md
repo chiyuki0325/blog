@@ -4,7 +4,7 @@ date: 2022-02-26 21:30:51
 tags:
 - VB
 category: 编程
-cover: 'https://imgsrc.baidu.com/forum/pic/item/11385343fbf2b21148d0f48f8f8065380dd78e71.jpg'
+cover: 'https://imgsrc.chyk.ink/11385343fbf2b21148d0f48f8f8065380dd78e71.webp'
 ---
 
 ##### VBJSON

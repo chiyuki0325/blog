@@ -5,7 +5,7 @@ tags:
 - Telegram
 category: 建站小记
 description: '本主题适配了 Telegram Instant View，你可以在此获取模板，并查阅官方文档了解如何使用。'
-cover: https://imgsrc.baidu.com/forum/pic/item/279759ee3d6d55fb68e456162b224f4a20a4dde4.jpg
+cover: https://imgsrc.chyk.ink/279759ee3d6d55fb68e456162b224f4a20a4dde4.webp
 ---
 
 ```

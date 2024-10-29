@@ -25,7 +25,7 @@ title: 🎼 某款心胸狭窄的公司开发的音乐游戏的资源提取小�
 date: 2023-05-21 18:44:50
 tags: [ 音游, 逆向 ]
 category: 游戏
-cover: 'https://imgsrc.baidu.com/forum/pic/item/241f95cad1c8a786f57546c32209c93d71cf509b.jpg'
+cover: 'https://imgsrc.chyk.ink/241f95cad1c8a786f57546c32209c93d71cf509b.webp'
 references:
 - title: '六、获取密钥 – UNI’S ON AIR资源提取逆向全记录'
   url: 'http://web.archive.org/web/20220528140408/https://blog.touuki.com/archives/287'
@@ -69,7 +69,7 @@ cover: /assets/blog/some_picture.webp
 
 {%folding 显示效果 %}
 
-{%image https://imgsrc.baidu.com/forum/pic/item/8b13632762d0f70374ffa2eb4efa513d2697c5bc.jpg %}
+{%image https://imgsrc.chyk.ink/8b13632762d0f70374ffa2eb4efa513d2697c5bc.webp %}
 
 {%endfolding %}
 
@@ -92,7 +92,7 @@ poster: # 海报（可选，全图封面卡片）
 
 {%folding 显示效果%}
 
-{%image https://imgsrc.baidu.com/forum/pic/item/a50f4bfbfbedab64af337af7b136afc379311e47.jpg %}
+{%image https://imgsrc.chyk.ink/a50f4bfbfbedab64af337af7b136afc379311e47.webp %}
 
 {%endfolding%}
 

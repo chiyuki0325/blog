@@ -5,7 +5,7 @@ tags:
 - KDE
 - Linux
 category: Arch折腾记
-cover: 'https://imgsrc.baidu.com/forum/pic/item/91529822720e0cf36ffd383a4f46f21fbf09aaed.jpg'
+cover: 'https://imgsrc.chyk.ink/91529822720e0cf36ffd383a4f46f21fbf09aaed.webp'
 ---
 
 KDE Plasma 桌面之所以有如此高的用户量，很大程度上在于它的高自定义性。本文就记载一些我在使用过程中的小技巧 / 优化方案。但如果已经是烂大街的修复技巧，我就不记载了。
@@ -38,7 +38,7 @@ sudo pacman -S xdg-desktop-portal xdg-desktop-portal-kde --needed  # 安装 XDG 
 
 在 `about:config` 中，把 `widget.use-xdg-desktop-portal.file-picker` 更改为 `1` 即可使用 **XDG desktop portal** 的文件选择器。
 
-{% image https://imgsrc.baidu.com/forum/pic/item/b17eca8065380cd77382d52ce444ad3458828157.jpg %}
+{% image https://imgsrc.chyk.ink/b17eca8065380cd77382d52ce444ad3458828157.webp %}
 
 当然也可以像我这样，打开全部相关的选项，让风格更统一。
 
@@ -66,13 +66,13 @@ KWin 的混成器也可以给非 Qt 应用程序加上毛玻璃效果。
 
 如果电脑性能够强，可以考虑使用第二种模式，即白名单模式，此模式会给不在白名单内的全部窗口强制启用毛玻璃效果，如果性能不够可能导致 KWin 掉帧。
 
-{% image https://imgsrc.baidu.com/forum/pic/item/11385343fbf2b2114854f48f8f8065380dd78efd.jpg width:500 %}
+{% image https://imgsrc.chyk.ink/11385343fbf2b2114854f48f8f8065380dd78efd.webp width:500 %}
 
 **🪟 效果展示**
 
-{% image https://imgsrc.baidu.com/forum/pic/item/203fb80e7bec54e7ced56cdffc389b504fc26a32.jpg 带背景模糊的 Alacritty %}
+{% image https://imgsrc.chyk.ink/203fb80e7bec54e7ced56cdffc389b504fc26a32.webp 带背景模糊的 Alacritty %}
 
-{% image https://imgsrc.baidu.com/forum/pic/item/42a98226cffc1e17f38bfaf00f90f603738de93f.jpg 带背景模糊的 GTK 程序，需要主题支持 Blur Me %}
+{% image https://imgsrc.chyk.ink/42a98226cffc1e17f38bfaf00f90f603738de93f.webp 带背景模糊的 GTK 程序，需要主题支持 Blur Me %}
 
 ### ❄️ 全黑窗口和卡死 bug
 
@@ -97,7 +97,7 @@ GNOME 有一个第三方的爆改窗口管理器 `mutter-rounded`，可以在窗
 
 **🪟 效果展示**
 
-{% image https://imgsrc.baidu.com/forum/pic/item/f2deb48f8c5494eefc6f79d868f5e0fe98257ea5.jpg README 中的图片 %}
+{% image https://imgsrc.chyk.ink/f2deb48f8c5494eefc6f79d868f5e0fe98257ea5.webp README 中的图片 %}
 
 ### 🔗 使用命令调用快捷操作
 
@@ -116,15 +116,15 @@ KDE Plasma 并没有统一的夜间模式实现。但如果装了某款主题的
 
 https://github.com/YidaozhanYa/kde-dark-mode
 
-{% image https://imgsrc.baidu.com/forum/pic/item/d000baa1cd11728b798afae38dfcc3cec2fd2c4f.jpg 日间 %}
+{% image https://imgsrc.chyk.ink/d000baa1cd11728b798afae38dfcc3cec2fd2c4f.webp 日间 %}
 
-{% image https://imgsrc.baidu.com/forum/pic/item/8d5494eef01f3a29236aa30fdc25bc315d607c54.jpg 夜间 %}
+{% image https://imgsrc.chyk.ink/8d5494eef01f3a29236aa30fdc25bc315d607c54.webp 夜间 %}
 
 ### 🔠 fcitx5 集成
 
 在新版中，**fcitx5** 可以使用 KDE Plasma 的主题，这样就可以不那么违和了。
 
-{% image https://imgsrc.baidu.com/forum/pic/item/4e4a20a4462309f724fddbd3370e0cf3d6cad665.jpg width:500 %}
+{% image https://imgsrc.chyk.ink/4e4a20a4462309f724fddbd3370e0cf3d6cad665.webp width:500 %}
 
 在 配置附加组件 - 经典用户界面 中把主题改为 **KDE Plasma** 即可。
 
@@ -138,9 +138,9 @@ https://github.com/YidaozhanYa/kde-dark-mode
 
 **Event Calendar** 支持单行显示，并且有丰富的配置选项和快捷操作，还可以显示天气。
 
-{% image https://imgsrc.baidu.com/forum/pic/item/b812c8fcc3cec3fdbe4ad6b49388d43f869427fe.jpg %}
+{% image https://imgsrc.chyk.ink/b812c8fcc3cec3fdbe4ad6b49388d43f869427fe.webp %}
 
-{% image https://imgsrc.baidu.com/forum/pic/item/cdbf6c81800a19d89f7bf5c476fa828ba71e46f2.jpg width:550 %}
+{% image https://imgsrc.chyk.ink/cdbf6c81800a19d89f7bf5c476fa828ba71e46f2.webp width:550 %}
 
 ### 🎼 顶栏媒体播放器
 
@@ -150,7 +150,7 @@ KDE Plasma 自带的媒体播放器挂件在一行的顶栏面板上使用体验
 
 如果不喜欢 No media 字样，可以修改 **Current Playing** 的源码解决。详见我修改的版本 https://github.com/YidaozhanYa/kde-currently-playing-custom 。
 
-{% image https://imgsrc.baidu.com/forum/pic/item/a686c9177f3e67093baef63e7ec79f3df9dc5541.jpg width:300 %}
+{% image https://imgsrc.chyk.ink/a686c9177f3e67093baef63e7ec79f3df9dc5541.webp width:300 %}
 
 ### ➿ 更好的动画效果
 

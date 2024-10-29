@@ -4,7 +4,7 @@ date: 2023-09-09 21:35:09
 tags:
 - 音乐
 - 测评
-cover: https://imgsrc.baidu.com/forum/pic/item/3b87e950352ac65c56d38741bdf2b21193138a2a.jpg
+cover: https://imgsrc.chyk.ink/3b87e950352ac65c56d38741bdf2b21193138a2a.webp
 ---
 
 在今年我一共使用过两款随身听：[炳捷 X1](https://benjie-tx.com/zh_cn/mp3player/184.html) 和[锐族 M4](http://www.ruizu.com.cn/ruizu-m4-4g-black-bluetooth-full-screen-18-inch-mp3-mp4-lossless-hifi-mp5-music-video-player-student-english-walkman-sports.html)，它们价格都不高，属于低端产品但特点各有不同。本文就来测评和对比一下这两台机器各个方面的优缺点。
@@ -18,7 +18,7 @@ cover: https://imgsrc.baidu.com/forum/pic/item/3b87e950352ac65c56d38741bdf2b2119
 我个人认为在外观和握持手感上，都是炳捷更胜一筹。炳捷圆角更大，屏幕边框大小一致（划重点），厚度也比锐族更薄。炳捷的侧框是铝合金，后盖是塑料，握持手感很不错。唯一的缺点可能就是重量更重。
 锐族的前面板和后盖都是亚克力，**特别容易打油**，并且它的屏幕四边边框大小都不一致，极其的**逼死强迫症**。因为三颗按键都在右侧，所以右侧边距很小。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/f636afc379310a556c723ec6f14543a9822610aa.jpg height:15rem %}
+{%image https://imgsrc.chyk.ink/f636afc379310a556c723ec6f14543a9822610aa.webp height:15rem %}
 
 ### 🎧 音乐播放
 
@@ -45,12 +45,12 @@ https://www.bilibili.com/video/av24412265在支持的格式方面，因为现在
 锐族的播放列表一页只有四首歌，并且字大，歌名显示不全，也只有当前选中的歌，歌名才会滚动，而炳捷的播放列表一页有五首歌，并且全部歌名都会滚动。
 锐族的播放列表支持通过手势操作翻页，下面的翻页按钮也可以长按快翻，炳捷只能一下一下按，一页页的翻。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/4034970a304e251f098e04cae186c9177f3e5383.jpg width:30rem %}
+{%image https://imgsrc.chyk.ink/4034970a304e251f098e04cae186c9177f3e5383.webp width:30rem %}
 
 在播放界面中，锐族可以显示歌曲封面和三句歌词（点击切换显示），而炳捷只能显示一句歌词和进度条。
 炳捷的收藏、循环方式等按钮更大更好点，而锐族的堪比微雕，需要用手指尖去按。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/0eb30f2442a7d93306c40441eb4bd11373f00190.jpg width:30rem %}
+{%image https://imgsrc.chyk.ink/0eb30f2442a7d93306c40441eb4bd11373f00190.webp width:30rem %}
 
 关于切歌方式，锐族支持蓝牙耳机的手势按钮切歌，使用有线时就必须开屏，而炳捷采用了一种特立独行的做法：锁屏时仍然保持触摸开启，所以可以通过盲点屏幕的方式来切歌，但也很容易误触。
 
@@ -70,11 +70,11 @@ https://www.bilibili.com/video/av24412265在支持的格式方面，因为现在
 
 系统界面上只能说见仁见智。锐族的界面第一眼看上去十分美观，有壁纸，每个菜单都有图标，但是实则十分不耐看，比如文字对不齐，图标角落没抠净等。炳捷的界面简洁的多，并且字体也更加舒服。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/b21c8701a18b87d6dde74b2d410828381f30fd58.jpg width:30rem %}
+{%image https://imgsrc.chyk.ink/b21c8701a18b87d6dde74b2d410828381f30fd58.webp width:30rem %}
 
 字体方面，锐族采用仍然烂大街的中易宋体 11px，能很明显地看出衬线字体特有的顿笔，空格只有两三像素宽，并且会把英文的标点也按中文标点渲染，所以显示西文效果**惨不忍睹**（甚至还会乱码），在菜单里还和图标对不齐。而炳捷使用了更小一号的字体，看起来有一种整齐的感觉，总体上更耐看。
 
-{%image https://imgsrc.baidu.com/forum/pic/item/e824b899a9014c086dabc8974c7b02087bf4f474.jpg width:30rem %}
+{%image https://imgsrc.chyk.ink/e824b899a9014c086dabc8974c7b02087bf4f474.webp width:30rem %}
 
 流畅度方面，锐族的系统在很多地方能看到加载的痕迹（比如播放列表和歌曲图片是一行行加载出来的），而炳捷的系统是在后台加载，卡一阵子之后一下子展示出来。这方面只能说见仁见智了。
 

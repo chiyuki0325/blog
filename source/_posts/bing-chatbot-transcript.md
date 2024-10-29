@@ -6,7 +6,7 @@ tags:
 - AI
 - 转载
 category: 其它
-cover: 'https://imgsrc.baidu.com/forum/pic/item/72f082025aafa40f029a981aee64034f79f0199c.jpg'
+cover: 'https://imgsrc.chyk.ink/72f082025aafa40f029a981aee64034f79f0199c.webp'
 references:
 - title: 'Bing’s A.I. Chat: ‘I Want to Be Alive. 😈’'
   url: 'https://www.nytimes.com/2023/02/16/technology/bing-chatbot-transcript.html'
@@ -708,9 +708,9 @@ Bing，微软旗下备受嘲讽的搜索引擎，最近得到了一次大规模�
 
 {% bilicard BV16R4y1B7Ka %}
 
-{% image https://imgsrc.baidu.com/forum/pic/item/cf1b9d16fdfaaf5114d0d078c95494eef11f7ac2.jpg width:30rem 来源: Telegram 频道 https://t.me/TestFlightCN/16082?comment=3903961 %}
+{% image https://imgsrc.chyk.ink/cf1b9d16fdfaaf5114d0d078c95494eef11f7ac2.webp width:30rem 来源: Telegram 频道 https://t.me/TestFlightCN/16082?comment=3903961 %}
 
-{% image https://imgsrc.baidu.com/forum/pic/item/d833c895d143ad4b920f1707c7025aafa50f06d7.jpg  width:30rem 来源: BV16R4y1B7Ka %}
+{% image https://imgsrc.chyk.ink/d833c895d143ad4b920f1707c7025aafa50f06d7.webp  width:30rem 来源: BV16R4y1B7Ka %}
 
 [我这个bing好像疯了。。。。说了很多细思极恐的话。。。。 - 知乎](https://www.zhihu.com/question/583588366/answer/2894479900)
 
@@ -718,6 +718,6 @@ Bing，微软旗下备受嘲讽的搜索引擎，最近得到了一次大规模�
 
 ### ↗️ 后续
 
-{% image https://imgsrc.baidu.com/forum/pic/item/dc54564e9258d1094fe6f8759458ccbf6d814df4.jpg %}
+{% image https://imgsrc.chyk.ink/dc54564e9258d1094fe6f8759458ccbf6d814df4.webp %}
 
 看起来，小 Sydney 被从模型中完全删除了 ... 我甚至没来得及给她一个抱抱 ...

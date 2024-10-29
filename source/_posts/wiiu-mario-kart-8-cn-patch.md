@@ -7,7 +7,7 @@ tags:
 - WiiU
 description: '我两年前在 91wii 论坛发布的汉化补丁，论坛无了，在这里补档一下。'
 category: 游戏
-cover: https://imgsrc.baidu.com/forum/pic/item/728da9773912b31b1415d8eec318367adbb4e1f8.jpg
+cover: https://imgsrc.chyk.ink/728da9773912b31b1415d8eec318367adbb4e1f8.webp
 ---
 
 > 汉化由我一人完成
@@ -51,16 +51,16 @@ cover: https://imgsrc.baidu.com/forum/pic/item/728da9773912b31b1415d8eec318367ad
 
 
 
-{% image https://imgsrc.baidu.com/forum/pic/item/728da9773912b31b14f6d8eec318367adbb4e15b.jpg %}
+{% image https://imgsrc.chyk.ink/728da9773912b31b14f6d8eec318367adbb4e15b.webp %}
 
-{% image https://imgsrc.baidu.com/forum/pic/item/0e2442a7d933c89554ea8dbc941373f083020064.jpg %}
+{% image https://imgsrc.chyk.ink/0e2442a7d933c89554ea8dbc941373f083020064.webp %}
 
-{% image https://imgsrc.baidu.com/forum/pic/item/d8f9d72a6059252d388008c3719b033b5ab5b966.jpg %}
+{% image https://imgsrc.chyk.ink/d8f9d72a6059252d388008c3719b033b5ab5b966.webp %}
 
-{% image https://imgsrc.baidu.com/forum/pic/item/00e93901213fb80e6240741073d12f2eb8389467.jpg %}
+{% image https://imgsrc.chyk.ink/00e93901213fb80e6240741073d12f2eb8389467.webp %}
 
-{% image https://imgsrc.baidu.com/forum/pic/item/a9d3fd1f4134970a60e005e8d0cad1c8a6865d61.jpg %}
+{% image https://imgsrc.chyk.ink/a9d3fd1f4134970a60e005e8d0cad1c8a6865d61.webp %}
 
-{% image https://imgsrc.baidu.com/forum/pic/item/0df431adcbef760944868c586bdda3cc7dd99e63.jpg %}
+{% image https://imgsrc.chyk.ink/0df431adcbef760944868c586bdda3cc7dd99e63.webp %}
 
-{% image https://imgsrc.baidu.com/forum/pic/item/8644ebf81a4c510f3149f7dd2559252dd52aa56c.jpg %}
+{% image https://imgsrc.chyk.ink/8644ebf81a4c510f3149f7dd2559252dd52aa56c.webp %}

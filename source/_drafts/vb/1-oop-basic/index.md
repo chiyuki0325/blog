@@ -151,7 +151,7 @@ Visual Basic 是基于 COM 的，因此可以引用任何 COM 库中的对象（
 
 点击「视图」-「对象浏览器」打开对象浏览器。在对象浏览器里，可以查看标准库和所有引入的库中的对象，以及它们的所有方法。
 
-{% image https://imgsrc.baidu.com/forum/pic/item/b3b7d0a20cf431ad309044f10e36acaf2fdd98bc.png 对象浏览器 %}
+{% image https://imgsrc.chyk.ink/b3b7d0a20cf431ad309044f10e36acaf2fdd98bc.webp 对象浏览器 %}
 
 对象浏览器虽不及现代的 IDE 那么智能，但也给我们提供了浏览库中内容的一种相对方便的手段。
 

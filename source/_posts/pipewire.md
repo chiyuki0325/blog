@@ -5,7 +5,7 @@ tags:
 - Linux
 - PipeWire
 category: Arch折腾记
-cover: 'https://imgsrc.baidu.com/forum/pic/item/0b7b02087bf40ad1fe99b122122c11dfa8eccef6.jpg'
+cover: 'https://imgsrc.chyk.ink/0b7b02087bf40ad1fe99b122122c11dfa8eccef6.webp'
 ---
 
 {% border %}
@@ -77,14 +77,14 @@ sudo pacman -S xdg-desktop-portal-wlr #Sway, Wayfire 等
 
 在上述步骤中，已经安装了 Helvum。通过在这个界面拖音频线，可以指定音频输入输出。
 
-{% image https://imgsrc.baidu.com/forum/pic/item/42166d224f4a20a49ea0141ad5529822730ed0b5.jpg %}
+{% image https://imgsrc.chyk.ink/42166d224f4a20a49ea0141ad5529822730ed0b5.webp %}
 
 比如在此图中，我就让外置喇叭播放音乐，耳机播放浏览器中的视频。
 
 ### 🎚️「均衡器」—— EasyEffects
 
-{% image https://imgsrc.baidu.com/forum/pic/item/1c950a7b02087bf4cb447f34b7d3572c10dfcf47.jpg %}
+{% image https://imgsrc.chyk.ink/1c950a7b02087bf4cb447f34b7d3572c10dfcf47.webp %}
 
-{% image https://imgsrc.baidu.com/forum/pic/item/9345d688d43f8794ca5460f3971b0ef41ad53a47.jpg %}
+{% image https://imgsrc.chyk.ink/9345d688d43f8794ca5460f3971b0ef41ad53a47.webp %}
 
 EasyEffects 可以修改 PipeWire 的音频流，作为均衡器或效果器。

@@ -4,7 +4,7 @@ date: 2024-08-05 23:19:32
 tags:
 - 小米
 - 小米手环
-cover: https://imgsrc.baidu.com/forum/pic/item/08f790529822720e098823da3dcb0a46f21fab48.jpg
+cover: https://imgsrc.chyk.ink/08f790529822720e098823da3dcb0a46f21fab48.webp
 ---
 
 昨天购入了小米手环 9，因为是第一次使用这种智能穿戴设备，因此倍感新奇，自然是要进行一番折腾。

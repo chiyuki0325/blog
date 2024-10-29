@@ -5,7 +5,7 @@ tags:
 - 原神
 - Wine
 category: Arch折腾记
-cover: 'https://imgsrc.baidu.com/forum/pic/item/f636afc379310a55c267af35f24543a9832610ab.jpg'
+cover: 'https://imgsrc.chyk.ink/f636afc379310a55c267af35f24543a9832610ab.webp'
 ---
 
 众所周知，由于米忽悠的反作弊 `mhyprot2.sys`，原神一直不可以在 Wine 中运行，这时候可以使用 `Krock` 大佬的补丁来解决这个问题。本文只提供简要用法。
@@ -33,16 +33,16 @@ yay -S lutris-git gamemode #安装最新版 Lutris（ArchLinux）
 
 之后左上角加号 - Add localy installed game
 
-![http://imgsrc.baidu.com/forum/pic/item/77094b36acaf2edd63100e3bc81001e93801937b.jpg](http://imgsrc.baidu.com/forum/pic/item/77094b36acaf2edd63100e3bc81001e93801937b.jpg)
+![https://imgsrc.chyk.ink/77094b36acaf2edd63100e3bc81001e93801937b.webp](https://imgsrc.chyk.ink/77094b36acaf2edd63100e3bc81001e93801937b.webp)
 
-![http://imgsrc.baidu.com/forum/pic/item/0b55b319ebc4b7458b4d5a0c92fc1e178b8215cb.jpg](http://imgsrc.baidu.com/forum/pic/item/0b55b319ebc4b7458b4d5a0c92fc1e178b8215cb.jpg)
+![https://imgsrc.chyk.ink/0b55b319ebc4b7458b4d5a0c92fc1e178b8215cb.webp](https://imgsrc.chyk.ink/0b55b319ebc4b7458b4d5a0c92fc1e178b8215cb.webp)
 
-![http://imgsrc.baidu.com/forum/pic/item/adaf2edda3cc7cd94ffa730b7c01213fb90e9109.jpg](http://imgsrc.baidu.com/forum/pic/item/adaf2edda3cc7cd94ffa730b7c01213fb90e9109.jpg)
+![https://imgsrc.chyk.ink/adaf2edda3cc7cd94ffa730b7c01213fb90e9109.webp](https://imgsrc.chyk.ink/adaf2edda3cc7cd94ffa730b7c01213fb90e9109.webp)
 （此处如果使用 `zen` 内核则使用 Fsync，否则使用 Esync）
 
-![http://imgsrc.baidu.com/forum/pic/item/09fa513d269759ee41832719f7fb43166c22df15.jpg](http://imgsrc.baidu.com/forum/pic/item/09fa513d269759ee41832719f7fb43166c22df15.jpg)
+![https://imgsrc.chyk.ink/09fa513d269759ee41832719f7fb43166c22df15.webp](https://imgsrc.chyk.ink/09fa513d269759ee41832719f7fb43166c22df15.webp)
 
-![http://imgsrc.baidu.com/forum/pic/item/8b82b9014a90f6033e8fda957c12b31bb051ed21.jpg](http://imgsrc.baidu.com/forum/pic/item/8b82b9014a90f6033e8fda957c12b31bb051ed21.jpg)
+![https://imgsrc.chyk.ink/8b82b9014a90f6033e8fda957c12b31bb051ed21.webp](https://imgsrc.chyk.ink/8b82b9014a90f6033e8fda957c12b31bb051ed21.webp)
 
 （其中的 NVIDIA Prime 渲染卸载，如果你是笔记本电脑就打开，否则无法使用独显。）
 
@@ -71,7 +71,7 @@ yay -S lutris-git gamemode #安装最新版 Lutris（ArchLinux）
 
 返回 Lutris 游戏设置，更改启动路径。
 
-![http://imgsrc.baidu.com/forum/pic/item/6f061d950a7b0208100f783327d9f2d3562cc81a.jpg](http://imgsrc.baidu.com/forum/pic/item/6f061d950a7b0208100f783327d9f2d3562cc81a.jpg)
+![https://imgsrc.chyk.ink/6f061d950a7b0208100f783327d9f2d3562cc81a.webp](https://imgsrc.chyk.ink/6f061d950a7b0208100f783327d9f2d3562cc81a.webp)
 
 在 `Genshin Impact game` 目录下创建 `dxvk.conf`内容如下：
 
