@@ -35,10 +35,10 @@ fancybox: true # 对某张图单独启用或禁用 Fancybox（点击大图）功
 
 无论在什么宽度的设备上都希望横向铺满的图片，一般不需要额外操作。可以在链接后面写上图片描述，如有必要，可以通过设置 `download:true` 使其显示一个「下载」按钮链接指向图片地址，如果下载链接与显示的图片地址不同，可以 `download:下载链接` 来使其能够下载原图。
 
-{% image https://imgsrc.chyk.ink/fd039245d688d43faf0bc631381ed21b0ff43b56.jpg "文文最可爱了 w" download:https://imgsrc.baidu.com/forum/pic/item/fd039245d688d43faf0bc631381ed21b0ff43b56.webp %}
+{% image https://imgsrc.chyk.ink/fd039245d688d43faf0bc631381ed21b0ff43b56.webp "文文最可爱了 w" download:https://imgsrc.chyk.ink/fd039245d688d43faf0bc631381ed21b0ff43b56.webp %}
 
 ```markdown 写法如下
-{% image https://imgsrc.chyk.ink/fd039245d688d43faf0bc631381ed21b0ff43b56.jpg "文文最可爱了 w" download:https://imgsrc.baidu.com/forum/pic/item/fd039245d688d43faf0bc631381ed21b0ff43b56.webp %}
+{% image https://imgsrc.chyk.ink/fd039245d688d43faf0bc631381ed21b0ff43b56.webp "文文最可爱了 w" download:https://imgsrc.chyk.ink/fd039245d688d43faf0bc631381ed21b0ff43b56.webp %}
 ```
 
 ### 小尺寸图片优化
