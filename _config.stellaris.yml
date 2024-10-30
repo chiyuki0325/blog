@@ -1,7 +1,7 @@
 ### hexo-theme-stellaris
 stellar:
-  cdn_css: https://ydz-cos.zyglq.cn/blog-static/css/main.css?v=220
-  cdn_js: https://ydz-cos.zyglq.cn/blog-static/js/main.js?v=210
+  cdn_css: https://ydz-cos.zyglq.cn/blog-static/css/main.css?v=2201
+  cdn_js: https://ydz-cos.zyglq.cn/blog-static/js/main.js?v=2201
 
 ######## head tags ########
 head:
@@ -252,9 +252,13 @@ style:
     body: 1rem
     code: 85%
     codeblock: 0.875rem
+  font-family:
+    logo: '"HarmonyOS Sans SC", MiSans, "更纱黑体 SC", system-ui, -apple-system, sans-serif'
+    body: '"HarmonyOS Sans SC", MiSans, "更纱黑体 SC", system-ui, -apple-system, sans-serif'
+    code: 'Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
+    codeblock: 'Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
   custom_font_css:
     enabled: false
-    css: https://s1.hdslb.com/bfs/static/jinkela/long/font/regular.css
 
 default:
   avatar: https://ydz-cos.zyglq.cn/blog-static/images/avatar.svg
