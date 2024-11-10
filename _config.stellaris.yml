@@ -1,6 +1,6 @@
 ### hexo-theme-stellaris
 stellar:
-  cdn_css: https://ydz-cos.zyglq.cn/blog-static/css/main.css?v=2201
+  cdn_css: https://ydz-cos.zyglq.cn/blog-static/css/main.css?v=2202
   cdn_js: https://ydz-cos.zyglq.cn/blog-static/js/main.js?v=2201
 
 ######## head tags ########
@@ -234,6 +234,9 @@ plugins:
     js: https://ydz-cos.zyglq.cn/blog-static/js/plugins/copycode.js
     default_text: '复制'
     success_text: '已复制'
+  mathjax:
+    enabled: true
+    per_page: false # 启用后无需在文章开头加 mathjax: true 即可启用
 
 
 style:
@@ -255,8 +258,8 @@ style:
   font-family:
     logo: '"HarmonyOS Sans SC", MiSans, "更纱黑体 SC", system-ui, -apple-system, sans-serif'
     body: '"HarmonyOS Sans SC", MiSans, "更纱黑体 SC", system-ui, -apple-system, sans-serif'
-    code: 'Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
-    codeblock: 'Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
+    code: 'Menlo, Monaco, Consolas, "Courier New", monospace, sans-serif'
+    codeblock: 'Menlo, Monaco, Consolas, "Courier New", monospace, sans-serif'
   custom_font_css:
     enabled: false
 
