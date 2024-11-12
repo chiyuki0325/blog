@@ -46,8 +46,7 @@ date: 2023-07-31 08:50:22
 
 你可以前往我的<a href="https://t.me/chykink"><img alt="Telegram 频道" src="https://img.shields.io/badge/Telegram-频道-28a8ea?logo=telegram"></a>，也可以在下面这些地方捕捉~
 
-<p>
-<a href="https://t.me/chiyuki0325"><img src="https://img.shields.io/badge/Telegram-chiyuki0325-28a8ea?logo=telegram" alt="Telegram:chiyuki0325"></a>&nbsp; 
+<p> 
 <a href="https://space.bilibili.com/485832788"><img alt="Bilibili:斬風千雪" src="https://img.shields.io/badge/Bilibili-斬風千雪-ff6699?logo=bilibili"></a>&nbsp; 
 <img alt="QQ:920064067" src="https://img.shields.io/badge/QQ群-920064067-faad01?logo=tencentqq">
 </p>
@@ -56,6 +55,7 @@ date: 2023-07-31 08:50:22
 <a href="https://github.com/chiyuki0325"><img src="https://img.shields.io/badge/GitHub-chiyuki0325-fff?logo=github" alt="GitHub"></a>&nbsp;
 <a href="https://music.163.com/#/user/home?id=3392019481"><img src="https://img.shields.io/badge/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90-e60026?logo=youtube-music" alt="163 Music"></a>
 </p>
+
 
 
 
