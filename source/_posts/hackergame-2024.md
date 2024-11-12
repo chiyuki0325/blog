@@ -1,6 +1,6 @@
 ---
 title: 🚩 Hackergame 2024 解题报告
-date: 2024-11-06 09:03:45
+date: 2024-11-10 12:45:45
 tags:
 - CTF
 cover: https://imgsrc.chyk.ink/JuqgZ7ibm42Jm1hc.webp
@@ -564,7 +564,7 @@ with open('secret', 'wb') as f:
 
 ### 🗄️ ⭕ ZFS 文件恢复
 
-由于之前用 Btrfs 用爆炸过一次，所以一直对这类很先进的 CoW 文件系统保持着某种抵触，一直在用 ext4 当作系统盘。和[去年](http://localhost:4000/2023/11/04/hackergame-2023/#%F0%9F%97%82%EF%B8%8F-%E2%AD%95-%E4%BD%8E%E5%B8%A6%E5%AE%BD%E6%98%9F%E7%90%83)一样，MBRjun，不对，现在应该是 `zpool/MBR`，也早早就开始用 zfs 了，第一次听说 zfs 也是在他那里。{%icon https://imgsrc.chyk.ink/suzumi_bili_2_morning_eight.webp %}
+由于之前用 Btrfs 用爆炸过一次，所以一直对这类很先进的 CoW 文件系统保持着某种抵触，一直在用 ext4 当作系统盘。和[去年](/2023/11/04/hackergame-2023/#%F0%9F%97%82%EF%B8%8F-%E2%AD%95-%E4%BD%8E%E5%B8%A6%E5%AE%BD%E6%98%9F%E7%90%83)一样，MBRjun，不对，现在应该是 `zpool/MBR`，也早早就开始用 zfs 了，第一次听说 zfs 也是在他那里。{%icon https://imgsrc.chyk.ink/suzumi_bili_2_morning_eight.webp %}
 
 {%image https://imgsrc.chyk.ink/99pdycHxmR7ux4yM.webp %}
 
