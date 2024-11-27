@@ -4,11 +4,11 @@ my_friends:
       avatar: https://cos.zyglq.cn/static/web-logo.jpg
       description: "心中有光，对立重伤"
       screenshot: https://imgsrc.chyk.ink/203fb80e7bec54e7ecf34eddfc389b504ec26ad2.webp
-    - title: "池塘的博客"
-      url: https://blog.chitang.dev/
-      avatar: https://chitangcos.zyglq.cn/images/avatar.webp
-      description: "只是一个普通的初中生罢了"
-      screenshot: https://imgsrc.chyk.ink/a686c9177f3e6709de4f113c7ec79f3df9dc55a1.webp
+    # - title: "池塘的博客"
+    #   url: https://blog.chitang.dev/
+    #   avatar: https://chitangcos.zyglq.cn/images/avatar.webp
+    #   description: "只是一个普通的初中生罢了"
+    #  screenshot: https://imgsrc.chyk.ink/a686c9177f3e6709de4f113c7ec79f3df9dc55a1.webp
     - title: "NameSetter's Blog"
       url: https://ssmzhn.vercel.app/
       avatar: https://q1.qlogo.cn/g?b=qq&nk=3285956207&s=640
@@ -204,4 +204,9 @@ my_friends:
       url: https://zhul.in/
       avatar: https://static.031130.xyz/avatar.webp
       screenshot: https://imgsrc.chyk.ink/8IQUpilbpaQKIild.webp
+    - title: "ZhuFN's Blog"
+      description: "这里是个蒟蒻 QwQ"
+      url: https://zhufn.fun/
+      avatar: https://imgsrc.chyk.ink/o1zu8ZTflu0hsc8g.jpeg
+      screenshot: https://imgsrc.chyk.ink/890jmTbdKT_LTmZW.webp
 
