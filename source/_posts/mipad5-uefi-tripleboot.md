@@ -60,7 +60,7 @@ sudo apt update && sudo apt -y upgrade
 sudo apt -y install python3-venv pip git mono-devel build-essential nuget build-essential uuid-dev iasl nasm gcc-aarch64-linux-gnu python3 python3-distutils python3-git python3-pip gettext locales gnupg ca-certificates python3-venv git git-core clang llvm curl jq
 sudo apt install -y libc6-arm64-cross libc6-dev-arm64-cross
 
-# 获取源码
+# 获取适用于小米平板 5 的 Project Aloha UEFI 源码
 git clone https://github.com/map220v/MU-sm8150pkg --branch=nabu-secureboot --recursive
 ```
 
@@ -72,10 +72,16 @@ git clone https://github.com/map220v/MU-sm8150pkg --branch=nabu-secureboot --rec
 
 如果读者有在 x86 UEFI 平台安装过 Linux，那应该会知道，开着安全启动是没法启动 Linux 的（自己配置过证书的除外）。注释这行，就是为了禁用掉这个 UEFI 固件的安全启动。
 
+打开 `Platforms/SurfaceDuo1Pkg/Device/xiaomi-nabu/Library/PlatformMemoryMapLib/PlatformMemoryMapLib.c`，将 `"Kernel"` 一行的 `Conv` 改为 `Reserv`。这是为了修复一个内存 Bug。
+
+之后开始编译。
+
 ```bash
+cd MU-sm8150pkg
 python3 -m venv venv
 source venv/bin/activate
-python build_uefi.py -d xiaomi-nabu
+pip install -r pip-requirements.txt
+python3 build_uefi.py -d xiaomi-nabu
 ```
 
 漫长的编译过程后，可在 `Build/SurfaceDuo1Pkg/RELEASE_CLANG38/FV/` 文件夹中找到 `SM8150_EFI.fd`，拿到一旁备用。
@@ -129,7 +135,7 @@ make zinstall modules_install dtbs_install INSTALL_MOD_PATH=../modules_install I
 
 因此可以在 `../modules_install/boot` 中找到 `vmlinuz` 开头的内核镜像文件，在 `dtbs` 文件夹中找到 `sm8150-xiaomi-nabu.dtb`。
 
-把内核镜像文件（我这里为 `vmlinuz-6.12.0-1-sm8150-chiyuki+` 和 dtb 文件（`sm8150-xiaomi-nabu.dtb`）放到 `esp` 分区的根目录中。这步可以使用之前文章提到过的大容量存储模式（nsc），或者直接在 Linux 上操作。
+把内核镜像文件（我这里为 `vmlinuz-6.12.0-1-sm8150-chiyuki+` 和 dtb 文件（`sm8150-xiaomi-nabu.dtb`）放到 `esp` 分区的根目录中。这步可以使用之前文章提到过的大容量存储模式（msc），或者直接在 Linux 上操作。
 
 ## 🪟 配置 Windows Boot Manager
 
@@ -141,7 +147,7 @@ make zinstall modules_install dtbs_install INSTALL_MOD_PATH=../modules_install I
 
 按照 [Renegade 的文档](https://renegade-project.tech/zh/install#h-215-%E5%90%AF%E7%94%A8%E6%B5%8B%E8%AF%95%E6%A8%A1%E5%BC%8F)操作即可。
 
-### 🖥️ 使用 Simple Init 替换 Boot Manager
+### 🖥️ 使用 Simple Init 替换 Boot Manager EFI
 
 把 `esp` 分区中原有的的 `Boot/EFI/BootAA64.efi` 重命名（我这里为 `windows.efi`），并把之前编译好的 Simple Init `BOOTAA64.EFI` 放入 `Boot/EFI` 文件夹中，以取代 Windows Boot Manager。
 
@@ -195,3 +201,53 @@ w = 8
 
 {%endfolding%}
 
+## 💿 修补并刷入启动镜像
+
+如果直接把第一步编译出来的 `xiaomi-nabu.img` 刷入平板的 `boot` 分区，可以在 Simple Init 的启动菜单中选择 Linux 和 Windows 启动，但我们目前仍然没法启动安卓。
+
+SurfaceDuoPkg 项目有一个 [内核修补工具](https://github.com/WOA-Project/SurfaceDuoDualBootKernelImagePatcher)，可以把这个 UEFI 固件直接注入到安卓内核中，并在开机时通过一小段简单的代码来判断该引导 UEFI 还是安卓。Project Aloha 也存在对应的工具，并且支持米板 5。
+
+```bash
+# 获取 DualBootKernelPatcher 源码
+git clone https://github.com/Project-Aloha/DualBootKernelPatcher
+cd DualBootKernelPatcher
+cmake -B output -S .
+cmake --build output -j
+pushd ShellCode
+cmake .
+make
+popd
+```
+
+之后需要使用  `magiskboot` 工具从安卓启动镜像中分离出内核，以进行修补。这步可以在装有 Magisk 的安卓机上操作，也可以自行[在电脑上编译之](https://github.com/xiaoxindada/magiskboot_ndk_on_linux)并操作。
+
+```bash
+magiskboot unpack boot.img
+```
+
+```bash
+./output/DualBootKernelPatcher kernel SM8150_EFI.fd patchedkernel Config/DualBoot.Sm8150.cfg ShellCode/ShellCode.Nabu.bin
+```
+
+这里的 `kernel` 文件为上一步解包出的内核，`SM8150_EFI.fd` 之前已经编译好。
+
+把 `patchedkernel` 改名为 `kernel`，与 `boot.img` 放在同一文件夹，并重新生成新的启动镜像。
+
+```bash
+magiskboot repack boot.img
+```
+
+现在就可以把生成的 `new-boot.img` 直接刷入平板了。
+
+```bash
+fastboot flash boot new-boot.img
+```
+
+大功告成！
+
+## ▶️ 如何切换三系统
+
+- 合着盖子开机 —— 引导安卓。
+- 开着盖子开机 —— 引导 UEFI 固件，可以在 Simple Init 启动菜单中选择 Windows 和 Linux。
+
+如果没有官方保护套，使用带磁吸的第三方保护套也是一样的效果。
