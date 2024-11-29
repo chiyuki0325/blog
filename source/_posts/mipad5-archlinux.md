@@ -10,8 +10,6 @@ references:
     url: https://linux-on-nabu.gitbook.io/
   - title: map220v/ubuntu-xiaomi-nabu - GitHub
     url: https://github.com/map220v/ubuntu-xiaomi-nabu
-  - title: 在小米平板 5 上运行 Ubuntu —— 编译内核
-    url: https://www.cnblogs.com/maverick-jia/articles/17497716.html
 ---
 
 小米平板 5 是一款发布于 2021 年的传奇安卓平板，它不仅能几乎完美地安装 Windows 11，还可以安装 Arch Linux 并满足日用需求。本文就来简述如何在小米平板 5 上安装 Arch Linux，并配置双系统。
@@ -21,6 +19,8 @@ references:
 > 我们厌倦了在购买新平板电脑后很快就无法收到更新。厌倦了深度集成在 Android 和 iOS 之类的封闭系统中，以及设备厂商发布的老旧、过时的内核。这就是为什么我们正在开发一个可持续的、注重隐私和安全的自由软件移动操作系统，它基于 Linux 发行版，以权限分离为设计思路。让我们保持平板电脑的实用性和安全性，直到它物理损坏为止！
 >
 > —— Linux for Mi Pad 5
+
+> 2024.11.29 更新 —— 使用最新最热的 Linux 6.12 内核
 
 ### ⚠️ 请注意
 
@@ -32,7 +32,7 @@ references:
 
 {%ablock%}
 
-截止 2024 年 5 月，小米平板 5 上的主线 Linux 内核支持**仍然不是恨完善**，所以部分硬件（如喇叭、传感器等）仍然无法正常运作。请先阅读下面的「硬件支持」一节。
+截止 2024 年 11 月，小米平板 5 上的主线 Linux 内核支持**仍然不是很完善**，所以部分硬件（如喇叭、传感器等）仍然无法正常运作。请先阅读下面的「硬件支持」一节。
 
 {%endablock%}
 
@@ -52,15 +52,15 @@ references:
 
 ### 🛠️ 硬件支持
 
-本文将使用 Linux 6.1.10-nabu+ 内核。该内核的硬件支持最好，但仍然有些硬件无法正常工作。
+本文将使用（截止文章编写时）最新最热的 Linux 6.12 内核。该内核的硬件支持最好，但仍然有些硬件无法正常工作。
 
-- CPU：不支持电源管理，对睿频支持极为有限。耗电速度会比安卓快一些。
-- GPU：不支持硬件视频编解码。后续版本内核已经加入，但是我们只有 6.1 可以用。
-- 屏幕：刷新率只有 104Hz，而并非 120Hz。并且，无法在用户态手动降低刷新率到 60Hz。
+- GPU：不支持硬件视频编解码。
+
 - 扬声器：只有左上、左下和右下三个扬声器可以正常运作，右上扬声器不能出声。
-- 充电器：必须使用官方充电器和数据线，并且不支持 MI Turbo Charge，充电速度缓慢。要充电时建议切回安卓。
-- 手写笔：不支持压感，且轨迹会变得歪歪扭扭。要写字时建议切回安卓。
+
 - 麦克风、前后摄像头、光线传感器、加速度计、陀螺仪无法运作。
+
+  6.12 内核可以使用 [Hexagonrpcd](https://github.com/linux-msm/hexagonrpc) 以驱动起一部分传感器，但我并没有折腾这个。
 
 ### 🔑 解锁 bootloader
 
@@ -286,17 +286,28 @@ Number  Start   End     Size    File system  Name             Flags
 
 回到电脑上操作。
 
+可以克隆 postmarketOS 开发者维护的 6.12-rc7 内核树，并打上[充电器和 RTC 的修复补丁](https://file.chyk.ink/Linux/nabu-patches)。
+
 ```bash
-git clone https://github.com/maverickjb/linux-6.1.10
-pushd linux-6.1.10
+git clone https://gitlab.postmarketos.org/panpanpanpan/sm8150-mainline --branch=6.12-wip
+```
+
+也可以克隆我自己分叉出来的 6.12.0 内核树，已经打好了这两个补丁。
+
+```bash
+git clone https://github.com/chiyuki0235/sm8150-mainline --branch=6.12-wip
+```
+
+```bash
+pushd sm8150-mainline
 
 # 设置必要的环境变量。
 export ARCH=arm64 LLVM=1 LLVM_IAS=1
 
 # 此时可以使用 git apply 命令打上需要的补丁。
 
-# 加载内核作者的配置文件。
-make xiaomi_nabu_maverick_defconfig
+# 加载 defconfig 配置文件
+make defconfig sm8150.config
 
 # 调整内核配置。
 make nconfig
@@ -327,8 +338,8 @@ popd
 ```
 
 ```bash
-cat linux-6.1.10/arch/arm64/boot/Image.gz linux-6.1.10/arch/arm64/boot/dts/qcom/sm8150-xiaomi-nabu-maverick.dtb > zImage
-mkbootimg --kernel zImage --cmdline "console=tty0 root=/dev/sda32 rw rootwait" --base 0x00000000 --kernel_offset 0x00008000 --tags_offset 0x00000100 --pagesize 4096 --id -o linux.boot.img
+cat sm8150-mainline/arch/arm64/boot/Image.gz sm8150-mainline/arch/arm64/boot/dts/qcom/sm8150-xiaomi-nabu.dtb > zImage
+mkbootimg --kernel zImage --cmdline "pd_ignore_unused clk_ignore_unused console=tty0 root=/dev/sda32 rw rootwait" --base 0x00000000 --kernel_offset 0x00008000 --tags_offset 0x00000100 --pagesize 4096 --id -o linux.boot.img
 ```
 
 此处的 sda32 即为上一步创建的，给 Linux 使用的第 32 号分区。
@@ -345,19 +356,13 @@ sudo tar -xf ArchLinuxARM-aarch64-latest.tar.gz -C rootfs
 把刚编译好的模块文件夹移到 rootfs 中。
 
 ```bash
-sudo mkdir -p rootfs/usr/lib/modules
-sudo mv linux-6.1.10/modules_install/lib/modules/6.1.10-nabu+ rootfs/usr/lib/modules/6.1.10-nabu+
+sudo rm -rf rootfs/usr/lib/modules
+sudo mv sm8150-mainline/modules_install/lib/modules rootfs/usr/lib/
 ```
 
 之后安装固件。
 
-```bash
-git clone https://github.com/map220v/ubuntu-xiaomi-nabu
-sudo rm -rf rootfs/usr/lib/firmware
-sudo mv ubuntu-xiaomi-nabu/firmware-xiaomi-nabu/usr/lib/firmware rootfs/usr/lib/firmware
-sudo mkdir -p rootfs/usr/share/alsa/ucm2/
-sudo cp -r ubuntu-xiaomi-nabu/alsa-xiaomi-nabu/usr/share/alsa/ucm2/* rootfs/usr/share/alsa/ucm2/
-```
+在 https://github.com/map220v/ubuntu-xiaomi-nabu/actions 中下载最新的 xiaomi-nabu-debs_6.7-working 文件，之后自行解压 firmware-xiaomi-nabu.deb 和 alsa-xiaomi-nabu.deb 并安装到 rootfs 即可。
 
 挂载 rootfs 并使用 chroot 进入其中。
 
@@ -400,10 +405,10 @@ passwd youruser
 EDITOR=vim visudo  # 取消注释 %wheel ALL=(ALL:ALL) ALL 行
 
 su youruser
-yay -S qrtr-git libqrtr-glib rmtfs-git pd-mapper-git tqftpserv-git
+yay -S qrtr-git libqrtr-glib rmtfs-git tqftpserv-git
 exit
 
-systemctl enable qrtr-ns pd-mapper rmtfs tqftpserv
+systemctl enable qrtr-ns rmtfs tqftpserv
 ```
 
 ```bash
@@ -483,3 +488,5 @@ echo "GSK_RENDERER=gl" | sudo tee /etc/profile.d/environment.sh
 ### 🖼️ 效果图
 
 {%image https://imgsrc.chyk.ink/e7cd7b899e510fb3a072b3a99f33c895d1430ca1.webp %}
+
+> 此截图已经过时，但可以大概作为参考。
