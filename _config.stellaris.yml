@@ -1,7 +1,7 @@
 ### hexo-theme-stellaris
 stellar:
-  cdn_css: https://ydz-cos.zyglq.cn/blog-static/css/main.css?v=2202
-  cdn_js: https://ydz-cos.zyglq.cn/blog-static/js/main.js?v=2201
+  cdn_css: https://ydz-cos.zyglq.cn/blog-static/css/main.css?v=230
+  cdn_js: https://ydz-cos.zyglq.cn/blog-static/js/main.js?v=230
 
 ######## head tags ########
 head:
@@ -10,16 +10,15 @@ head:
     enabled: true
   twitter_id:
 
-
 sidebar:
   logo:
-    avatar: '[https://q1.qlogo.cn/g?b=qq&nk=3526514925&s=640](/about)' # you can set avatar link in _config.yml or '[https://xxx.png](/about/)'
-    title: '[config.title](/)' # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
+    avatar: "[https://q1.qlogo.cn/g?b=qq&nk=3526514925&s=640](/about)" # you can set avatar link in _config.yml or '[https://xxx.png](/about/)'
+    title: "[config.title](/)" # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
   menu:
-    post: '[最新](/)'
-    archive: '[文章](/archives/)'
-    wiki: '[文档](/wiki/)'
-    links: '[友链](/links/)'
+    post: "[最新](/)"
+    archive: "[文章](/archives/)"
+    wiki: "[文档](/wiki/)"
+    links: "[友链](/links/)"
     #about: # '[关于](/about/)'
 
   widgets:
@@ -40,12 +39,9 @@ sidebar:
     # 其它 layout:page 的页面
     page: toc, search # for custom pages using 'layout:page'
 
-
-
 ######## Main ########
 breadcrumb:
   home: home # config.title / config.author / home or custom content
-
 
 ######## Article ########
 article:
@@ -53,18 +49,18 @@ article:
   auto_excerpt: 150
   # 分类颜色
   category_color:
-    '模拟器': '#F58220'
-    'Arch折腾记': '#35A1D7'
-    '游戏': '#319D5A'
-    '编程': '#940522'
-    '建站小记': '#459008'
-    '网络': '#EEBE00'
-    '日常': '#660000'
-    '数码': '#4CC2FF'
+    "模拟器": "#F58220"
+    "Arch折腾记": "#35A1D7"
+    "游戏": "#319D5A"
+    "编程": "#940522"
+    "建站小记": "#459008"
+    "网络": "#EEBE00"
+    "日常": "#660000"
+    "数码": "#4CC2FF"
   # 文章许可协议
-  license: '本文采用 [署名-非商业性使用-相同方式共享 4.0 国际](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议，转载请注明出处。'
+  license: "本文采用 [署名-非商业性使用-相同方式共享 4.0 国际](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议，转载请注明出处。"
   # 分享
-  share:  [wechat, weibo, telegram, email, link]
+  share: [wechat, weibo, telegram, email, link]
   # 相关文章，需要安装插件 (for layout: post)
   # npm i hexo-related-popular-posts
   related_posts:
@@ -72,19 +68,18 @@ article:
     max_count: 3
     auto_cover: false
 
-
 ######## Comments ########
 comments:
   service: waline
   waline:
     js: https://ydz-cos.zyglq.cn/blog-static/js/waline.umd.js?v=3
     css: https://ydz-cos.zyglq.cn/blog-static/css/waline.css?v=3
-    serverURL: 'https://comments-v2.chyk.ink'
+    serverURL: "https://comments-v2.chyk.ink"
     meta: [nick, mail]
     requiredMeta: [nick]
     pageSize: 10 # comment list page size
     locale:
-      placeholder: '📨 快发条评论吧 (`･ω･´)ฅ'
+      placeholder: "📨 快发条评论吧 (`･ω･´)ฅ"
       nick: "📋️ 昵称/QQ"
       mail: "📪 邮箱"
       link: "🔗 网址(https://)"
@@ -92,65 +87,63 @@ comments:
     mathJax: false
     search: false
     pageview: true
-    turnstileKey: '0x4AAAAAAAiMFYcQhCpdwew0'
-
+    turnstileKey: "0x4AAAAAAAiMFYcQhCpdwew0"
 
 ######## Footer ########
 footer:
   social:
     bilibili:
       icon: '<img src="https://www.bilibili.com/favicon.ico"/>'
-      url: 'https://space.bilibili.com/485832788'
+      url: "https://space.bilibili.com/485832788"
     qq:
       icon: '<img src="https://ydz-cos.zyglq.cn/blog-static/images/qq.svg" style="scale:0.85;top:-2px;position:relative;"/>'
-      url: 'https://jq.qq.com/?_wv=1027&k=c0oqCyOm'
+      url: "https://jq.qq.com/?_wv=1027&k=c0oqCyOm"
     tele:
       icon: '<img src="https://ydz-cos.zyglq.cn/blog-static/images/telegram.svg"/>'
-      url: 'https://t.me/s/chykink'
+      url: "https://t.me/s/chykink"
     file:
       icon: '<img src="https://ydz-cos.zyglq.cn/blog-static/images/link.svg"/>'
-      url: 'https://file.chyk.ink/'
+      url: "https://file.chyk.ink/"
     github:
       icon: '<img src="https://ydz-cos.zyglq.cn/blog-static/images/github.svg"/>'
-      url: 'https://github.com/chiyuki0325'
+      url: "https://github.com/chiyuki0325"
     darkmode:
       auto: '<img no-lazy width="24" height="24" src="https://ydz-cos.zyglq.cn/blog-static/images/sun-moon.svg"/>'
       light: '<img no-lazy width="24" height="24" src="https://ydz-cos.zyglq.cn/blog-static/images/sun-fill.svg"/>'
       dark: '<img no-lazy width="24" height="24" src="https://ydz-cos.zyglq.cn/blog-static/images/moon-fill.svg"/>'
   sitemap:
-     '博客':
-       - '[💡 近期发布](/)'
-       - '[📜 历史文章](/archives)'
-       - '[📊 标签](/tags)'
-       - '[📗 文档](/wiki)'
-       - '[🗓️ 时间轴](/timeline)'
-       - '[🔗 友情链接](/links)'
-     '网站':
-       - '[🗂️️️️ 个人网盘](https://file.chyk.ink/)'
-       - '[💸 喝了盘文件共享](https://hel.smbx.world/)'
-       - '[🍄 SMBX 地图仓库](https://smbx.world/d/54-smbx)'
-       - '[🏠 首页](https://chyk.ink)'
-     '社交':
-       - '[📺 Bilibili](https://space.bilibili.com/485832788)'
-       - '[🐱 GitHub](https://github.com/chiyuki0325)'
-       - '[🛩️ Telegram](https://t.me/s/chiyuki_cafe)'
-       - '[🐧 QQ](https://jq.qq.com/?_wv=1027&k=c0oqCyOm)'
-       - '[▶️️ YouTube](https://www.youtube.com/channel/UC9VPn5_heoBDCOglDqeuuiA)'
-     '其它':
-       # - '[🏠 首页](https://chyk.ink/)'
-       # - '[⏬ 更深处](https://inner.chyk.top/)'
-       - '[📈 状态监控](https://status.chyk.ink/)'
-       - '[🚇 开往•友链接力](https://www.travellings.cn/go.html)'
-  license: '[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)'
-  source: '[GitHub](https://github.com/chiyuki0325/blog)'
-  icp: '[⛩ 萌ICP备20212688号](https://icp.gov.moe/?keyword=20212688)'
-
+    "博客":
+      - "[💡 近期发布](/)"
+      - "[📜 历史文章](/archives)"
+      - "[📊 标签](/tags)"
+      - "[📗 文档](/wiki)"
+      - "[🗓️ 时间轴](/timeline)"
+      - "[🔗 友情链接](/links)"
+    "网站":
+      - "[🗂️️️️ 个人网盘](https://file.chyk.ink/)"
+      - "[💸 喝了盘文件共享](https://hel.smbx.world/)"
+      - "[🍄 SMBX 地图仓库](https://smbx.world/d/54-smbx)"
+      - "[🏠 首页](https://chyk.ink)"
+    "社交":
+      - "[📺 Bilibili](https://space.bilibili.com/485832788)"
+      - "[🐱 GitHub](https://github.com/chiyuki0325)"
+      - "[🛩️ Telegram](https://t.me/s/chiyuki_cafe)"
+      - "[🐧 QQ](https://jq.qq.com/?_wv=1027&k=c0oqCyOm)"
+      - "[▶️️ YouTube](https://www.youtube.com/channel/UC9VPn5_heoBDCOglDqeuuiA)"
+    "其它":
+      # - '[🏠 首页](https://chyk.ink/)'
+      # - '[⏬ 更深处](https://inner.chyk.top/)'
+      - "[📈 状态监控](https://status.chyk.ink/)"
+      - "[🚇 开往•友链接力](https://www.travellings.cn/go.html)"
+  license: "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)"
+  source: "[GitHub](https://github.com/chiyuki0325/blog)"
+  icp: "[⛩ 萌ICP备20212688号](https://icp.gov.moe/?keyword=20212688)"
 
 ######## Tag Plugins ########
 tag_plugins:
   # {% note text %}
   note:
-    default_color: '' # light, dark, red, orange, yellow, green, cyan, blue, purple
+    default_color: "" # light, dark, red, orange, yellow, green, cyan, blue, purple
   # {% checkbox %}
   checkbox:
     interactive: false # enable interactive for user
@@ -232,18 +225,17 @@ plugins:
   copycode:
     enabled: true
     js: https://ydz-cos.zyglq.cn/blog-static/js/plugins/copycode.js
-    default_text: '复制'
-    success_text: '已复制'
+    default_text: "复制"
+    success_text: "已复制"
   mathjax:
     enabled: true
     per_page: false # 启用后无需在文章开头加 mathjax: true 即可启用
 
-
 style:
   darkmode: auto-switch # auto / always / false
   theme:
-    light: '#f8f8f8'
-    dark: '#313438'
+    light: "#f8f8f8"
+    dark: "#313438"
   animated_avatar:
     animate: auto # auto, always
     background: /images/colors.webp
@@ -275,29 +267,26 @@ search:
     js: https://ydz-cos.zyglq.cn/blog-static/js/search/local_search.js
     path: /search.json # 搜索文件存放位置
 
-
 api_host:
   ghapi: https://r.chyk.ink/https://api.github.com
   ghraw: https://r.chyk.ink/https://raw.githubusercontent.com
   gist: https://r.chyk.ink/https://gist.github.com
 
-
 inject:
   script:
     - '<script defer src="https://tj.zyglq.cn/script.js" data-website-id="6f5d8656-07b4-4111-ab3a-47c06c8f515e" data-no-instant="true"></script>'
-
 ######## 自定义插件 ########
 # inject:
-  # script:
-  #   # 使用 HTML 语法
-  #   - '<script src="https://example.com/my_script.js" data-no-instant="true"></script>'
-  #   # data-no-instant 为 InstantClick 属性，决定某脚本在页面切换时是否重新加载
-  #   # 如果此脚本只需要加载一次（比如添加全局对象），那么为 true
-  #   # 如果此脚本每页都需要重复加载（比如编辑页面元素或需要使用 window.onload），那么为 false
-  # head:
-  #   # 使用 HTML 语法
-  #   - '<meta name="key" content="value"></meta>'
-  #   - '<link rel="stylesheet" href="/css/1.css"></link>'
-  # 由于 Stylus 的特性，暂不支持 inject CSS
-  # 如果要使用自定义 CSS，请在 _source/css 下创建 css 文件
-  # 之后使用上文的 head 来引入
+# script:
+#   # 使用 HTML 语法
+#   - '<script src="https://example.com/my_script.js" data-no-instant="true"></script>'
+#   # data-no-instant 为 InstantClick 属性，决定某脚本在页面切换时是否重新加载
+#   # 如果此脚本只需要加载一次（比如添加全局对象），那么为 true
+#   # 如果此脚本每页都需要重复加载（比如编辑页面元素或需要使用 window.onload），那么为 false
+# head:
+#   # 使用 HTML 语法
+#   - '<meta name="key" content="value"></meta>'
+#   - '<link rel="stylesheet" href="/css/1.css"></link>'
+# 由于 Stylus 的特性，暂不支持 inject CSS
+# 如果要使用自定义 CSS，请在 _source/css 下创建 css 文件
+# 之后使用上文的 head 来引入

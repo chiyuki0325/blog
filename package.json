@@ -18,6 +18,7 @@
   "dependencies": {
     "hexo": "7.3.0",
     "hexo-all-minifier": "^0.5.7",
+    "hexo-filter-mermaid-diagrams": "^1.0.5",
     "hexo-fs": "^4.1.1",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
@@ -27,7 +28,7 @@
     "hexo-generator-tag": "^2.0.0",
     "hexo-related-popular-posts": "^5.0.1",
     "hexo-renderer-jsx": "^1.0.1",
-    "hexo-renderer-marked": "^6.0.0",
+    "hexo-renderer-markdown-it-plus": "^1.0.6",
     "hexo-renderer-stylus": "^3.0.0",
     "hexo-server": "^3.0.0",
     "hexo-util": "3.3.0",

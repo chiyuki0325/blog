@@ -5,12 +5,12 @@
 # Site
 title: 風雪城
 avatar: https://q1.qlogo.cn/g?b=qq&nk=3526514925&s=640
-subtitle: '浩繁星空下的一场稚嫩的梦'
-description: '斬風千雪的博客 🌌'
+subtitle: "浩繁星空下的一场稚嫩的梦"
+description: "斬風千雪的博客 🌌"
 keywords:
-author: '斬風千雪'
+author: "斬風千雪"
 language: zh-CN
-timezone: 'Asia/Shanghai'
+timezone: "Asia/Shanghai"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -48,7 +48,7 @@ titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
   field: site # Apply to the whole site
-  exclude: ''
+  exclude: ""
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -58,21 +58,21 @@ highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace: ''
+  tab_replace: ""
   wrap: true
   hljs: false
 prismjs:
   enable: false
   preprocess: true
   line_number: true
-  tab_replace: ''
+  tab_replace: ""
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: ""
   per_page: 10
   order_by: -date
 
@@ -92,7 +92,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
-updated_option: 'mtime'
+updated_option: "mtime"
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -113,7 +113,7 @@ theme: stellaris
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-- type: ''
+  - type: ""
 
 memorial_day:
   # Better to close it when it is not used
@@ -124,7 +124,6 @@ memorial_day:
 april_fools:
   # Better to close it when it is not used
   enable: false
-
 
 # Minify
 html_minifier:
@@ -137,8 +136,8 @@ css_minifier:
   enable: true
   silent: false
   exclude:
-    - '*.min.css'
-        
+    - "*.min.css"
+
 js_minifier:
   enable: true
   mangle: true
@@ -146,7 +145,17 @@ js_minifier:
   output:
   compress:
   exclude:
-    - '*.min.js'
+    - "*.min.js"
 
 image_minifier:
   enable: false
+
+markdown_it_plus:
+  highlight: false
+  html: true
+  xhtmlOut: true
+  breaks: true
+  langPrefix:
+  linkify: true
+  typographer:
+  quotes: “”‘’
