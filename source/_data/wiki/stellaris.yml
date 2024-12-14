@@ -19,7 +19,7 @@ toc:
     - pages/index
   '侧边栏':
     - sidebar/index
-    - widgets/index
+    - sidebar/widgets/index
   '标签组件':
     - tag-plugins/index
     - tag-plugins/express/index

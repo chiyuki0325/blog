@@ -210,3 +210,15 @@ my_friends:
       avatar: https://imgsrc.chyk.ink/o1zu8ZTflu0hsc8g.jpeg
       screenshot: https://imgsrc.chyk.ink/890jmTbdKT_LTmZW.webp
 
+
+examples:
+    - title: "風雪城"
+      description: "这是本站！"
+      url: https://blog.chyk.ink/
+      avatar: https://q1.qlogo.cn/g?b=qq&nk=3526514925&s=640
+      screenshot: https://imgsrc.chyk.ink/PTO28QW7YIwRkwzx.webp
+    - title: "东北大学"
+      description: "自强不息，知行合一"
+      url: https://www.neu.edu.cn/
+      avatar: https://www.neu.edu.cn/favicon.ico
+      screenshot: https://imgsrc.chyk.ink/c6mYmDuwweKmzdRi.webp

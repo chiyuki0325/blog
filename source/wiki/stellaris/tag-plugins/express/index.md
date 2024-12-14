@@ -431,15 +431,17 @@ symbol: plus/minus/times
 
 ## okr 目标管理
 
-这个功能在 1.8 版本后开始支持，这是一个 OKR（Objectives and Key Results）示例：
+这是一个 OKR（Objectives and Key Results）示例：
 
 {% okr o1 %}
 
-2024年的小目标：完成 Stellaris 2.0 并发布上线
-来自2025年的复盘：已《基本》实现目标！
+2023 年的小目标：完成 Stellaris 2.0 并发布上线
+来自 2024 年的复盘：已「基本」实现目标！
 
 <!-- okr kr1 percent:1 -->
-重构 tag-plugins 和 wiki 系统
+
+同步上游的 tag-plugins 和 wiki 系统
+
 - 当 {% mark KR %} 进度为 100% 时，标签默认显示为 {% mark color:green 已完成 %}
 - 当 {% mark KR %} 未设置进度时，默认为 {% mark 0% %}
 - 当 {% mark O %} 未设置进度时，则显示所有 {% mark KR %} 进度平均值
@@ -471,11 +473,11 @@ symbol: plus/minus/times
 ```markdown
 {% okr o1 %}
 
-2024年的小目标：完成 Stellaris 2.0 并发布上线
-来自2025年的复盘：已《基本》实现目标！
+2023 年的小目标：完成 Stellaris 2.0 并发布上线
+来自 2024 年的复盘：已「基本」实现目标！
 
 <!-- okr kr1 percent:1 -->
-重构 tag-plugins 和 wiki 系统
+同步上游的 tag-plugins 和 wiki 系统
 
 - 当 {% mark KR %} 进度为 100% 时，标签默认显示为 {% mark color:green 已完成 %}
 - 当 {% mark KR %} 未设置进度时，默认为 {% mark 0% %}
