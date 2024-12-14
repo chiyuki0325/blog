@@ -158,7 +158,11 @@ repo: chiyuki0325/hexo-theme-stellaris
 
 ### 其他
 
-`linklist` 和 `timeline` 还未移植。如果你需要使用这两个组件模板，请提 issue 汇报。
+由于我认为侧边栏没法在所有设备显示，并且不应包含太多的、眼花缭乱的信息，因此和 Stellar 不同，Stellaris 只保留了左侧边栏，而没有跟进上游添加右侧边栏。
+
+Stellar 文档可作参考，将其中的 `leftbar` 换为 `sidebar` 即可。
+
+`linklist` 和 `timeline` 还未移植，请在正文中使用其对应的标签组件。如果你真的需要使用这两个组件模板，请提 issue 汇报。
 
 ## 🖊️ 匿名组件
 
