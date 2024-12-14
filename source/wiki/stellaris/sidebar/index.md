@@ -4,7 +4,7 @@ wiki: stellaris
 title: 📋 侧边栏配置
 ---
 
-## Logo
+## ❇️ Logo
 
 左上角的 logo 和标题取自站点根目录的配置文件：
 
@@ -28,7 +28,7 @@ sidebar:
     title: '[<img no-lazy height="32px" src="xxx"/>](/)'
 ```
 
-## 主导航栏
+## 🗂️ 主导航栏
 
 ```yaml blog/_config.stellaris.yml
 sidebar:
@@ -41,14 +41,16 @@ sidebar:
 
 侧边栏宽度有限，如何在不影响观感的情况下设置更多的主导航栏按钮呢？建议设置一个「更多」按钮，然后在「更多」页面的侧边栏放上列表组件。
 
-## 文章搜索
+如果想给独立页面配置导航栏高亮，参考[此处](/wiki/stellaris/pages/#更多的独立页面)。
+
+## 🔍 文章搜索
 
 ```yaml blog/_config.stellaris.yml
 search:
-  service: local_search # local_search, todo...
+  service: local_search
   local_search: # 在 front-matter 中设置 indexing:false 来避免被搜索索引
     field: all # post, page, all
-    path: /search.json # 搜索文件存放位置
+    path: /search.json # 索引文件存放位置
     content: true # 是否搜索内容
     codeblock: true # 是否搜索代码块（需要content: true)
 ```
@@ -92,7 +94,7 @@ sidebar:
 
 如果想始终进行不加过滤的站内搜索，那么设置为 `filter: ''` 即可。
 
-## 页脚
+## 🦶 页脚
 
 ```yaml blog/_config.stellaris.yml
 footer:
@@ -111,6 +113,6 @@ footer:
       url: https://
 ```
 
-## 自定义组件
+## 🔧 自定义组件
 
 Stellaris 支持自定义侧边栏的组件和布局，详见[这篇文档](/wiki/stellaris/widgets/)。

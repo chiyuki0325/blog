@@ -4,7 +4,7 @@ wiki: stellaris
 title: 🖊️ 编写文章以及独立页面
 ---
 
-## 新建文章和页面
+## ➕ 新建文章和页面
 
 使用 Hexo CLI 即可。
 
@@ -15,17 +15,23 @@ hexo new page "页面路径"
 
 之后你就可以在 `_post` 文件夹或对应路径找到文章的 markdown 文件。
 
-文章的 markdown 文件开头有一段用 `---`包裹的 yaml 代码，称之为 `front-matter`。
-在此你可以配置文章的标题、发布日期、标签、分类、封面等信息。
+文章的 markdown 文件开头有一段用 `---`包裹的 yaml 配置，称之为 `front-matter`。
+在此你可以配置文章的标题、发布日期、标签、分类、封面、参考文献等信息。
 下面是[这篇文章](/2023/05/21/extract-resources-from-certain-rhythm-game/)的 `front-matter`，以作为示例：
 
 ```yaml
 ---
+# 文章标题
 title: 🎼 某款心胸狭窄的公司开发的音乐游戏的资源提取小记
+# 发布日期（默认为 hexo new post 的日期，可做修改）
 date: 2023-05-21 18:44:50
+# 文章标签
 tags: [ 音游, 逆向 ]
+# 文章分类
 category: 游戏
+# 文章在首页显示的封面
 cover: 'https://imgsrc.chyk.ink/241f95cad1c8a786f57546c32209c93d71cf509b.webp'
+# 参考文献，引文
 references:
 - title: '六、获取密钥 – UNI’S ON AIR资源提取逆向全记录'
   url: 'http://web.archive.org/web/20220528140408/https://blog.touuki.com/archives/287'
@@ -34,13 +40,13 @@ references:
 
 
 
-## 文章封面
+## 🖼️ 文章封面
 
 在文章列表页面或者其他位置显示的文章摘要卡片上面的图片称之为「文章封面」。
 
-### 自动生成封面
+### 🌐 自动生成封面
 
-根据 `tags` 作为关键词，从 Unsplash 为每一篇文章在线搜索封面：
+根据 `tags` 作为关键词，从 [Unsplash](https://unsplash.com/developers) 为每一篇文章在线搜索封面（国内的可用性可能并不高）：
 
 ```yaml blog/_config.stellaris.yml
 article:
@@ -55,7 +61,7 @@ cover: workout,strava
 ---
 ```
 
-### 引用外部图片
+### 📨 引用外部图片
 
 在文章的 `front-matter` 中写上 `cover: xxx` 即可。例如：
 
@@ -73,7 +79,7 @@ cover: /assets/blog/some_picture.webp
 
 {%endfolding %}
 
-### 全图封面卡片
+### 📖 全图封面卡片
 
 这是另一种样式的封面。
 
@@ -96,9 +102,9 @@ poster: # 海报（可选，全图封面卡片）
 
 {%endfolding%}
 
-## 内容摘要
+## 🗞️ 内容摘要
 
-### 自动生成摘要
+### 📰 自动生成摘要
 
 建议您通过 `description` 或者 `excerpt` 方式生成摘要，但如果您希望自动从文章内容截取一定字数的文字作为摘要，可以这样设置：
 
@@ -107,7 +113,7 @@ article:
   auto_excerpt: 200
 ```
 
-### 手动设置摘要
+### 📑 手动设置摘要
 
 一篇文章开头一段文字描述就是摘要，摘要和正文用 `<!-- more -->` 隔开，前后一定要有空行。例如：
 
@@ -129,11 +135,11 @@ description: "这是文章的摘要，会在首页中显示。"
 这是文章的第一段，
 ```
 
-## 文章模板
+## 📚 自定义文章模板
 
-使用 Hexo 自带模板，可以实现命令行创建新文章时，自动生成相关 `front-matter` 条目。
+使用 Hexo 自带的模板功能，可以实现命令行创建新文章时，自动生成相关 `front-matter` 条目。
 
-根目录下 `scaffolds` 文件夹中编辑 `post.md` 的 `font-matter`：
+可在根目录下 `scaffolds` 文件夹中编辑 `post.md` 的 `font-matter`：
 
 ```yaml blog/scaffolds/post.md
 ---
@@ -152,9 +158,11 @@ poster: # 海报（可选，全图封面卡片）
 ---
 ```
 
-## 文章页
+除了 `post` 和 `page` 外，可以在 `scaffholds` 文件夹中建立更多模板文件。使用 `hexo new (你的模板名) (文章名)` 即可使用自建的模板。
 
-### 横幅图片
+## 📄 文章页
+
+### 🪟 横幅图片
 
 文章页面顶部区域可以显示长长的横幅图片，设置方法如下：
 
@@ -172,9 +180,9 @@ banner: workout,strava
 ---
 ```
 
-### 指定一级标题
+### 🅰️ 指定一级标题
 
-默认的一级标题是文章的 `title`，如果希望使用别的文字作为一级标题，可以指定 `h1`，例如：
+网页文章区默认的一级标题是文章的 `title`，如果希望使用别的文字作为一级标题，可以指定 `h1`，例如：
 
 ```yaml blog/source/_posts/xxx.md
 ---
@@ -182,11 +190,11 @@ h1: 快速开始
 ---
 ```
 
-## 文章索引与推荐
+## 🗂️ 文章索引与推荐
 
 文章如果有分类和标签就会自动在主页出现「分类」、「标签」选项卡实现分类浏览，不需要手动添加页面。
 
-### 文章分类
+### 🗃️ 文章分类
 
 在文章列表页面会显示文章所属的第一级分类，例如：
 
@@ -198,7 +206,7 @@ categories: [编程, Python]
 
 这样写就只会显示「设计开发」一级分类，而在文章页面顶部则会显示完整的面包屑导航。
 
-### 文章标签
+### 🏷️ 文章标签
 
 文章标签并不在页面上可见，仅用于关键词、搜索、按标签检索、相关文章推荐等功能，例如：
 
@@ -208,7 +216,7 @@ tags: [游戏, 音游, "舞萌 DX"]
 ---
 ```
 
-### 相关文章推荐
+### 🔜 相关文章推荐
 
 要实现相关文章推荐功能，您需要安装插件：
 
@@ -226,7 +234,7 @@ article:
 
 开启后会在每篇文章的下方，根据标签和分类推荐相同类型的文章。
 
-## 参考资料
+## ⤴️ 参考资料
 
 填写引用文章的标题和链接：
 
@@ -241,9 +249,9 @@ references:
 
 效果见[这篇文章](/2023/05/21/extract-resources-from-certain-rhythm-game/)。
 
-## 更多的独立页面
+## 🆙 更多的独立页面
 
-Stellaris 同时具有博客和 Wiki 两个大模块，为了能够正确进行导航栏高亮，引入了 `menu_id` 来进行区分，通常情况下，`layout: post` 和 `layout: wiki` 两种布局模板可以自动为 `sidebar.menu.post` 和 `sidebar.menu.wiki` 的导航栏按钮高亮。自己创建的独立页面也可以在 `front-matter` 中指定 `menu_id` 来使某个按钮处于选中状态。
+Stellaris 同时具有博客和 Wiki 两个大模块，为了能够正确进行侧栏上的导航栏高亮，引入了 `menu_id` 来进行区分，通常情况下，`layout: post` 和 `layout: wiki` 两种布局模板可以自动为 `sidebar.menu.post` 和 `sidebar.menu.wiki` 的导航栏按钮高亮。自己创建的独立页面也可以在 `front-matter` 中指定 `menu_id` 来使某个按钮处于选中状态。
 
 例如您有关于、友链两个页面，都希望高亮「更多」按钮：
 
@@ -270,6 +278,6 @@ sidebar:
     more: '[更多](/more/)'
 ```
 
-## 友链页面
+## 🔗 友链页面
 
-友链页面被设计成了标签组件。详见 [📰 数据集合类标签组件](/wiki/stellaris/tag-plugins/data)。
+友链页面被设计成了标签组件。你需要使用 `hexo new page` 自行创建友链页面，然后在其中编写友链标签组件。详见 [📰 数据集合类标签组件](/wiki/stellaris/tag-plugins/data)。
