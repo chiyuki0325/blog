@@ -4,7 +4,12 @@ import escapeHTML from 'escape-html'
 const SITE = 'blog.chyk.ink'
 const { BOT_TOKEN, CHANNEL_CHAT_ID, STEL_IVS, STEL_SSID, STEL_TOKEN } =
     process.env
-const { URL_TO_PROCESS } = process.env
+
+const URL_TO_PROCESS = process.argv[2] // 从命令行参数获取 URL
+
+if (!URL_TO_PROCESS) {
+    console.error('Error: 请提供一个 URL 作为参数。')
+}
 
 const Message = (() => {
     const FORMAT_CHAR = String.fromCharCode(27)
