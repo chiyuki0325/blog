@@ -22,7 +22,7 @@ my_friends:
     - title: "灯花小屋～"
       url: https://诺艾尔.我爱你/
       avatar: https://诺艾尔.我爱你/images/logo.png
-      description: "我们是宇宙的尘埃，佩戴着璀璨的星辰。"
+      description: "我们是宇宙的尘埃，佩戴着璀璨的星辰"
       screenshot: https://imgsrc.chyk.ink/9f2f070828381f309d18d96aec014c086f06f0f4.webp
     # - title: "SugarMGP's Blog"
     #   url: https://sugarblog.vercel.app/
@@ -35,7 +35,7 @@ my_friends:
     - title: "Purofle 的 Blog"
       url: https://blog.archlinux.tech/
       avatar: https://q1.qlogo.cn/g?b=qq&nk=3272912942&s=640
-      description: "平平无奇的一个人罢了。"
+      description: "平平无奇的一个人罢了"
       screenshot: https://imgsrc.chyk.ink/342ac65c10385343479bd3e2d613b07ecb808899.webp
     - title: "Kevin Huang 的小站"
       url: https://kevinh.wang/
@@ -89,7 +89,7 @@ my_friends:
       avatar: http://q1.qlogo.cn/g?b=qq&nk=743868237&s=640
       screenshot: https://imgsrc.chyk.ink/f703738da977391203efa251be198618367ae231.webp
     - title: '小夏鸢的波子汽水店'
-      description: '鸢飞戾天者，望峰息心。'
+      description: '鸢飞戾天者，望峰息心'
       url: https://me.OwO.today
       avatar: https://pic.imgdb.cn/item/641da961a682492fcc1c6e80.jpg
       screenshot: https://imgsrc.chyk.ink/3ac79f3df8dcd1001f451511348b4710b9122f21.webp
@@ -130,7 +130,7 @@ my_friends:
       avatar: https://blog.pj568.sbs/images/PJ568.svg
       screenshot: https://imgsrc.chyk.ink/962bd40735fae6cd3aa9c25349b30f2442a70fe6.webp
     - title: '伞的隙间'
-      description: '天终会再明。'
+      description: '天终会再明'
       url: https://blog.tibrella.space
       avatar: https://blog.tibrella.space/img/avatar.webp
       screenshot: https://imgsrc.chyk.ink/728da9773912b31b8d837e1bc018367adab4e111.webp
@@ -150,7 +150,7 @@ my_friends:
       avatar: https://cravatar.cn/avatar/13aa912754e6bb5e671f3e6654e4712d?s=100
       screenshot: https://imgsrc.chyk.ink/b3b7d0a20cf431ad166d39030d36acaf2edd9849.webp
     - title: '风语阁'
-      description: '风吹拂，语轻扬。'
+      description: '风吹拂，语轻扬'
       url: https://blog.wtm.moe
       avatar: https://blog.wtm.moe/img/me.webp
       screenshot: https://imgsrc.chyk.ink/0b46f21fbe096b6320ab416c4a338744ebf8ac58.webp
@@ -160,7 +160,7 @@ my_friends:
       avatar: https://lab.imgb.space/img/favicon@square.png
       screenshot: https://imgsrc.chyk.ink/1e30e924b899a901e197440a5b950a7b0208f568.webp
     - title: '李皓奇'
-      description: '岂有电报倾社稷，从来佞幸覆乾坤。'
+      description: '岂有电报倾社稷，从来佞幸覆乾坤'
       url: https://liolok.com
       avatar: https://imgsrc.chyk.ink/a08b87d6277f9e2fa0ac02345930e924b899f375.webp
       screenshot: https://imgsrc.chyk.ink/b58f8c5494eef01f1f8f07f9a6fe9925bc317d76.webp
@@ -170,7 +170,7 @@ my_friends:
       avatar: https://imgsrc.chyk.ink/024f78f0f736afc3f1872059f519ebc4b7451206.webp
       screenshot: https://imgsrc.chyk.ink/5fdf8db1cb1349543991f758104e9258d1094a7a.webp
     - title: '向阳哌小站'
-      description: '天晴了，太阳就会出来的。'
+      description: '天晴了，太阳就会出来的'
       url: https://www.sunnypai.top
       avatar: https://imgsrc.chyk.ink/91ef76c6a7efce1bdf64f8f7e951f3deb48f65bb.webp
       screenshot: https://imgsrc.chyk.ink/10dfa9ec8a13632782bef20ed78fa0ec08fac7b8.webp
@@ -180,7 +180,7 @@ my_friends:
       avatar: https://obdo.cc/icon
       sceenshot: https://imgsrc.chyk.ink/b151f8198618367a3c11abe368738bd4b31ce571.webp
     - title: "KimmyXYC's Blog"
-      description: "你所热爱的，就是你的生活。"
+      description: "你所热爱的，就是你的生活"
       url: https://blog.schuvi.cn
       avatar: https://blog.schuvi.cn/img/favicon.jpg
       screenshot: https://imgsrc.chyk.ink/7e3e6709c93d70cfa3637e33bedcd100baa12b77.webp
@@ -190,7 +190,7 @@ my_friends:
       avatar: https://imgsrc.chyk.ink/0df3d7ca7bcb0a4632e783062d63f6246a60afcc.webp
       screenshot: https://imgsrc.chyk.ink/79f0f736afc379317cbb8e16adc4b74543a91139.webp
     - title: "FunForever"
-      description: "欲将心事付瑶琴。知音少，弦断有谁听。"
+      description: "欲将心事付瑶琴。知音少，弦断有谁听"
       url: https://yl4869.github.io
       avatar: https://yl4869.github.io/image/image.jpg
       screenshot: https://imgsrc.chyk.ink/42a98226cffc1e173256ba120c90f603738de92c.webp
@@ -209,6 +209,11 @@ my_friends:
       url: https://zhufn.fun/
       avatar: https://imgsrc.chyk.ink/o1zu8ZTflu0hsc8g.jpeg
       screenshot: https://imgsrc.chyk.ink/890jmTbdKT_LTmZW.webp
+    - title: "翰林的小站"
+      description: "博览乐学，敢于探索"
+      url: https://blog.hanlin.press/
+      avatar: https://hanlin.press/images/logo/avatar.png
+      screenshot: https://imgsrc.chyk.ink/LRdheJvQhPxyBwI1.webp
 
 
 examples:
