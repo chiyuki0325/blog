@@ -56,8 +56,11 @@ jobs:
       - name: '🔧 写入平台配置'
         run: cp platforms/vercel.json public/vercel.json
 
+      - name: '🔺 安装 Vercel CLI'
+        run: npm install -g vercel@22.0.1
+
       - name: '🚀 部署到 Vercel'
-        uses: BetaHuhn/deploy-to-vercel-action@v1
+        uses: BetaHuhn/deploy-to-vercel-action@latest
         with:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
