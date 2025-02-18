@@ -27,14 +27,14 @@
     "hexo-generator-sitemap": "^3.0.1",
     "hexo-generator-tag": "^2.0.0",
     "hexo-related-popular-posts": "^5.0.1",
-    "hexo-renderer-jsx": "^1.0.1",
+    "hexo-renderer-jsx": "^2.0.0",
     "hexo-renderer-markdown-it-plus": "^1.0.6",
     "hexo-renderer-stylus": "^3.0.0",
     "hexo-server": "^3.0.0",
     "hexo-util": "3.3.0",
-    "html-react-parser": "^5.0.6",
+    "html-react-parser": "^5.2.2",
     "node-fetch": "^2.6.9",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   }
 }

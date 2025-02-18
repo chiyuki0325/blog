@@ -292,6 +292,8 @@ s390x 架构比较罕见，但还是成功地把 [Alist](https://github.com/Xhof
 
 ❄️ 将博客重命名为「風雪城」。
 
-🤔 基于 Astro 框架的博客 2.0 版正在策划中，敬请期待 ...
+<!--node 2024 年 10 月 29 日 -->
+
+🌩️ 博客图床迁移到 Cloudflare R2 对象存储。
 
 {% endtimeline %}
