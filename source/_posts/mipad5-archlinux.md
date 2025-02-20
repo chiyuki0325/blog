@@ -295,7 +295,7 @@ git clone https://gitlab.postmarketos.org/panpanpanpan/sm8150-mainline --branch=
 也可以克隆我自己分叉出来的 6.12.0 内核树，已经打好了这两个补丁。
 
 ```bash
-git clone https://github.com/chiyuki0235/sm8150-mainline --branch=6.12-wip
+git clone https://github.com/chiyuki0325/sm8150-mainline --branch=6.12-wip
 ```
 
 ```bash

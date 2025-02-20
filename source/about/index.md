@@ -5,7 +5,7 @@ date: 2023-07-31 08:50:22
 
 ヾ(≧▽≦*)o 你好~ 欢迎来到我的博客！
 
-这里是斬風·千雪 (Kirikaze Chiyuki)，一个居住在辽宁的，想长大的普通学生，目前就读于东北大学软件学院。我正在尝试着改变自己，为了成为一个更好的人而努力着。
+这里是斬風千雪，一个居住在辽宁的，想长大的普通学生，目前就读于东北大学软件学院。我正在尝试着改变自己，为了成为一个更好的人而努力着。
 
 我正在尝试着接触新的事物，对未来的方向还很迷茫 ... 走一步算一步吧。
 
@@ -15,9 +15,9 @@ date: 2023-07-31 08:50:22
 
 喜欢的颜色是<font color="1793d1">蓝色</font>。
 
-目前正在玩的游戏有 <font color="#eac92c">m</font><font color="#298cc4">a</font><font color="#8baf3f">i</font><font color="#eac92c">m</font><font color="#de5924">a</font><font color="#ca3c86">i</font> <font color="#03a4e0">DX</font>、《<font color="#5eb7ee">崩坏</font> <font color="#e0a7e5">星穹铁道</font>》和《<font color="#cbb687">塞尔达传说</font> <font color="#49d59c">王国之泪</font>》。
+目前正在玩的游戏有 <font color="#eac92c">m</font><font color="#298cc4">a</font><font color="#8baf3f">i</font><font color="#eac92c">m</font><font color="#de5924">a</font><font color="#ca3c86">i</font> <font color="#03a4e0">DX</font>、《<font color="gray">死亡搁浅</font>》和《<font color="#cbb687">塞尔达传说</font> <font color="#49d59c">王国之泪</font>》。
 
-喜欢听幽闭星光和春卷饭的歌曲，以及 VOCALOID 音乐。
+喜欢听幽闭星光、YOASOBI 和春卷饭的歌曲，以及 VOCALOID 音乐。
 
 最喜欢做的事是摸鱼！🐟
 
@@ -27,13 +27,9 @@ date: 2023-07-31 08:50:22
 
 目前还掌握了 <font color="#336fa1">Pyt</font><font color="#f9c83d">hon</font> 和一点点 <font color="#efaa0f">Java</font>Script。
 
-正在学习 <font color="#42b883">Vue</font><font color="#35495e">.js</font> 和 <font color="#007d9c">Golang</font>。
+正在学习 <font color="#42b883">Vue</font><font color="#35495e">.js</font> 和 <font color="#e74d21">Rust</font>。
 
-#### 讨厌的东西
-
-最讨厌的东西是 <font color="#f45326">Wi</font><font color="#82bc06">nd</font><font color="#05a6f1">ow</font><font color="#ffbb08">s</font>，最讨厌的人是牛头人 🐮。
-
-#### 名字的来源
+#### ID 的来源
 
   - 《塞尔达传说 旷野之息》中的武器「斩风刀」
   - 「雲突き抜け 風斬り裂いて 久遠の揺蕩いへ 誘う」
