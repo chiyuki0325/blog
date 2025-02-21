@@ -101,9 +101,6 @@ footer:
     tele:
       icon: '<img src="https://ydz-cos.zyglq.cn/blog-static/images/telegram.svg"/>'
       url: "https://t.me/s/chykink"
-    file:
-      icon: '<img src="https://ydz-cos.zyglq.cn/blog-static/images/link.svg"/>'
-      url: "https://file.chyk.ink/"
     github:
       icon: '<img src="https://ydz-cos.zyglq.cn/blog-static/images/github.svg"/>'
       url: "https://github.com/chiyuki0325"
@@ -119,11 +116,6 @@ footer:
       - "[📗 文档](/wiki)"
       - "[🗓️ 时间轴](/timeline)"
       - "[🔗 友情链接](/links)"
-    "网站":
-      - "[🗂️️️️ 个人网盘](https://file.chyk.ink/)"
-      - "[💸 喝了盘文件共享](https://hel.smbx.world/)"
-      - "[🍄 SMBX 地图仓库](https://smbx.world/d/54-smbx)"
-      - "[🏠 首页](https://chyk.ink)"
     "社交":
       - "[📺 Bilibili](https://space.bilibili.com/485832788)"
       - "[🐱 GitHub](https://github.com/chiyuki0325)"
