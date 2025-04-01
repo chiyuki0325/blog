@@ -123,7 +123,7 @@ memorial_day:
 
 april_fools:
   # Better to close it when it is not used
-  enable: true
+  enable: false
 
 # Minify
 html_minifier:
