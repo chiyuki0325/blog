@@ -499,7 +499,7 @@ symbol: plus/minus/times
 {% checkbox 找出宇宙的终极逻辑 %}
 {% checkbox 去地狱里走两步 %}
 
-<!-- okr kr-4 status:at_risk -->
+<!-- okr kr4 status:at_risk -->
 开发、测试和发布
 {% image /static/stellar.svg height:64px 支持嵌套插入图片等其它简单组件 %}
 

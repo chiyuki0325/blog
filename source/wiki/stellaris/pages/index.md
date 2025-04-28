@@ -104,18 +104,28 @@ poster: # 海报（可选，全图封面卡片）
 
 ## 🗞️ 内容摘要
 
-### 📰 自动生成摘要
+建议您在每篇文章的 front-matter 中，通过 `description` 或者 `excerpt` 设置摘要。
 
-建议您通过 `description` 或者 `excerpt` 方式生成摘要，但如果您希望自动从文章内容截取一定字数的文字作为摘要，可以这样设置：
+```markdown blog/source/_posts/xxx.md
+---
+description: "这是文章的摘要，会在首页中显示。"
+---
+
+这是文章的第一段。
+```
+
+### 📰 自动截取摘要
+
+如果您希望自动从文章内容截取一定字数的文字作为摘要，可以这样设置：
 
 ```yaml blog/_config.stellaris.yml
 article:
   auto_excerpt: 200
 ```
 
-### 📑 手动设置摘要
+### 📑 手动截取摘要
 
-一篇文章开头一段文字描述就是摘要，摘要和正文用 `<!-- more -->` 隔开，前后一定要有空行。例如：
+在摘要和正文之间用 `<!-- more -->` 隔开，前后一定要有空行，即可手动截取一段作为摘要。例如：
 
 ```markdown blog/source/_posts/xxx.md
 这是文章的第一段，同时也将作为文章的摘要显示。
@@ -123,16 +133,6 @@ article:
 <!-- more -->
 
 这是文章的第二段，后面是正文部分，在主页看不到。
-```
-
-如果你不想截取文章首段作为摘要，也可以在 `front-matter` 中设置：
-
-```markdown blog/source/_posts/xxx.md
----
-description: "这是文章的摘要，会在首页中显示。"
----
-
-这是文章的第一段，
 ```
 
 ## 📚 自定义文章模板
@@ -249,9 +249,35 @@ references:
 
 效果见[这篇文章](/2023/05/21/extract-resources-from-certain-rhythm-game/)。
 
+## 📜 许可协议
+
+你可以更改协议内容或者自定义其他选项，支持 Markdown 语法。
+
+```blog/_config.stellaris.yml
+article:
+  license: '本文采用 [署名-非商业性使用-相同方式共享 4.0 国际](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议，转载请注明出处。'
+```
+
+若你配置了和文章作者，可以在 `license` 中使用 `{author.name}` 来自动替换为当前文章作者名字。
+
+```blog/_config.stellaris.yml
+article:
+  license: '本文由{author.name}编写，采用...'
+```
+
+### ♻️ 分享链接
+
+分享至微信会生成对应的页面二维码，weibo 和 email 会自动跳转到对应软件或网页，link 会拷贝当前页面链接至剪切板。
+
+```blog/_config.stellaris.yml
+article:
+  share: # [wechat, weibo, email, link]
+```
+
+
 ## 🆙 更多的独立页面
 
-Stellaris 同时具有博客和 Wiki 两个大模块，为了能够正确进行侧栏上的导航栏高亮，引入了 `menu_id` 来进行区分，通常情况下，`layout: post` 和 `layout: wiki` 两种布局模板可以自动为 `sidebar.menu.post` 和 `sidebar.menu.wiki` 的导航栏按钮高亮。自己创建的独立页面也可以在 `front-matter` 中指定 `menu_id` 来使某个按钮处于选中状态。
+和本家 Stellar 主题一样，Stellaris 同时具有博客和 Wiki 两个大模块，为了能够正确进行侧栏上的导航栏高亮，引入了 `menu_id` 来进行区分，通常情况下，`layout: post` 和 `layout: wiki` 两种布局模板可以自动为 `sidebar.menu.post` 和 `sidebar.menu.wiki` 的导航栏按钮高亮。自己创建的独立页面也可以在 `front-matter` 中指定 `menu_id` 来使某个按钮处于选中状态。
 
 例如您有关于、友链两个页面，都希望高亮「更多」按钮：
 
@@ -281,3 +307,9 @@ sidebar:
 ## 🔗 友链页面
 
 友链页面被设计成了标签组件。你需要使用 `hexo new page` 自行创建友链页面，然后在其中编写友链标签组件。详见 [📰 数据集合类标签组件](/wiki/stellaris/tag-plugins/data)。
+
+## 👤 关于页面
+
+使用 `hexo new page about` 自行创建关于页面。
+
+您可以自由组合丰富的标签来实现个性化的关于页面，例如：about、tabs、navbar、quot、timeline 标签。
