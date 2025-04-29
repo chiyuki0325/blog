@@ -4,7 +4,7 @@ wiki: stellaris
 title: 🏷️ 使用标签组件增强阅读体验
 ---
 
-Stellaris 主题提供了丰富的标签组件，可以达到 MDX 一般的阅读体验。虽然标签组件的数量没有本家 Stellar 丰富，但也足够编写大部分文章。
+Stellaris 主题提供了丰富的标签组件，可以丰富用户的阅读体验。虽然标签组件的数量没有本家 Stellar 丰富，但也足够编写大部分文章。
 
 Hexo 博客中需要使用类 [Jinja2 模板语法](http://jinja.pocoo.org/docs/templates/) 编写标签，用空格分隔多个参数。
 

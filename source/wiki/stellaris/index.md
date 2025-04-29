@@ -34,14 +34,14 @@ title: ✨ 欢迎来到 Stellaris 的世界
 {%quot 项目中的许可声明文件应包含在所有副本中 %}
 
 原本的 Stellar 主题由 [@xaoxuu](https://github.com/xaoxuu) 设计和开发，后期也合并了 [开源贡献者](https://xaoxuu.com/wiki/stellar/contributors/) 提交的代码。
-Stellaris 主题由 [斬風·千雪](https://blog.chyk.ink/) 修改和开发，后期也合并了 [开源贡献者](https://github.com/chiyuki0325/hexo-theme-stellaris/graphs/contributors) 提交的代码。
+Stellaris 主题由 [斬風千雪](https://blog.chyk.ink/) 修改和开发，后期也合并了 [开源贡献者](https://github.com/chiyuki0325/hexo-theme-stellaris/graphs/contributors) 提交的代码。
 
 此项目使用 [MIT License](https://raw.github.xaox.cc/xaoxuu/hexo-theme-stellar/main/LICENSE) 开源许可协议进行授权，拷贝、分享或基于此进行创作时请遵守协议内容：
 
 ```
 MIT License
 
-Copyright (c) 2021 xaoxuu, 2022-2024 Kirikaze Chiyuki
+Copyright (c) 2021 xaoxuu, 2022-2025 Kirikaze Chiyuki
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

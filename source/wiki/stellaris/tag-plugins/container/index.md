@@ -93,6 +93,7 @@ content
 {% folding 警告，真的很危险 color:orange %}
 通过设置颜色，以实现更醒目的作用，但不要滥用色彩哦～
 {% folding 最后一次警告，千万不要运行这个 color:red child:codeblock %}
+
 ```bash
 sudo rm -rf /* --no-preserve-root
 ```
@@ -141,5 +142,43 @@ sudo rm -rf /* --no-preserve-root
 {% endtabs %}
 ```
 
+## split 左右分栏容器
 
-## 🚧 更多文档正在施工中...
+使用此容器可以在电脑端网页上分出左右两栏，适合图文并排、代码展示等使用场景。
+
+在移动端网页上，因空间不够，无法左右分栏，内容将会以普通的上下布局展现。
+
+{% split %}
+<!-- cell left -->
+{% image https://imgsrc.chyk.ink/So1wdVFDsUilsvzz.webp download:https://imgsrc.chyk.ink/So1wdVFDsUilsvzz.webp %}
+<!-- cell right -->
+**[Unsplash Photo](https://unsplash.com/photos/bcql6CtuNv0)**
+
+The Galactic Center is the rotational center of the Milky Way galaxy. Its central massive object is a supermassive black hole of about 4 million solar masses, which is called Sagittarius A*. Its mass is equal to four million suns. The center is located 25,800 light years away from Earth.
+
+> Ōwhiro Bay, Wellington, New Zealand
+> Published on May 31, 2022
+> SONY, ILCE-6000
+> Free to use under the Unsplash License
+
+{% endsplit %}
+
+
+
+````markdown
+{% split %}
+
+<!-- cell left -->
+{% image https://imgsrc.chyk.ink/So1wdVFDsUilsvzz.webp download:https://imgsrc.chyk.ink/So1wdVFDsUilsvzz.webp %}
+
+<!-- cell right -->
+**[Unsplash Photo](https://unsplash.com/photos/bcql6CtuNv0)**
+
+The Galactic Center is the rotational center of the Milky Way galaxy. Its central massive object is a supermassive black hole of about 4 million solar masses, which is called Sagittarius A*. Its mass is equal to four million suns. The center is located 25,800 light years away from Earth.
+
+> Ōwhiro Bay, Wellington, New Zealand
+> Published on May 31, 2022
+> SONY, ILCE-6000
+> Free to use under the Unsplash License
+{% endsplit %}
+````

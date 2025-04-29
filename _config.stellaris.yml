@@ -1,7 +1,9 @@
 ### hexo-theme-stellaris
 stellar:
-  cdn_css: https://ydz-cos.zyglq.cn/blog-static/css/main.css?v=230
-  cdn_js: https://ydz-cos.zyglq.cn/blog-static/js/main.js?v=230
+  # 下面两行配置文件仅用于我的博客 https://blog.chyk.ink 的 CDN 配置
+  # 如果你想使用 Stellaris 搭建自己的博客，请不要照搬下面两行！
+  # cdn_css: https://ydz-cos.zyglq.cn/blog-static/css/main.css?v=230
+  # cdn_js: https://ydz-cos.zyglq.cn/blog-static/js/main.js?v=230
 
 ######## head tags ########
 head:
@@ -196,7 +198,7 @@ plugins:
 
   # https://scrollrevealjs.org/api/reveal.html
   scrollreveal:
-    enabled: true
+    enabled: false
     js: https://ydz-cos.zyglq.cn/blog-static/js/scrollreveal.min.js
     distance: 20px
     duration: 350 # ms

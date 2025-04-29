@@ -462,7 +462,7 @@ symbol: plus/minus/times
 {% checkbox 找出宇宙的终极逻辑 %}
 {% checkbox 去地狱里走两步 %}
 
-<!-- okr kr-4 status:at_risk -->
+<!-- okr kr4 status:at_risk -->
 开发、测试和发布
 {% image /static/stellar.svg height:64px 支持嵌套插入图片等其它简单组件 %}
 
@@ -507,6 +507,44 @@ symbol: plus/minus/times
 ```
 
 {%endfolding%}
+
+## bvideo 哔哩哔哩视频
+
+此组件移植自 [hexo-bilibili-card](https://github.com/maxchang3/hexo-bilibili-card)，可在文章中引用哔哩哔哩视频。
+
+{%border ⚠️ 注意 color:yellow %}
+
+为了解决跨域问题，使用此标签组件前，需要先在自己的服务器上部署 [stellaris-api](https://github.com/chiyuki0325/stellaris-api)。部署好后，在主题配置文件中填入对应的地址即可。
+
+{%endborder%}
+
+效果如下：
+
+{% bvideo BV1ae4y127K5 %}
+
+写法非常简单，参数填入 BV 号即可。
+
+```
+{% bvideo BV1ae4y127K5 %}
+```
+
+## video 内嵌视频播放器
+
+使用此组件可在文章中嵌入一个视频播放器，支持引用 YouTube、哔哩哔哩的视频或外部视频直链。
+
+```markdown
+嵌入流媒体视频时的语法：
+{% video [platform_name:video_id] [width:100%] [autoplay:0] %}
+
+如：
+{% video bilibili:BV1ae4y127K5 %}
+{% video youtube:LB8KwiiUGy0 autoplay:1 %}
+
+嵌入外链视频时的语法：
+{% video src [poster] [ratio] [subtitle:subtitle-url] [subtitle_encoding:utf-8] [autoplay:false] [muted:false] [loop:false] [setting: true] [hotkey:true] [fullscreen_enabled:true] [mini_progress_bar:false] [mutex:true] [pip:false] %}
+```
+
+
 
 ## 文本修饰标签集
 

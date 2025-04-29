@@ -59,7 +59,18 @@ head:
     # 设置为 false 以关闭
     enabled: true
   twitter_id:
+```
 
+### 🌐 使用 CDN 加速静态资源
+
+主题的 CSS 文件较大（约 110KB），JS 文件约 10KB，如果您使用 OSS、COS、Cloudflare R2 等支持 CDN 的对象存储方案，可以考虑在 `hexo generate` 之后，把生成的 `public/css/main.css` 和 `public/js/main.js` 置于 CDN 单独托管，以提高用户的访问体验。
+
+之后修改主题配置文件即可。
+
+```yaml blog/_config.stellaris.yml
+stellar:
+  cdn_css: # 如果你使用 CDN，可以上传 /css/main.css 并在此输入对应的链接
+  cdn_js: # 如果你使用 CDN，可以上传 /js/main.js 并在此输入对应的链接
 ```
 
 ## 🎨 定制主题样式
@@ -116,6 +127,31 @@ style:
     # 自定义字体
     enabled: true
     css: 'https://s1.hdslb.com/bfs/static/jinkela/long/font/regular.css'
+```
+
+## 📜 滚动动画
+
+{%border ⚠️ 注意 color:warning%}
+
+此功能的浏览器兼容性较差，已有很多用户反馈开启此功能后，博客内容在对应的浏览器上显示异常。
+
+请酌情考虑是否启用本功能。
+
+{%endborder%}
+
+主题支持 [ScrollReveal](https://scrollrevealjs.org/)，可以在页面滚动时展示元素浮现动画。可以直接在 ScrollReveal 的主页上预览开启后的效果。
+
+开启后可自定义动画的各项参数。
+
+```yaml blog/_config.stellaris.yml
+plugins:
+  scrollreveal:
+    enabled: false # 修改为 true 以启用
+    js: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/scrollReveal.js/4.0.9/scrollreveal.min.js
+    distance: 8px
+    duration: 500 # ms
+    interval: 100 # ms
+    scale: 1 # 0.1~1
 ```
 
 ## 👍 部分 Hexo 增强包推荐
