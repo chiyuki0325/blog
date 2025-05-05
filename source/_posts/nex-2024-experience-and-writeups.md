@@ -4,6 +4,7 @@ date: 2024-10-22 18:00:00
 tags:
 - CTF
 cover: https://imgsrc.chyk.ink/00e93901213fb80ee9d0f2f370d12f2eb9389495.webp
+category: 安全
 ---
 
 学院举办了一场 CTF 比赛用来拷打 xdx，经过两天的战斗，我拿到了大部分的 flag。和去年的 Hackergame 一样，这次又学到了很多东西。本文来写一些会做的题的思路，并简单做一下复盘。

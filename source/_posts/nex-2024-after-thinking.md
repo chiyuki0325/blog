@@ -3,6 +3,7 @@ title: 🤔 NEX CTF 后日谈
 date: 2024-10-30 18:36:18
 tags:
 - CTF
+category: 安全
 ---
 
 本文来对一些比赛时没有解出的题目进行复盘。

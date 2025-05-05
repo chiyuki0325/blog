@@ -5,6 +5,7 @@ tags:
 - CTF
 cover: https://imgsrc.chyk.ink/JuqgZ7ibm42Jm1hc.webp
 mathjax: true
+category: 安全
 ---
 
 又是一年 Hackergame 的季节，于是我就又来玩啦。

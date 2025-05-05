@@ -3,7 +3,8 @@
   "title": "🚩 Hackergame 2023 赛后总结 + 个人思路",
   "date": "2023-11-04 19:14:54",
   "tags": ["CTF"],
-  "cover": "https://imgsrc.chyk.ink/0ff41bd5ad6eddc46f22d2ce7fdbb6fd52663339.webp"
+  "cover": "https://imgsrc.chyk.ink/0ff41bd5ad6eddc46f22d2ce7fdbb6fd52663339.webp",
+  "category": "安全"
 }
 ---
 
