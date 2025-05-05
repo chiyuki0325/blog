@@ -26,4 +26,10 @@ toc:
     - tag-plugins/data/index
     - tag-plugins/container/index
     - tag-plugins/untested/index
+  '第三方插件':
     - comments/index
+    - plugins/katex/index
+    - plugins/mathjax/index
+    - plugins/mermaid/index
+  '文档系统':
+    - wiki/index

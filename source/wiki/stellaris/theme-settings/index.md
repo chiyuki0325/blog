@@ -36,7 +36,7 @@ language:
   - en
 ```
 
-若要创建你自己的翻译文件，请复制一份[默认的语言文件](blog/_config.yml)到站点根目录下的 `languages` 文件夹，之后改名为对应的语言 ID，编辑内容即可。
+若要创建你自己的翻译文件，请复制一份[默认的语言文件](https://github.com/chiyuki0325/hexo-theme-stellaris/tree/main/languages)到站点根目录下的 `languages` 文件夹，之后改名为对应的语言 ID，编辑内容即可。
 
 ## 🖊️ 创建主题配置文件
 
