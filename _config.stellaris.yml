@@ -223,8 +223,7 @@ plugins:
     default_text: "复制"
     success_text: "已复制"
   mathjax:
-    enabled: true
-    per_page: false # 启用后无需在文章开头加 mathjax: true 即可启用
+    enabled: false
 
 style:
   darkmode: auto-switch # auto / always / false

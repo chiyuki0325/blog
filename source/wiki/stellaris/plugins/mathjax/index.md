@@ -4,7 +4,7 @@ wiki: stellaris
 title: 📏 MathJax 数学公式支持
 ---
 
-在配置文件中启用 MathJax，以提供数学公式支持。与 KaTeX 只能二选一。
+在配置文件中启用 [MathJax](https://www.mathjax.org/)，以提供数学公式支持。与 KaTeX 只能二选一。
 
 与 KaTeX 不同的是，MathJax 会在用户的浏览器中渲染数学公式，因此加载需要一定时间，但兼容性 _或许_ 会优于 KaTeX。
 

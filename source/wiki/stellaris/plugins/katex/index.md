@@ -4,7 +4,7 @@ wiki: stellaris
 title: 📐 KaTeX 数学公式支持
 ---
 
-启用 KaTeX 以提供数学公式支持。与 MathJax 只能二选一。
+启用 [KaTeX](https://katex.org) 以提供数学公式支持。与 MathJax 只能二选一。
 
 首先，卸载原本的 `marked` 渲染器，之后安装 `markdown-it-plus` 渲染器。它会使用 Katex 在 `hexo generate` 期间把所有数学公式渲染为 HTML。
 

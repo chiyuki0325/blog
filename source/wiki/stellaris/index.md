@@ -10,9 +10,9 @@ title: ✨ 欢迎来到 Stellaris 的世界
 
 {%note color:cyan "🔧 此文档绝赞施工中，欢迎[提交 pull request](https://github.com/chiyuki0325/blog/tree/main/source/wiki/stellaris)。" %}
 
-{% border color:warning ⚠️ 用前须知 %}
+{% border color:orange ⚠️ 用前须知 %}
 
-- 本主题为我为了个人博客而专门开发，稳定性未达到 "production-ready" 水平，因此部分原主题的功能可能并未支持，或存在 bug。
+Stellaris 仅为我为了个人博客而开发，稳定性和泛用型远未达到 "production-ready" 水平，因此部分原主题的功能可能并未支持，或存在 bug。
 
 {%endborder%}
 
@@ -21,7 +21,7 @@ title: ✨ 欢迎来到 Stellaris 的世界
 - 样式: 使用 Fluent Design 设计风格重新设计样式。
 - 代码: 使用 JSX 重写所有模板，并且对前端 JS 也进行了重写和优化。
 - 性能优化: 使用 InstantClick 进行页面加载优化，把加载速度放在首位。
-- 功能: 增加了文章过期提示、哔哩哔哩视频卡片等原创实用功能和组件。
+- 功能: 增加了文章过期提示等实用功能和组件。
 
 ## 💫 Star History
 
@@ -33,7 +33,7 @@ title: ✨ 欢迎来到 Stellaris 的世界
 
 {%quot 项目中的许可声明文件应包含在所有副本中 %}
 
-原本的 Stellar 主题由 [@xaoxuu](https://github.com/xaoxuu) 设计和开发，后期也合并了 [开源贡献者](https://xaoxuu.com/wiki/stellar/contributors/) 提交的代码。
+原本的 Stellar 主题由 [@xaoxuu](https://github.com/xaoxuu) 设计和开发，后期也合并了 [开源贡献者](https://xaoxuu.com/wiki/stellar/contributors.html) 提交的代码。
 Stellaris 主题由 [斬風千雪](https://blog.chyk.ink/) 修改和开发，后期也合并了 [开源贡献者](https://github.com/chiyuki0325/hexo-theme-stellaris/graphs/contributors) 提交的代码。
 
 此项目使用 [MIT License](https://raw.github.xaox.cc/xaoxuu/hexo-theme-stellar/main/LICENSE) 开源许可协议进行授权，拷贝、分享或基于此进行创作时请遵守协议内容：
