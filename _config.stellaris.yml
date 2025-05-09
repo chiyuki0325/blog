@@ -132,8 +132,6 @@ footer:
       - "[🚇 开往•友链接力](https://www.travellings.cn/go.html)"
   license: "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)"
   source: "[GitHub](https://github.com/chiyuki0325/blog)"
-  icp: "[⛩ 萌ICP备20212688号](https://icp.gov.moe/?keyword=20212688)"
-
 ######## Tag Plugins ########
 tag_plugins:
   # {% note text %}
