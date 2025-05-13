@@ -58,11 +58,11 @@ my_friends:
     #   avatar: https://imgsrc.chyk.ink/a8773912b31bb0513fef78ed737adab44bede029.webp
     #  screenshot: https://imgsrc.chyk.ink/37d3d539b6003af3235817a5702ac65c1138b611.webp
     - title: "花と詩"
-      url: https://blog.ayo.moe/
+      url: https://blog.lar.moe/
       description: "Hana to Uta"
-      avatar: https://cdn.ayo.moe/static/avatar/me.webp
+      avatar: https://cdn.lar.moe/static/avatar/me.webp
       # avatar: https://imgsrc.chyk.ink/8644ebf81a4c510f72e78b282659252dd42aa5e5.webp
-      screenshot: https://imgsrc.chyk.ink/7aec54e736d12f2e86dc65a50ac2d5628435681e.webp
+      screenshot: https://cdn.lar.moe/static/screenshot/latest.webp
     - title: "Molyuu Blog"
       url: https://blog.molyuu.cyou/
       description: "Molyuu的博客"
@@ -176,12 +176,12 @@ my_friends:
       screenshot: https://imgsrc.chyk.ink/10dfa9ec8a13632782bef20ed78fa0ec08fac7b8.webp
     - title: '笨蛋小破站'
       description: 'May all the beauty be blessed.'
-      url: https://blog.obdo.cc
-      avatar: https://obdo.cc/icon
+      url: https://blog.baka.plus
+      avatar: https://q1.qlogo.cn/g?b=qq&nk=1939426769&s=640
       sceenshot: https://imgsrc.chyk.ink/b151f8198618367a3c11abe368738bd4b31ce571.webp
     - title: "KimmyXYC's Blog"
       description: "你所热爱的，就是你的生活"
-      url: https://blog.schuvi.cn
+      url: https://blog.nepuko.cn
       avatar: https://blog.schuvi.cn/img/favicon.jpg
       screenshot: https://imgsrc.chyk.ink/7e3e6709c93d70cfa3637e33bedcd100baa12b77.webp
     - title: "凌莞喵~"
