@@ -214,6 +214,11 @@ my_friends:
       url: https://blog.hanlin.press/
       avatar: https://hanlin.press/images/logo/avatar.png
       screenshot: https://imgsrc.chyk.ink/LRdheJvQhPxyBwI1.webp
+    - title: "Sharelter"
+      description: "随手写写"
+      url: https://sharelter.github.io/
+      avatar: https://imgsrc.chyk.ink/htKZUesVkRLBm26E.webp
+      screenshot: https://imgsrc.chyk.ink/x2B077a7qedOrXSH.webp
 
 
 examples:
