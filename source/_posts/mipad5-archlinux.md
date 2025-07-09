@@ -329,7 +329,7 @@ make nconfig
 # 打开 User level driver support
 
 # 编译内核。建议关闭电脑上运行的其它程序。
-make Image Image.gz dtbs modules -j
+make Image Image.gz dtbs modules -j $(nproc)
 
 # 导出模块文件。
 make modules_install INSTALL_MOD_PATH=./modules_install
