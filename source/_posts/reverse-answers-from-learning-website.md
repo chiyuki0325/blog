@@ -1,9 +1,8 @@
 ---
-title: 🧾 后端笑传之传参避：两天在学习网站从 F12 到绩点巅峰
+title: 🧾 轻松一刻：两天在学习网站从 F12 到绩点巅峰
 date: 2025-05-05 16:50:37
 category: 安全
 description: 'Alice 在某学习网站因无会员看不到测验答案，通过分析，发现获取答案的 API 漏洞。她动了歪心思，借助脚本和他人会员账号爬取题库答案，最终取得 “优异成绩”。'
-cover: https://imgsrc.chyk.ink/Al0pRDsK_uon4I-8.webp
 ---
 
 {%ablock ⚠️ 免责声明 color:orange %}

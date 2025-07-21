@@ -4,7 +4,6 @@ date: 2023-09-09 21:35:09
 tags:
 - 音乐
 - 测评
-cover: https://imgsrc.chyk.ink/3b87e950352ac65c56d38741bdf2b21193138a2a.webp
 ---
 
 在今年我一共使用过两款随身听：[炳捷 X1](https://benjie-tx.com/zh_cn/mp3player/184.html) 和[锐族 M4](http://www.ruizu.com.cn/ruizu-m4-4g-black-bluetooth-full-screen-18-inch-mp3-mp4-lossless-hifi-mp5-music-video-player-student-english-walkman-sports.html)，它们价格都不高，属于低端产品但特点各有不同。本文就来测评和对比一下这两台机器各个方面的优缺点。

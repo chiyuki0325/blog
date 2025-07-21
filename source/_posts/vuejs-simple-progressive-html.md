@@ -5,7 +5,6 @@ tags:
 - JavaScript
 - 前端
 category: 网络
-cover: https://imgsrc.chyk.ink/b21bb051f8198618f01cdb430fed2e738ad4e69a.webp
 ---
 
 Vue.js 是一个易学易用，性能出色，适用场景丰富的**渐进式** Web 前端框架。 它适用于各种场景，可以配合*基于 Node.js 的构建系统*编写大型前端项目和单页应用程序，也可以用于渐进式增强静态 HTML。

@@ -4,7 +4,6 @@ date: 2023-06-08 14:34:26
 tags:
 - maimai
 category: 游戏
-cover: https://imgsrc.chyk.ink/d043ad4bd11373f0facd6b51e10f4bfbfaed0409.webp
 description: '玩了这么多年游戏，还是第一次被游戏本身的问题气到。出勤时间最长的一次，同时也是打的最少的一次，最憋屈的一次。'
 ---
 

@@ -5,7 +5,6 @@ tags:
 - Matrix
 - Electron
 category: Arch折腾记
-cover: https://imgsrc.chyk.ink/6d81800a19d8bc3ed336350fc78ba61ea8d3453c.webp
 ---
 
 Element 桌面客户端的启动速度很慢，响应也很慢，而 PWA 可以做到几乎秒开，再配合上托盘图标和扩展程序，应该是 Linux 桌面端体验最佳的 Matrix 客户端了。

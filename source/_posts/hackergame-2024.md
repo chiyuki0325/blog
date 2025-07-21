@@ -3,7 +3,6 @@ title: 🚩 Hackergame 2024 解题报告
 date: 2024-11-10 12:45:45
 tags:
 - CTF
-cover: https://imgsrc.chyk.ink/JuqgZ7ibm42Jm1hc.webp
 mathjax: true
 category: 安全
 ---

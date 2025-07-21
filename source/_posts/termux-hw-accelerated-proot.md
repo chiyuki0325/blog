@@ -8,7 +8,6 @@ references:
 - title: 'Termux以virglrenderer達成GPU 3D硬體加速'
   url: https://ivonblog.com/posts/termux-virglrenderer/
 description: 'Termux 最近推出了适用于安卓原生的 virglrenderer-android 软件包，可以运行安卓原生的 VirGL 渲染器给 proot 容器硬件加速。'
-cover: https://imgsrc.chyk.ink/e61190ef76c6a7efbfb74befb8faaf51f2de6662.webp
 ---
 
 >  VirGL 是一种用于 QEMU 虚拟机内部的虚拟 3D GPU，它允许客户操作系统使用主机 GPU 的功能来加速 3D 渲染。计划是拥有一个完全独立于主机 GPU 的客户 GPU。  

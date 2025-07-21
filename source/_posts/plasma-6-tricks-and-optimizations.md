@@ -5,7 +5,6 @@ tags:
 - KDE
 - Linux
 category: Arch折腾记
-cover: https://imgsrc.chyk.ink/d1a20cf431adcbef5d31493beaaf2edda3cc9f81.webp
 ---
 
 随着今年二月份 KDE Plasma 6 大版本的更新，基础框架更新到了 Qt 6，默认图形环境也变为了 Wayland，之前在 KDE 5 上的一些技巧和优化方案已经不再管用，因此本文就记载一些我在 KDE Plasma 6 刚推出几个月内，进行「拓荒」的经验。

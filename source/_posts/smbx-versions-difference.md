@@ -5,7 +5,6 @@ tags:
 - SMBX
 - 转载
 category: 游戏
-cover: 'https://www.helloimg.com/images/2021/05/30/BjQoPP.png'
 ---
 
 

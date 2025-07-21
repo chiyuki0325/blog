@@ -7,7 +7,6 @@ tags:
 - WiiU
 description: '我两年前在 91wii 论坛发布的汉化补丁，论坛无了，在这里补档一下。'
 category: 游戏
-cover: https://imgsrc.chyk.ink/728da9773912b31b1415d8eec318367adbb4e1f8.webp
 ---
 
 > 汉化由我一人完成

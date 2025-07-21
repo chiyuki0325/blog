@@ -5,7 +5,6 @@ tags:
 - KVM
 - Linux
 category: Arch折腾记
-cover: 'https://imgsrc.chyk.ink/d009b3de9c82d15863d0d864c50a19d8bd3e4291.webp'
 ---
 
 **看前须知：不支持图形加速**

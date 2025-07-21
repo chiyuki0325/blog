@@ -5,7 +5,6 @@ tags:
 - Yuzu
 - Linux
 category: 模拟器
-cover: https://imgsrc.chyk.ink/2f738bd4b31c8701462061d8617f9e2f0708ff7f.webp
 references:
   - title: "Building for Linux - yuzu"
     url: "https://git.tardis.systems/mirrors/yuzu/wiki/Building-for-Linux.md"

@@ -4,7 +4,6 @@ date: 2024-12-06 08:50:22
 tags: 
 - Git
 category: 编程
-cover: https://imgsrc.chyk.ink/dNZS88luzVKJXYkG.webp
 ---
 
 Git 是一个功能非常强大的版本管理系统，但我之前只会无脑 commit pull push。今年跟着学长学了一些 Git 知识之后，终于发掘出它更加强大的用法了。

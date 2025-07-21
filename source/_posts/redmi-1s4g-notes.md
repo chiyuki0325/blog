@@ -4,7 +4,6 @@ date: 2023-09-17 08:53:17
 tags:
 - 安卓
 - 小米
-cover: https://imgsrc.chyk.ink/8435e5dde71190ef563d83ec881b9d16fdfa603a.webp
 ---
 
 {%image https://imgsrc.chyk.ink/8435e5dde71190ef563d83ec881b9d16fdfa603a.webp%}

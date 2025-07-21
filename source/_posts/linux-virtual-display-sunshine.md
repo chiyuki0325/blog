@@ -5,7 +5,6 @@ tags:
 - Linux
 - Wayland
 category: Arch折腾记
-cover: https://imgsrc.chyk.ink/8b82b9014a90f60312d2f77a7f12b31bb051eda9.webp
 ---
 
 两年前我曾经发表过使用 X11 虚拟显示器和 Deskreen 的 WebRTC 虚拟副屏方案，该方案有较多缺陷，如画面码率低延迟高、挑显卡、不支持 Wayland 等。随着开源串流工具 [Sunshine](https://app.lizardbyte.dev/Sunshine) 的完善，可以使用该工具来把安卓平板当作虚拟副屏了。

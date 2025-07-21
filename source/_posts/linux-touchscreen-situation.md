@@ -4,7 +4,6 @@ date: 2024-12-15 19:57:02
 tags:
 - Linux
 category: Arch折腾记
-cover: https://imgsrc.chyk.ink/DO5K66HQJMz2NqDX.webp
 ---
 
 在使用了半年触屏 Linux 桌面之后，现在我来写一篇简短的博文总结一下 2024 年触屏 Linux 桌面的支持和生态现状。

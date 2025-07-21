@@ -5,7 +5,6 @@ tags:
 - 图集
 - 沙雕一刻
 category: 其它
-cover: 'https://imgsrc.chyk.ink/4a36acaf2edda3ccccf30ee544e93901203f92e4.webp'
 description: '我们 SMMWE 圈的人才真是太多辣'
 ---
 

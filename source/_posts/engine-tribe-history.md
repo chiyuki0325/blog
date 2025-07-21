@@ -4,7 +4,6 @@ date: 2023-02-02 18:21:34
 tags:
 - SMMWE
 category: 其它
-cover: https://imgsrc.chyk.ink/96dda144ad3459829aedd15549f431adcaef8495.webp
 ---
 
 由我发起的引擎部落项目，前身为 SMMWE Cloud，旨在创建一个开源的、灵活的、国际化的和高拓展性的 SMM:WE 在线服务器。本文来回顾一下引擎部落的兴衰史。

@@ -4,7 +4,6 @@ date: 2024-05-19 06:41:26
 tags:
 - 安卓
 category: 其它
-cover: https://imgsrc.chyk.ink/6a63f6246b600c33e5794af55c4c510fd9f9a18f.webp
 ---
 
 安卓在 6.0 版本加入了 [Adoptable Storage](https://source.android.com/docs/core/storage/adoptable?hl=zh-cn) 功能，也就是通常所说的融卡。但如果你有一台运行着安卓 5，同时内部存储空间又小得可怜的设备，该怎么扩展它的存储空间，以安装更多 App 呢？这就要请出本文的主角 —— 上古神器 [Link2SD](https://play.google.com/store/apps/details?id=com.buak.Link2SD&hl=zh&gl=US) 了。

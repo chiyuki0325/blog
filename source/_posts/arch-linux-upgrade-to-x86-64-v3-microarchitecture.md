@@ -4,7 +4,6 @@ date: 2022-08-11 22:19:00
 tags:
 - Arch Linux
 category: Arch折腾记
-cover: 'https://imgsrc.chyk.ink/7a899e510fb30f241d999ac28d95d143ac4b03eb.webp'
 ---
 
 [x86-64-v3 / v4](https://en.wikipedia.org/wiki/X86-64#Microarchitecture_levels) 是 x86-64 处理器架构的「微架构」，x86-64-v3 搭载于 Haswell 及其之后的处理器，x86-64-v4 搭载于 Skylake-X 及其之后的处理器。其支持 AVX2 等新指令集。据传将程序编译为 x86-64-v3 / v4 架构可以获得大约 10% 的性能提升 {% sup (不确定) %}。

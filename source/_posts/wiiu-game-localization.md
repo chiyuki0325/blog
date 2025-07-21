@@ -6,7 +6,6 @@ tags:
 - 任天堂
 - 转载
 category: 游戏
-cover: https://imgsrc.chyk.ink/8326cffc1e178a8225286b67b303738da877e8e5.webp
 description: '近来 K大 发表了不少用来修改 WiiU 文件的工具软件介绍贴，合理的组合使用，可以修改到游戏的内容。这个贴是个人折腾了几个小时总结的经验方法，希望能对有兴趣汉化游戏的人有所帮助。自己动手还是蛮有意思跟成就的，期盼 WiiU 上能出来更多的游戏汉化 😄'
 references:
 - title: '[教程] 新手 WiiU 游戏汉化研究入门：字库篇'

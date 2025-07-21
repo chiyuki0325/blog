@@ -5,7 +5,6 @@ tags:
 - 原神
 - 图集
 category: 游戏
-cover: 'https://www.helloimg.com/images/2022/04/07/RsxjiA.png'
 ---
 
 {% image https://www.helloimg.com/images/2022/04/07/RsxjiA.png %}

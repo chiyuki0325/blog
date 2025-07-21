@@ -5,7 +5,6 @@ tags:
 - 图集
 - 沙雕一刻
 category: 其它
-cover: 'https://imgsrc.chyk.ink/86d6277f9e2f0708f1c5e5d4ac24b899a801f227.webp'
 ---
 
 {% border %}

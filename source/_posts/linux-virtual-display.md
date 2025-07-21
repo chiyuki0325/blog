@@ -2,7 +2,6 @@
 abbrlink: ''
 categories: []
 category: Arch折腾记
-cover: https://imgsrc.chyk.ink/a8014c086e061d95b32820e33ef40ad163d9cafb.webp
 date: '2022-07-17 12:13:24'
 tags:
 - Linux

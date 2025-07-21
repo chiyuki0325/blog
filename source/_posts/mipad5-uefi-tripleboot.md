@@ -6,7 +6,6 @@ tags:
 - 安卓
 - Linux
 - AOSC
-cover: https://imgsrc.chyk.ink/JGOvZmc9LCmKK7Ik.webp
 ---
 
 之前在小米平板 5 上装了 Linux 和 Win11 三系统，但每次切换都需要反复刷写 `boot` 和 `dtbo` 分区，极为消耗闪存寿命，那么有没有一种方法， 可以像 PC 上的 GRUB 启动菜单那样，开机时选择多系统呢？

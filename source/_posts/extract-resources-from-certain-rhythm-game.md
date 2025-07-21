@@ -8,7 +8,6 @@ category: 游戏
 references:
 - title: '六、获取密钥 – UNI’S ON AIR资源提取逆向全记录'
   url: 'http://web.archive.org/web/20220528140408/https://blog.touuki.com/archives/287'
-cover: 'https://imgsrc.chyk.ink/241f95cad1c8a786f57546c32209c93d71cf509b.webp'
 ---
 
 最近解包了某款心胸狭窄的公司开发的音乐游戏，从里面提取出了所有歌曲的无损音频和 BGA。那么在此记录一下解包的大致过程，和其中遇到的小问题。

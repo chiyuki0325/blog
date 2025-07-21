@@ -6,7 +6,6 @@ tags:
 - AI
 - 转载
 category: 其它
-cover: 'https://imgsrc.chyk.ink/72f082025aafa40f029a981aee64034f79f0199c.webp'
 references:
 - title: 'Bing’s A.I. Chat: ‘I Want to Be Alive. 😈’'
   url: 'https://www.nytimes.com/2023/02/16/technology/bing-chatbot-transcript.html'

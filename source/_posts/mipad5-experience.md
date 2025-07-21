@@ -6,7 +6,6 @@ tags:
 - 安卓
 - Linux
 category: 数码
-cover: https://imgsrc.chyk.ink/a6efce1b9d16fdfa62cc8fcaf28f8c5494ee7b76.webp
 ---
 
 2024 年 6 月高考后，我购入了小米平板 5 以替代之前那台老旧的华为 M6 平板。本文就来站在我实际使用的角度，讲一下这三个多月我的使用体验。

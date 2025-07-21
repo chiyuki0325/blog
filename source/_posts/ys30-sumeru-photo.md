@@ -7,7 +7,6 @@ tags:
 - 图集
 title: 🌿 [Leak] 须弥一游
 updated: '2022-08-07 22:10:39'
-cover: 'https://imgsrc.chyk.ink/14ce36d3d539b60099a1496bac50352ac75cb7fb.webp'
 ---
 {% image https://imgsrc.chyk.ink/29381f30e924b89939950be42b061d950b7bf645.webp %}
 {% image https://imgsrc.chyk.ink/0bd162d9f2d3572c8a40ee00cf13632763d0c348.webp %}

@@ -6,7 +6,6 @@ tags:
 - KDE
 - HarmonyOS
 category: 其它
-cover: https://www.helloimg.com/images/2022/05/14/R67DID.png
 ---
 
 KDE 自定义开机动画。

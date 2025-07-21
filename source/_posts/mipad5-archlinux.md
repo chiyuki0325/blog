@@ -4,7 +4,6 @@ date: 2024-06-22 21:09:50
 tags:
 - Linux
 category: Arch折腾记
-cover: https://imgsrc.chyk.ink/a1ec08fa513d2697a5abcd6313fbb2fb4316d891.webp
 references:
   - title: It's Linux, On Mi Pad 5. The fastest mainline tablet all the time.
     url: https://linux-on-nabu.gitbook.io/

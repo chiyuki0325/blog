@@ -10,7 +10,6 @@ references:
 - title: 'What Happened (2012)'
   url: https://uncovering-cicada.fandom.com/wiki/What_Happened_(2012)
 author: 雅克萨
-cover: https://imgsrc.chyk.ink/80cb39dbb6fd5266b8a726d7ee18972bd5073660.webp
 ---
 
 夜深人静，哈里早已困得哈气连天，却还一只手撑着脸，一只手晃着鼠标在论坛上闲逛。「喔！」不小心睡着的他一头撞到了键盘上，他揉着脑门，瞥了一眼遭受重击的电脑，一个意外点开的图片瞬间吸引了他的注意——那是署名「Cicada 3301」发布的一条信息 ……

@@ -4,7 +4,6 @@ date: 2022-01-02 22:06:24
 tags: 
 - SM4J
 category: 游戏
-cover: 'https://imgsrc.chyk.ink/f603918fa0ec08faf68b62661cee3d6d54fbda6c.webp'
 ---
 
 之前的教程用到了公网 IP，考虑到大多数人都没有公网 IP，这次重新来做一个教程，使用了 ZeroTier 映射工具。

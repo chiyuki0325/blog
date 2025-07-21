@@ -4,7 +4,6 @@ date: 2023-04-09 19:24:00
 tags:
 - AI
 category: 其它
-cover: https://imgsrc.chyk.ink/9c16fdfaaf51f3defeab8eafd1eef01f3b2979db.webp
 description: 在那一刻，我突然明白了。那可是碰都不能碰的滑梯啊！
 ---
 

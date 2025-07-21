@@ -5,7 +5,6 @@ tags:
 - 我的世界
 - Wine
 category: 其它
-cover: https://imgsrc.chyk.ink/f9198618367adab429d34887ced4b31c8601e4f7.webp
 description: '《我的世界》网易国服的启动器使用 WPF 编写，并带有反作弊系统，想要让它跑起来还需要费一番功夫。注意：可以运行，但仍然不能正常游玩。'
 ---
 

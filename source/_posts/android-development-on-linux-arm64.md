@@ -10,7 +10,6 @@ references:
   url: 'https://stackoverflow.com/questions/71067886/does-an-android-studio-linux-arm64-version-exist'
 - title: 'Now in Android #15 (封面来源)'
   url: 'https://medium.com/androiddevelopers/now-in-android-15-44bf3307a8f2'
-cover: 'https://imgsrc.chyk.ink/0Bpu19KuYdBDygxA.webp'
 ---
 
 已经 {% mark color:red 5202 %} 年了，谷歌官方还未提供 ARM64 Linux 平台上的 {%mark color:green Android Studio %} 及完整工具链支持。本文将分享一种非官方配置方案，助你在 Linux ARM64 系统中搭建可用的基础开发环境。

@@ -5,7 +5,6 @@ tags:
 - OpenPGP
 - 加密
 category: 其它
-cover: https://imgsrc.chyk.ink/dcc451da81cb39dbcd2e489595160924aa183002.webp
 ---
 
 PGP（Pretty Good Privacy，优良保密协议）是一套用于讯息加密、验证的应用程序。使用 PGP，可以进行加密与解密，对消息或文件进行签名，还可以用来「加密通话」。本文就教你来入坑 OpenPGP。

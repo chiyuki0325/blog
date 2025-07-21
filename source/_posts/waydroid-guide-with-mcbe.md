@@ -1,7 +1,6 @@
 ---
 categories: []
 category: Arch折腾记
-cover: https://imgsrc.chyk.ink/adaf2edda3cc7cd9c819ee007c01213fb80e9137.webp
 date: '2022-06-26 13:34:14'
 tags:
 - Waydroid

@@ -5,7 +5,6 @@ tags:
 - 原神
 - Wine
 category: Arch折腾记
-cover: 'https://imgsrc.chyk.ink/f636afc379310a55c267af35f24543a9832610ab.webp'
 ---
 
 众所周知，由于米忽悠的反作弊 `mhyprot2.sys`，原神一直不可以在 Wine 中运行，这时候可以使用 `Krock` 大佬的补丁来解决这个问题。本文只提供简要用法。

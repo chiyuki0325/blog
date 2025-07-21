@@ -3,7 +3,6 @@ title: 🚩 第二届 NEX CTF 赛后总结 + 个人思路
 date: 2024-10-22 18:00:00
 tags:
 - CTF
-cover: https://imgsrc.chyk.ink/00e93901213fb80ee9d0f2f370d12f2eb9389495.webp
 category: 安全
 ---
 

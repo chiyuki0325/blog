@@ -4,7 +4,6 @@ date: 2023-03-04 18:06:02
 tags:
 - VB
 category: 编程
-cover: 'https://imgsrc.chyk.ink/6d81800a19d8bc3eabf47d02c78ba61ea9d3457d.webp'
 ---
 
 Visual Basic 是一门虽然已经停更多年但经久不衰的编程语言，根据微软官方给出的「[It Just Works](https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-basic-6/visual-basic-6-support-policy)」——「能跑就行」支持原则，VB 的 IDE 在新系统上的兼容性[越来越差](https://www.bilibili.com/video/BV1rA4y1Z7N1/)，甚至达到了某种「不能跑」的地步。本文就教大家如何正确地在新系统上安装并调教 VB6 IDE。
