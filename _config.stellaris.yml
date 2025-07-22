@@ -260,9 +260,9 @@ search:
     path: /search.json # 搜索文件存放位置
 
 api_host:
-  ghapi: https://r.chyk.ink/https://api.github.com
-  ghraw: https://r.chyk.ink/https://raw.githubusercontent.com
-  gist: https://r.chyk.ink/https://gist.github.com
+  ghapi: https://api.github.com
+  ghraw: https://raw.githubusercontent.com
+  gist: https://gist.github.com
 
 # inject:
   # script:
