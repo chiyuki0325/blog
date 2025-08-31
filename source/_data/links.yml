@@ -224,7 +224,11 @@ my_friends:
       url: https://shirone.moe/
       avatar: https://assets.shirone.moe/assets/avatar.webp
       screenshot: https://imgsrc.chyk.ink/EGTT4BXkVYwoxpX0.webp
-
+    - title: "Yukina"
+      description: "Welcome to the melty land."
+      url: https://blog.yukina.ink/
+      avatar: https://www.yukina.ink/logo.avif
+      screenshot: https://blog.yukina.ink/images/screenshot.avif
 
 examples:
     - title: "風雪城"
