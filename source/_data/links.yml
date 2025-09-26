@@ -223,6 +223,11 @@ my_friends:
       url: https://blog.yukina.ink/
       avatar: https://www.yukina.ink/logo.avif
       screenshot: https://blog.yukina.ink/images/screenshot.avif
+    - title: "Unknown Blog"
+      description: "绫(@tdiant)的胡言乱语"
+      url: https://nyan.best/
+      avatar: https://nyan.best/avatar.png
+      screenshot: https://nyan.best/document-files/friend-link/chyk/560255b1-9883-4d90-9f55-7cae000a1e8e.png
 
 examples:
     - title: "風雪城"
