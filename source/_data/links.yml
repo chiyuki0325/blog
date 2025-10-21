@@ -57,12 +57,6 @@ my_friends:
     #   description: "一个分享互联网技术的个人博客"
     #   avatar: https://imgsrc.chyk.ink/a8773912b31bb0513fef78ed737adab44bede029.webp
     #  screenshot: https://imgsrc.chyk.ink/37d3d539b6003af3235817a5702ac65c1138b611.webp
-    - title: "花と詩"
-      url: https://blog.lar.moe/
-      description: "Hana to Uta"
-      avatar: https://cdn.lar.moe/static/avatar/me.webp
-      # avatar: https://imgsrc.chyk.ink/8644ebf81a4c510f72e78b282659252dd42aa5e5.webp
-      screenshot: https://cdn.lar.moe/static/screenshot/latest.webp
     - title: "Molyuu Blog"
       url: https://blog.molyuu.cyou/
       description: "Molyuu的博客"
@@ -224,7 +218,16 @@ my_friends:
       url: https://shirone.moe/
       avatar: https://assets.shirone.moe/assets/avatar.webp
       screenshot: https://imgsrc.chyk.ink/EGTT4BXkVYwoxpX0.webp
-
+    - title: "Yukina"
+      description: "Welcome to the melty land."
+      url: https://blog.yukina.ink/
+      avatar: https://www.yukina.ink/logo.avif
+      screenshot: https://blog.yukina.ink/images/screenshot.avif
+    - title: "Unknown Blog"
+      description: "绫(@tdiant)的胡言乱语"
+      url: https://nyan.best/
+      avatar: https://nyan.best/avatar.png
+      screenshot: https://nyan.best/document-files/friend-link/chyk/560255b1-9883-4d90-9f55-7cae000a1e8e.png
 
 examples:
     - title: "風雪城"
