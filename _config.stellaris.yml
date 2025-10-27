@@ -14,7 +14,7 @@ head:
 
 sidebar:
   logo:
-    avatar: "[https://q1.qlogo.cn/g?b=qq&nk=3526514925&s=640](/about)" # you can set avatar link in _config.yml or '[https://xxx.png](/about/)'
+    avatar: "[https://imgsrc.chyk.ink/8mQ9M-dZdj9pJaTx.webp](/about)" # you can set avatar link in _config.yml or '[https://xxx.png](/about/)'
     title: "[config.title](/)" # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
   menu:
     post: "[最新](/)"
