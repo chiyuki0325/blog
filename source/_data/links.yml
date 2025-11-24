@@ -228,6 +228,11 @@ my_friends:
       url: https://nyan.best/
       avatar: https://nyan.best/avatar.png
       screenshot: https://nyan.best/document-files/friend-link/chyk/560255b1-9883-4d90-9f55-7cae000a1e8e.png
+    - title: "Remik1r3n Blog"
+      description: "Remi 的 Blog"
+      url: https://blog.remiki.rem
+      avatar: https://s2.loli.net/2025/09/19/dJtaOl2fVGKUb8n.jpg
+      screenshot: https://imgsrc.chyk.ink/cjQu-rsRC2qG3mOE.webp
 
 examples:
     - title: "風雪城"
