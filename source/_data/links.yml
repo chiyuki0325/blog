@@ -75,7 +75,7 @@ my_friends:
     - title: '湛蓝的调色板'
       description: '青く滲む 青く滲む 綺麗に'
       url: https://nekoq.top/
-      avatar: https://fastly.jsdelivr.net/gh/taranakineko/homepage/source/images/taranaki.webp
+      avatar: https://fastly.jsdelivr.net/gh/taranakineko/homepage/public/images/taranaki.webp
       screenshot: https://imgsrc.chyk.ink/cf1b9d16fdfaaf51ca32a589ca5494eef01f7a36.webp
     - title: '艾登的个人网站'
       description: 'Tell me anywhere I go you will follow'
