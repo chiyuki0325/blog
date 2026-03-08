@@ -238,6 +238,11 @@ my_friends:
       url: https://vahiru.is-cute.cat
       avatar: https://imgsrc.chyk.ink/N4qMvhs4tgbE20_0.webp
       screenshot: https://imgsrc.chyk.ink/vZo86aj1e9aTSgJI.webp
+    - title: "Moca"
+      description: "Gone_Love 的个人博客"
+      url: https://blog.gonelove.de
+      avatar: https://blog.gonelove.de/avatar.webp
+      screenshot: https://imgsrc.chyk.ink/628RayDy95xBIK4-.webp
 
 examples:
     - title: "風雪城"
@@ -245,8 +250,3 @@ examples:
       url: https://blog.chyk.ink/
       avatar: https://q1.qlogo.cn/g?b=qq&nk=3526514925&s=640
       screenshot: https://imgsrc.chyk.ink/PTO28QW7YIwRkwzx.webp
-    - title: "东北大学"
-      description: "自强不息，知行合一"
-      url: https://www.neu.edu.cn/
-      avatar: https://www.neu.edu.cn/favicon.ico
-      screenshot: https://imgsrc.chyk.ink/c6mYmDuwweKmzdRi.webp
