@@ -1,65 +1,56 @@
 ---
 title: 关于
-date: 2023-07-31 08:50:22
+date: 2026-03-31 10:03:22
 ---
 
-ヾ(≧▽≦*)o 你好~ 欢迎来到我的博客！
+欢迎来到我的博客。这里是斩风千雪，你也可以叫我千雪。🐱👋
 
-这里是斬風千雪，一个居住在辽宁的，想长大的普通学生，目前就读于东北大学软件学院。我正在尝试着改变自己，为了成为一个更好的人而努力着。
+NEU 软件工程专业大二在读，正在为了成为一个优秀的开发者，给自己交上一份完美的答卷而努力着。
 
-我正在尝试着接触新的事物，对未来的方向还很迷茫 ... 走一步算一步吧。
+重度强迫症，力求把每件事都做到满意。既然做了，那就一定要做到最好。👊
 
-我目前使用 <font color="#1793d1">Arch Linux</font> 操作系统和 <font color="#54a3d8">KDE</font> 桌面。
+身份认同可能是猫，一体两面。因为同一只猫，既可以蜷缩在你怀里被抚摸，也可以站在树上墙头静静地观察你。
 
-#### 喜欢的东西
+我喜欢各种可可爱爱的东西。💝
 
-喜欢的颜色是<font color="1793d1">蓝色</font>。
+### 🚩 专业相关 …
 
-目前正在玩的游戏有 <font color="#eac92c">m</font><font color="#298cc4">a</font><font color="#8baf3f">i</font><font color="#eac92c">m</font><font color="#de5924">a</font><font color="#ca3c86">i</font> <font color="#03a4e0">DX</font>、《<font color="gray">死亡搁浅</font>》和《<font color="#cbb687">塞尔达传说</font> <font color="#49d59c">王国之泪</font>》。
+🇨🇳 中文 / 🇺🇸 English / 🇯🇵 日本語（勉強中）
 
-喜欢听幽闭星光、YOASOBI 和春卷饭的歌曲，以及 VOCALOID 音乐。
+计算机基础补习中，正在学习操作系统、计算机网络相关知识。
 
-最喜欢做的事是摸鱼！🐟
+{% icon /images/kotlin.svg %} {% icon /images/python.svg %} 开发上前端后端和底层 infra 都会沾一点，正在学习系统架构设计，也紧跟时事做过一点 AI 相关应用。
 
-#### 计算机
+是五年 Linux 发行版用户 🐧，也因此积累了一些软件调试经验。
 
-我学会的第一门编程语言是 <font color="#652d92">Visual Basic (经典)</font>，并且至今还在使用。
+热衷于参与开源项目。
 
-目前还掌握了 <font color="#336fa1">Pyt</font><font color="#f9c83d">hon</font> 和一点点 <font color="#efaa0f">Java</font>Script。
+### 🎧 专业之外 …
 
-正在学习 <font color="#42b883">Vue</font><font color="#35495e">.js</font> 和 <font color="#e74d21">Rust</font>。
+ACG 爱好者，平时会听一些日本 / 华语流行歌曲，玩任天堂和世嘉公司的游戏。
 
-#### ID 的来源
+喜欢玩《舞萌 DX {% icon /images/maimaidx.svg %}》, DX Rating 15462。
 
-  - 《塞尔达传说 旷野之息》中的武器「斩风刀」
-  - 「雲突き抜け 風斬り裂いて 久遠の揺蕩いへ 誘う」
-      ——《月に叢雲華に風》
-  - 起名当天刚好下了雪
+是《世界计划: 缤纷舞台》25 时团推 {% icon /images/25ji.webp %}。喜欢的角色是东云绘名。
 
-#### 捕捉
+如果你也对这些感兴趣，或者想进一步了解我，欢迎来找我玩 ~
 
-在哪里可以捕捉到千雪呢？
+### ☎️ 联系我
 
-你可以前往我的<a href="https://t.me/chykink"><img alt="Telegram 频道" src="https://img.shields.io/badge/Telegram-频道-28a8ea?logo=telegram"></a>，也可以在下面这些地方捕捉~
+我的 📨 邮件地址是 <a href="mailto:me@chyk.ink">me@chyk.ink</a> 和 <a href="mailto:chiyuki0325@foxmail.com">chiyuki0325@foxmail.com</a>，若有正式交流需求，请优先使用电子邮件联系我。
 
-<p> 
-<a href="https://space.bilibili.com/485832788"><img alt="Bilibili:斬風千雪" src="https://img.shields.io/badge/Bilibili-斬風千雪-ff6699?logo=bilibili"></a>&nbsp; 
-<img alt="QQ:920064067" src="https://img.shields.io/badge/QQ群-920064067-faad01?logo=tencentqq">
-</p>
-<p>
-<img src="https://img.shields.io/badge/Discord-chiyuki0325-5865f2?logo=discord" alt="Discord">&nbsp; 
-<a href="https://github.com/chiyuki0325"><img src="https://img.shields.io/badge/GitHub-chiyuki0325-fff?logo=github" alt="GitHub"></a>&nbsp;
-<a href="https://music.163.com/#/user/home?id=3392019481"><img src="https://img.shields.io/badge/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90-e60026?logo=youtube-music" alt="163 Music"></a>
-</p>
+我平时会在 📢 Telegram 频道[「千雪的咖啡厅」](https://t.me/chykink) 分享一些日常，在这里你可以了解关于我的更多，也欢迎与我互动！
 
+我的 GitHub 账号是 <a href="https://github.com/chiyuki0325" target="_blank">chiyuki0325</a>，欢迎查看我的开源项目和折腾记录。
 
+<br/>
 
-
-> 两个人恍若花瓣凋零一样
-> 在稚嫩的春风里起舞一样
-> 这样的结局和她们俩多相称
-> 挥手告别这个喧闹的世界吧
-> 她俩就这样握紧着手
-> 在这只此一次的再会
->
-> ——摘自春卷饭的歌曲《再会》
+> 为了不让心灵腐朽，让我们染上色彩吧
+> 
+> 无论爱或悲伤，都永恒的残留着光辉
+> 
+> 隐藏的门扉如今被打开了
+> 
+> 只要踏出一步，景色就会不断延伸
+> 
+> —— ヰ世界情緒 - [そして白に還る](https://music.163.com/song?id=2033878955)
