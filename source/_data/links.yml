@@ -243,6 +243,11 @@ my_friends:
       url: https://blog.gonelove.de
       avatar: https://blog.gonelove.de/avatar.webp
       screenshot: https://imgsrc.chyk.ink/628RayDy95xBIK4-.webp
+    - title: "Enento 焰白小站"
+      description: "百次思考，千次落笔，刻下万次记忆"
+      url: https://enento.cloud/
+      avatar: https://www.enento.cloud/upload/Enentoico.jpg
+      screenshot: https://imgsrc.chyk.ink/GBGJ-XKkTdO7Yph6.webp
 
 examples:
     - title: "風雪城"
