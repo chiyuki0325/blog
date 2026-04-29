@@ -23,7 +23,7 @@ jobs:
       - name: '🌲 安装 Node.js'
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: '24'
 
       - name: '📦 安装 pnpm'
         uses: pnpm/action-setup@v2
@@ -57,7 +57,7 @@ jobs:
         run: cp platforms/vercel.json public/vercel.json
 
       - name: '🔺 安装 Vercel CLI'
-        run: npm install -g vercel@22.0.1
+        run: pnpm install -g vercel@52.0.0
 
       - name: '🚀 部署到 Vercel'
         uses: BetaHuhn/deploy-to-vercel-action@latest
