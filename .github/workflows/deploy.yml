@@ -26,26 +26,11 @@ jobs:
           node-version: '24'
 
       - name: '📦 安装 pnpm'
-        uses: pnpm/action-setup@v2
+        uses: pnpm/action-setup@v6
         with:
+          cache: true
+          run_install: true
           version: latest
-
-      - name: '🔄 获取 pnpm 缓存路径'
-        id: pnpm-cache
-        shell: bash
-        run: |
-          echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
-
-      - name: '🔄 恢复 pnpm 缓存'
-        uses: actions/cache@v3
-        with:
-          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
-          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-pnpm-store-
-
-      - name: '📦 安装依赖'
-        run: pnpm install
 
       - name: '⏰ 修正文章修改时间'
         run: pnpm fix-last-update
